@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Triangle.iml" filepath="$PROJECT_DIR$/Triangle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/balanced/balanced.iml" filepath="$PROJECT_DIR$/balanced/balanced.iml" />
+      <module fileurl="file://$PROJECT_DIR$/essence/Essence-Business/business.iml" filepath="$PROJECT_DIR$/essence/Essence-Business/business.iml" />
+      <module fileurl="file://$PROJECT_DIR$/essence/Essence-Configuration/configuration.iml" filepath="$PROJECT_DIR$/essence/Essence-Configuration/configuration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cosbalanced/cosbalanced.iml" filepath="$PROJECT_DIR$/cosbalanced/cosbalanced.iml" />
+      <module fileurl="file://$PROJECT_DIR$/essence/Essence-Dto/dto.iml" filepath="$PROJECT_DIR$/essence/Essence-Dto/dto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/essence/essence.iml" filepath="$PROJECT_DIR$/essence/essence.iml" />
+      <module fileurl="file://$PROJECT_DIR$/essence/Essence-Logging/logging.iml" filepath="$PROJECT_DIR$/essence/Essence-Logging/logging.iml" />
+      <module fileurl="file://$PROJECT_DIR$/essence/Essence-Persistence/persistence.iml" filepath="$PROJECT_DIR$/essence/Essence-Persistence/persistence.iml" />
+      <module fileurl="file://$PROJECT_DIR$/essence/Essence-Security/security.iml" filepath="$PROJECT_DIR$/essence/Essence-Security/security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/essence/Essence-Servlet/servlet.iml" filepath="$PROJECT_DIR$/essence/Essence-Servlet/servlet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/essence/Essence-SetupData/setup-data.iml" filepath="$PROJECT_DIR$/essence/Essence-SetupData/setup-data.iml" />
+    </modules>
+  </component>
+</project>
+

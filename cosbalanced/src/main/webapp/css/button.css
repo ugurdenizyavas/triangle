@@ -1,0 +1,322 @@
+/*
+	File: button.css
+	Purpose: CSS styles for buttons
+	Dependency: base.css, layout.css, dialog.css
+	$Author: udy $
+*/
+
+
+
+/*#####################*/
+/*#      BUTTONS      #*/
+/*#####################*/
+
+/* UDY unknown */
+a.button, div.button
+{
+	display: inline-block;
+	cursor: pointer;
+	border: none;
+	font-size: 1px;
+	line-height: 1px;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	height: 30px;
+	text-decoration: none;
+	color: #2e523b;
+	font-style: normal;
+	margin: 0px 6px 0px 0px;
+	padding: 0px 10px 0px 0px;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	zoom: 1;
+}
+
+body.ie6 a.button, body.ie6 div.button
+{
+	width: 10px;
+	overflow-y: hidden;
+}
+
+body.ie7 a.button, body.ie7 div.button { width: auto; padding-right: 5px; }
+a.button, div.button, del.button, a.button span, div.button button, div.button input { background-image: url(../images/buttons/button.gif); }
+
+
+/* UDY unknown */
+a.button span, div.button button, div.button input
+{
+	white-space: nowrap;
+	cursor: pointer;
+	display: inline-block;
+	line-height: 14px;
+	font-size: 12px;
+	font-style: normal;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #000066;
+	background-color: transparent;
+	background-position: 100% 0;
+	background-repeat: no-repeat;
+	height: 30px;
+	padding: 8px 10px 0 5px;
+	margin: 0 -16px 0 5px;
+	border: none;
+	width: auto;
+	text-align: center;
+	zoom: 1;
+}
+
+div.button input
+{
+	padding: 0px 21px 0 20px;
+	margin: 0 -16px 0 1px;
+}
+
+body.ie6 a.button span, body.ie6 div.button button, body.ie6 div.button input {
+/* 	position: relative; */
+	padding-left: 0px;
+	padding-right: 10px;
+	margin-right: -10px;
+	margin-left: 5px;
+	top: 0;
+	right: -5px;
+}
+
+body.ie7 a.button span, body.ie7 div.button button, body.ie7 div.button input {
+/* 	position: relative; */
+	padding-left: 0px;
+	padding-right: 10px;
+	margin-right: -15px;
+	margin-left: 10px;
+	top: 0;
+	display:block;
+	right: -5px;
+}
+
+div.button button { padding: 0px 15px 0 10px; }
+body.ie6 div.button button, body.ie7 div.button button { padding: 2px 15px 0 5px; }
+body.ie8 div.button button { padding: 2px 20px 0 15px; }
+.dataTable tr.foot td a.button span { font-weight: normal; }
+
+/**********************/
+/*     FIXED WIDTH    */
+/**********************/
+a.button.w1 span, div.button.w1 button, div.button.w1 input { width: 84px !important; }
+
+body.ie6 a.button.w1 span, body.ie6 div.button.w1 button span, body.ie6 div.button.w1 input span,
+body.ie7 a.button.w1 span, body.ie7 div.button.w1 button span, body.ie7 div.button.w1 input span { width: auto !important; }
+
+body.ie6 a.button.w1, body.ie6 div.button.w1 button, body.ie6 div.button.w1 input,
+body.ie7 a.button.w1, body.ie7 div.button.w1 button, body.ie7 div.button.w1 input { width: 80px !important; margin-right: 1px; }
+
+/****************************/
+/*     FIXED WIDTH MODAL    */
+/****************************/
+.modal a.button.w1 span, .modal div.button.w1 button, .modal div.button.w1 input { width: 60px !important; }
+
+body.ie6 .modal a.button.w1 span, .modal body.ie6 div.button.w1 button span, body.ie6 .modal div.button.w1 input span,
+body.ie7 .modal a.button.w1 span, body.ie7 .modal div.button.w1 button span, body.ie7 .modal div.button.w1 input span { width: auto !important; }
+
+body.ie6 .modal a.button.w1, body.ie6 .modal div.button.w1 button, body.ie6 .modal div.button.w1 input,
+body.ie7 .modal a.button.w1, body.ie7 .modal div.button.w1 button, body.ie7 .modal div.button.w1 input { width: 77px !important; margin-right: 1px; }
+
+body.ie8 .modal a.button.w1, body.ie8 .modal div.button.w1 button, body.ie8 .modal div.button.w1 input { width: 60px !important; margin-left: -4px; }
+
+/************************************/
+/*     FIXED WIDTH UPLOAD BUTTON    */
+/************************************/
+a.button.w2 span, div.button.w2 button, div.button.w2 input, del.button.w2 span { width: 30px !important; }
+body.ie6 a.button.w2 span, body.ie6 div.button.w2 button span, body.ie6 div.button.w2 input span,
+body.ie7 a.button.w2 span, body.ie7 div.button.w2 button span, body.ie7 div.button.w2 input span { width: auto !important; }
+body.ie6 a.button.w2, body.ie6 div.button.w2 button, body.ie6 div.button.w2 input,
+body.ie7 a.button.w2, body.ie7 div.button.w2 button, body.ie7 div.button.w2 input { width: 48px !important; }
+
+/*************************/
+/*    INACTIVE BUTTON    */
+/*************************/
+.button.disabled
+{
+	background-position: 0 -120px;
+	cursor: default;
+}
+
+.button.disabled span
+{
+	cursor: default;
+	color: #aaa !important;
+	background-position: 100% -120px;
+}
+
+.button.disabled button, .button.disabled input
+{
+	padding-top: 0px;
+}
+
+body.ie6 .tabfooter .buttons .disabled
+{
+	cursor: default;
+	background: url(../images/buttons/button.gif) 0px -120px no-repeat !important;
+}
+
+body.ie6 .tabfooter .buttons .disabled span
+{
+	background-position: 100% -120px !important;
+}
+
+/********************************/
+/*    UPLOAD BUTTON DISABLED    */
+/********************************/
+.button.uploadDisabled
+{
+	background-position: 0 -120px;
+	cursor: default;
+}
+
+.button.uploadDisabled span
+{
+	cursor: default;
+	color: #aaa !important;
+	background-position: 100% -120px;
+}
+
+.button.uploadDisabled button, .button.uploadDisabled input
+{
+	padding-top: 0px;
+}
+
+body.ie6 .tabfooter .buttons .uploadDisabled
+{
+	cursor: default;
+	background: url(../images/buttons/button.gif) 0px -120px no-repeat !important;
+}
+
+body.ie6 .tabfooter .buttons .uploadDisabled span
+{
+	background-position: 100% -120px !important;
+}
+
+/*************************/
+/*    SELECTED BUTTON    */
+/*************************/
+
+.button.selected span
+{
+	font-weight: bold;
+}
+
+.button.selected button, .button.selected input
+{
+	padding-top: 0px;
+}
+
+.isCatalog .button.selected span,
+.isSwapSelect .button.selected span
+{
+	font-weight: normal;
+}
+
+/**********************/
+/*    HOVER STATES    */
+/**********************/
+
+/* UDY unknown */
+a.button:hover, div.button:hover, a.button:focus
+{
+	background-position: 0 -60px;
+	color: #aaaa;
+	text-decoration: none;
+}
+
+a.button:hover span, div.button:hover input, div.button:hover button, a.button:focus span
+{
+	background-position: 100% -60px;
+}
+
+a.button:active, a.button:focus span { color: #aaaa; }
+a.button.disabled:hover { background-position: 0 -120px; }
+a.button.disabled:hover span { background-position: 100% -120px; }
+
+/***********************************/
+/*    BUTTON TABFOOTER POSITION    */
+/***********************************/
+
+.tabfooter a.button
+{
+	float:left;
+}
+
+.tabfooter a.button, .dataTable tr.foot td.left a.button, .dataTable tr.foot td a.button
+{
+	margin-right: 10px !important;
+	margin-left: 5px !important;
+}
+
+.tabfooter a.button, .dataTable tr.foot td.right a.button
+{
+	margin-left: 10px !important;
+	margin-right: 6px !important;
+}
+
+.gridTable td.right a.button
+{
+	margin-left: 7px !important;
+	margin-right: 6px !important;
+}
+
+body.ie6 .gridTable td.right a.button, body.ie7 .gridTable td.right a.button { margin-right: 5px !important; }
+/* body.ie8 .gridTable td.right a.button { margin-right: 14px !important; } Auskommentiert wegen Buttons in table */
+
+.gridTable td.left a.button { margin-right: 6px !important;}
+body.ie6 .gridTable td.left a.button, body.ie7 .gridTable td.left a.button { margin-right: 5px; }
+
+.gridTable td.left a.button.floatl { margin-right: 16px !important; }
+body.ie6 .gridTable td.left a.button.floatl, body.ie7 .gridTable td.left a.button.floatl { margin-right: 10px !important; }
+body.ie8 .gridTable td.left a.button.floatl { margin-right: 28px !important; }
+
+body.ie6 .gridTable td.left a.button.floatr, body.ie7 .gridTable td.left a.button.floatr { margin-right: 5px !important; }
+
+/**********************/
+/*    BUTTON ICONS    */
+/**********************/
+.dataFooter tr.foot td a.add.button, .dataFooter tr.foot td div.add.button,
+.dataFooter tr.foot td a.new.button, .dataFooter tr.foot td div.new.button,
+.dataFooter tr.foot td a.delete.button, .dataFooter tr.foot td div.delete.button
+{
+	height: 19px;
+	width: 19px;
+	margin: 0px 0px 0px 10px !important;
+	padding: 0px 0px 0px 0px;
+	vertical-align: 1px;
+}
+
+body.ie6 .dataFooter tr.foot td a.add.button, body.ie6 .dataFooter tr.foot td div.add.button, body.ie6 .dataFooter tr.foot td a.new.button, body.ie6 .dataFooter tr.foot td div.new.button, body.ie6 .dataTable tr.foot td a.delete.button, body.ie6 .dataFooter tr.foot td div.delete.button,
+body.ie7 .dataFooter tr.foot td a.add.button, body.ie7 .dataFooter tr.foot td div.add.button, body.ie7 .dataFooter tr.foot td a.new.button, body.ie7 .dataFooter tr.foot td div.new.button, body.ie7 .dataFooter tr.foot td a.delete.button, body.ie7 .dataTable tr.foot td div.delete.button,
+body.ie8 .dataFooter tr.foot td a.add.button, body.ie8 .dataFooter tr.foot td div.add.button, body.ie8 .dataFooter tr.foot td a.new.button, body.ie8 .dataFooter tr.foot td div.new.button, body.ie8 .dataFooter tr.foot td a.delete.button, body.ie8 .dataFooter tr.foot td div#delete.button, { vertical-align: 0px; }
+
+/* Safari hack */
+
+@media screen and (-webkit-min-device-pixel-ratio:0)
+{
+	.dataFooter tr.foot td a.add.button, .dataFooter tr.foot td div.add.button,
+		.dataFooter tr.foot td a.new.button, .dataFooter tr.foot td div.new.button,
+		.dataFooter tr.foot td a.delete.button, .dataFooter tr.foot td div.delete.button { vertical-align: 0px; }
+}
+
+.dataFooter tr.foot td a.add.button span, .dataFooter tr.foot td div.add.button span,
+.dataFooter tr.foot td a.new.button span, .dataFooter tr.foot td div.new.button span,
+.dataFooter tr.foot td a.delete.button span, .dataFooter tr.foot td div.delete.button span
+{
+	text-indent: -5000px;
+	margin: 0;
+	padding: 0;
+	background: none;
+}
+
+/* ADD BUTTON */
+.dataFooter tr.foot td a.add.button, .dataFooter tr.foot td div.add.button,
+.dataFooter tr.foot td a.new.button, .dataFooter tr.foot td div.new.button { background: url("../images/table/plus.gif") 0px -3px no-repeat; }
+.dataFooter tr.foot td a.add.button:hover, .dataFooter tr.foot td div.add.button:hover,
+.dataFooter tr.foot td a.new.button:hover, .dataFooter tr.foot td div.new.button:hover { background-position: 0px -63px; }
+
+/* DELETE BUTTON */
+.dataFooter tr.foot td a.delete.button, .dataFooter tr.foot td div.delete.button { background: url("../images/table/minus.gif") 0px -3px no-repeat; }
+.dataFooter tr.foot td a.delete.button:hover, .dataFooter tr.foot td div.delete.button:hover { background-position: 0px -63px; }

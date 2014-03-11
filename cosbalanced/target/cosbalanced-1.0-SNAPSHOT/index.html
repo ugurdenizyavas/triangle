@@ -1,0 +1,166 @@
+<!DOCTYPE html SYSTEM "xhtml1-id.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<title>Balanced</title>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta http-equiv="expires" content="-1" />
+
+<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
+
+<!-- Application parameters begin -->
+
+<meta name="application.id" content="workflowfactory.passengerreport" />
+<meta name="message.to"
+	content="support.workflowfactory.passengerreport@id1.de" />
+<meta name="message.subject"
+	content="passengerreport@workflowfactory Error Report " />
+<meta name="services.path" content="services" />
+<meta name="services.profile" content="profile" />
+<meta name="services.dictionary" content="dictionary" />
+<meta name="services.templates" content="cos.templates" />
+<meta name="services.home" content="news" />
+<meta name="templates.html" content="templates/html" />
+<meta name="templates.chart" content="templates/chart" />
+<meta name="layout.columns" content="2" />
+<meta name="screen.resolution" content="auto" />
+<meta name="console.level" content="error warning note hint debug" />
+<meta name="console.measure" content="call" />
+<meta name="iso.timeFormat" content="true" />
+
+<!-- Application parameters end -->
+
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+<link rel="stylesheet" type="text/css" href="css/base.css" />
+<link rel="stylesheet" type="text/css" href="css/layout.css" />
+<link rel="stylesheet" type="text/css" href="css/dialog.css" />
+<link rel="stylesheet" type="text/css" href="css/select.css" />
+<link rel="stylesheet" type="text/css" href="css/datepicker.css" />
+<link rel="stylesheet" type="text/css" href="css/boxy.css" />
+<link rel="stylesheet" type="text/css" href="css/status.css" />
+
+<script type="text/javascript" src="lib/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="lib/jquery/jquery.bgiframe.min.js"></script>
+<script type="text/javascript"
+	src="lib/jquery/jquery.fileupload.plus.js"></script>
+<script type="text/javascript" src="lib/jquery/jquery.boxy.plus.js"></script>
+<script type="text/javascript" src="lib/jquery/jquery.outside-events.js"></script>
+
+<script type="text/javascript"
+	src="lib/jquery/jquery.datepicker.plus.js"></script>
+<script type="text/javascript" src="lib/jquery/jquery.tools.min.js"></script>
+<script type="text/javascript" src="lib/others/json.js"></script>
+<script type="text/javascript" src="lib/others/store.js"></script>
+<script type="text/javascript" src="lib/jquery/jquery.cleditor.PLUS.js"></script>
+<script type="text/javascript" src="lib/jquery/jquery.cleditor.xhtml.js"></script>
+
+<script type="text/javascript" src="lib/css.js"></script>
+
+<script type="text/javascript" src="lib/id.js"></script>
+<script type="text/javascript" src="lib/lib.js"></script>
+<script type="text/javascript" src="lib/cos.js"></script>
+<script type="text/javascript" src="lib/object.js"></script>
+<script type="text/javascript" src="lib/service.js"></script>
+<script type="text/javascript" src="lib/serialize.js"></script>
+<script type="text/javascript" src="lib/storage.js"></script>
+<script type="text/javascript" src="lib/timer.js"></script>
+<script type="text/javascript" src="lib/authorize.js"></script>
+
+<script type="text/javascript" src="lib/lang.js"></script>
+<script type="text/javascript" src="lib/profile.js"></script>
+<script type="text/javascript" src="lib/template.js"></script>
+
+<script type="text/javascript" src="lib/layout.js"></script>
+<script type="text/javascript" src="lib/console.js"></script>
+<script type="text/javascript" src="lib/format.js"></script>
+<script type="text/javascript" src="lib/key.js"></script>
+<script type="text/javascript" src="lib/elements.js"></script>
+<script type="text/javascript" src="lib/message.js"></script>
+<script type="text/javascript" src="lib/charts.js"></script>
+
+<script type="text/javascript" src="lib/panel.js"></script>
+<script type="text/javascript" src="lib/dialog.js"></script>
+<script type="text/javascript" src="lib/table.js"></script>
+<script type="text/javascript" src="lib/button.js"></script>
+<script type="text/javascript" src="lib/select.js"></script>
+
+<script type="text/javascript" src="lib/status.js"></script>
+<script type="text/javascript" src="lib/menu.js"></script>
+<script type="text/javascript" src="lib/hotlinks.js"></script>
+<script type="text/javascript" src="lib/modules.js"></script>
+<script type="text/javascript" src="lib/extras.js"></script>
+<script type="text/javascript" src="lib/news.js"></script>
+<script type="text/javascript" src="lib/about.js"></script>
+
+<script type="text/javascript" src="lib/plan.js"></script>
+<script type="text/javascript" src="lib/catalog.js"></script>
+<script type="text/javascript" src="lib/test.js"></script>
+<script type="text/javascript" src="lib/upload.js"></script>
+
+<script type="text/javascript" src="lib/startup.js"></script>
+
+
+</head>
+<!--[if lt IE 7 ]><body class="ie6"><![endif]-->
+<!--[if IE 7 ]><body class="ie7"><![endif]-->
+<!--[if IE 8 ]><body class="ie8"><![endif]-->
+<!--[if IE 9 ]><body class="ie9"><![endif]-->
+<!--[if !IE]>-->
+<body>
+	<!--<![endif]-->
+
+	<div id="container">
+		<!--[if IE 6]>
+		<div class="min_width_inner">
+			<div class="min_width_container">
+	<![endif]-->
+
+		<div id="header">
+			<div id="headerApplication" class="clearfix">
+				<div class="contentWrap">
+					<div class="colContent">
+						<h3>Balanced</h3>
+					</div>
+				</div>
+				<!-- 			<div class="colLeft">&nbsp;</div> -->
+				<!-- 			<div class="colRight"> -->
+				<!-- 				<a href="http://lww.ebase.dlh.de/home/index.php" class="bullet" id="audit-exit">eBase Home</a> -->
+				<!-- 			</div> -->
+			</div>
+			<!-- 		<div style="clear:both;"></div> -->
+			<!-- 		<div id="headerCompany"> -->
+			<!-- 			<div class="colRight"> -->
+			<!-- 				<img src="images/logos/lh/lh-logo.gif" class="floatr" style="width:173px; height:40px;" alt="Lufthansa" /> -->
+			<!-- 			</div> -->
+			<!-- 			<div class="line tin fsx"> </div> -->
+			<!-- 		</div> -->
+			<!-- 		<div class="modules clearfix" id="app-modules" service="cos.modules"></div> -->
+		</div>
+
+		<div class="title">
+			<h1>&nbsp;</h1>
+		</div>
+
+		<div id="right">
+			<div id="app-menu-right" class="menu"></div>
+		</div>
+		
+		<div class="wrapper">
+			<div id="left">
+				<div id="app-menu-left" class="menu" service="cos.menu/init"></div>
+			</div>
+			<div id="content"></div>
+
+			<div id="footer"></div>
+
+
+			<!--[if IE 6]>
+			</div>
+		</div>
+	<![endif]-->
+		</div>
+
+</body>
+</html>

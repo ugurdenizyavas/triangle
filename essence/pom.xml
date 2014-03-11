@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>Triangle</artifactId>
+        <groupId>com.deniz.balanced</groupId>
+        <version>${triangle.version}</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.deniz.essence</groupId>
+    <artifactId>essence</artifactId>
+    <version>${essence.version}</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>Essence-Business</module>
+        <module>Essence-Configuration</module>
+        <module>Essence-Dto</module>
+        <module>Essence-Logging</module>
+        <module>Essence-Persistence</module>
+        <module>Essence-Security</module>
+        <module>Essence-Servlet</module>
+        <module>Essence-SetupData</module>
+    </modules>
+
+</project>

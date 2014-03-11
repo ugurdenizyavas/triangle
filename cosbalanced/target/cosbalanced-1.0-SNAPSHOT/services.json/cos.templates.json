@@ -1,0 +1,10 @@
+{
+	"id": "cos.templates",
+	"type": "template",
+	"path": "templates",
+	"items": 
+	[
+		{ "type":"html",	"index": "members",		           			    "file": "html/members.html"},
+		{ "type":"html",	"index": "news",           						"file": "html/news.html" }
+	]
+}

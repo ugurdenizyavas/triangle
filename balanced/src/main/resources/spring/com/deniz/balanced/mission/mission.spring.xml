@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+	<bean name="missionBusinessService"
+		class="com.deniz.balanced.mission.business.impl.MissionBusinessServiceImpl"
+		parent="frameworkBusinessService">
+		<property name="backendService" ref="missionBackendService" />
+		<property name="converter" ref="missionConverter" />
+		<property name="experienceBackendService" ref="experienceBackendService" />
+		<property name="userBackendService" ref="userBackendService" />
+	</bean>
+
+	<bean name="missionBackendService"
+		class="com.deniz.balanced.mission.business.impl.MissionBackendServiceImpl"
+		parent="frameworkBackendService">
+		<property name="dao" ref="missionDao" />
+		<property name="userMissionDao" ref="userMissionDao" />
+		<property name="userBackendService" ref="userBackendService" />
+	</bean>
+
+	<bean name="missionDao"
+		class="com.deniz.balanced.mission.persistence.impl.MissionDaoImpl"
+		parent="framework_daoTemplate">
+	</bean>
+
+	<bean name="userMissionDao"
+		class="com.deniz.balanced.mission.persistence.impl.UserMissionDaoImpl"
+		parent="framework_daoTemplate">
+	</bean>
+
+
+</beans>

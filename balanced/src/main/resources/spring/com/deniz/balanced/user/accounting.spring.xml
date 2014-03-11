@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+	<bean name="accountingBusinessService"
+		class="com.deniz.balanced.business.impl.AccountingBusinessServiceImpl">
+		<property name="accountingBackendService" ref="accountingBackendService" />
+		<property name="userBackendService" ref="userBackendService" />
+		<property name="membershipFee" value="${membership.accounting.fee}" />
+		<property name="userConverter" ref="userConverter" />
+		<property name="objectConverterService" ref="framework_ObjectConverterService" />
+	</bean>
+
+	<bean name="accountingBackendService"
+		class="com.deniz.balanced.business.impl.AccountingBackendServiceImpl">
+		<property name="userBackendService" ref="userBackendService" />
+		<property name="userDao" ref="userDao" />
+	</bean>
+
+
+
+</beans>

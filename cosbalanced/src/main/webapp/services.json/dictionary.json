@@ -1,0 +1,107 @@
+{
+	"id": "dictionary",
+	"type": "dictionary",
+	"langs": ["en", "de"],
+	"items":
+	[
+		{ "id": "available", "label": { "en": "available", "de": "verfügbar" }},
+		{ "id": "selected", "label": { "en": "selected ", "de": "gewählt" }},
+		{ "id": "select", "label": { "en": "Please select", "de": "Bitte wählen" }},
+		{ "id": "entry", "label": { "en": "entry", "de": "Eintrag" }},
+		{ "id": "entries", "label": { "en": "entries", "de": "Einträge" }},
+        { "id": "entriesOf", "label": { "en": "entries", "de": "Einträgen" }},
+		{ "id": "found", "label": { "en": "found", "de": "gefunden" }},
+		{ "id": "Update", "label": { "en": "Update", "de": "Update" }},
+		{ "id": "ok", "label": { "en": "OK", "de": "OK" }},
+		{ "id": "with", "label": { "en": "with", "de": "mit" }},
+		{ "id": "of", "label": { "en": "of", "de": "von" }},
+		{ "id": "new", "label": { "en": "New", "de": "Hinzufügen" }},
+		{ "id": "add", "label": { "en": "Add", "de": "Erstellen" }},
+		{ "id": "all", "label": { "en": "All", "de": "Alle" }},
+		{ "id": "none", "label": { "en": "None", "de": "Keine" }},
+		{ "id": "delete", "label": { "en": "Remove", "de": "Löschen" }},
+		{ "id": "copy", "label": { "en": "Copy", "de": "Kopieren" }},
+		{ "id": "choose", "label": { "en": "Choose", "de": "Wählen" }},
+		{ "id": "up", "label": { "en": "Up", "de": "Hoch" }},
+		{ "id": "down", "label": { "en": "Down", "de": "Runter" }},
+		{ "id": "question", "label": { "en": "Question", "de": "Frage" }},
+		{ "id": "questions", "label": { "en": "Questions", "de": "Fragen" }},
+		{ "id": "wrongLevel", "label": { "en": "Wrong Level", "de": "Falsche Ebene" }},
+		{ "id": "aspects", "label": { "en": "Aspects", "de": "Aspekte" }},
+		{ "id": "numberOf", "label": { "en": "Number of", "de": "Zahl der" }},
+		{ "id": "invalidFormat", "label": { "en": "Invalid format", "de": "Unzulässiges Format" }},
+		{ "id": "confirm", "label": { "en": "Please confirm", "de": "Bitte bestätigen Sie" }},
+		{ "id": "close", "label": { "en": "Close", "de": "Schließen" }},
+		{ "id": "cancel", "label": { "en": "Cancel", "de": "Abbrechen" }},
+		{ "id": "yes", "label": { "en": "Yes", "de": "Ja" }},
+		{ "id": "no", "label": { "en": "No", "de": "Nein" }},
+		{ "id": "on", "label": { "en": "On", "de": "An" }},
+		{ "id": "off", "label": { "en": "Off", "de": "Aus" }},
+		{ "id": "pleaseLogin", "label": { "en": "Access denied.", "de": "Zugriff verweigert." }},
+		{ "id": "unauthorizedLogin", "label": { "en": "You do not have permission to access this service.", "de": "Sie haben keine Berechtigung, auf diesen Service zuzugreifen." }},
+		{ "id": "prev", "label": { "en": "Previous", "de": "Zurück" }},
+		{ "id": "next", "label": { "en": "Next", "de": "Weiter" }},
+		{ "id": "hours", "label": { "en": "Hours", "de": "Stunden" }},
+        { "id": "minutes", "label": { "en": "Minutes", "de": "Minuten" }},
+        { "id": "events", "label": { "en": "Events", "de": "Ereignisse" }},
+		{ "id": "month", "label": { "en": "Month", "de": "Monat" }},
+		{ "id": "cw", "label": { "en": "CW", "de": "KW" }},
+		{ "id": "months", "type": "list",
+			"xsmall":
+			{
+				"en": ["J", "F", "M", "A", "M", "J", "J", "A", "S", "O", "N", "D"],
+				"de": ["J", "F", "M", "A", "M", "J", "J", "A", "S", "O", "N", "D"]
+			},
+			"medium":
+			{
+				"en": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+				"de": ["Jan", "Feb", "Mär", "Apr", "Mai", "Jun", "Jul", "Aug", "Sep", "Okt", "Nov", "Dez"]
+			},
+			"large":
+			{
+				"en": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+				"de": ["Januar", "Februar", "März", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober", "November", "Dezember"]
+			}
+		},
+		{ "id": "weekdays", "type": "list",
+		"xsmall":
+			{
+				"en": ["M", "T", "W", "T", "F", "S", "S"],
+				"de": ["M", "D", "M", "D", "F", "S", "S"]
+			},
+			"small":
+			{
+				"en": ["Mo", "Tu", "We", "Th", "Fr", "Sa", "Su"],
+				"de": ["Mo", "Di", "Mi", "Do", "Fr", "Sa", "So"]
+			},
+			"medium":
+			{
+				"en": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat","Sun"],
+				"de": ["Mon", "Die", "Mit", "Don", "Fre", "Sam", "Son"]
+			},
+			"large":
+			{
+				"en": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+				"de": ["Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag", "Sonntag"]
+			}
+		},
+        
+        { "id": "application", "label": { "en": "Application", "de": "Application" }},
+        { "id": "revision", "label": { "en": "Revision", "de": "Revision" }},
+        { "id": "version", "label": { "en": "Version", "de": "Version" }},
+        { "id": "date", "label": { "en": "Date", "de": "Datum" }},
+        { "id": "stage", "label": { "en": "Stage", "de": "Konfiguration" }},
+        
+        { "id": "noMatchFound", "label": { "en": "No match for", "de": "Kein Treffer für" }},
+        { "id": "addItem", "label": { "en": "Add this Item:", "de": "Diesen Eintrag hinzufügen:" }},
+        { "id": "at", "label": { "en": "at", "de": "bei" }},
+        
+        { "id": "downloadPNG", "label": { "en": "Download PNG Image", "de": "PNG Bild herunterladen" }},
+        { "id": "downloadJPG", "label": { "en": "Download JPG Image", "de": "JPG Bild herunterladen" }},
+        { "id": "downloadPDF", "label": { "en": "Download PDF Document", "de": "PDF Dokument herunterladen" }},
+        { "id": "downloadSVG", "label": { "en": "Download SVG Vector Image", "de": "SVG Vektor Bild herunterladen" }},
+        
+        { "id": "menu", "label": { "en": "Menu", "de": "Menü" }}
+			
+	]
+}

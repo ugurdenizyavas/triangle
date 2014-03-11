@@ -1,0 +1,13 @@
+﻿{
+	"id": "news",
+	"type": "news",
+	"label": "News",
+        "items": [
+                {
+                        "headline": "Balanced is out!",
+                        "rubric": "Info",
+                        "text": "This is a prototype for Balanced application"
+                }
+        ]
+
+}

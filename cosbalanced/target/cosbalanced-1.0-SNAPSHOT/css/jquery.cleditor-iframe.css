@@ -1,0 +1,67 @@
+/*
+	File: jquery.cleditor-iframe.css
+	Purpose: Cleditor Styles for inside the iFrame 
+	Dependency: jquery.cleditor.js
+	$Author: udy $
+*/
+
+* {
+	padding: 0;
+	margin: 0;
+	voice-family: inherit;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+body { 
+	height:100%;
+	font-size: 0.8em;
+}
+
+h1 {
+	font-size: 18px;
+	line-height: 1.4em;
+}
+
+h2 {
+	font-size: 15px;
+	line-height: 1.4em;
+}
+
+h3 {
+	font-size: 12px;
+	line-height: 1.4em;
+}
+
+p { 
+	font-size: 12px;
+	line-height: 1.4em;
+}
+
+
+ul { 
+	padding: 0 0 0 22px; 
+}
+
+ol { 
+	margin-left: 27px; 
+}
+ul li { 
+	padding-left: 7px; 
+}
+
+li { 
+	font-size: 12px;
+	line-height: 1.4em;
+}
+
+/* IE6 */
+* html ul, * html ol {
+}
+
+/* IE7  */
+*:first-child+html ul {
+	margin:0 0 0 4px;
+}
+
+*:first-child+html ol {
+	margin:0 0 0 25px;
+}

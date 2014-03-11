@@ -1,0 +1,157 @@
+/*
+	File: info.css
+	Purpose: CSS styles for info info element
+	Dependency: base.css, layout.css, dialog.css
+	$Author: udy $
+*/
+
+
+/***********/
+/* isNote */
+/***********/
+
+.isNote {
+	margin-top: 15px;
+	margin-right: 15px;
+}
+
+.isNote .group .section {
+	display: none !important;
+	position: relative;
+}
+
+.isNote .group.expanded .section { 
+	display: block !important; 
+}
+
+
+
+/***********/
+/* section */
+/***********/
+
+.isNote .group .section {
+	border-bottom: 1px solid #D2D2D2;
+	padding: 2px 40px 4px 6px;
+	background-color: #FFFFFF;
+} 
+
+/***********/
+/*  group  */
+/***********/
+
+.isNote div.group {
+	position: relative;
+	font-size: 10px;
+	padding-bottom: 15px;
+	
+}
+
+/************************/
+/*  HEADLINES AND TEXT  */
+/************************/
+
+.isNote .group h3 {
+	padding: 5px 5px 5px 6px;
+	background: #D2D2D2 url("../images/icons/expanded.png") no-repeat right 3px;
+	cursor: pointer;
+}
+
+.isNote .group.expanded h3 {
+	background: #D2D2D2 url("../images/icons/expanded.png") no-repeat right -27px;
+}
+
+.isNote .group.expanded h4 {
+	padding: 2px 0  0 0;
+}
+
+#content .isNote .group p {
+	padding: 0px;
+}
+
+.isNote .group.expanded a.link {
+	float:left;
+	display: block;
+	font-size: 1.2em;
+	padding-top:2px;
+	padding-right:10px;
+	margin: 0;
+}
+
+.isNote .group.expanded label {
+	margin-top: 0px;
+    padding: 2px 0 0 0;
+}
+
+.isNote .group.expanded .image {
+	float:left;
+	margin: 3px 7px 0 0;
+	border: 1px solid #EEEEEE;
+	width: 64px;
+	height: 64px;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.isNote .group.expanded .isSelect {
+	width: 300px;
+}
+
+/***********/
+/* ACTIONS */
+/***********/
+
+.isNote .group .actions {
+	width: 25px;
+	position: absolute;
+	right: 6px;
+	top: 5px;
+	padding-right: 2px;
+} 
+
+/* button basics */
+.isNote .group a.button {
+	display:inline-block;
+	height:23px;
+	font-size: 1px;
+	line-height: 1px;
+	padding:0px 0px 0px 3px !important;
+	background:url(../images/buttons/button-matrix.png) 0 0 no-repeat;
+	cursor:pointer;
+	margin-bottom:5px;
+}
+
+.isNote .group a.button > span {
+	display:block;
+	height:22px;
+	font-size: 1px;
+	line-height: 1px;
+	padding: 0px 2px 0 0px;
+	margin:0;
+	background:url(../images/buttons/button-matrix.png) 100% 0 no-repeat;
+}
+
+.isNote .group a.button:hover, 
+.isNote .group a.button:focus {
+	background-position:0 -150px;
+}
+.isNote .group a.button:hover > span, 
+.isNote .group a.button:focus > span {
+	background-position:100% -150px;
+}
+  
+
+/**************/
+/*  FEEDBACK  */
+/**************/
+
+.isNote .group a.feedback .icon {
+    float:left;
+    margin-left: -1px;
+    display: block;
+    width:17px;
+    height:20px;
+    margin: 0;
+    padding: 0;
+    background:url(../images/buttons/button-icons.png) -241px -1px no-repeat;
+  }

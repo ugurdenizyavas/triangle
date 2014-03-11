@@ -1,0 +1,120 @@
+/*
+	File: jquery.cleditor.css
+	Purpose: Cleditor Styles
+	Dependency: jquery.cleditor.js
+	$Author: udy $
+*/
+
+.cleditorMain { position:relative; border:0px solid #999; padding:0; background-color:white; overflow:hidden;}
+.cleditorMain iframe {position: absolute; top:25px; width: 100% !important; border:none; margin:0; padding:0}
+.cleditorMain textarea {border:none; margin:0; padding:0; overflow-y:scroll; font:10pt Arial,Verdana; resize:none; outline:none /* webkit grip focus */}
+.cleditorToolbar { position: absolute; top:0px; width:100%; border-bottom:1px solid #7C7C7C; height: 24px !important; background: url('../images/cleditor/toolbar.gif') repeat}
+.cleditorGroup {float:left; height:26px}
+.cleditorButton {float:left; width:24px; height:24px; margin:0; background: url('../images/cleditor/buttons.gif')}
+.cleditorDisabled {}
+.cleditorDivider {float:left; width:1px; height:23px; margin:1px 0 1px 0; background:#CCC}
+.cleditorPopup {border:solid 1px #999; background-color:white; position:absolute; font:10pt Arial,Verdana; cursor:default; z-index:10000}
+.cleditorList div {padding:2px 4px 2px 4px}
+
+.cleditorList p, #content .richEdit p,
+.cleditorList h1, .richEdit h1,
+.cleditorList h2, .richEdit h2,
+.cleditorList h3, .richEdit h3,
+.cleditorList h4, .richEdit h4,
+.cleditorList h5, .richEdit h5,
+.cleditorList h6, .richEdit h6,
+.cleditorList font, .richEdit font {display:block; padding:0; margin:0; background-color:Transparent; border:none;}
+
+.cleditorList h1, .richEdit h1 {
+	font-size: 1.4em;
+	line-height: 1.2em;
+}
+
+.cleditorList h2, .richEdit h2 {
+	font-size: 1.3em;
+	line-height: 1.2em;
+}
+
+.cleditorList h3, .richEdit h3 {
+	font-size: 1.2em;
+	line-height: 1.2em;
+}
+
+.cleditorList p, #content .richEdit p { 
+	font-size: 1em;
+	line-height: 1.2em;
+}
+
+.cleditorList ul, #content .richEdit ul { 
+	padding: 0 0 0 22px; 
+}
+
+.cleditorList ol, #content .richEdit ol { 
+	margin-left: 27px; 
+}
+.cleditorList ul li, #content .richEdit ul li { 
+	padding-left: 7px; 
+}
+
+.cleditorList li, #content .richEdit li { 
+	font-size: 12px;
+	line-height: 1.4em;
+}s
+
+.cleditorColor {width:150px; padding:1px 0 0 1px}
+.cleditorColor div {float:left; width:14px; height:14px; margin:0 1px 1px 0}
+.cleditorPrompt {background-color:#F6F7F9; padding:4px; font-size:8.5pt}
+.cleditorPrompt input,
+.cleditorPrompt textarea {
+	border: 1px solid #7C7C7C;
+    font: 8.5pt Arial,Verdana;
+    width: auto;
+}
+
+.cleditorPrompt input[type=text] {
+	margin-top: 2px;
+}
+
+.cleditorPrompt input[type=button] {
+	height: auto;
+	padding: 0px;
+	margin-top: 5px;
+}
+.cleditorMsg {
+	background-color:#FDFCEE; 
+	width:150px; 
+	padding:4px; 
+	font-size:8.5pt; 
+	margin-left: -1000px;
+}
+
+div.wrap.short .cleditorMain iframe {
+	height: 61px !important;
+}
+
+div.wrap.medium .cleditorMain iframe {
+	height: 166px !important;
+}
+
+div.wrap.long .cleditorMain iframe {
+	height: 376px !important;
+}
+
+div.wrap.short .richEdit {
+	height: 76px;
+	padding:3px 5px 5px !important;
+	overflow-y: auto;
+}
+
+div.wrap.medium .richEdit {
+	height: 182px;
+	padding:3px 5px 5px !important;
+	overflow-y: auto;
+}
+
+div.wrap.long .richEdit {
+	height: 392px;
+	padding:3px 5px 5px !important;
+	overflow-y: auto;
+}
+

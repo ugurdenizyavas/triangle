@@ -1,0 +1,26 @@
+/*
+    File: status.css
+    Author: Informationsdesign AG
+    Purpose: Custom basedata styles
+    
+*/
+
+.dataTable td.blue span,
+.dataTable td.orange span,
+.dataTable td.green span,
+.dataTable td.red span {
+    padding-left: 25px; 
+}
+
+.dataTable td.blue span {
+    background: url("../images/status/blue.png") center left no-repeat;
+}
+.dataTable td.orange span {
+    background: url("../images/status/orange.png") center left no-repeat;
+}
+.dataTable td.green span {
+    background: url("../images/status/green.png") center left no-repeat;
+}
+.dataTable td.red span {
+    background: url("../images/status/red.png") center left no-repeat;
+}

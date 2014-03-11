@@ -1,0 +1,116 @@
+/*
+	File: kermit.css
+	Purpose: kermit CSS
+	Dependency: base, layout, dialog, elements
+	$Author: udy $
+*/
+
+
+/*************************/
+/* STATUS LEGVIEW TABLE  */
+/*************************/
+
+.dataTable tr td.red span, 
+.dataTable tr td.green span, 
+.dataTable tr td.blue span, 
+.dataTable tr td.orange span, 
+.dataTable tr td.yellow span, 
+.dataTable tr td.white span, 
+.dataTable tr td.red_actual span {
+	display:block;
+	height:16px;
+	padding-left:22px;
+	text-indent:0;
+	color: #000000;
+}
+.dataTable td.red span {
+	background: url("../images/status/red.png") center left no-repeat;
+}
+.dataTable td.green span {
+	background: url("../images/status/green.png") center left no-repeat;
+}
+.dataTable td.blue span {
+	background: url("../images/status/blue.png") center left no-repeat;
+}
+.dataTable td.orange span {
+	background: url("../images/status/orange.png") center left no-repeat;
+}
+.dataTable td.yellow span {
+	background: url("../images/status/yellow.png") center left no-repeat;
+}
+.dataTable td.white span {
+	background: url("../images/status/white.png") center left no-repeat;
+}
+.dataTable td.red_actual span {
+	background: url("../images/status/red_exclamation_mark.png") center left no-repeat;
+}
+
+.dataTable tr.focused td.red span, 
+.dataTable tr.focused td.green span, 
+.dataTable tr.focused td.blue span, 
+.dataTable tr.focused td.orange span, 
+.dataTable tr.focused td.yellow span, 
+.dataTable tr.focused td.white span, 
+.dataTable tr.focused td.red_actual span {
+	color: #ffffff;
+}
+
+/**********************/
+/* TELEXES TABLE MOD  */
+/**********************/
+
+#telexesTable .dataTable td.w3 span {
+	width: 700px;
+	display: block;
+	word-break:break-all;
+    word-wrap: break-word;	
+}
+
+/***************/
+/* STATUS TAB  */
+/***************/
+
+.tabNav li.mark-green a {
+	background: url("../images/status/mark_green.png") 101% center no-repeat;
+}
+.tabNav li.mark-red a {
+	background: url("../images/status/mark_red.png") 101% center no-repeat;
+}
+.tabNav li.mark-orange a {
+	background: url("../images/status/mark_orange.png") 101% center no-repeat;
+}
+.tabNav li.mark-yellow a {
+	background: url("../images/status/mark_yellow.png") 101% center no-repeat;
+}
+.tabNav li.mark-white a {
+	background: url("../images/status/mark_white.png") 101% center no-repeat;
+}
+
+
+/********************/
+/* RIGHT INDEX BAR  */
+/********************/
+
+.contentColRight .isIndex {
+	width: auto;
+	background-color: #EEEEEE;
+	padding: 0px 10px 0px 10px;
+	margin: 0;
+}
+
+.contentColRight .isIndex label {
+	margin: 0;
+	float: none;
+}
+
+.kpiOuterBox {
+	border: 0px solid #cc0000;
+	clear:both;
+	padding:0px 0px 15px 0px;
+	background-color:#EEEEEE;
+	position: relative;
+}
+
+.kpiOuterBox .kpiBox {
+    float: none;
+}

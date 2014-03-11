@@ -1,0 +1,118 @@
+/*
+	File: select.css
+	Purpose: CSS styles for select element
+	Dependency: base.css, layout.css
+	$Author: udy $
+	
+*/
+
+.marked {
+    background-color: #dedede;
+}
+
+div#swapButtons div {
+    border: 1px solid #7c7c7c;
+    padding: 2px;
+    margin: 0px auto;
+    vertical-align: middle;
+    width: 40px;
+    text-align: center;
+    background: #ffffff;
+}
+
+div#swapButtons a {
+    text-decoration: none;
+}
+
+div#swapButtons a:hover {
+    text-decoration: none;
+}
+
+div#swapButtons a:visited {
+    text-decoration: none;
+}
+
+#swapselectlist li {
+    list-style: none;
+    padding-left: 3px;
+    padding-right: 5px;
+}
+
+#swapselectlist li:hover {
+    background-color: #006;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#swapselectlist ul {
+    border: 1px solid #7c7c7c;
+    background: #ffffff;
+}
+
+div#swapselectlist {
+    padding: 5px;
+    font-size: 12px;
+}
+
+.selectCol {
+    width: 300px;
+}
+
+.buttonCol {
+    width: 60px;
+    vertical-align: middle;
+}
+
+/* LOCKED */
+
+div#swapButtons.locked div {
+    border: 1px solid #9A9A9A;
+    padding: 2px;
+    margin: 0px auto;
+    vertical-align: middle;
+    width: 40px;
+    text-align: center;
+    background: #f4f4f4;
+}
+
+div#swapButtons.locked a {
+    text-decoration: none;
+    color: #9A9A9A;
+}
+
+div#swapButtons.locked a:hover {
+    text-decoration: none;
+    cursor: default;
+}
+
+div#swapButtons.locked a:visited {
+    text-decoration: none;
+}
+
+#swapselectlist.locked th {
+    color: #9A9A9A;
+}
+
+#swapselectlist.locked li {
+    list-style: none;
+    padding-left: 3px;
+    padding-right: 5px;
+    color: #9A9A9A;
+}
+
+#swapselectlist.locked li:hover {
+    background-color: #f4f4f4;
+    color: #9A9A9A;
+    cursor: default;
+}
+
+#swapselectlist.locked ul {
+    border: 1px solid #9A9A9A;
+    background: #f4f4f4;
+}
+
+div#swapselectlist.locked {
+    padding: 5px;
+    font-size: 12px;
+}
+

@@ -1,0 +1,154 @@
+/*
+	File: matrix.css
+	Purpose: CSS styles for matrix element
+	Dependency: base.css, layout.css, dialog.css
+	$Author: udy $
+*/
+
+/***************************/
+/*      MATRIX TABLE       */
+/***************************/
+
+table.matrix {
+	width: 100%;
+	border-collapse: collapse;
+	clear: both;
+	zoom: 1;
+	margin-top: 10px;
+}
+
+table.matrix tr.header th,
+table.matrix tr.xLabel th
+{
+	padding: 0px 6px 0px 5px;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 12px;
+	font-weight: bold;
+	height: 29px;
+	white-space: nowrap;
+}
+
+table.matrix tr.header th 
+{
+	padding:0px 1px 0 0;
+}
+
+table.matrix tr.header th div
+{
+	width:100%;
+	height: 18px;
+	padding-bottom:5px;
+	padding-top:5px;
+}
+
+table.matrix tr.header th.selected div
+{
+	border-bottom:5px solid #000066;
+	padding-bottom:0px;
+}
+
+table.matrix tr.xLabel th.label span
+{
+	width: 100%;
+	display: block;
+}
+
+table.matrix tr.yLabel th
+{
+	width: 30px;
+}
+
+table.matrix tr.yLabel th div
+{
+	position: relative;
+	border:0px solid #cc0000;
+	width:100%;
+}
+
+
+table.matrix tr.yLabel th span
+{
+	white-space: nowrap;
+	-webkit-transform: rotate(-90deg);	
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+	width: 200px;
+	margin-top: -15px;
+	margin-left: 15px;
+	height:30px;
+	display: block;
+	overflow: visible;
+	position: absolute;
+	top:50%;
+	left:-100px;
+	text-align: center;
+	border:0px solid #cc0000;
+}
+
+body.ie8 table.matrix tr.yLabel th span,
+body.ie7 table.matrix tr.yLabel th span
+{
+	top:-100px;
+	left:0px;
+	margin-top: 0px;
+	margin-left: 0px;
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+table.matrix td { 
+	padding: 5px 5px 5px 5px; 
+	-khtml-user-select: text; 
+	border:1px solid #EEEEEE;
+}
+
+
+table.matrix td.label { 
+	padding: 0px; 
+	border: 0px;
+	width: 50px;
+}
+
+table.matrix td.label div { 
+	font-size: 12px;
+    font-weight: bold;
+    line-height: 21px;
+    margin-top: 0;
+    padding: 5px 10px 0 5px;
+    height:26px;
+}
+
+table.matrix td.label.selected div { 
+	border-right:5px solid #000066;
+}
+
+table.matrix td.red,
+table.matrix td.orange,
+table.matrix td.yellow,
+table.matrix td.green { 
+	color: #000000 !important;
+}
+
+table.matrix td.red { 
+    background-color: #d20400 !important;
+    color: #ffffff !important;
+}
+
+table.matrix td.orange { 
+    background-color: #f77400 !important;
+}
+
+table.matrix td.yellow { 
+    background-color: #f7b000 !important;
+}
+
+table.matrix td.green { 
+    background-color: #92c400 !important;
+}
+
+table.matrix td.lightyellow {
+    background-color: #fdd53e !important;
+}
+

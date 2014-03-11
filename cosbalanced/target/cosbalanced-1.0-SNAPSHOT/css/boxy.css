@@ -1,0 +1,119 @@
+/*
+	File: boxy.css
+	Purpose: Modal Dialog CSS
+	Dependency: jquery.boxy.plus.js
+	
+	$Author: udy $
+*/
+
+
+.boxy-wrapper { position: absolute; }
+.boxy-wrapper.fixed { position: fixed;}
+
+/* Modal */
+.boxy-modal-blackout { 
+	position: absolute; 
+	background-color: #ffffff; 
+	left: 0; 
+	right: 0;
+	top: 0; 
+	bottom:0; 
+	background: url('../images/blank.gif') center center repeat;
+}
+
+/* Border */
+.boxy-wrapper { padding:10px 10px 10px 10px; }
+  
+/* Title bar */	
+.boxy-wrapper .title-bar { 
+	right:11px; 
+	top:11px; 
+	height:45px;
+	width:100%;
+	background-image: url("../images/blank.gif"); 
+}
+
+body.ie6 .boxy-wrapper .title-bar { 
+	border:0px solid #000000; 
+	width:913px; 
+}
+
+body.ie6 .boxy-wrapper .title-bar.confirm { 
+	width: 270px; 
+}
+
+.boxy-wrapper .title-bar.dragging { cursor: move; }
+.boxy-wrapper .title-bar h2 { 
+	padding: 10px 0px 10px 15px; 
+	background-color: #000066; 
+	color: #ffffff; 
+	overflow-x: hidden;
+}
+
+body.ie6 .boxy-wrapper .title-bar h2, body.ie7 .boxy-wrapper .title-bar h2 { 
+	width:913px;
+}
+
+.boxy-wrapper .title-bar .close { 
+	position: absolute; 
+	top: 14px; 
+	right: 19px; 
+	font-size: 15px; 
+	line-height: 13px; 
+	width: 70px;
+	height:30px;
+	text-indent: -5000px;
+	padding-top: 8px;
+	padding-left: 25px;
+	color: #ffffff;
+	background: url("../images/close.png") top right no-repeat;
+}
+
+
+.boxy-wrapper .title-bar.error .close { 
+	text-indent: 0px;
+	color: #ffffff;
+	overflow: visible;
+	background: none;
+	width:30px;
+}
+
+.boxy-wrapper .title-bar a:hover { 
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.boxy-wrapper .title-bar.error h2 { 
+	background-color: #d00000;
+}
+
+.boxy-wrapper .title-bar.warning h2 { 
+	background-color: #ff8e00;
+}
+
+body.ie6 .boxy-wrapper .title-bar.confirm h2, body.ie7 .boxy-wrapper .title-bar.confirm h2 { 
+	width:285px;
+}
+
+body.ie6 .boxy-wrapper .title-bar.login h2, body.ie7 .boxy-wrapper .title-bar.login h2 { 
+	width:385px;
+}
+
+
+body.ie6 .boxy-wrapper .title-bar .close { background: url("../images/close.gif") top right no-repeat; }
+		
+/* Content Region */	
+.boxy-inner { 
+	background-color: #EEEEEE; 
+	padding: 0;
+	border: 1px solid #9A9A9A;
+	float:left;
+	zoom:1;
+}
+
+.boxy-content { padding: 0px 0px 0px 0px; zoom:1; float:left; }
+	
+/* Question Boxes */
+.boxy-wrapper .question { width: 350px; min-height: 80px; }
+.boxy-wrapper .answers { text-align: right; }
+

@@ -1,0 +1,240 @@
+/*
+	File: timepicker.css
+	Purpose: timepicker CSS
+	Dependency: jquery.timepicker.js
+	$Author: udy $
+*/
+
+
+div.timepicker {
+	position: relative;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	width: 200px;
+	height: 168px;
+	position: absolute;
+	cursor: default;
+	top: 0;
+	left: 0;
+	display: none;
+	z-index: 10000;
+}
+
+.timepickerContainer {
+	background: #ffffff;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	z-index: 5;
+	height: 145px;
+}
+
+.timepicker .shadowbox {
+	width: 100%;
+	height: 100%;
+	display:block;
+}
+
+.timepickerContainer table {
+	width: 176px;
+}
+
+
+/********************/
+/*    HOURS CHART   */
+/********************/
+
+/* Year Chart - Year-Range Head */
+table.timepickerViewHours tr {
+	background-color: #000066;
+}
+
+table.timepickerViewHours th.timepickerHour a {
+	display: block;
+	color: #ffffff;
+}
+
+table.timepickerViewHours th.timepickerHour a:hover {
+	color: #ff9900;
+	text-decoration: none;
+}
+
+table.timepickerViewHours tbody.timepickerHours td.timepickerSelected a {
+	background-color: #eeeeee;
+	color: #ff9900;
+}
+
+table.timepickerViewHours tbody.timepickerHours td.timepickerSelected a:hover {
+	background-color: #ff9900;
+	color: #000066;
+}
+
+/* Year Chart - Years */
+
+table.timepickerViewHours tbody.timepickerHours td {
+	padding: 1px 1px 1px 1px;
+	background-color: #ffffff;
+}
+
+table.timepickerViewHours tbody.timepickerHours tr td a {
+	display: block;
+	background-color: #eeeeee;
+	text-align: center;
+	color: #000000;
+	
+	width: 25px;
+	line-height: 27px;
+	height: 27px;
+	padding-right: 3px;
+	padding-top: 3px;
+}
+
+body.ie6 table.timepickerViewHours tbody.timepickerHours tr td a {
+	line-height: 40px;
+}
+
+table.timepickerViewHours tbody.timepickerHours tr td a:hover {
+	background-color: #ff9900;
+	color: #000066;
+	text-decoration: none;
+}
+
+
+
+/********************/
+/*    MINUTES CHART   */
+/********************/
+
+/* Month Chart - Year Head */
+table.timepickerViewMinutes tr {
+	background-color: #000066;
+}
+
+table.timepickerViewMinutes th.timepickerMinute a {
+	display: block;
+	color: #ffffff;
+}
+
+table.timepickerViewMinutes th.timepickerMinute a:hover {
+	color: #ff9900;
+	text-decoration: none;
+}
+
+table.timepickerViewMinutes tbody.timepickerMinutes td.timepickerSelected a {
+	background-color: #eeeeee;
+	color: #ff9900;
+}
+
+table.timepickerViewMinutes tbody.timepickerMinutes td.timepickerSelected a:hover {
+	background-color: #ff9900;
+	color: #000066;
+}
+
+/* Month Chart - Months */
+
+table.timepickerViewMinutes tbody.timepickerMinutes td {
+	padding: 1px 1px 1px 1px;
+	background-color: #ffffff;
+}
+
+table.timepickerViewMinutes tbody.timepickerMinutes tr td a {
+	display: block;
+	background-color: #eeeeee;
+	width: 43px;
+	line-height: 42px;
+	height: 41px;
+	text-align: center;
+	color: #000000;
+}
+
+body.ie6 table.timepickerViewMinutes tbody.timepickerMinutes tr td a {
+	line-height: 40px;
+}
+
+table.timepickerViewMinutes tbody.timepickerMinutes tr td a:hover {
+	background-color: #ff9900;
+	color: #000066;
+	text-decoration: none;
+}
+
+
+/********************/
+/*     DEFAULTS     */
+/********************/
+
+.timepickerHidden {
+	display: none;
+}
+
+div.timepicker table {
+	border-collapse:collapse;
+}
+
+div.timepicker a {
+	color: #eee;
+	text-decoration: none;
+	cursor: default;
+	outline: none;
+	display: block;
+}
+
+div.timepicker a:hover {
+	cursor: pointer;
+}
+div.timepicker table td {
+	text-align: right;
+	padding: 0;
+	margin: 0;
+}
+
+div.timepicker th {
+	text-align: center;
+	font-weight: normal;
+}
+
+div.timepicker tbody th {
+	text-align: left;
+}
+
+.timepickerDays a {
+	width: 18px;
+	line-height: 14px;
+	height: 14px;
+	padding-right: 3px;
+	padding-top: 2px;
+}
+
+.timepickerSpace div {
+	width: 20px;
+}
+
+.timepickerHours a {
+	text-align: center;
+	height: 20px;
+	line-height: 20px;
+}
+
+table.timepickerViewHours tbody.timepickerMinutes {
+	display: none;
+}
+table.timepickerViewMinutes tbody.timepickerHours {
+	display: none;
+}
+
+td.timepickerDisabled a,
+td.timepickerDisabled.timepickerNotInMonth a{
+	color: #333;
+}
+td.timepickerDisabled a:hover {
+	color: #333;
+}
+td.timepickerSpecial a {
+	background: #700;
+}
+td.timepickerSpecial.timepickerSelected a {
+	background: #a00;
+}
+
+
+
+

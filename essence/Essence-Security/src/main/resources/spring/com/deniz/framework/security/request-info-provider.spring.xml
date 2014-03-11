@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+	<bean name="framework_RequestInfoProvider"
+		class="com.deniz.framework.security.TestingRequestInfoProvider">
+		<property name="testMode" value="${dispatcher.test.mode}" />
+		<property name="requestInfoProvider">
+			<bean
+				class="com.deniz.framework.security.StandardRequestInfoProvider" />
+		</property>
+		<property name="testRequestInfo" ref="portal_dispatcher_PojoRequestInfo" />
+	</bean>
+
+	<bean id="portal_dispatcher_PojoRequestInfo"
+		class="com.deniz.framework.security.PojoRequestInfo">
+		<property name="domain" value="${dispatcher.test.domain}" />
+		<property name="language" value="${dispatcher.test.language}" />
+		<property name="mandator" value="${dispatcher.test.mandator}" />
+		<property name="username" value="${dispatcher.test.username}" />
+		<property name="serviceId" value="*" />
+		<property name="viaDispatcher" value="false" />
+	</bean>
+
+</beans>

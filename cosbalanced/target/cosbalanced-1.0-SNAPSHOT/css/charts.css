@@ -1,0 +1,111 @@
+/*
+	File: charts.css
+	Purpose: custom project CSS
+	
+	$Author: udy $
+*/
+
+/*##################################################################*/
+/*#          Chart Cards          
+/*##################################################################*/
+
+.isChart * {
+	margin: auto;
+}
+
+/*##################################################################*/
+/*#          IMAGE for dymanic width          
+/*##################################################################*/
+
+img.chartSizer {
+	width:100%;
+	height:auto;
+}
+
+/*##################################################################*/
+/*#						LEGEND      
+/*##################################################################*/
+
+.legend {
+	position: relative;
+	bottom: 0;
+	clear: both;
+/*	padding-left: 35px;*/
+}
+
+.legend ul {
+	zoom: 1;
+}
+
+.legend ul li 
+{
+	list-style-type: none;
+	list-style-image:none;
+	list-style-position:outside;
+	padding: 3px 5px 3px 15px;
+	display: inline-block;
+	width: auto;
+	height: 12px;
+	font-family: Arial,Helvetica,sans-serif !important;
+}
+
+body.ie7 .legend ul li { 
+	list-style-type: none;
+	list-style-image:none;
+	list-style-position:outside;
+	display: inline;
+	width: auto;
+	padding-left: 0px;
+}
+
+.legend ul li a {
+	display: block;
+	color:#5a5a5a;
+	font-size: 11px;
+	line-height: 11px;
+	position: relative;
+	width:auto;
+}
+
+.legend ul li a:hover { text-decoration: none; }
+
+.legend ul li.disabled a { color: #8E8E8E; }
+
+.legend ul li.waterfall a,
+.legend ul li.xy a {
+	cursor: default;
+}
+
+.legend ul li span.icon,
+.legend ul li a span.icon, 
+.legend ul li.column span.icon,
+.legend ul li.column a span.icon,
+.legend ul li.scatter span.icon,
+.legend ul li.scatter a span.icon {
+	display: block;
+	font-size: 1px;
+	width: 16px;
+	height:12px;
+	float: left;
+	margin-right: 5px;
+	border: 0px solid #666;
+	clear: right;
+}
+
+.legend ul li.line a span.icon,
+.legend ul li.hline a span.icon{
+	height: 2px;
+	margin-top: 5px;
+}
+
+.legend ul li.disabled a span.icon {
+	background-color: #d2d2d1 !important;
+}
+
+.legend.disabled ul li a {
+	cursor:default;
+}
+
+
+
+

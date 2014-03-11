@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- Adding Application specific Default and Special Converters; Default 
+		converters for Integer, Date, etc. are defined in wf common conversion.spring.xml 
+		as an abstract parent bean In the following child bean you can add your own 
+		default and special converters. Attention: If you add default converters 
+		here you should inform an architect so that he can decide if this converter 
+		should be added to the dto library. -->
+	<bean id="framework_ValueConverter" parent="framework_AbstractValueConverter"
+		class="com.deniz.framework.dto.converter.business.impl.valueconverter.impl.ValueConverterImpl">
+		<property name="defaultConverters">
+			<map merge="true">
+			</map>
+		</property>
+		<property name="specialConverters">
+			<map merge="true">
+				<!-- Add new special Converters here -->
+			</map>
+		</property>
+	</bean>
+
+	<bean id="framework_ObjectConverterService"
+		class="com.deniz.framework.dto.converter.business.impl.ObjectConverterServiceImpl">
+		<property name="copyPropertyToMeta" ref="framework_CopyPropertyToMeta" />
+		<property name="copyMetaToProperty" ref="framework_CopyMetaToProperty" />
+	</bean>
+
+	<bean id="framework_CopyPropertyToMeta"
+		class="com.deniz.framework.dto.converter.business.impl.CopyPropertyToMeta">
+		<property name="valueConverter" ref="application_ValueConverter" />
+	</bean>
+
+	<bean id="framework_CopyMetaToProperty"
+		class="com.deniz.framework.dto.converter.business.impl.CopyMetaToProperty">
+		<property name="valueConverter" ref="application_ValueConverter" />
+	</bean>
+
+	<bean id="framework_AbstractValueConverter" abstract="true"
+		class="com.deniz.framework.dto.converter.business.impl.ValueConverterImpl">
+		<property name="defaultConverters">
+			<map>
+				<entry key="java.lang.String">
+					<bean
+						class="com.deniz.framework.dto.converter.business.impl.valueconverter.impl.converter.StringConverter" />
+				</entry>
+				<entry key="java.lang.Long">
+					<bean
+						class="com.deniz.framework.dto.converter.business.impl.valueconverter.impl.converter.LongConverter" />
+				</entry>
+				<entry key="java.lang.Double">
+					<bean
+						class="com.deniz.framework.dto.converter.business.impl.valueconverter.impl.converter.DoubleConverter" />
+				</entry>
+
+				<entry key="java.lang.Float">
+					<bean
+						class="com.deniz.framework.dto.converter.business.impl.valueconverter.impl.converter.FloatConverter" />
+				</entry>
+
+				<entry key="java.lang.Boolean">
+					<bean
+						class="com.deniz.framework.dto.converter.business.impl.valueconverter.impl.converter.BooleanConverter" />
+				</entry>
+
+				<entry key="java.lang.Integer">
+					<bean
+						class="com.deniz.framework.dto.converter.business.impl.valueconverter.impl.converter.IntegerConverter" />
+				</entry>
+
+				<entry key="org.joda.time.LocalDate">
+					<bean
+						class="com.deniz.framework.dto.converter.business.impl.valueconverter.impl.converter.LocalDateConverter" />
+				</entry>
+
+				<entry key="java.util.Date">
+					<bean
+						class="com.deniz.framework.dto.converter.business.impl.valueconverter.impl.converter.ShortDateConverter" />
+				</entry>
+
+				<entry key="java.sql.Timestamp">
+					<bean
+						class="com.deniz.framework.dto.converter.business.impl.valueconverter.impl.converter.TimeStampConverter" />
+				</entry>
+				<!-- Add new default Converters here -->
+
+			</map>
+		</property>
+		<property name="specialConverters">
+			<map>
+			</map>
+		</property>
+		<property name="genericConverters">
+			<list>
+				<bean
+					class="com.deniz.framework.dto.converter.business.impl.valueconverter.impl.converter.GenericEnumConverter" />
+			</list>
+		</property>
+	</bean>
+
+</beans>

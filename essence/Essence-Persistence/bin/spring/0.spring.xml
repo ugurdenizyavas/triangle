@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <import resource="cronjob/0.spring.xml"/>
+    <import resource="exchangerate/0.spring.xml"/>
+    <import resource="framework/0.spring.xml"/>
+    <import resource="message/0.spring.xml"/>
+
+</beans>

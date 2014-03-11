@@ -1,0 +1,764 @@
+/*
+	File: select.css
+	Purpose: CSS styles for select element
+	Dependency: base.css, layout.css
+	$Author: udy $
+*/
+
+
+/****************/
+/*   ISSELECT   */
+/****************/
+
+.isSelect {
+	
+}
+
+/****************/
+/*   EXPANDED   */
+/****************/
+
+.isSelect.expanded
+{
+	background: #ffffff url("../images/select/select.png") right bottom no-repeat;
+}
+
+.isSelect.multiple.expanded
+{
+	background: #ffffff url("../images/select/selectMultiple.png") right bottom no-repeat;
+}
+
+/***********************/
+/*   PRINT FOR CHART   */
+/***********************/
+
+.isSelect.print
+{
+    background: url("../images/buttons/download.png") center center no-repeat;
+    height: 22px !important;
+    padding-right: 0;
+    width: 22px;
+    position: absolute;
+	top:28px;
+	right:10px;
+	z-index:1000;
+    border: 0px;
+}
+
+.isSelect.print input
+{
+	visibility: hidden;
+}
+
+.chartCardLabel .isSelect.print {
+	margin-top: 0px;
+	top:5px;
+	right:7px;
+	border: 0px;
+}
+
+
+/***********************/
+/*   EDITABLE INPUT   */
+/***********************/
+
+.isSelect div.searchbox {
+    height: 17px;
+    left: 0;
+    padding-right: 20px;
+    position: relative;
+    top: -19px;
+    width: 100%;
+}
+
+.isSelect.inTable div.searchbox {
+	top: 0px;	
+}
+
+.isSelect div.searchbox input {
+	background-color: transparent;
+	color: transparent;
+}
+
+.isSelect div.searchbox input.visible {
+	background-color: #ffffff;
+	color: #000000;
+}
+
+
+/******************/
+/*   TAB SELECT   */
+/******************/
+
+div.tabSelect.isSelect {
+    background: url("../images/buttons/menu.png") no-repeat scroll right top transparent;
+    border: medium none !important;
+    height: 22px !important;
+    margin-top: 18px;
+    padding-left: 0;
+    padding-right: 0;
+    width: 22px;
+}
+
+div.tabSelect.isSelect input.dropBox {
+    visibility: hidden;
+}
+
+/****************/
+/*   DROPLIST   */
+/****************/
+
+.dropList
+{
+	position:absolute !important;
+	top:22px;
+	left:0px;
+	display:none;
+	z-index:10000;
+}
+
+.dropList .scrollBox
+{
+	display: block;
+	position: relative;
+
+	border-left: 1px solid #7C7C7C;
+	border-right: 1px solid #7C7C7C;
+	border-bottom: 1px solid #7C7C7C;
+	background-color: #ffffff;
+	margin-top:0px;
+	background-image: none !important;
+		
+	overflow-x: hidden;
+	overflow-y: auto;
+	max-height: 210px;
+}
+
+.dropList ul
+{
+	list-style-type: none !important;
+	display: block;
+	zoom:1;
+	position:relative;
+}
+
+.dropList ul li
+{
+	position:relative;
+}
+
+.dropList ul li span
+{
+	position:absolute;
+	display: none;
+}
+
+.dropList.bottom
+{
+	margin-top:2px;
+}
+
+body.ie6 .dropList.bottom
+{
+	margin-top:2px;
+}
+
+body.ie7 .dropList.bottom
+{
+	margin-top:2px;
+}
+
+/* Safari hack */
+@media screen and (-webkit-min-device-pixel-ratio:0)
+{
+	.dropList.bottom
+	{
+		margin-top:1px;
+	}
+}
+
+body.ie6 .dropList.top, body.ie7 .dropList.top
+{
+	margin-top:0px;
+}
+
+.dropList ul li ul
+{
+	display: block;
+	margin: 0;
+}
+
+/****************/
+/*   SELECTED   */
+/****************/
+
+.dropList ul li.selected a
+{
+	color: #000066;
+	background-color: #eeeeee;
+}
+
+.dropList.multiple ul li.selected a
+{
+	color: #000066;
+	background: url("../images/select/selected.png") right 1px  no-repeat;
+}
+
+body.ie6 .dropList.multiple ul li.selected a
+{
+	background: url("../images/select/selected.gif") right 1px  no-repeat;
+}
+
+/**************/
+/*   LOCKED   */
+/**************/
+
+.dropList ul li.disabled a
+{
+	color: #898988 !important;
+}
+
+.dropList ul li.disabled a:hover
+{
+	color: #898988 !important;
+	cursor: default !important;
+	background-color: #ffffff !important;
+}
+
+/****************/
+/*   DISABLED   */
+/****************/
+
+.isSelect.disabled, .isSelect.disabled input
+{
+	background-color: #f4f4f4 !important;
+	background-image: none !important;
+	cursor: default;
+}
+
+.isSelect.disabled .searchbox
+{
+	display: none;
+}
+
+/****************/
+/*   0. LEVEL   */
+/****************/
+
+.dropList ul.l0 li a
+{
+	display: block;
+	padding: 2px 4px 2px 4px;
+	font-size: 12px;
+	cursor: pointer;
+	font-size:13px;
+	line-height:17px;
+	white-space: nowrap;
+	border:0px solid #cc0000;
+	color:#000000;
+	position: relative;
+	text-align: left;
+}
+
+.dropList.multiple ul.l0 li a
+{
+	padding-right: 20px;
+}
+
+.dropList ul.l0 li a:hover
+{
+	background-color: #eeeeee;
+	text-decoration: none;
+	color: #000000;
+}
+
+.dropList ul.l0 li.selected a:hover
+{
+	background-color:#eeeeee;
+	color: #000000;
+}
+
+/****************/
+/*   1. LEVEL   */
+/****************/
+
+.dropList ul.l1 li a
+{
+	display: block;
+	padding: 2px 4px 2px 15px;
+	font-size: 12px;
+	cursor: pointer;
+	color: #000000;
+	white-space: nowrap;
+}
+
+.dropList.multiple ul.l1 li a
+{
+	padding-right: 20px;
+}
+
+.dropList ul.l1 li a:hover
+{
+	background-color: #eeeeee;
+	text-decoration: none;
+	color: #000000;
+	cursor: pointer;
+}
+
+/****************/
+/*   2. LEVEL   */
+/****************/
+
+.dropList ul.l2 li a
+{
+	display: block;
+	padding: 2px 4px 2px 30px;
+	font-size: 12px;
+	cursor: pointer;
+	color: #000000;
+	white-space: nowrap;
+}
+
+.dropList.multiple ul.l2 li a
+{
+	padding-right: 20px;
+}
+
+.dropList ul.l2 a:hover
+{
+	background-color: #eeeeee;
+	text-decoration: none;
+	color: #000000;
+}
+
+/*******************/
+/*   AS GROUP   */
+/*******************/
+	
+div.isSelect.asGroup .dropList ul li.parent a.text  {
+	/*
+	border-top: 1px solid #898988; 
+	border-bottom: 1px solid #898988; 
+	background-color: #eeeeee;
+*/
+}
+
+/************************************/
+/*     0. LEVEL / DEFAULT STYLES    */
+/************************************/
+
+div.isSelect.asGroup .dropList a   {
+	cursor: pointer;
+}
+
+div.isSelect.asGroup .dropList li.locked a {
+	cursor: default;
+}
+
+div.isSelect.asGroup .dropList li.locked a.text:hover {
+	background-color: transparent;
+}
+
+/*******************/
+/*     1. LEVEL    */
+/*******************/
+
+div.isSelect.asGroup .dropList li.l1.locked a.text {
+	cursor: default;
+}
+
+div.isSelect.asGroup .dropList li.l1 a:first-child  {
+	cursor: pointer;
+}
+
+div.isSelect.asGroup .dropList li.l1.locked a.text:hover {
+	background-color: transparent;
+}
+
+/*******************/
+/*     2. LEVEL    */
+/*******************/
+
+div.isSelect.asGroup .dropList li.l2.locked a {
+	cursor: default;
+}
+
+div.isSelect.asGroup .dropList li.l2 a:first-child  {
+	cursor: pointer;
+}
+
+div.isSelect.asGroup .dropList li.l2.locked a.text:hover {
+	background-color: transparent;
+}
+
+/***************/
+/*   AS TREE   */
+/***************/
+
+div.isSelect.asTree .dropList ul li.parent ul  {
+	display: block;
+}
+
+div.isSelect.asTree .dropList ul li.parent span.icon  {
+	width: 15px;
+	height: 16px;
+	top: 3px;
+	display: block;
+	z-index: 10;
+}
+/************************************/
+/*     0. LEVEL / DEFAULT STYLES    */
+/************************************/
+div.isSelect.asTree .dropList li.parent.closed ul.l1  {
+	display: none !important;
+}
+
+div.isSelect.asTree .dropList li.parent span.icon:first-child  {
+	background: url('../images/catalog/tree-arrowdown.gif') center center no-repeat;
+}
+
+div.isSelect.asTree .dropList li.parent.closed span.icon:first-child  {
+	background: url('../images/catalog/tree-arrowright.gif') center center no-repeat;
+}
+
+div.isSelect.asTree .dropList li  {
+	background: none;
+}
+
+div.isSelect.asTree .dropList li a  {
+	padding: 2px 40px 2px 4px;
+	background-image: none;
+	background-color: transparent;
+	color: #000000;
+}
+
+div.isSelect.asTree .dropList li.selected a  {
+	background-image: url("../images/select/selected.png");
+	background-position: right 1px !important;
+	background-repeat: no-repeat !important;
+	color: #000066;
+}
+
+div.isSelect.asTree .dropList li.highlighted a {
+    background-color: #C2DCFF;
+}
+
+div.isSelect.asTree .dropList li a.text  {
+	background-color: none;
+}
+
+/*div.isSelect.asTree .dropList li.focused a.text  {
+	background-color: #eeeeee;
+}*/
+
+div.isSelect.asTree .dropList li.parent span.icon  {
+	left:3px;
+}
+
+div.isSelect.asTree .dropList li.parent a.text  {
+	padding-left: 20px;
+}
+
+div.isSelect.asTree .dropList li.parent.locked a.text  {
+	cursor: default;
+}
+
+div.isSelect.asTree .dropList li, div.isSelect.asTree .dropList li span, div.isSelect.asTree .dropList li a {
+	-moz-user-select: -moz-none;
+	-webkit-user-select:none;
+	user-select: none;
+}
+
+/*******************/
+/*     1. LEVEL    */
+/*******************/
+div.isSelect.asTree .dropList li.l1.parent.closed ul.l2  {
+	display: none !important;
+}
+
+div.isSelect.asTree .dropList li.l1.parent span.icon:first-child  {
+	background: url('../images/catalog/tree-arrowdown.gif') center center no-repeat;
+}
+
+div.isSelect.asTree .dropList li.l1.parent.closed span.icon:first-child  {
+	background: url('../images/catalog/tree-arrowright.gif') center center no-repeat;
+}
+
+div.isSelect.asTree .dropList li.l1 a  {
+	padding-left: 20px;
+}
+
+div.isSelect.asTree .dropList li.l1 a:first-child,
+div.isSelect.asTree .dropList li.l1 a.text  {
+	background-image: none;
+	background-color: transparent;
+	color: #000000;
+}
+
+div.isSelect.asTree .dropList li.l1.selected a  {
+	background-image: url("../images/select/selected.png");
+	color: #000066;
+}
+
+div.isSelect.asTree .dropList li.l1.highlighted a {
+    background-color: #C2DCFF;
+}
+
+div.isSelect.asTree .dropList li.l1.parent span.icon  {
+	left:20px;
+}
+
+div.isSelect.asTree .dropList li.l1.parent a.text  {
+	padding-left: 40px;
+}
+
+
+/*******************/
+/*     2. LEVEL    */
+/*******************/
+div.isSelect.asTree .dropList li.l2.parent.closed ul.l3  {
+	display: none !important;
+}
+
+div.isSelect.asTree .dropList li.l2.parent span.icon:first-child  {
+	background: url('../images/catalog/tree-arrowdown.gif') center center no-repeat;
+}
+
+div.isSelect.asTree .dropList li.l2.parent.closed span.icon:first-child  {
+	background: url('../images/catalog/tree-arrowright.gif') center center no-repeat;
+}
+
+div.isSelect.asTree .dropList li.l2 a  {
+	padding-left: 40px;
+}
+
+div.isSelect.asTree .dropList li.l2 a:first-child,
+div.isSelect.asTree .dropList li.l2 a.text  {
+	background-image: none;
+	background-color: transparent;
+	color: #000000;
+}
+
+div.isSelect.asTree .dropList li.l2.selected a  {
+	background-image: url("../images/select/selected.png");
+	color: #000066;
+}
+
+div.isSelect.asTree .dropList li.l2.highlighted a {
+    background-color: #C2DCFF;
+}
+
+div.isSelect.asTree .dropList li.l2.parent span.icon  {
+	left:40px;
+}
+
+div.isSelect.asTree .dropList li.l2.parent a.text  {
+	padding-left: 60px;
+}
+
+/*******************/
+/*     3. LEVEL    */
+/*******************/
+div.isSelect.asTree .dropList li.l3.parent.closed ul.l4  {
+	display: none !important;
+}
+
+div.isSelect.asTree .dropList li.l3.parent span.icon:first-child  {
+	background: url('../images/catalog/tree-arrowdown.gif') center center no-repeat;
+}
+
+div.isSelect.asTree .dropList li.l3.parent.closed span.icon:first-child  {
+	background: url('../images/catalog/tree-arrowright.gif') center center no-repeat;
+}
+
+
+div.isSelect.asTree .dropList li.l3 a  {
+	padding-left: 60px;
+}
+
+div.isSelect.asTree .dropList li.l3 a:first-child,
+div.isSelect.asTree .dropList li.l3 a.text   {
+	background-image: none;
+	background-color: transparent;
+	color: #000000;
+}
+
+div.isSelect.asTree .dropList li.l3.selected a  {
+	background-image: url("../images/select/selected.png");
+	color: #000066;
+}
+
+div.isSelect.asTree .dropList li.l3.highlighted a {
+    background-color: #C2DCFF;
+}
+
+div.isSelect.asTree .dropList li.l3.parent span.icon  {
+	left:60px;
+}
+
+div.isSelect.asTree .dropList li.l3.parent a.text  {
+	padding-left: 80px;
+}
+
+
+/*******************/
+/*     4. LEVEL    */
+/*******************/
+div.isSelect.asTree .dropList li.l4.parent.closed ul.l5  {
+	display: none !important;
+}
+
+div.isSelect.asTree .dropList li.l4.parent span.icon:first-child  {
+	background: url('../images/catalog/tree-arrowdown.gif') center center no-repeat;
+}
+
+div.isSelect.asTree .dropList li.l4.parent.closed span.icon:first-child  {
+	background: url('../images/catalog/tree-arrowright.gif') center center no-repeat;
+}
+
+div.isSelect.asTree .dropList li.l4 a  {
+	padding-left: 80px;
+}
+
+div.isSelect.asTree .dropList li.l4 a:first-child,
+div.isSelect.asTree .dropList li.l4 a.text  {
+	background-image: none;
+	background-color: transparent;
+	color: #000000;
+}
+
+div.isSelect.asTree .dropList li.l4.selected a  {
+	background-image: url("../images/select/selected.png");
+	color: #000066;
+}
+
+div.isSelect.asTree .dropList li.l4.highlighted a {
+    background-color: #C2DCFF;
+}
+
+div.isSelect.asTree .dropList li.l4.parent span.icon  {
+	left:80px;
+}
+
+div.isSelect.asTree .dropList li.l4.parent a.text  {
+	padding-left: 100px;
+}
+
+
+/*********************/
+/*    DROP SHADOW    */
+/*********************/
+
+.dropList .shadowbox {
+	display:block;
+	height:100%;
+	width:100%;
+	border:0px solid #cc0000;
+}
+
+.shadow_t {
+    background: url("../images/shadow/shadow_t-line.png") left top no-repeat;
+}
+
+.shadow_tl {
+    background: url("../images/shadow/shadow_tl.png") left top no-repeat;
+}
+
+
+.dropList .shadowbox .shadow_l, .dropList .shadowbox .shadow_r {
+	top: 0px;
+	bottom: 0px;
+}
+
+.dropList .shadowbox .shadow_l, .dropList .shadowbox .shadow_tl, .dropList .shadowbox .shadow_bl {
+	left: -10px;
+}
+
+.dropList .shadowbox .shadow_r, .dropList .shadowbox .shadow_tr, .dropList .shadowbox .shadow_br {
+	right: -10px;
+}
+
+.dropList .shadowbox .shadow_b, .dropList .shadowbox .shadow_bl, .dropList .shadowbox .shadow_br  {
+	bottom: -10px;
+}
+
+.dropList .shadowbox .shadow_t, .dropList .shadowbox .shadow_tl, .dropList .shadowbox .shadow_tr  {
+	top: -10px;
+}
+
+.dropList .shadowbox .shadow_b, .dropList .shadowbox .shadow_t   {
+	left: 0px;
+	right:0px;
+}
+
+
+/**********************/
+/*    SEARCH FIELD    */
+/**********************/
+
+.dropList .searchcontainer {
+	width: 1px;
+	height: 1px;
+	border: 0px;
+	overflow: hidden;
+	position: absolute;
+}
+
+.dropList .searchbox {
+	background: url("../images/select/search.gif") right center no-repeat;
+    border: 1px solid #b5b5b5;
+    cursor: pointer;
+    height: 20px !important;
+    overflow-x: visible;
+    padding-right: 25px;
+    width: auto;
+    z-index: 0;
+}
+
+/*
+body.ie7 .dropList .searchbox input {
+    width: auto;
+}
+*/
+
+.isSelect.showSearchfield .dropList.bottom {
+	margin-top: 1px;
+}
+
+.isSelect .dropList .scrollBox .textBox  {
+    display: none;
+    background-color: #EEEEEE;
+    color: #000000;
+    position: relative;
+    text-align: left;
+    white-space: nowrap;
+    font-style: italic;
+    font-size: 13px;
+    line-height: 17px;
+    padding: 2px 4px 2px 4px;
+}
+.isSelect .dropList .scrollBox .textBox.highlighted {
+	background-color: #C2DCFF !important;
+}
+
+.isSelect.active-search .dropList .scrollBox ul li {
+    display: none;
+}
+
+.dropList .scrollBox ul li.found {
+    display: block !important;
+}
+
+.dropList .scrollBox ul li.found-parent {
+    display: block !important;
+}
+
+.dropList .scrollBox ul li a em {
+    background-color: #FEFFDC;
+    font-style: normal;
+}
+
+.dropList .scrollBox ul li.highlighted a {
+    background-color: #c2dcff;
+}
+

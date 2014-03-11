@@ -1,0 +1,83 @@
+/*
+	File: querytool.css
+	Purpose: CSS styles for queryTool element
+	$Author: udy $
+*/
+
+
+/*************************/
+/*      QUERY TOOL       */
+/*************************/
+
+table.queryTable {
+	width: 100%;
+	border-collapse: collapse;
+	clear: both;
+	zoom: 1;
+}
+
+table.queryTable tr.head th {
+    font-size: 10px;
+    font-weight: bold;
+    padding: 0 0 3px;
+    white-space: nowrap;
+    text-align: left;
+}
+
+table.queryTable tr.data td {
+    font-size: 12px;
+	font-weight: normal;
+	text-align: left;
+	vertical-align: top;
+	border: 0px solid #cc0000;
+	zoom: 1;
+	padding: 0px 15px 5px 0px; 
+	-khtml-user-select: text;
+}
+
+/**************/
+/* PLUS MINUS */
+/**************/
+
+table.queryTable tr.data td.plus, 
+table.queryTable tr.data td.minus {
+	width: 19px;
+	padding: 0px 0px 5px 0px; 
+}
+
+table.queryTable tr.data td.plus div, 
+table.queryTable tr.data td.minus div {
+	display: block;
+	width: 19px;
+	height: 19px;
+	font-size: 1px;
+	line-height: 1px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+table.queryTable tr.data td.plus div {
+	background: url("../images/icons/plus.gif") 0px -3px no-repeat;
+}
+
+table.queryTable tr.data td.minus div {
+	background: url("../images/icons/minus.gif") 0px -3px no-repeat;
+}
+
+table.queryTable tr.data td.minus.disabled div {
+	background: url("../images/icons/minus.gif") 0px -123px no-repeat;
+	cursor: default;
+}
+
+
+
+
+
+/********************************/
+/*    tableSearchParameters TABLE COLUMN     */
+/********************************/
+
+
+#tableSearchParameters col.operator {
+	width: 70px;
+}

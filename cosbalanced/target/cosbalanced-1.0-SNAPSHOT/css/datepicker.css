@@ -1,0 +1,1113 @@
+/*
+	File: datepicker.css
+	Purpose: Datepicker CSS
+	Dependency: jquery.datepicker.plus.js
+	$Author: udy $
+*/
+
+
+div.datepicker {
+	position: relative;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	width: 196px;
+	height: 164px;
+	position: absolute;
+	cursor: default;
+	top: 0;
+	left: 0;
+	display: none;
+	z-index: 10000;
+
+}
+
+.datepickerContainer {
+	background: #ffffff;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	z-index: 5;
+	height: 145px;
+}
+
+.datepicker .shadowbox {
+	width: 100%;
+	height: 100%;
+	display:block;
+}
+
+.datepickerContainer table {
+	width: 176px;
+}
+
+
+
+/*******************/
+/*    DAYS CHART   */
+/*******************/
+table.day tbody.viewDays td {
+	padding: 1px 1px 1px 1px;
+	background-color: #ffffff;
+}
+
+table.day tbody.viewDays td a {
+	background-color: #eeeeee;
+	display: block;
+	color: #000000;
+	width: 18px;
+	line-height: 14px;
+	height: 14px;
+	padding-right: 2px;
+	padding-top: 2px;
+}
+
+table.day tbody.viewDays td a:hover {
+	background-color: #ff9900;
+	color: #000066;
+	text-decoration: none;
+}
+
+table.day tbody.viewDays td.datepickerCurrent a {
+	color: #000066;
+	font-weight: bold;
+}
+
+table.day tbody.viewDays td.datepickerSelected a {
+	background-color: #eeeeee;
+	color: #ff9900;
+	font-weight: bold;
+}
+
+table.day tbody.viewDays td.datepickerSelected a:hover {
+	background-color: #ff9900;
+	color: #000066;
+}
+
+
+/* Days Chart - Not in Month */
+table.day tbody.viewDays td.datepickerNotInMonth {
+	padding: 1px 1px 1px 1px;
+	background-color: #ffffff;
+}
+
+table.day tbody.viewDays td.datepickerNotInMonth a {
+	background-color: #ffffff;
+	padding-right: 2px;
+	color: #999999;
+}
+
+table.day tbody.viewDays td.datepickerNotInMonth a:hover {
+	background-color: #ff9900;
+	color: #000066;
+	text-decoration: none;
+}
+
+/* Days Chart - Weekday Row */
+
+table.day tr.datepickerDoW {
+	background-color: #ffffff;
+}
+
+table.day tr.datepickerDoW th span {
+	background-color: #cccccc;
+	display: block;
+	padding: 1px 1px 1px 3px;
+	color: #000000;
+	border-top: 1px solid #ffffff;
+
+}
+
+/* Days Chart - Calendarweek */
+table.day tbody.viewDays th.datepickerWeek {
+	background-color: #ffffff;
+}
+
+table.day tbody.viewDays th.datepickerWeek a {
+	background-color: #ffffff;
+	padding: 1px 1px 1px 3px;
+	color: #BC0100;
+}
+
+table.day tbody.viewDays th.datepickerWeek a:hover {
+	color: #000066;
+	text-decoration: none;
+	cursor: default;
+}
+
+/* Days Chart - Month/Year Head */
+table.day tr {
+	background-color: #000066;
+}
+
+
+table.day th.headline a {
+    color: #111111;
+    font-weight: bold;
+    padding-right: 1px;
+}
+
+table.day th.headline a:hover {
+	color: #ff9900;
+	text-decoration: none;
+}
+
+/* Days Chart - WeekNumbers */
+table.day tbody.viewDays th.datepickerWeek.datepickerSelected a {
+	color:#FF9900;
+}
+
+
+/*******************/
+/*    WEEKS CHART   */
+/*******************/
+table.week tbody.viewDays td {
+	padding: 1px 1px 1px 1px;
+	background-color: #ffffff;
+}
+
+table.week tbody.viewDays td a {
+	background-color: #eeeeee;
+	display: block;
+	color: #000000;
+	width: 18px;
+	line-height: 14px;
+	height: 14px;
+	padding-right: 2px;
+	padding-top: 2px;
+}
+
+table.week tbody.viewDays td a:hover {
+	background-color: #eeeeee;
+	color: #000066;
+	text-decoration: none;
+	cursor: default;
+}
+
+table.week tbody.viewDays td.datepickerSelected a {
+	background-color: #eeeeee;
+	color: #ff9900;
+	font-weight: bold;
+}
+
+table.week tbody.viewDays td.datepickerSelected a:hover {
+	background-color: #eeeeee;
+	color: #000066;
+	cursor: default;
+}
+
+table.week tbody.viewDays td.datepickerCurrent a {
+	color: #000066;
+	font-weight: bold;
+}
+
+/* Days Chart - Not in Month */
+table.week tbody.viewDays td.datepickerNotInMonth {
+	padding: 1px 1px 1px 1px;
+	background-color: #ffffff;
+}
+
+table.week tbody.viewDays td.datepickerNotInMonth a {
+	background-color: #ffffff;
+	padding-right: 2px;
+	color: #999999;
+}
+
+table.week tbody.viewDays td.datepickerNotInMonth a:hover {
+	background-color: #ffffff;
+	color: #999999;
+	text-decoration: none;
+	cursor: default;
+}
+
+/* Days Chart - Weekday Row */
+
+table.week tr.datepickerDoW {
+	background-color: #ffffff;
+}
+
+table.week tr.datepickerDoW th span {
+	background-color: #cccccc;
+	display: block;
+	padding: 1px 1px 1px 3px;
+	color: #000000;
+	border-top: 1px solid #ffffff;
+
+}
+
+/* Days Chart - Calendarweek */
+table.week tbody.viewDays th.datepickerWeek {
+	background-color: #ffffff;
+}
+
+table.week tbody.viewDays th.datepickerWeek a {
+	background-color: #ffffff;
+	padding: 1px 1px 1px 3px;
+	color: #000066;
+}
+
+table.week tbody.viewDays th.datepickerWeek a:hover {
+	color: #000066;
+	text-decoration: none;
+	background-color: #ff9900;
+}
+
+/* Days Chart - Month/Year Head */
+table.week tr {
+	background-color: #000066;
+}
+
+
+table.week th.headline a {
+	color: #ffffff;
+	padding-right: 1px;
+}
+
+table.week th.headline a:hover {
+	color: #ff9900;
+	text-decoration: none;
+}
+
+/* Days Chart - WeekNumbers */
+table.week tbody.viewDays th.datepickerWeek.datepickerSelected a {
+	color:#FF9900;
+}
+
+table.week tbody.viewDays th.datepickerWeek.datepickerSelected a:hover {
+	color:#000066;
+}
+
+
+/**************************/
+/*    DAY / WEEKS CHART   */
+/**************************/
+table.dayWeek tbody.viewDays td {
+	padding: 1px 1px 1px 1px;
+	background-color: #ffffff;
+}
+
+table.dayWeek tbody.viewDays td a {
+	background-color: #eeeeee;
+	display: block;
+	color: #000000;
+	width: 18px;
+	line-height: 14px;
+	height: 14px;
+	padding-right: 2px;
+	padding-top: 2px;
+}
+
+table.dayWeek tbody.viewDays td a:hover {
+	background-color: #ff9900;
+	color: #000066;
+	text-decoration: none;
+}
+
+table.dayWeek tbody.viewDays td.datepickerCurrent a {
+	color: #0064b4;
+	font-weight: bold;
+}
+
+table.dayWeek tbody.viewDays td.datepickerSelected a {
+	background-color: #eeeeee;
+	color: #ff9900;
+	font-weight: bold;
+}
+
+table.dayWeek tbody.viewDays td.datepickerSelected a:hover {
+	background-color: #ff9900;
+	color: #000066;
+}
+
+
+/* Days Chart - Not in Month */
+table.dayWeek tbody.viewDays td.datepickerNotInMonth {
+	padding: 1px 1px 1px 1px;
+	background-color: #ffffff;
+}
+
+table.dayWeek tbody.viewDays td.datepickerNotInMonth a {
+	background-color: #ffffff;
+	padding-right: 2px;
+	color: #999999;
+}
+
+table.dayWeek tbody.viewDays td.datepickerNotInMonth a:hover {
+	background-color: #ff9900;
+	color: #000066;
+	text-decoration: none;
+}
+
+/* Days Chart - Weekday Row */
+
+table.dayWeek tr.datepickerDoW {
+	background-color: #ffffff;
+}
+
+table.dayWeek tr.datepickerDoW th span {
+	background-color: #cccccc;
+	display: block;
+	padding: 1px 1px 1px 3px;
+	color: #000000;
+	border-top: 1px solid #ffffff;
+
+}
+
+/* Days Chart - Calendarweek */
+table.dayWeek tbody.viewDays th.datepickerWeek {
+	background-color: #ffffff;
+}
+
+table.dayWeek tbody.viewDays th.datepickerWeek a {
+	background-color: #ffffff;
+	padding: 1px 1px 1px 3px;
+	color: #000066;
+}
+
+table.dayWeek tbody.viewDays th.datepickerWeek a:hover {
+	text-decoration: none;
+	color: #000066;
+	background-color: #ff9900;
+}
+
+/* Days Chart - Month/Year Head */
+table.dayWeek tr {
+	background-color: #000066;
+}
+
+
+table.dayWeek th.headline a {
+	color: #ffffff;
+	padding-right: 1px;
+}
+
+table.dayWeek th.headline a:hover {
+	color: #ff9900;
+	text-decoration: none;
+}
+
+/* Days Chart - WeekNumbers */
+table.dayWeek tbody.viewDays th.datepickerWeek.datepickerSelected a {
+	color:#FF9900;
+}
+
+table.dayWeek tbody.viewDays th.datepickerWeek.datepickerSelected a:hover {
+	color:#000066;
+}
+
+/********************/
+/*    MONTH CHART   */
+/********************/
+
+/* Month Chart - Year Head */
+table.month tr {
+	background-color: #000066;
+}
+
+table.month th.headline a {
+	display: block;
+	color: #ffffff;
+}
+
+table.month th.headline a:hover {
+	color: #ff9900;
+	text-decoration: none;
+}
+
+table.month tbody.viewMonths td.datepickerCurrent a {
+	color: #0064b4;
+	font-weight: bold;
+}
+
+table.month tbody.viewMonths td.datepickerSelected a {
+	background-color: #eeeeee;
+	color: #ff9900;
+	font-weight: bold;
+}
+
+table.month tbody.viewMonths td.datepickerSelected a:hover {
+	background-color: #ff9900;
+	color: #000066;
+}
+
+
+/* Month Chart - Months */
+
+table.month tbody.viewMonths td {
+	padding: 1px 1px 1px 1px;
+	background-color: #ffffff;
+}
+
+table.month tbody.viewMonths tr td a {
+	display: block;
+	background-color: #eeeeee;
+	width: 42px;
+	line-height: 42px;
+	height: 40px;
+	text-align: center;
+	color: #000000;
+}
+
+body.ie6 table.month tbody.viewMonths tr td a {
+	line-height: 40px;
+}
+
+table.month tbody.viewMonths tr td a:hover {
+	background-color: #ff9900;
+	color: #000066;
+	text-decoration: none;
+}
+
+
+
+/********************/
+/*    YEARS CHART   */
+/********************/
+
+/* Year Chart - Year-Range Head */
+table.year tr {
+	background-color: #000066;
+}
+
+table.year th.headline a {
+	display: block;
+	color: #ffffff;
+}
+
+table.year th.headline a:hover {
+	color: #ff9900;
+	text-decoration: none;
+}
+
+table.year tbody.viewYears td.datepickerCurrent a {
+	color: #0064b4;
+	font-weight: bold;
+}
+
+table.year tbody.viewYears td.datepickerSelected a {
+	background-color: #eeeeee;
+	color: #ff9900;
+	font-weight: bold;
+}
+
+table.year tbody.viewYears td.datepickerSelected a:hover {
+	background-color: #ff9900;
+	color: #000066;
+}
+
+
+/* Year Chart - Years */
+
+table.year tbody.viewYears td {
+	padding: 1px 1px 1px 1px;
+	background-color: #ffffff;
+}
+
+table.year tbody.viewYears tr td a {
+	display: block;
+	background-color: #eeeeee;
+	width: 42px;
+	line-height: 42px;
+	height: 40px;
+	text-align: center;
+	color: #000000;
+}
+
+body.ie6 table.year tbody.viewYears tr td a {
+	line-height: 40px;
+}
+
+table.year tbody.viewYears tr td a:hover {
+	background-color: #ff9900;
+	color: #000066;
+	text-decoration: none;
+}
+
+/********************/
+/*    HALFYEAR CHART   */
+/********************/
+
+/* Halfyear Chart - Halfyear-Range Head */
+table.halfyear tr {
+	background-color: #000066;
+}
+
+table.halfyear th.headline a {
+	display: block;
+	color: #ffffff;
+}
+
+table.halfyear th.headline a:hover {
+	color: #ff9900;
+	text-decoration: none;
+}
+
+table.halfyear tbody.viewHalfyears td.datepickerCurrent a {
+	color: #0064b4;
+	font-weight: bold;
+}
+
+table.halfyear tbody.viewHalfyears td.datepickerSelected a {
+	background-color: #eeeeee;
+	color: #ff9900;
+	font-weight: bold;
+}
+
+table.halfyear tbody.viewHalfyears td.datepickerSelected a:hover {
+	background-color: #ff9900;
+	color: #000066;
+}
+
+
+/* Season Chart - Years */
+
+table.halfyear tbody.viewHalfyears td {
+	padding: 1px 1px 1px 1px;
+	background-color: #ffffff;
+}
+
+table.halfyear tbody.viewHalfyears tr td a {
+	display: block;
+	background-color: #eeeeee;
+	width: 100%;
+	line-height: 124px;
+	height: 124px;
+	text-align: center;
+	color: #000000;
+}
+
+body.ie6 table.halfyear tbody.viewHalfyears tr td a {
+	line-height: 123px;
+}
+
+table.halfyear tbody.viewHalfyears tr td a:hover {
+	background-color: #ff9900;
+	color: #000066;
+	text-decoration: none;
+}
+
+/********************/
+/*    SEASONS CHART   */
+/********************/
+
+/* Season Chart - Season-Range Head */
+table.season tr {
+	background-color: #000066;
+}
+
+table.season th.headline a {
+	display: block;
+	color: #ffffff;
+}
+
+table.season th.headline a:hover {
+	color: #ff9900;
+	text-decoration: none;
+}
+
+table.season tbody.viewSeasons td.datepickerCurrent a {
+	color: #0064b4;
+	font-weight: bold;
+}
+
+
+table.season tbody.viewSeasons td.datepickerSelected a {
+	background-color: #eeeeee;
+	color: #ff9900;
+	font-weight: bold;
+}
+
+table.season tbody.viewSeasons td.datepickerSelected a:hover {
+	background-color: #ff9900;
+	color: #000066;
+}
+
+/* Season Chart - Years */
+
+table.season tbody.viewSeasons td {
+	padding: 1px 1px 1px 1px;
+	background-color: #ffffff;
+}
+
+table.season tbody.viewSeasons tr td a {
+	display: block;
+	background-color: #eeeeee;
+	width: 100%;
+	line-height: 124px;
+	height: 124px;
+	text-align: center;
+	color: #000000;
+}
+
+body.ie6 table.season tbody.viewSeasons tr td a {
+	line-height: 123px;
+}
+
+table.season tbody.viewSeasons tr td a:hover {
+	background-color: #ff9900;
+	color: #000066;
+	text-decoration: none;
+}
+
+/********************/
+/*    HALFSEASONS CHART   */
+/********************/
+
+/* Season Chart - Season-Range Head */
+table.halfseason tr {
+	background-color: #000066;
+}
+
+table.halfseason th.headline a {
+	display: block;
+	color: #ffffff;
+}
+
+table.halfseason th.headline a:hover {
+	color: #ff9900;
+	text-decoration: none;
+}
+
+table.halfseason tbody.viewHalfSeasons td.datepickerCurrent a {
+	color: #0064b4;
+	font-weight: bold;
+}
+
+table.halfseason tbody.viewHalfSeasons td.datepickerSelected a {
+	background-color: #eeeeee;
+	color: #ff9900;
+	font-weight: bold;
+}
+
+table.halfseason tbody.viewHalfSeasons td.datepickerSelected a:hover {
+	background-color: #ff9900;
+	color: #000066;
+}
+
+
+/* Halfseason Chart - Years */
+
+table.halfseason tbody.viewHalfSeasons td {
+	padding: 1px 1px 1px 1px;
+	background-color: #ffffff;
+}
+
+table.halfseason tbody.viewHalfSeasons tr td a {
+	display: block;
+	background-color: #eeeeee;
+	width: 100%;
+	line-height: 61px;
+	height: 61px;
+	text-align: center;
+	color: #000000;
+}
+
+body.ie6 table.halfseason tbody.viewHalfSeasons tr td a {
+	line-height: 60px;
+}
+
+table.halfseason tbody.viewHalfSeasons tr td a:hover {
+	background-color: #ff9900;
+	color: #000066;
+	text-decoration: none;
+}
+
+/***********************/
+/*    QUARTALS CHART   */
+/***********************/
+
+/* Quartals Chart - Quartal-Range Head */
+table.quarter tr {
+	background-color: #000066;
+}
+
+table.quarter th.headline a {
+	display: block;
+	color: #ffffff;
+}
+
+table.quarter th.headline a:hover {
+	color: #ff9900;
+	text-decoration: none;
+}
+
+table.quarter tbody.viewQuarters td.datepickerCurrent a {
+	color: #0064b4;
+	font-weight: bold;
+}
+
+table.quarter tbody.viewQuarters td.datepickerSelected a {
+	background-color: #eeeeee;
+	color: #ff9900;
+	font-weight: bold;
+}
+
+table.quarter tbody.viewQuarters td.datepickerSelected a:hover {
+	background-color: #ff9900;
+	color: #000066;
+}
+
+
+/* Quartals Chart - Years */
+
+table.quarter tbody.viewQuarters td {
+	padding: 1px 1px 1px 1px;
+	background-color: #ffffff;
+}
+
+table.quarter tbody.viewQuarters tr td a {
+	display: block;
+	background-color: #eeeeee;
+	width: 100%;
+	line-height: 61px;
+	height: 61px;
+	text-align: center;
+	color: #000000;
+}
+
+body.ie6 table.quarter tbody.viewQuarters tr td a {
+	line-height: 60px;
+}
+
+table.quarter tbody.viewQuarters tr td a:hover {
+	background-color: #ff9900;
+	color: #000066;
+	text-decoration: none;
+}
+
+
+
+
+/********************/
+/*     DEFAULTS     */
+/********************/
+
+.datepickerHidden {
+	display: none;
+}
+
+div.datepicker table {
+	border-collapse:collapse;
+}
+
+div.datepicker a {
+	color: #eee;
+	text-decoration: none;
+	cursor: default;
+	outline: none;
+	display: block;
+}
+
+div.datepicker a:hover {
+	cursor: pointer;
+}
+div.datepicker table td {
+	text-align: right;
+	padding: 0;
+	margin: 0;
+}
+
+div.datepicker th {
+	text-align: center;
+	font-weight: normal;
+}
+
+div.datepicker tbody th {
+	text-align: left;
+}
+
+
+
+.datepickerSpace div {
+	width: 20px;
+}
+
+.datepickerGoNext a,
+.datepickerGoPrev a,
+th.headline, th.headline a {
+	text-align: center;
+	height: 20px;
+	line-height: 20px;
+	width: 100%;
+	background-color: #FD8B00;
+}
+
+.datepickerGoNext, .datepickerGoNext a {
+	float: right;
+	width: 20px;
+	background: #BC0100 url('../images/datepicker/datepicker_arrows.gif') left -18px no-repeat;
+}
+
+.datepickerGoPrev, .datepickerGoPrev a {
+	float: left;
+	width: 20px;
+	background: #BC0100 url('../images/datepicker/datepicker_arrows.gif') left 2px no-repeat;
+}
+
+table.day tbody.viewMonths,
+table.day tbody.viewYears,
+table.day tbody.viewHalfyears,
+table.day tbody.viewSeasons,
+table.day tbody.viewHalfSeasons,
+table.day tbody.viewQuarters {
+	display: none;
+}
+table.week tbody.viewMonths,
+table.week tbody.viewYears,
+table.week tbody.viewHalfyears,
+table.week tbody.viewSeasons,
+table.week tbody.viewhalfSeasons,
+table.week tbody.viewQuarters {
+	display: none;
+}
+
+table.dayWeek tbody.viewMonths,
+table.dayWeek tbody.viewYears,
+table.dayWeek tbody.viewHalfyears,
+table.dayWeek tbody.viewSeasons,
+table.dayWeek tbody.viewHalfSeasons,
+table.dayWeek tbody.viewQuarters {
+	display: none;
+}
+table.month tbody.viewDays,
+table.month tbody.viewYears,
+table.month tr.datepickerDoW,
+table.month tbody.viewHalfyears,
+table.month tbody.viewSeasons,
+table.month tbody.viewHalfSeasons,
+table.month tbody.viewQuarters {
+	display: none;
+}
+table.year tbody.viewDays,
+table.year tbody.viewMonths,
+table.year tr.datepickerDoW,
+table.year tbody.viewHalfyears,
+table.year tbody.viewSeasons,
+table.year tbody.viewHalfSeasons,
+table.year tbody.viewQuarters {
+	display: none;
+}
+table.halfyear tbody.viewDays,
+table.halfyear tbody.viewMonths,
+table.halfyear tbody.viewYears,
+table.halfyear tbody.viewSeasons,
+table.halfyear tbody.viewHalfSeasons,
+table.halfyear tbody.viewQuarters,
+table.halfyear tr.datepickerDoW {
+	display: none;
+}
+table.season tbody.viewDays,
+table.season tbody.viewMonths,
+table.season tbody.viewYears,
+table.season tbody.viewHalfyears,
+table.season tbody.viewHalfSeasons,
+table.season tbody.viewQuarters,
+table.season tr.datepickerDoW {
+	display: none;
+}
+
+table.halfseason tbody.viewDays,
+table.halfseason tbody.viewMonths,
+table.halfseason tbody.viewYears,
+table.halfseason tbody.viewHalfyears,
+table.halfseason tbody.viewSeasons,
+table.halfseason tbody.viewQuarters,
+table.halfseason tr.datepickerDoW {
+	display: none;
+}
+table.quarter tbody.viewDays,
+table.quarter tbody.viewMonths,
+table.quarter tbody.viewYears,
+table.quarter tbody.viewHalfyears,
+table.quarter tbody.viewSeasons,
+table.quarter tbody.viewHalfSeasons,
+table.quarter tr.datepickerDoW {
+	display: none;
+}
+td.datepickerDisabled a,
+td.datepickerDisabled.datepickerNotInMonth a{
+	color: #333;
+}
+td.datepickerDisabled a:hover {
+	color: #333;
+}
+td.datepickerSpecial a {
+	background: #700;
+}
+td.datepickerSpecial.datepickerSelected a {
+	background: #a00;
+}
+
+table.container.multiple table.day th.headline a:hover,
+table.container.multiple table.dayWeek th.headline a:hover,
+table.container.multiple table.month th.headline a:hover,
+table.container.multiple table.year th.headline a:hover,
+table.container.multiple table.halfyear th.headline a:hover,
+table.container.multiple table.season th.headline a:hover,
+table.container.multiple table.halfseason th.headline a:hover,
+table.container.multiple table.quarter th.headline a:hover,
+table.container.multiple table.week th.headline a:hover {
+	color: #ffffff;
+	text-decoration: none;
+	cursor: default;
+}
+
+table.container table.halfyear th.headline a:hover,
+table.container table.season th.headline a:hover,
+table.container table.halfseason th.headline a:hover,
+table.container table.quarter th.headline a:hover,
+table.container table.quarter th.headline a:hover {
+	color: #ffffff;
+	text-decoration: none;
+	cursor: default;
+}
+
+table.container.year table.year th.headline a:hover {
+	color: #ffffff;
+	text-decoration: none;
+	cursor: default;
+}
+
+/*******************************/
+/*     DATEPICKER DROPDOWN     */
+/*******************************/
+
+.datepicker .dropDown {
+	width: 14px;
+	height: 14px;
+	position: absolute;
+	top: 3px;
+	right: 30px;
+	z-index:500;
+	background: url("../images/datepicker/datepicker_dropdown.gif") center center no-repeat;
+	cursor: pointer;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+}
+
+.datepicker .dropDown.closed .dropList {
+	display: none;
+}
+
+.datepicker .dropDown.opened .dropList {
+	display: block;
+}
+
+.datepicker .dropDown .dropList {
+    display: block;
+    left: -31px;
+    position: absolute !important;
+    top: 17px;
+    z-index: 500;
+    width: 75px;
+    display: none;
+}
+
+.datepicker .dropDown .dropList .scrollBox
+{
+	display: block;
+	position: relative;
+	border:  0px;
+	border-left: 1px solid #7C7C7C;
+	border-right: 1px solid #7C7C7C;
+	border-bottom: 1px solid #7C7C7C;
+	background-color: #ffffff;
+	margin-left: -1px;
+	margin-top:0px;
+	background-image: none !important;
+		
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.datepicker .dropDown .dropList ul
+{
+	list-style-type: none !important;
+	display: block;
+	zoom:1;
+	position:relative;
+}
+
+.datepicker .dropDown .dropList.bottom
+{
+	margin-top:1px;
+}
+
+.datepicker .dropDown .dropList.bottom
+{
+	margin-top:1px;
+}
+
+.datepicker .dropDown .dropList.bottom
+{
+	margin-top:1px;
+}
+
+/* Safari hack */
+@media screen and (-webkit-min-device-pixel-ratio:0)
+{
+	.datepicker .dropDown .dropList.bottom
+	{
+		margin-top:0px;
+	}
+}
+
+body.ie6 .datepicker .dropDown .dropList.top, body.ie7 .datepicker .dropDown .dropList.top
+{
+	margin-top:0px;
+}
+
+.datepicker .dropDown .dropList ul li ul
+{
+	display: block;
+	margin: 0;
+}
+
+
+/****************/
+/*   1. LEVEL   */
+/****************/
+.datepicker .dropDown .dropList ul li
+{
+	list-style: none;
+	display: block;
+	cursor: pointer;
+}
+
+.datepicker .dropDown .dropList ul li a
+{
+	display: block;
+	padding: 2px 4px 2px 4px;
+	cursor: pointer;
+	background-color: #ffffff;
+	font-size:11px;
+	line-height:13px;
+	white-space: nowrap;
+	border:0px solid #cc0000;
+	color:#000000;
+	position: relative;
+	text-align: center;
+	height: auto;
+	width: auto;
+}
+
+.datepicker .dropDown .dropList ul li a:hover
+{
+	background-color: #eeeeee;
+	text-decoration: none;
+	color: #000000 !important;
+	cursor: pointer !important;
+}
+
+.datepicker .dropDown .dropList ul li.selected a
+{
+	background-color:#eeeeee;
+	color: #000000;
+}
+
+
+
+.datepicker .dropDown .dropList .shadowbox .shadow_t {
+    width: 55px;
+}
+
+

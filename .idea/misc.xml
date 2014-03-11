@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="EntryPointsManager">
+    <entry_points version="2.0" />
+  </component>
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/balanced" />
+    <file type="web" url="file://$PROJECT_DIR$/cosbalanced" />
+  </component>
+  <component name="IdProvider" IDEtalkID="AB60C6207F06AF9E5395A9F24CFAC633" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="D:/Development/Workspaces/Personal/libraries-logging/Essence-Logging/pom.xml" />
+        <option value="D:/Development/Workspaces/Personal/libraries-configuration/Essence-Configuration/pom.xml" />
+        <option value="D:/Development/Workspaces/Personal/libraries-dto/Essence-Dto/pom.xml" />
+        <option value="D:/Development/Workspaces/Personal/libraries-persistence/Essence-Persistence/pom.xml" />
+        <option value="D:/Development/Workspaces/Personal/libraries-security/Essence-Security/pom.xml" />
+        <option value="D:/Development/Workspaces/Personal/libraries-servlet/Essence-Servlet/pom.xml" />
+        <option value="D:/Development/Workspaces/Personal/libraries-setupdata/Essence-SetupData/pom.xml" />
+        <option value="D:/Development/Workspaces/Personal/library-business/Essence-Business/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true" project-jdk-name="1.7" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
+

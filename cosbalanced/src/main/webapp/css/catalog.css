@@ -1,0 +1,217 @@
+/*
+	File: catalog.css
+	Purpose: CSS styles for Catalog Tree
+	Dependency: base.css, layout.css, dialog.css
+	$Author: udy $
+*/
+
+
+
+/*######################*/
+/*#       CATALOG      #*/
+/*######################*/
+
+/* UDY unknown */
+.isCatalog ol
+{
+	list-style-type: none;
+	color: #000000;
+	font-size: 13px;
+	line-height: 16px;
+	overflow: hidden;
+	position: relative;
+}
+
+.isCatalog ol li
+{
+	cursor: pointer;
+	background-color: #ffffff;
+	font-size: 12px;
+	-moz-user-select: none;
+	list-style-type: decimal;
+	list-style-position: inside;
+	position: relative;
+}
+
+.isCatalog.disabled ol { background-color: #f4f4f4; }
+
+.isCatalog.disabled ol li
+{
+	cursor: default !important;
+	background-color: #f4f4f4;
+}
+
+.isCatalog ol li.selected
+{
+	background-color: #dedede;
+	color: #000000;
+}
+
+.isCatalog ol li.focused, .isCatalog ol li.selected.focused
+{
+	background-color: #000066 !important;
+	color: #ffffff !important;
+}
+
+/* default modal width */
+.modal table td.wmod1 .selectbox.isCatalog { width:392px; }
+body.ie6 .modal table td.wmod1 .selectbox.isCatalog, body.ie7 .modal table td.wmod1 .selectbox.isCatalog { width:388px; }
+body.ie8 .modal table td.wmod1 .selectbox.isCatalog { width:396px; }
+
+/* buttonbox width */
+body.ie6 .modal .isCatalog td div.buttonbox { width:80px; }
+
+
+/************************/
+/*    STATUS DISPLAY    */
+/************************/
+.isCatalog ol li span.icon, .isCatalog ol.withStatus li span.icon,
+.isCatalog ol li span.status, .isCatalog ol.withStatus li span.status
+{
+	display: block;
+	width: 15px;
+	height: 16px;
+	vertical-align: -2px;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	position: absolute;
+	top:0px;
+}
+
+.isCatalog ol li span.status, .isCatalog ol.withStatus li span.status
+{
+	left: 0px;
+	width: 16px;
+	display: block;
+}
+
+body.ie6 .isCatalog ol li span.icon, 
+body.ie7 .isCatalog ol li span.icon,
+body.ie6 .isCatalog ol li span.status, 
+body.ie7 .isCatalog ol li span.status { top:1px; }
+
+body.ie6 .isCatalog li span.text, body.ie7 .isCatalog li span.text { margin-left: 5px !important; }
+body.ie8 .isCatalog li span.text { margin-left: -3px !important; }
+
+/* IE fix for flickering .focused hover class */
+body.ie6 .isCatalog ol li span.text, body.ie6 .isCatalog ol.withStatus li span.text { display: block; }
+body.ie7 .isCatalog ol li span.text, body.ie7 .isCatalog ol.withStatus li span.text,
+body.ie8 .isCatalog ol li span.text, body.ie8 .isCatalog ol.withStatus li span.text
+{
+	border: 1px solid transparent;
+}
+
+.isCatalog ol li.opened span.icon { background-image: url("../images/catalog/tree-arrowdown.gif") !important; }
+.isCatalog ol li.list span.icon { background-image: url("../images/catalog/tree-arrowright.gif"); }
+
+.isCatalog ol li span.status.red_exclamation_mark, .isCatalog ol li span.status.black_x, .isCatalog ol li span.status.blue_check, .isCatalog ol li span.status.yellow_check, .isCatalog ol li span.status.red_check
+{
+	background-position: -2px 0px !important;
+	background-repeat: no-repeat;
+}
+
+.isCatalog ol li span.status.red_exclamation_mark { background-image: url("../images/status/red_exclamation_mark.png"); }
+.isCatalog ol li span.status.black_x { background-image: url("../images/status/black_x.png"); }
+.isCatalog ol li span.status.blue_check { background-image: url("../images/status/blue_check.png"); }
+.isCatalog ol li span.status.yellow_check { background-image: url("../images/status/yellow_check.png"); }
+.isCatalog ol li span.status.red_check { background-image: url("../images/status/red_check.png"); }
+
+/* IE6 GIFs */
+body.ie6 .isCatalog ol li span.status.red_exclamation_mark { background-image: url("../images/status/red_exclamation_mark.gif"); }
+body.ie6 .isCatalog ol li span.status.black_x { background-image: url("../images/status/black_x.gif"); }
+body.ie6 .isCatalog ol li span.status.blue_check { background-image: url("../images/status/blue_check.gif"); }
+body.ie6 .isCatalog ol li span.status.yellow_check { background-image: url("../images/status/yellow_check.gif"); }
+body.ie6 .isCatalog ol li span.status.red_check { background-image: url("../images/status/red_check.gif"); }
+
+
+/****************/
+/*   1. LEVEL   */
+/****************/
+.isCatalog ol.l0 li { font-size: 12px; font-weight: bold; padding: 1px 10px 2px 17px; }
+.isCatalog ol.l0 li span.icon { left: 0px; }
+
+body.ie6 .isCatalog ol.l0 li { padding-left: 17px; }
+
+/* STATUS */
+.isCatalog ol.withStatus.l0 li { padding-left: 36px; }
+.isCatalog ol.withStatus.l0 li span.icon { left: 19px; }
+
+body.ie6 .isCatalog ol.withStatus.l0 li span.icon { left: -32px; }
+body.ie6 .isCatalog ol.withStatus.l0 li span.status { left: -52px; }
+
+/****************/
+/*   2. LEVEL   */
+/****************/
+.isCatalog ol ol.l1 li { font-size: 12px; font-weight: bold; padding: 1px 10px 2px 37px; }
+.isCatalog ol ol.l1 li span.icon { left: 20px; }
+
+body.ie6 .isCatalog ol ol.l1 li { padding-left: 37px; }
+
+/* STATUS */
+.isCatalog ol.withStatus ol.l1 li { padding-left: 55px; }
+.isCatalog ol.withStatus ol.l1 li span.icon { left: 37px; }
+
+body.ie6 .isCatalog ol.withStatus ol.l1 li span.icon { left: -32px; }
+body.ie6 .isCatalog ol.withStatus ol.l1 li span.status { left: -71px; }
+
+/****************/
+/*   3. LEVEL   */
+/****************/
+.isCatalog ol ol ol.l2 li { font-size: 12px; font-weight: normal; padding: 1px 10px 2px 57px; }
+.isCatalog ol ol ol.l2 li span.icon { left: 40px; }
+
+body.ie6 .isCatalog ol ol ol.l2 li { padding-left: 57px; }
+
+/* STATUS */
+.isCatalog ol.withStatus ol ol.l2 li { padding-left: 75px; }
+.isCatalog ol.withStatus ol ol.l2 li span.icon { left: 60px; }
+
+body.ie6 .isCatalog ol.withStatus ol ol.l2 li span.icon { left: -32px; }
+body.ie6 .isCatalog ol.withStatus ol ol.l2 li span.status { left: -91px; }
+
+/****************/
+/*   4. LEVEL   */
+/****************/
+.isCatalog ol ol ol.l3 li { font-size: 12px; font-weight: normal; padding: 1px 10px 2px 77px; }
+.isCatalog ol ol ol.l3 li span.icon { left: 60px; }
+
+body.ie6 .isCatalog ol ol ol.l3 li { padding-left: 77px; }
+
+/* STATUS */
+.isCatalog ol.withStatus ol ol.l3 li { padding-left: 95px; }
+.isCatalog ol.withStatus ol ol.l3 li span.icon { left: 80px; }
+
+body.ie6 .isCatalog ol.withStatus ol ol.l3 li span.icon { left: -12px; }
+body.ie6 .isCatalog ol.withStatus ol ol.l3 li span.status { left: -71px; }
+
+/****************/
+/*   5. LEVEL   */
+/****************/
+.isCatalog ol ol ol.l4 li { font-size: 12px; font-weight: normal; padding: 1px 10px 2px 97px; }
+.isCatalog ol ol ol.l4 li span.icon { left: 80px; }
+
+body.ie6 .isCatalog ol ol ol.l4 li { padding-left: 97px; }
+
+/* STATUS */
+.isCatalog ol.withStatus ol ol.l4 li { padding-left: 115px; }
+.isCatalog ol.withStatus ol ol.l4 li span.icon { left: 100px; }
+
+body.ie6 .isCatalog ol.withStatus ol ol.l4 li span.icon { left: 8px; }
+body.ie6 .isCatalog ol.withStatus ol ol.l4 li span.status { left: -51px; }
+
+/*#  PREVIOUS NEXT ICONS  #*/
+.pagePrev, .pageNext
+{
+	width: 20px;
+	height: 22px;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.pagePrev
+{
+	margin-right: 10px;
+	background: url("../images/previous.gif") center center no-repeat;
+}
+
+.pageNext { background: url("../images/next.gif") center center no-repeat; }

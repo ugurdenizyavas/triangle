@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+	<bean name="roleInteractionsService"
+		class="com.deniz.role.business.impl.AppRoleInteractionsServiceImpl">
+		<property name="roleInteractionsDao" ref="roleInteractionsDao" />
+	</bean>
+
+	<bean name="roleInteractionsDao"
+		class="com.deniz.role.persistence.impl.AppRoleInteractionsDaoImpl"
+		parent="framework_daoTemplate">
+	</bean>
+
+</beans>

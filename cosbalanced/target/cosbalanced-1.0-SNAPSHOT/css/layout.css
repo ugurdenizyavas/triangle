@@ -1,0 +1,1150 @@
+/*
+	File: layout.css
+	Purpose: builds up the layout skeleton and the navigation elements
+	Dependency: base.css
+	$Author: udy $
+*/
+
+/*#################################*/
+/*#          LAYOUT CSS           #*/
+/*#################################*/
+#container {
+	height: 100%;
+}
+
+/*#######################################*/
+/*#     MIN-WIDTH RESOLUTION STYLES     #*/
+/*#######################################*/
+
+/***************/
+/*   RES1024   */
+/***************/
+#container.res1024columns2,#container.res1024columns3 {
+	min-width: 997px; /* For good browsers */
+}
+
+body.ie7 #container.res1024columns2,body.ie7 #container.res1024columns3
+	{
+	min-width: 993px;
+}
+
+body.ie8 #container.res1024columns2,body.ie8 #container.res1024columns3
+	{
+	min-width: 995px;
+}
+
+/*   MIN WIDTH FIX FOR IE6   */
+body.ie6 .res1024columns2 {
+	padding: 0 496px;
+	text-align: left;
+}
+
+.res1024columns2 .min_width_inner,.res1024columns3 .min_width_inner {
+	width: 100%; /*  gives the element hasLayout */
+}
+
+.res1024columns2 .min_width_container,.res1024columns3 .min_width_container
+	{
+	margin: 0 -496px;
+	position: relative; /* Fixes negative margin bug */
+	float: left;
+}
+
+/***************************/
+/*    RES1024 COLUMNS 3    */
+/***************************/
+#container.res1024columns3 {
+	min-width: 1207px; /* For good browsers */
+}
+
+body.ie7 #container.res1024columns3 {
+	min-width: 1207px;
+}
+
+body.ie8 #container.res1024columns3 {
+	min-width: 1207px;
+}
+
+/***************/
+/*   RES1280   */
+/***************/
+#container.res1280columns2,#container.res1280columns3 {
+	min-width: 1255px; /* For good browsers */
+}
+
+body.ie7 #container.res1280columns2,body.ie7 #container.res1280columns3
+	{
+	min-width: 1250px;
+}
+
+body.ie8 #container.res1280columns2,body.ie8 #container.res1280columns3
+	{
+	min-width: 1200px;
+}
+
+/*   MIN WIDTH FIX FOR IE6   */
+body.ie6 .res1280columns2,body.ie6 .res1280columns3 {
+	padding: 0 629px;
+	text-align: left;
+}
+
+.res1280columns2 .min_width_inner,.res1280columns3 .min_width_inner {
+	width: 100%; /*  gives the element hasLayout */
+}
+
+.res1280columns2 .min_width_container,.res1280columns3 .min_width_container
+	{
+	margin: 0 -629px;
+	position: relative; /* Fixes negative margin bug */
+	float: left;
+}
+
+/*###################*/
+/*#     CONTENT     #*/
+/*###################*/
+#storage {
+	display: none;
+}
+
+#content {
+	
+}
+
+/**************/
+/*   HEADER   */
+/**************/
+#header {
+	font-family: 'Lucida Console';
+    font-size: 16px;    
+    padding: 0 0 0 0;
+}
+
+/**************/
+/*   FOOTER   */
+/**************/
+#footer {
+	font-size: 0.8em;
+	border-top: 0px solid #111111;
+	clear: both;
+	padding: 0 0 0 0;
+	height: 30%;
+	background-color: #111111;
+	width: 100%;
+}
+
+body.ie6 #footer {
+	padding: 0 0 0 200px;
+}
+
+#footer p {
+	padding: 3px 0 3px 5px;
+	border-left: 10px solid #cccccc;
+}
+
+body.ie7 #footer p {
+	margin-top: -1px;
+}
+
+/*************/
+/*   TITLE   */
+/*************/
+.title {
+	margin: 0 0px;
+	padding: 0 0px;
+	width: 100%;
+	float: left;
+	background-color: #111111;
+}
+
+/* UDY Unknown */
+.title h1 {
+	margin: 0 0 0 10px;
+	padding: 0px 0 0px 5px;
+	color: #999999;
+	font-size: 1.4em;
+	font-weight: bold;
+}
+
+/*###########################*/
+/*#      LAYOUT SETUPS      #*/
+/*###########################*/
+.contentWrap,.wrapper {
+	float: left;
+	width: 90%;
+	height: 100%;
+}
+
+.wrapper {
+	padding-bottom: 0px;
+}
+
+/************************************************/
+/*   APPLICATION - FIXED FLUID FIXED - LAYOUT   */
+/************************************************/
+/* DNZ Yukaridaki balancedin backgroundu */
+#headerApplication {
+    background-color: #57647D;
+	zoom: 1;
+}
+
+#headerApplication .colContent {
+	margin: 0 200px 0 200px;
+	/*Margins for content column. Should be "0 RightColumnWidth 0 ColumnWidth*/
+}
+
+/* UDY unknown */
+#headerApplication .colLeft {
+	float: left;
+	width: 200px;
+	/*Width of left column*/
+	margin-left: -100%;
+	overflow-x: visible;
+	padding: 3px 0px 0px 7px;
+	color: #ffffff;
+	font-weight: bold;
+	line-height: 1.4em;
+}
+
+/* UDY unknown */
+#headerApplication .colRight {
+	float: left;
+	width: 200px;
+	/*Width of right column*/
+	margin-left: -200px;
+	/*Set left margin to -(RightColumnWidth)*/
+}
+
+/*DNZ  Tepedeki Balanced yazisi*/
+#headerApplication h3 {
+	padding: 10px 0px 1px 0px;
+	text-align: center;
+	color:  #2B2982;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+#headerApplication a.bullet,#headerApplication a:hover.bullet {
+	background: url(../images/navi-orange.gif) 3px 50% no-repeat;
+	padding: 2px 0px 3px 13px;
+	margin-right: 18px;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #ffffff;
+	float: right;
+}
+
+/********************************************/
+/*      COMPANY - FLUID FIXED - LAYOUT      */
+/********************************************/
+/* UDY unknown */
+#headerCompany {
+	border: 0px solid #cc0000;
+}
+
+#headerCompany .colContent {
+	margin-right: 300px;
+	/*Set right margin to RightColumnWidth*/
+}
+
+#headerCompany .colRight {
+	float: left;
+	width: 280px;
+	/*Width of right column in pixels*/
+	margin-left: -300px;
+	padding-right: 20px;
+	/*Set left margin to -(RightColumnWidth) */
+}
+
+/********************************************/
+/*   CONTENT - FIXED FLUID FIXED - LAYOUT   */
+/********************************************/
+#container #content,#container #login
+#login {
+    float: left;
+    margin: 0;
+    padding: 0 0 20px 20px;
+    width: 85%;
+}
+
+#container #left {
+	float: left;
+	width: 10%;
+	/*Width of left column*/
+	overflow-x: visible;
+}
+
+#container #right {
+	float: right;
+	width: 10%;
+	/*Width of left column*/
+	overflow-x: visible;
+	background-color: #111111;
+	height: 100%;
+	border-bottom: 25px solid #111111;
+}
+
+#container .contentColRight {
+	float: right;
+	width: 130px;
+	/*Width of right column*/
+	padding-left: 30px;
+	overflow: visible;
+}
+
+/********************/
+/*     HOTLINKS     */
+/********************/
+#left .hotlinks {
+	clear: both;
+	border: 0 solid #B9CDD2;
+	float: left;
+	margin-bottom: 20px;
+}
+
+#left .hotlinks h2 {
+	color: #000000;
+	display: block;
+	padding: 2px 0 3px 5px;
+	background-color: #cccccc;
+}
+
+#left .hotlinks ul {
+	padding: 4px 0 4px 0px;
+	background-color: #eeeeee;
+}
+
+#left .hotlinks ul li {
+	list-style: none;
+	clear: both;
+	background: url("../images/bullet_orange.gif") 0px 3px no-repeat;
+}
+
+#left .hotlinks ul li a {
+	display: block;
+	font-size: 1.2em;
+	padding: 2px 0px 3px 16px;
+	width: 164px;
+}
+
+body.ie6 #left .hotlinks ul li a,body.ie7 #left .hotlinks ul li a,body.ie8 #left .hotlinks ul li a
+	{
+	font-size: 1.3em;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	#left .hotlinks ul li a {
+		font-size: 1.3em;
+	}
+}
+
+#left .hotlinks ul li.disabled a {
+	color: #999999;
+}
+
+#left .hotlinks ul li.disabled {
+	background: url("../images/bullet_grey.gif") 0px 3px no-repeat;
+}
+
+#left .hotlinks ul li.disabled a:hover {
+	text-decoration: none;
+	cursor: default;
+}
+
+/********************/
+/*    INFO BOXES    */
+/********************/
+/* DNZ helpin arkasi */
+#content .contentColRight {
+	background-color: #CC6600;
+}
+
+/* DNZ helpin arkasi */
+#content .contentColRight .info,#content .contentColRight .header {
+	margin: 0 0 15px 0;
+	padding: 0 0 5px 0;
+	background-color: #CC6600;
+	overflow: visible;
+	float: right;
+}
+
+#content .contentColRight .header {
+	margin: 0 0 0 0;
+}
+
+/* DNZ Helpin arkasi */
+#content .contentColRight .info h2,#content .contentColRight .header h2
+	{
+	padding: 2px 0 3px 5px;
+	background-color: #CC6600;
+	border-left: 10px solid #CC6600;
+	margin: 0 0 10px -10px;
+}
+
+#content .contentColRight .info p {
+	margin: 3px 5px 5px 5px;
+	padding: 1px 0 3px 2px;
+	line-height: 1.4em;
+	cursor: pointer;
+	text-align: center;
+}
+
+#content .contentColRight .info img {
+	margin: 5px 5px 5px 5px;
+	padding: 0px 5px 3px 2px;
+	cursor: pointer;
+	float: left;
+	width: auto;
+	height: auto;
+}
+
+/*####################################*/
+/*#           NAVIGATION             #*/
+/*####################################*/
+/*################################*/
+/*#       EXTRAS NAVIGATION      #*/
+/*################################*/
+.extras {
+	padding-top: 17px;
+	zoom: 1;
+}
+
+.extras ul {
+	list-style: none;
+	float: left;
+	padding: 0 13px 0 13px;
+	background: url("../images/streifen-hintergrund-plus.gif") top left
+		repeat;
+}
+
+.extras li {
+	float: left;
+}
+
+.extras a,.extras a:link,.extras a:visited,.extras li span {
+	float: left;
+	display: block;
+	padding: 5px 4px 5px 4px;
+	text-decoration: none;
+	font-size: 1.2em;
+	line-height: 14px;
+	font-weight: bold;
+	color: #000066;
+}
+
+.extras a:hover {
+	text-decoration: underline;
+}
+
+.extras li span {
+	padding: 5px 0px 0px 0px;
+}
+
+/***************************/
+/*    READONLY DISABLED    */
+/***************************/
+body.ie6 .extras li.disabled {
+	background-color: transparent !important;
+}
+
+.extras li.disabled a {
+	color: #999999;
+}
+
+.extras li.disabled a:hover {
+	text-decoration: none;
+	cursor: default;
+}
+
+/*#####################################*/
+/*#       MENU MODULE NAVIGATION      #*/
+/*#####################################*/
+/* UDY Unknown */
+.modules {
+	background-color: #000066;
+	zoom: 1;
+	height: 22px;
+}
+
+.modules ul {
+	list-style: none;
+	float: left;
+}
+
+.modules li {
+	float: left;
+	padding: 0 0 0 9px;
+	background: url("../images/navi-weiss.gif") 6px 8px no-repeat;
+	font-weight: normal;
+}
+
+body.ie6 .modules li,body.ie7 .modules li {
+	background-position: 6px 7px;
+}
+
+.modules li.selected {
+	background: url("../images/arrow_orange_down.gif") 2px 4px no-repeat;
+	font-weight: bold;
+}
+
+body.ie6 .modules li.selected,body.ie7 .modules li.selected {
+	background-position: 2px 3px;
+}
+
+/* UDY Unknoqwn */
+.modules a,.modules a:link,.modules a:visited {
+	float: left;
+	display: block;
+	padding: 3px 15px 3px 8px;
+	text-decoration: none;
+	font-size: 1.2em;
+	line-height: 1.4em;
+	color: #ffffff;
+	border-right: 1px solid #ffffff;
+}
+
+.modules a:hover {
+	text-decoration: underline;
+}
+
+.modules li.disabled a {
+	cursor: text;
+	text-decoration: none;
+}
+
+body.ie6 .modules li.disabled {
+	background-color: transparent !important;
+	background-image: url("../images/navi-weiss.gif") !important;
+}
+
+/*###############################*/
+/*#       MACRO NAVIGATION      #*/
+/*###############################*/
+/* UDY Unknown */
+#left .menu {
+	clear: both;
+	border: 0 solid #111111;
+	float: left;
+	margin-bottom: 20px;
+	width: 100%;
+	border-right: 3px solid #111111;
+	border-left: 1px solid #111111;
+	border-bottom: 2px solid #111111;
+}
+
+#right .menu {
+	clear: both;
+	border: 0 solid #B9CDD2;
+	float: left;
+	margin-bottom: 20px;
+	width: 100%; border-right : 3px solid #111111;
+	border-left: 1px solid #111111;
+	border-bottom: 2px solid #111111;
+	background-color: #111111;
+	border-right: 3px solid #111111;
+}
+
+/* DNZ Menunun arkasi */
+#right .menu ul {
+	padding-top: 1px;
+	font-weight: bold;
+}
+
+#right .menu ul li {
+	list-style: none;
+	clear: both;
+}
+
+/* DNZ Menunun arkasi */
+#left .menu ul {
+	font-weight: bold;
+}
+
+/* DNZ Menunun arkasi */
+#right .menu ul li a {
+	display: block;
+	font-size: 1.2em;
+	border-bottom: 1px solid #111111; background-color: #111111;
+}
+
+#left .menu ul li {
+	list-style: none;
+	clear: both;
+}
+
+/* DNZ Menunun arkasi */
+#left .menu ul li a {
+	display: block;
+	font-size: 1.2em;
+}
+
+body
+.ie6
+ 
+#left
+ 
+.menu
+ 
+ul
+ 
+li
+ 
+a
+,
+body
+.ie7
+ 
+#left
+ 
+.menu
+ 
+ul
+ 
+li
+ 
+a
+,
+body
+.ie8
+ 
+#left
+ 
+.menu
+ 
+ul
+ 
+li
+ 
+a
+,
+body
+.ie9
+ 
+#left
+ 
+.menu
+ 
+ul
+ 
+li
+ 
+a
+{
+font-size
+:
+1.3em;
+}
+body
+.ie6
+ 
+#right
+ 
+.menu
+ 
+ul
+ 
+li
+ 
+a
+,
+body
+.ie7
+ 
+#right
+ 
+.menu
+ 
+ul
+ 
+li
+ 
+a
+,
+body
+.ie8
+ 
+#right
+ 
+.menu
+ 
+ul
+ 
+li
+ 
+a
+,
+body
+.ie9
+ 
+#right
+ 
+.menu
+ 
+ul
+ 
+li
+ 
+a
+{
+font-size
+:
+1.3em;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	#left .menu ul li a {
+		font-size: 1.3em;
+	}
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	#right .menu ul li a {
+		font-size: 1.3em;
+	}
+}
+
+body.ie6 #left .menu ul li a,body.ie7 #left .menu ul li a,body.ie8 #left .menu ul li a,body.ie9 #left .menu ul li a
+	{
+	font-size: 1.3em;
+}
+
+body.ie6 #right .menu ul li a,body.ie7 #right .menu ul li a,body.ie8 #right .menu ul li a,body.ie9 #right .menu ul li a
+	{
+	font-size: 1.3em;
+}
+
+@media
+screen
+and
+(-webkit-min-device-pixel-ratio:0)
+{
+#left
+ 
+.menu
+ 
+ul
+ 
+li
+ 
+a
+{
+font-size
+:
+1.3em;
+}
+}
+@media
+screen
+and
+(-webkit-min-device-pixel-ratio:0)
+{
+#right
+ 
+.menu
+ 
+ul
+ 
+li
+ 
+a
+{
+font-size
+:
+1.3em;
+}
+}
+
+/* UDY Unknown */
+#left .menu ul li ul {
+	border-bottom: 0px solid #eeeeee;
+	border-right: 0px solid #eeeeee;
+	display: none;
+}
+
+/* UDY Unknown */
+#right .menu ul li ul {
+	border-bottom: 0px solid #eeeeee;
+	border-right: 0px solid #eeeeee;
+	display: none;
+}
+
+#left .menu ul li ul li ul {
+	border-bottom: 0px solid #eeeeee;
+	border-right: 0px solid #eeeeee;
+	display: none;
+}
+
+#right .menu ul li ul li ul {
+	border-bottom: 0px solid #eeeeee;
+	border-right: 0px solid #eeeeee;
+	display: none;
+}
+
+/* DNZ Menunun ust kismi */
+#left .menu h2 a {
+	color: #AAAAAA;
+	display: block;
+	padding: 2px 0 3px 5px;
+	cursor: pointer;
+	background: #111111 url(../images/bbase_home.gif) 163px 6px no-repeat;
+	overflow-x: hidden;
+}
+
+/* DNZ Menunun ust kismi */
+#right .menu h2 a {
+	color: #ffffff;
+	display: block;
+	padding: 2px 0 3px 5px;
+	cursor: pointer;
+	background: #111111 url(../images/bbase_home.gif) 163px 6px no-repeat;
+	overflow-x: hidden;
+}
+
+/**************/
+/*   STATES   */
+/**************/
+#left .menu li.submenu.opened {
+	display: block;
+	background-image: url(../images/arrow_orange_down.gif) !important;
+}
+
+#left .menu li.submenu.disabled {
+	background-image: url(../images/arrow_grey_right.gif) !important;
+}
+
+#left .menu li.submenu.opened ul {
+	display: block;
+}
+
+#left .menu li.item.disabled {
+	background-image: url(../images/bullet_grey.gif) !important;
+}
+
+#right .menu li.submenu.opened {
+	display: block;
+	background-image: url(../images/arrow_orange_down.gif) !important;
+}
+
+#right .menu li.submenu.disabled {
+	background-image: url(../images/arrow_grey_right.gif) !important;
+}
+
+#right .menu li.submenu.opened ul {
+	display: block;
+}
+
+#right .menu li.item.disabled {
+	background-image: url(../images/bullet_grey.gif) !important;
+}
+
+#left .menu .selected {
+	font-weight: bold;
+	color: #000066;
+}
+
+#right .menu .selected {
+	font-weight: bold;
+	color: #000066;
+}
+
+#left .menu .disabled a {
+	color: #767676;
+	text-decoration: none;
+	cursor: default;
+}
+
+#right .menu .disabled a {
+	color: #767676;
+	text-decoration: none;
+	cursor: default;
+}
+
+/*    CALLING   */
+#left .menu ul li.calling a {
+	text-decoration: none;
+	background: url("../images/ajaxSigns/ajax_white.gif") 162px 4px
+		no-repeat !important;
+}
+
+/*    CALLING   */
+#right .menu ul li.calling a {
+	text-decoration: none;
+	background: url("../images/ajaxSigns/ajax_white.gif") 162px 4px
+		no-repeat !important;
+}
+
+/****************/
+/*   1. LEVEL   */
+/****************/
+#left .menu ul li.submenu ul {
+	display: none;
+}
+
+#left .menu ul li.submenu.opened ul {
+	display: block;
+}
+
+#left .menu ul li.submenu {
+	background: url("../images/arrow_orange_right.gif") 0px 3px no-repeat;
+}
+
+#left .menu ul li.item {
+	background: url("../images/bullet_orange.gif") 0px 3px no-repeat;
+	background-color: #D2D2D2;
+}
+
+#right .menu ul li.submenu ul {
+	display: none;
+}
+
+#right .menu ul li.submenu.opened ul {
+	display: block;
+}
+
+#right .menu ul li.submenu {
+	background: url("../images/arrow_orange_right.gif") 0px 3px no-repeat;
+}
+
+#right .menu ul li.item {
+	background: url("../images/bullet_orange.gif") 0px 3px no-repeat;
+	background-color: #111111;
+}
+
+#left .menu ul li.item a,#left .menu ul li.submenu a {
+	padding: 2px 0px 3px 16px;
+	width: 164px;
+}
+
+#right .menu ul li.item a,#right .menu ul li.submenu a {
+	padding: 2px 0px 3px 16px;
+	width: 164px;
+}
+
+/****************/
+/*   2. LEVEL   */
+/****************/
+#left .menu ul li ul li.submenu ul {
+	display: none;
+}
+
+#left .menu ul li ul li.submenu.opened ul {
+	display: block;
+}
+
+#left .menu ul li ul li.submenu {
+	background: url("../images/arrow_orange_right.gif") 11px 3px no-repeat;
+}
+
+#left .menu ul li ul li.item {
+	background: url("../images/bullet_orange.gif") 11px 3px no-repeat;
+}
+
+#left .menu ul li ul li.item a,#left .menu ul li ul li.submenu a {
+	padding: 2px 0px 3px 28px;
+	width: auto;
+}
+
+#right .menu ul li ul li.submenu ul {
+	display: none;
+}
+
+#right .menu ul li ul li.submenu.opened ul {
+	display: block;
+}
+
+#right .menu ul li ul li.submenu {
+	background: url("../images/arrow_orange_right.gif") 11px 3px no-repeat;
+}
+
+#right .menu ul li ul li.item {
+	background: url("../images/bullet_orange.gif") 11px 3px no-repeat;
+}
+
+#right .menu ul li ul li.item a,#right .menu ul li ul li.submenu a {
+	padding: 2px 0px 3px 28px;
+	width: auto;
+}
+
+/****************/
+/*   3. LEVEL   */
+/****************/
+#left .menu ul li ul li ul li.submenu ul {
+	display: none;
+}
+
+#left .menu ul li ul li ul li.submenu.opened ul {
+	display: block;
+}
+
+#left .menu ul li ul li ul li.submenu {
+	background: url("../images/arrow_orange_right.gif") 23px 3px no-repeat;
+}
+
+#left .menu ul li ul li ul li.item {
+	background: url("../images/bullet_orange.gif") 23px 3px no-repeat;
+}
+
+#left .menu ul li ul li ul li.item a,#left .menu ul li ul li ul li.submenu a
+	{
+	padding: 2px 0px 3px 40px;
+	width: auto;
+}
+
+#right .menu ul li ul li ul li.submenu ul {
+	display: none;
+}
+
+#right .menu ul li ul li ul li.submenu.opened ul {
+	display: block;
+}
+
+#right .menu ul li ul li ul li.submenu {
+	background: url("../images/arrow_orange_right.gif") 23px 3px no-repeat;
+}
+
+#right .menu ul li ul li ul li.item {
+	background: url("../images/bullet_orange.gif") 23px 3px no-repeat;
+}
+
+#right .menu ul li ul li ul li.item a,#right .menu ul li ul li ul li.submenu a
+	{
+	padding: 2px 0px 3px 40px;
+	width: auto;
+}
+
+/********************/
+/*     SHADOWS      */
+/********************/
+.shadow_t {
+	position: absolute;
+	left: 10px;
+	top: 0;
+	right: 10px;
+	height: 10px;
+	background: url(../images/shadow/shadow_t.png) top left no-repeat;
+	font-size: 1px;
+	line-height: 1px;
+}
+
+.shadow_b {
+	position: absolute;
+	left: 10px;
+	bottom: 0;
+	right: 10px;
+	height: 10px;
+	background: url(../images/shadow/shadow_b.png) top left no-repeat;
+	font-size: 1px;
+	line-height: 1px;
+}
+
+.shadow_l {
+	position: absolute;
+	left: 0;
+	bottom: 10px;
+	top: 10px;
+	width: 10px;
+	background: url(../images/shadow/shadow_l.png) top left no-repeat;
+	font-size: 1px;
+	line-height: 1px;
+}
+
+.shadow_r {
+	position: absolute;
+	right: 0;
+	bottom: 10px;
+	top: 10px;
+	width: 10px;
+	background: url(../images/shadow/shadow_r.png) top left no-repeat;
+	font-size: 1px;
+	line-height: 1px;
+}
+
+.shadow_tl {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 10px;
+	height: 10px;
+	background: url(../images/shadow/shadow_tl.png) top left no-repeat;
+	font-size: 1px;
+	line-height: 1px;
+}
+
+.shadow_tr {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 10px;
+	height: 10px;
+	background: url(../images/shadow/shadow_tr.png) top left no-repeat;
+	font-size: 1px;
+	line-height: 1px;
+}
+
+.shadow_bl {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 10px;
+	height: 10px;
+	background: url(../images/shadow/shadow_bl.png) top left no-repeat;
+	font-size: 1px;
+	line-height: 1px;
+}
+
+.shadow_br {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 10px;
+	height: 10px;
+	background: url(../images/shadow/shadow_br.png) top left no-repeat;
+	font-size: 1px;
+	line-height: 1px;
+}
+
+body.ie6 .shadow_tl {
+	background: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/shadow/shadow_tl.png',
+		sizingMethod='crop' );
+}
+
+body.ie6 .shadow_tr {
+	background: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/shadow/shadow_tr.png',
+		sizingMethod='crop' );
+}
+
+body.ie6 .shadow_br {
+	background: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/shadow/shadow_br.png',
+		sizingMethod='crop' );
+}
+
+body.ie6 .shadow_bl {
+	background: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/shadow/shadow_bl.png',
+		sizingMethod='crop' );
+}
+
+body.ie6 .shadow_b {
+	background: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/shadow/shadow_b.png',
+		sizingMethod='crop' );
+}
+
+body.ie6 .shadow_t {
+	background: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/shadow/shadow_t.png',
+		sizingMethod='crop' );
+}
+
+body.ie6 .shadow_l {
+	background: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/shadow/shadow_l.png',
+		sizingMethod='crop' );
+}
+
+body.ie6 .shadow_r {
+	background: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/shadow/shadow_r.png',
+		sizingMethod='crop' );
+}

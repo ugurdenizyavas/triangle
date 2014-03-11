@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+	<bean name="userBusinessService"
+		class="com.deniz.balanced.user.business.impl.UserBusinessServiceImpl"
+		parent="frameworkBusinessService">
+		<property name="backendService" ref="userBackendService" />
+		<property name="converter" ref="userConverter" />
+	</bean>
+
+	<bean name="userBackendService"
+		class="com.deniz.balanced.user.business.impl.UserBackendServiceImpl"
+		parent="frameworkBackendService">
+		<property name="dao" ref="userDao" />
+		<property name="baseInvitationLimit" value="${base.invitation.limit}" />
+	</bean>
+
+	<bean name="userDao" class="com.deniz.balanced.user.persistence.impl.UserDaoImpl"
+		parent="framework_daoTemplate">
+	</bean>
+
+
+</beans>

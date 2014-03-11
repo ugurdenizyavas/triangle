@@ -1,0 +1,12 @@
+{
+   "id":"cos.modules",
+   "label":"Modules",
+   "type":"modules",
+   "items":[
+      {
+         "label":"HOME",
+         "link":"index.html",
+         "selected":true
+      }
+   ]
+}

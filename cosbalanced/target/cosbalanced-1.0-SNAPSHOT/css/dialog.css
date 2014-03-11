@@ -1,0 +1,9932 @@
+/*
+	File: dialog.css
+	Purpose: CSS styles for dialog content and elements
+	Dependency: base.css, layout.css
+	$Author: udy $
+*/
+
+/*####################*/
+/*#      DIALOG      #*/
+/*####################*/
+.dialog {
+	background-color: #111111;
+	margin-left: -5px;
+	padding-right: 22px;
+	float: left;
+	width: 100%;
+}
+
+body.ie6 .dialog {
+	float: left;
+}
+
+body.ie7 .dialog { /* float:left; IE7 ?? */
+	
+}
+
+body.ie8 .dialog {
+	
+}
+
+/*****************/
+/*    RES1024    */
+/*****************/
+#container.res1024columns1 .dialog {
+	padding-right: 25px;
+}
+
+#container.res1024columns2 .dialog {
+	padding-right: 25px;
+}
+
+body.ie6 #container.res1024columns2 .dialog {
+	float: left;
+	padding-left: 1px !important;
+	padding-right: 15px !important;
+	margin-left: -3px !important;
+}
+
+body.ie7 #container.res1024columns2 .dialog {
+	padding-right: 15px;
+}
+
+body.ie8 #container.res1024columns2 .dialog {
+	padding-right: 22px;
+}
+
+body.ie6 #container.res1024columns3 .dialog {
+	float: left;
+	padding-left: 1px !important;
+	padding-right: 15px !important;
+	margin-left: -3px !important;
+}
+
+body.ie7 #container.res1024columns3 .dialog {
+	padding-right: 15px;
+}
+
+body.ie8 #container.res1024columns3 .dialog {
+	padding-right: 22px;
+}
+
+/*****************/
+/*    RES1280    */
+/*****************/
+#container.res1280columns1 .dialog {
+	padding-right: 25px;
+}
+
+#container.res1280columns2 .dialog {
+	padding: 4px 3px 3px 4px;
+}
+
+body
+.ie6
+ 
+#container
+.res1280columns2
+ 
+.dialog {
+	float: left;
+	padding-left: 1px !important;
+	padding-right: 10px !important;
+	margin-left: -3px !important;
+}
+
+body
+.ie7
+ 
+#container
+.res1280columns2
+ 
+.dialog {
+	padding-right: 15px;
+}
+
+body
+.ie8
+ 
+#container
+.res1280columns2
+ 
+.dialog {
+	padding-right: 22px;
+}
+
+body
+.ie6
+ 
+#container
+.res1280columns2
+ 
+.dialog {
+	float: left;
+	padding-left: 1px !important;
+	padding-right: 10px !important;
+	margin-left: -3px !important;
+}
+
+body
+.ie7
+ 
+#container
+.res1280columns3
+ 
+.dialog {
+	padding-right: 22px;
+}
+
+body
+.ie8
+ 
+#container
+.res1280columns3
+ 
+.dialog {
+	padding-right: 22px;
+}
+
+/*##################*/
+/*#      TABS      #*/
+/*##################*/
+.tabs {
+	width: 100%;
+	display: table;
+}
+
+body
+.ie6
+ 
+.tabs,body
+.ie7
+ 
+.tabs {
+	width: auto;
+}
+
+body
+.ie7
+ 
+.tabs {
+	float: left;
+}
+
+.tabs .tabNav {
+	list-style: none;
+	background-color: #ffffff;
+	zoom: 1;
+	border-left: 1px solid #9A9A9A;
+	border-right: 1px solid #9A9A9A;
+}
+
+.tabs
+ 
+.tabNav
+ 
+li {
+	display: none;
+	background-color: #dddddd;
+	padding-right: 5px;
+	border-bottom: 1px solid #9A9A9A;
+}
+
+.tabs
+ 
+.tabNav
+ 
+li,.tabs
+ 
+.tabNav
+ 
+li
+.disabled {
+	position: relative;
+	float: left;
+	border-right: 1px solid #9A9A9A;
+	border-top: 1px solid #9A9A9A;
+}
+
+.tabs
+ 
+.tabNav
+ 
+li
+ 
+a {
+	float: left;
+	display: block;
+	text-decoration: none;
+	padding: 4px 16px 5px 15px;
+	font-size: 1.2em;
+	color: #000000;
+}
+
+body
+.ie9
+ 
+.tabs
+ 
+.tabNav
+ 
+li
+ 
+a {
+	padding: 5px 16px 4px 15px;
+}
+
+.tabs
+ 
+.tabNav
+ 
+li
+ 
+a
+:hover {
+	text-decoration: underline;
+}
+
+.tabs
+ 
+.tabNav
+ 
+li
+.selected {
+	border-bottom: 1px solid #eeeeee;
+}
+
+.tabs
+ 
+.tabNav
+ 
+li
+.selected {
+	background-color: #eeeeee;
+}
+
+.tabs
+ 
+.tabNav
+ 
+li
+.disabled {
+	background-color: #dddddd;
+}
+
+.tabs
+ 
+.tabNav
+ 
+li
+.selected
+ 
+a,.tabs
+ 
+.tabNav
+ 
+li
+.disabled
+ 
+a {
+	cursor: text;
+	position: relative;
+	font-weight: bold;
+	color: #000000;
+}
+
+.tabs
+ 
+.tabNav
+ 
+li
+.disabled
+ 
+a {
+	background-color: none;
+}
+
+.tabs
+ 
+.tabNav
+ 
+li
+.disabled
+ 
+a,.tabNav
+ 
+li
+.disabled
+ 
+a
+:hover {
+	color: #999999;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+.tabs
+ 
+.tabNav
+ 
+li
+ 
+a,.tabNav
+ 
+li
+.selected
+ 
+a {
+	cursor: pointer;
+}
+
+.tabNav
+ 
+li
+.selected
+ 
+a
+:hover {
+	text-decoration: none;
+}
+
+/* Tab Loading Icon */
+.tabs
+ 
+.tabNav
+ 
+li
+.selected
+.calling
+ 
+a {
+	background: url("../images/ajaxSigns/ajax_lightgray.gif") right center
+		no-repeat;
+}
+
+.tabs
+ 
+.tabNav
+ 
+li
+.calling
+ 
+a {
+	background: url("../images/ajaxSigns/ajax_gray.gif") right center
+		no-repeat;
+}
+/* Tab Saving Icon */
+.tabs
+ 
+.tabNav
+ 
+li
+.selected
+.changed
+ 
+a {
+	background: url("../images/changed_white.gif") right center no-repeat;
+}
+
+.tabs
+ 
+.tabNav
+ 
+li
+.changed
+ 
+a {
+	background: url("../images/changed_gray.gif") right center no-repeat;
+}
+/* Tab Marked Icon */
+.tabNav
+ 
+li
+.mark-blue
+ 
+a {
+	background: url("../images/status/mark_blue.png") no-repeat scroll 101%
+		center transparent;
+}
+
+.tabNav
+ 
+li
+.mark-green
+ 
+a {
+	background: url("../images/status/mark_green.png") no-repeat scroll 101%
+		center transparent;
+}
+
+.tabNav
+ 
+li
+.mark-orange
+ 
+a {
+	background: url("../images/status/mark_orange.png") no-repeat scroll
+		101% center transparent;
+}
+
+.tabNav
+ 
+li
+.mark-red
+ 
+a {
+	background: url("../images/status/mark_red.png") no-repeat scroll 101%
+		center transparent;
+}
+
+.tabNav
+ 
+li
+.mark-white
+ 
+a {
+	background: url("../images/status/mark_white.png") no-repeat scroll 101%
+		center transparent;
+}
+
+.tabNav
+ 
+li
+.mark-yellow
+ 
+a {
+	background: url("../images/status/mark_yellow.png") no-repeat scroll
+		101% center transparent;
+}
+
+/*************************/
+/*    PANEL CONTAINER    */
+/*************************/
+.tabs
+ 
+.panelContainer {
+	background-color: #eeeeee;
+	border: 0px solid #9A9A9A;
+	padding-top: 1px;
+	margin-top: -1px;
+	display: table;
+	float: left;
+	width: 100%;
+}
+
+body
+.ie7
+ 
+.tabs
+ 
+.panelContainer {
+	margin-right: 0px;
+}
+
+/********************/
+/*    TABS BOXES    */
+/********************/
+.tabs
+ 
+.tabPanel {
+	display: none;
+	background-color: #eeeeee;
+	clear: both;
+	width: 100%;
+}
+
+.tabs
+ 
+.tabPanel
+.selected {
+	display: block;
+}
+
+/*****************/
+/*    RES1024    */
+/*****************/
+#container
+.res1024columns1
+ 
+.tabs
+ 
+.tabPanel {
+	width: 1013px;
+} /* ok */
+#container
+.res1024columns2
+ 
+.tabs
+ 
+.tabPanel {
+	width: 767px;
+} /* ok */
+body
+.ie6
+ 
+#container
+.res1024columns2
+ 
+.tabs
+ 
+.tabPanel {
+	width: 771px;
+} /* ok */
+body
+.ie7
+ 
+#container
+.res1024columns2
+ 
+.tabs
+ 
+.tabPanel {
+	width: 776px;
+} /* ok */
+body
+.ie8
+ 
+#container
+.res1024columns2
+ 
+.tabs
+ 
+.tabPanel {
+	width: 768px;
+} /* ok */
+
+/*****************/
+/*    RES1280    */
+/*****************/
+#container
+.res1280columns1
+ 
+.tabs
+ 
+.tabPanel {
+	width: 1276px;
+} /* ok FF Win */
+#container
+.res1280columns2
+ 
+.tabs
+ 
+.tabPanel {
+	width: 1033px;
+} /* ok FF Win */
+body
+.ie6
+ 
+#container
+.res1280columns2
+ 
+.tabs
+ 
+.tabPanel {
+	width: 1033px;
+} /* ok */
+body
+.ie7
+ 
+#container
+.res1280columns2
+ 
+.tabs
+ 
+.tabPanel {
+	width: 1032px;
+} /* ok */
+body
+.ie8
+ 
+#container
+.res1280columns2
+ 
+.tabs
+ 
+.tabPanel {
+	width: 1032px;
+} /* ok */
+
+/***********************/
+/*    FEXIBLE WIDTH    */
+/***********************/
+#container
+ 
+.tabs
+ 
+.tabPanel
+.flex {
+	width: 100% !important;
+}
+
+body
+.ie6
+ 
+#container
+ 
+.tabs
+ 
+.tabPanel
+.flex,body
+.ie7
+ 
+#container
+ 
+.tabs
+ 
+.tabPanel
+.flex {
+	width: auto !important;
+}
+
+/******************************/
+/*    RIGHT SIDEBAR COLUMN    */
+/******************************/
+#container
+ 
+.contentColRight
+.side {
+	width: 185px;
+	padding-left: 25px;
+}
+
+body
+.ie6
+ 
+#container
+ 
+.contentColRight
+.side {
+	width: 185px;
+	padding-left: 25px;
+}
+
+body
+.ie7
+ 
+#container
+ 
+.contentColRight
+.side {
+	width: 185px;
+	padding-left: 25px;
+}
+
+body
+.ie8
+ 
+#container
+ 
+.contentColRight
+.side {
+	width: 185px;
+	padding-left: 25px;
+}
+
+/**********************/
+/*    DIALOG SMALL    */
+/**********************/
+#container
+.res1024columns3
+ 
+.dialog
+.main,#container
+.res1280columns3
+ 
+.dialog
+.main {
+	padding-right: 213px;
+} /* ok */
+body
+.ie6
+ 
+#container
+.res1024columns3
+ 
+.dialog
+.main,body
+.ie6
+ 
+#container
+.res1280columns3
+ 
+.dialog
+.main,body
+.ie6
+ 
+#container
+.res1024columns3
+ 
+.dialog
+.main,body
+.ie6
+ 
+#container
+.res1280columns3
+ 
+.dialog
+.main {
+	padding-left: 1px !important;
+	padding-right: 0px !important;
+	float: left;
+	margin-left: -3px !important;
+}
+
+body
+.ie7
+ 
+#container
+.res1024columns3
+ 
+.dialog
+.main,body
+.ie7
+ 
+#container
+.res1280columns3
+ 
+.dialog
+.main,body
+.ie7
+ 
+#container
+.res1024columns3
+ 
+.dialog
+.main,body
+.ie7
+ 
+#container
+.res1280columns3
+  
+.dialog
+.main {
+	padding-right: 3px;
+} /* ok */
+body
+.ie8
+ 
+#container
+.res1024columns3
+ 
+.dialog
+.main,body
+.ie8
+ 
+#container
+.res1280columns3
+ 
+.dialog
+.main,body
+.ie8
+ 
+#container
+.res1024columns3
+ 
+.dialog
+.main,body
+.ie8
+ 
+#container
+.res1280columns3
+ 
+.dialog
+.main {
+	padding-right: 213px;
+} /* ok */
+
+/* Safari hack */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	#container.res1280columns3 .dialog.main {
+		padding-right: 212px;
+	}
+}
+
+body
+.ie6
+ 
+#container
+ 
+.dialog
+.main
+ 
+.tabs {
+	width: 100%;
+}
+
+/*****************/
+/*    RES1024    */
+/*****************/
+#container
+.res1024
+ 
+.dialog
+.main
+ 
+.tabs
+ 
+.tabPanel {
+	width: 509px;
+	margin-right: 0px;
+} /* ok FF Win */
+body
+.ie6
+ 
+#container
+.res1024
+ 
+.dialog
+.main
+ 
+.tabs
+ 
+.tabPanel {
+	width: 513px;
+} /* ok */
+body
+.ie7
+ 
+#container
+.res1024
+ 
+.dialog
+.main
+ 
+.tabs
+ 
+.tabPanel {
+	width: 400px;
+} /* ok */
+body
+.ie8
+ 
+#container
+.res1024
+ 
+.dialog
+.main
+ 
+.tabs
+ 
+.tabPanel {
+	width: 507px;
+} /* ok */
+
+/***************************/
+/*    RES1024 COLUMNS 3    */
+/***************************/
+#container
+.res1024columns3
+ 
+.dialog
+.main
+ 
+.tabs
+ 
+.tabPanel {
+	width: 777px;
+	margin-right: 0px;
+} /* ok FF Win */
+body
+.ie6
+ 
+#container
+.res1024columns3
+ 
+.dialog
+.main
+ 
+.tabs
+ 
+.tabPanel {
+	width: 786px;
+} /* ok */
+body
+.ie7
+ 
+#container
+.res1024columns3
+ 
+.dialog
+.main
+ 
+.tabs
+ 
+.tabPanel {
+	width: 786px;
+} /* ok */
+body
+.ie8
+ 
+#container
+.res1024columns3
+ 
+.dialog
+.main
+ 
+.tabs
+ 
+.tabPanel {
+	width: 786px;
+} /* ok */
+
+/*****************/
+/*    RES1280    */
+/*****************/
+#container
+.res1280
+ 
+.dialog
+.main
+ 
+.tabs
+ 
+.tabPanel {
+	width: 775px;
+	margin-right: 0px;
+} /* ok FF Win */
+body
+.ie6
+ 
+#container
+.res1280
+ 
+.dialog
+.main
+ 
+.tabs
+ 
+.tabPanel {
+	width: 769px;
+} /* ok */
+body
+.ie7
+ 
+#container
+.res1280
+ 
+.dialog
+.main
+ 
+.tabs
+ 
+.tabPanel {
+	width: 770px;
+} /* ok */
+body
+.ie8
+ 
+#container
+.res1280
+ 
+.dialog
+.main
+ 
+.tabs
+ 
+.tabPanel {
+	width: 771px;
+} /* ok */
+
+/**************************************/
+/*    TAB FOOTER FOR SUBMIT BUTTONS   */
+/**************************************/
+.tabfooter {
+	background-color: #D2D2D2;
+	border-top: 1px solid #9A9A9A;
+	padding: 0px 15px 0px 15px;
+	margin-top: 15px;
+}
+
+body
+.ie6
+ 
+.tabfooter,body
+.ie7
+ 
+.tabfooter {
+	padding: 0px 14px 0px 15px;
+}
+
+.tabfooter
+ 
+.inner {
+	min-height: 34px !important;
+}
+
+body
+.ie6
+ 
+.tabfooter
+ 
+.inner {
+	height: 34px !important;
+}
+
+.tabfooter
+ 
+.buttons {
+	float: right;
+	padding: 2px 0px 2px 20px;
+}
+
+.tabfooter
+ 
+.dynamic {
+	float: left;
+}
+
+/**************************************/
+/*    BUTTONBOX FOR SUBMIT BUTTONS   */
+/**************************************/
+.buttonBox {
+	margin-top: -4px;
+}
+
+/********************/
+/*    SUBDIALOG    */
+/********************/
+.subdialog {
+	display: none;
+	overflow-x: visible;
+}
+
+/*******************/
+/*    GREY LINE    */
+/*******************/
+.hr {
+	padding: 0px 0px 0px 0px;
+	border-top: 1px solid #9a9a9a;
+	font-size: 1px;
+	line-height: 1px;
+	height: 1px;
+	margin-bottom: 5px;
+	margin-top: 15px;
+}
+
+.subcol
+ 
+.hr {
+	width: 100%;
+	margin-bottom: 0px;
+}
+
+/***************/
+/*    LABEL    */
+/***************/
+label {
+	display: block;
+	font-weight: bold;
+	padding: 0px 0 3px 0;
+	font-size: 10px;
+	white-space: nowrap;
+	margin-top: 7px;
+}
+
+.noLabel
+ 
+label {
+	display: none;
+}
+
+label
+.tooltipDone {
+	float: left;
+	cursor: pointer;
+}
+
+label
+ 
+span {
+	font-weight: normal;
+	padding-left: 7px;
+}
+
+label
+.underline {
+	float: none;
+	border-bottom: 1px solid #9A9A9A;
+	margin-right: 15px;
+	padding: 0 0 1px 0px;
+	margin-bottom: 10px;
+}
+
+label
+.underline
+.first {
+	margin-top: 0px !important;
+}
+
+label
+.dist {
+	margin-top: 10px !important;
+}
+
+/* IS RADIO */
+div
+.isRadio
+ 
+label,div
+.isCheck
+ 
+label,div
+.isRadio
+ 
+p,div
+.isCheck
+ 
+p {
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 21px;
+	padding: 0px 10px 0px 5px;
+	float: left;
+	margin-top: 0px;
+}
+
+body
+.ie6
+ 
+div
+.isRadio
+ 
+label,body
+.ie7
+ 
+div
+.isRadio
+ 
+label,body
+.ie6
+ 
+div
+.isCheck
+ 
+label,body
+.ie7
+ 
+div
+.isCheck
+ 
+label {
+	line-height: 22px;
+}
+
+body
+.ie8
+ 
+div
+.isRadio
+ 
+label,body
+.ie8
+ 
+div
+.isCheck
+ 
+label {
+	line-height: 23px;
+}
+
+.wrap
+.isRadio,.wrap
+.isCheck {
+	background-color: transparent;
+}
+
+/* Safari hack */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	div.isRadio label,div.isCheck label {
+		line-height: 23px;
+	}
+}
+
+div
+.isRadio
+ 
+label
+ 
+input
+.radio {
+	float: left;
+	margin-right: 3px !important;
+}
+
+/* MARGIN TOP WITHOUT LABEL*/
+div
+.pt {
+	margin-top: 24px;
+}
+
+div
+.isCheck
+ 
+label {
+	padding: 1px 10px 0px 0px;
+	white-space: normal;
+	float: none;
+}
+
+div
+.isCheck
+ 
+input
+.check {
+	float: left;
+	margin-right: 5px !important;
+}
+
+div
+.isCheck
+.wrap,div
+.isRadio
+.wrap {
+	border: 0px;
+	overflow: visible;
+}
+
+/*****************/
+/*    WRAP    */
+/*****************/
+.wrap {
+	padding: 0px 0px 0px 0px;
+	overflow-x: hidden;
+	border: 1px solid #7C7C7C;
+	clear: both;
+	background-color: #ffffff;
+}
+
+.wrap
+:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+body
+.ie6
+ 
+.wrap {
+	border: 1px solid #7C7C7C !important;
+}
+
+body
+.ie6
+ 
+.wrap,body
+.ie7
+ 
+.wrap {
+	zoom: 1;
+}
+
+body
+.ie8
+ 
+.wrap {
+	padding-top: 0 !important;
+}
+
+.wrap
+.icon {
+	margin: 0px 20px 0px 0px !important;
+	clear: none;
+}
+
+.wrap
+.icon2 {
+	margin: 0px 40px 0px 0px;
+}
+
+.wrap
+.btn {
+	padding: 0px 100px 0px 0px;
+}
+
+.wrap
+ 
+p,.wrap
+ 
+label {
+	padding: 2px 5px 0px 5px;
+	vertical-align: 2px;
+	display: inline;
+	font-size: 12px;
+	line-height: 12px;
+}
+
+.wrap
+.isChart {
+	background: none;
+}
+
+/*############################*/
+/*#       MODAL WINDOW       #*/
+/*############################*/
+.modal {
+	display: block;
+	width: 928px;
+}
+
+.modal
+ 
+p
+ 
+u {
+	text-decoration: none;
+}
+
+.modal
+ 
+pre {
+	width: 900px;
+	overflow: hidden;
+	height: 15px;
+}
+
+.modal
+ 
+.tableWrapper {
+	padding-bottom: 10px;
+}
+
+.modal
+ 
+#servicestatus
+ 
+p
+.error {
+	font-size: 12px;
+	padding-top: 0px;
+}
+
+/*#############################*/
+/*#       ERROR TEMPLATE      #*/
+/*#############################*/
+.modal
+ 
+.errorContent {
+	padding: 0 15px 0 0;
+}
+
+.modal
+ 
+.errorContent
+ 
+div {
+	-khtml-user-select: text;
+}
+
+.modal
+ 
+.errorContent
+ 
+p {
+	font-size: 12px;
+	padding-bottom: 5px;
+	padding-top: 0px;
+	width: 893px;
+	overflow-x: hidden;
+}
+
+.modal
+ 
+.errorContent
+ 
+label {
+	padding-bottom: 1px;
+}
+
+.modal
+ 
+.errorContent
+ 
+.dump
+ 
+label {
+	padding-bottom: 3px;
+}
+
+.modal
+ 
+.errorContent
+ 
+.dump
+ 
+p,.modal
+ 
+.errorContent
+ 
+.details
+ 
+p {
+	background-color: #ffffff;
+	height: 100px;
+	overflow-y: scroll;
+	border: 1px solid #9A9A9A;
+	margin-bottom: 7px;
+	padding-left: 3px;
+}
+
+.errorContent
+ 
+div
+.hr {
+	margin-bottom: 13px;
+}
+
+/* DESCRIPTION */
+.modal
+ 
+.errorContent
+ 
+.description {
+	padding: 10px 0px 10px 0px;
+}
+
+/* DETAILS */
+.modal
+ 
+.errorContent
+ 
+.details {
+	clear: both;
+}
+
+.modal
+ 
+.errorContent
+ 
+.details
+ 
+textarea {
+	height: 90px;
+}
+
+/* URL */
+.modal
+ 
+.errorContent
+ 
+.url {
+	display: none;
+}
+
+/* TICKET */
+.modal
+ 
+.errorContent
+ 
+.ticket {
+	width: 450px;
+	float: left;
+	overflow-x: hidden;
+}
+
+.modal
+ 
+.errorContent
+ 
+.ticket
+ 
+p {
+	width: auto;
+}
+
+/* TIME */
+.modal
+ 
+.errorContent
+ 
+.time {
+	width: 300px;
+	float: left;
+}
+
+.modal
+ 
+.errorContent
+ 
+.time
+ 
+p {
+	width: auto;
+}
+
+/* HINT */
+.modal
+ 
+.errorContent
+ 
+.hint {
+	clear: both;
+	padding-top: 5px;
+	/*
+	border-top: 1px solid #9A9A9A;
+	margin-top: 20px;
+	*/
+}
+
+.modal
+ 
+.errorContent
+ 
+.hint
+ 
+textarea {
+	height: 90px;
+}
+
+/* EXCEPTION & CAUSE */
+.modal
+ 
+.errorContent
+ 
+.exception
+ 
+p,.modal
+ 
+.errorContent
+ 
+.cause
+ 
+p {
+	height: 90px;
+	border: 1px solid #7C7C7C;
+	padding: 1px 0 2px 3px;
+}
+
+.modal
+ 
+.errorContent
+ 
+.exception,.modal
+ 
+.errorContent
+ 
+.cause {
+	padding-bottom: 5px;
+}
+
+/*#############################*/
+/*#       MODAL CONFIRM       #*/
+/*#############################*/
+.modal
+.confirm {
+	display: block;
+	width: 300px;
+}
+
+.modal
+.confirm
+ 
+table
+ 
+td
+.col1
+ 
+p {
+	padding-top: 15px;
+	padding-bottom: 10px;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+/*#############################*/
+/*#       MODAL LOGIN       #*/
+/*#############################*/
+.modal
+.login {
+	display: block;
+	width: 400px;
+}
+
+.modal
+.login
+ 
+.wrap
+ 
+input {
+	width: 365px;
+}
+
+/*#############################*/
+/*#       MODAL NARROW       #*/
+/*#############################*/
+.modal
+.narrow {
+	display: block;
+	width: 450px;
+}
+
+/* Select adjustment for narrow dialogs */
+.modal
+.narrow
+ 
+td
+.col1
+ 
+select {
+	width: 101.3%;
+}
+
+.modal
+.narrow
+ 
+#servicestatus
+ 
+p
+.calling {
+	text-indent: -5000px;
+}
+
+/*#############################*/
+/*#       SERVICE STATUS      #*/
+/*#############################*/
+#servicestatus {
+	padding: 8px 0px 0px 0px;
+}
+
+#servicestatus
+:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+/* IE 6+7 */
+body
+.ie6
+ 
+#servicestatus
+:after {
+	height: 1%;
+}
+
+body
+.ie7
+ 
+#servicestatus
+:after {
+	display: inline-block
+}
+
+#servicestatus
+ 
+p
+.calling {
+	font-size: 12px;
+	font-weight: normal;
+	text-align: left;
+	padding: 0 0 5px 20px;
+	clear: left;
+	float: left;
+	background: #D2D2D2 url("../images/ajaxSigns/ajax_darkgray.gif") 0px 1px
+		no-repeat;
+}
+
+#servicestatus
+ 
+p
+.warning,#servicestatus
+ 
+p
+.error,#servicestatus
+ 
+p
+.status {
+	font-size: 12px;
+	padding-bottom: 5px;
+	clear: left;
+}
+
+#servicestatus
+ 
+p
+.warning {
+	color: #FF8F00;
+	font-weight: bold;
+}
+
+#servicestatus
+ 
+p
+.error {
+	color: #D00000;
+	font-weight: bold;
+}
+
+#servicestatus
+ 
+p
+.status {
+	
+}
+
+/*####################*/
+/*#      TABLES      #*/
+/*####################*/
+.tableWrapper {
+	padding: 0px 0px 0px 15px;
+}
+
+.dataTable,.gridTable,.gridTable2,.dataFooter {
+	width: 100%;
+	border-collapse: collapse;
+	clear: both;
+	zoom: 1;
+}
+
+.gridTable
+ 
+col,.dataTable
+ 
+col {
+	width: auto;
+}
+
+.dataTable
+ 
+td,.gridTable
+ 
+td,.gridTable2
+ 
+td,.dataFooter
+ 
+td {
+	font-size: 12px;
+	font-weight: normal;
+	text-align: left;
+	vertical-align: top;
+	border: 0px solid #cc0000;
+	zoom: 1;
+}
+
+.gridTable
+ 
+td {
+	padding: 0px 15px 0px 0px;
+}
+
+.gridTable
+ 
+tr {
+	padding: 5px 0px 0px 0px;
+}
+
+.gridTable
+ 
+td
+.col1,.gridTable
+ 
+td
+.col2,.gridTable
+ 
+td
+.col3,.gridTable
+ 
+td
+.col4,.gridTable
+ 
+td
+.col5 {
+	padding: 0px 15px 0px 0px;
+}
+
+.gridTable2
+ 
+td
+.col1,.gridTable2
+ 
+td
+.col2,.gridTable2
+ 
+td
+.col3,.gridTable2
+ 
+td
+.col4,.gridTable2
+ 
+td
+.col5 {
+	padding: 0px 0px 0px 0px;
+}
+
+.gridTable
+ 
+td
+.col1,.gridTable2
+ 
+td
+.col1 {
+	width: 100%;
+}
+
+.gridTable
+ 
+td
+.col2,.gridTable2
+ 
+td
+.col2 {
+	width: 50%;
+}
+
+.gridTable
+ 
+td
+.col3,.gridTable2
+ 
+td
+.col3 {
+	width: 33.3%;
+}
+
+.gridTable
+ 
+td
+.col4,.gridTable2
+ 
+td
+.col4 {
+	width: 25%;
+}
+
+.gridTable
+ 
+td
+.col5,.gridTable2
+ 
+td
+.col5 {
+	width: 20%;
+}
+
+.gridTable
+ 
+td
+.col10,.gridTable2
+ 
+td
+.col10 {
+	width: 10%;
+}
+
+.gridTable
+ 
+td
+.col15,.gridTable2
+ 
+td
+.col15 {
+	width: 15%;
+}
+
+.gridTable
+ 
+td
+.col45,.gridTable2
+ 
+td
+.col45 {
+	width: 45%;
+}
+
+.gridTable
+ 
+td
+.col25,.gridTable2
+ 
+td
+.col25,.dataFooter
+ 
+td
+.col25 {
+	width: 25%;
+}
+
+.gridTable
+ 
+td
+.col30,.gridTable2
+ 
+td
+.col30 {
+	width: 30%;
+}
+
+.gridTable
+ 
+td
+.col75,.gridTable2
+ 
+td
+.col75 {
+	width: 75%;
+}
+
+.gridTable
+ 
+td
+.col20,.gridTable2
+ 
+td
+.col20 {
+	width: 20%;
+}
+
+.gridTable
+ 
+td
+.col80,.gridTable2
+ 
+td
+.col80 {
+	width: 80%;
+}
+
+.gridTable
+ 
+td
+.col50,.gridTable2
+ 
+td
+.col50 {
+	width: 50%;
+}
+
+.gridTable
+ 
+td
+.col40,.gridTable2
+ 
+td
+.col40 {
+	width: 40%;
+}
+
+.gridTable
+ 
+td
+.col60,.gridTable2
+ 
+td
+.col60 {
+	width: 60%;
+}
+
+/*##########################*/
+/*#      DYNAMIC AREA      #*/
+/*##########################*/
+.dynamic
+.width50 {
+	width: 50%;
+}
+
+.dynamic
+.width50
+ 
+.gridTable
+ 
+td {
+	padding-right: 20px;
+}
+
+.dynamic
+.width50
+ 
+td
+ 
+select {
+	width: 100.8%;
+}
+
+.dynamic
+ 
+td
+ 
+div
+.isCheckSelect {
+	width: 100%;
+}
+
+/****************/
+/*    SUBCOL    */
+/****************/
+.gridTable
+ 
+td
+ 
+.subcol,.gridTable2
+ 
+td
+ 
+.subcol {
+	width: 100%;
+	border: 0px solid #cc0000;
+}
+
+/*******************/
+/*    DATATABLE    */
+/*******************/
+.dataTable {
+	margin-top: 10px;
+}
+
+.dataTable
+ 
+tr
+.head
+ 
+th {
+	background-color: #D2D2D2;
+	padding: 0px 5px 0px 5px;
+	text-align: left;
+	vertical-align: middle;
+	font-size: 12px;
+	font-weight: bold;
+	height: 29px;
+	white-space: nowrap;
+}
+
+.dataTable
+ 
+tr
+.head
+ 
+th
+ 
+span
+.thtext
+ 
+span {
+	font-weight: normal;
+	padding-left: 3px;
+	font-size: 10px;
+}
+
+.dataTable
+ 
+td
+.check
+ 
+input,.dataTable
+ 
+th
+.check
+ 
+input {
+	text-align: left;
+	font-size: 1px;
+	line-height: 1px;
+	border: 0px solid #9A9A9A;
+	padding: 0px 0px 0px 0px;
+	width: 14px !important;
+	height: 14px !important;
+}
+
+body
+.ie7
+ 
+.dataTable
+ 
+td
+.check
+ 
+input,body
+.ie7
+ 
+.dataTable
+ 
+th
+.check
+ 
+input {
+	width: 12px !important;
+	height: 12px !important;
+}
+
+.dataTable
+ 
+td {
+	padding: 5px 5px 5px 5px;
+	-khtml-user-select: text;
+}
+
+body
+.ie6
+ 
+.dataTable
+ 
+td,body
+.ie7
+ 
+.dataTable
+ 
+td {
+	padding: 6px 5px 5px 5px;
+}
+
+.dataTable
+ 
+tr
+.odd
+ 
+td {
+	background-color: #ffffff;
+}
+
+.dataTable
+ 
+tr
+.even
+ 
+td {
+	background-color: #eeeeee;
+}
+
+.dataTable
+ 
+tr
+.focused
+ 
+td,.dataTable
+ 
+tr
+.selected
+ 
+td {
+	cursor: pointer;
+}
+
+.dataTable
+ 
+tr
+.focused
+ 
+td {
+	background-color: #000066;
+	color: #ffffff;
+}
+
+.dataTable
+ 
+tr
+.selected
+ 
+td {
+	background-color: #000066;
+	color: #ffffff;
+}
+
+.dataTable
+ 
+td
+.check,.dataTable
+ 
+tr
+.head
+ 
+th
+.check {
+	width: 18px;
+	vertical-align: top;
+	text-align: center !important;
+	padding: 5px 5px 0px 5px;
+}
+
+.dataTable
+ 
+tr
+.head
+ 
+th
+.check {
+	vertical-align: middle;
+	padding: 2px 5px 0px 5px !important;
+}
+
+.dataTable
+ 
+tr
+.odd
+ 
+a,.dataTable
+ 
+tr
+.even
+ 
+a {
+	text-decoration: none;
+	font-weight: normal;
+	color: #000066;
+}
+
+.dataTable
+ 
+tr
+.focused
+ 
+td
+ 
+a,.dataTable
+ 
+tr
+.selected
+ 
+td
+ 
+a {
+	text-decoration: underline !important;
+	display: inline-block;
+}
+
+.dataTable
+ 
+tr
+.focused
+ 
+td
+ 
+a {
+	color: #ffffff;
+}
+
+.dataTable
+ 
+tr
+.selected
+ 
+td
+ 
+a {
+	color: #ffffff;
+}
+
+.dataTable
+ 
+tr
+.focused
+ 
+td
+ 
+a
+:hover {
+	color: #ffffff;
+}
+
+.dataTable
+ 
+tr
+.selected
+ 
+td
+ 
+a
+:hover {
+	color: #ffffff;
+}
+
+.dataTable
+ 
+tr
+.marked
+ 
+td {
+	background-color: #ff8f00 !important;
+}
+
+/**********************/
+/*    TABLE TOOLTIP   */
+/**********************/
+.dataTable
+ 
+tr
+ 
+td
+ 
+span
+.info {
+	background: url("../images/icons/info.png") no-repeat scroll -5px -2px
+		transparent;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 1px;
+	height: 14px;
+	line-height: 1px;
+	width: 14px;
+	vertical-align: -2px;
+	margin-left: 4px;
+}
+
+/***********************/
+/*    TABLE FOOTER     */
+/***********************/
+.dataFooter
+ 
+tr
+.foot
+ 
+td,.gridTable
+ 
+tr
+.foot
+ 
+td {
+	font-weight: normal;
+	background-color: #D2D2D2;
+	padding: 0px 7px 0px 5px;
+	vertical-align: middle !important;
+}
+
+.dataFooter
+ 
+tr
+.foot
+ 
+td {
+	height: 29px;
+}
+
+.dataFooter
+ 
+tr
+.foot
+ 
+td
+.left {
+	white-space: nowrap;
+}
+
+.dataFooter
+ 
+tr
+.foot
+ 
+td
+.right
+ 
+.isSelect {
+	width: 200px;
+	float: right;
+}
+
+body
+.ie7
+ 
+.dataFooter
+ 
+tr
+.foot
+ 
+td
+.right
+ 
+.isSelect,body
+.ie8
+ 
+.dataFooter
+ 
+tr
+.foot
+ 
+td
+.right
+ 
+.isSelect {
+	margin-top: 1px;
+}
+
+/**************************/
+/*    EDIT INPUT MODE     */
+/*************************/
+.dataTable
+ 
+td
+.edit
+ 
+.wrap { /* width:100%; */
+	height: 20px;
+	position: relative;
+}
+
+.dataTable
+ 
+td
+.edit
+ 
+.wrap
+.textarea {
+	height: 100px;
+}
+
+.dataTable
+ 
+td
+.edit {
+	padding: 2px 4px 2px 2px;
+}
+
+body
+.ie6
+ 
+.dataTable
+ 
+td
+.edit,body
+.ie7
+ 
+.dataTable
+ 
+td
+.edit {
+	padding: 2px 4px 1px 2px;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	.dataTable td.edit {
+		padding: 2px 4px 1px 2px;
+	}
+}
+
+.dataTable
+ 
+td
+.edit
+ 
+input {
+	line-height: 15px;
+	padding: 1px 0 2px 3px;
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+body
+.ie6
+ 
+.dataTable
+ 
+td
+.edit
+ 
+input,body
+.ie7
+ 
+.dataTable
+ 
+td
+.edit
+ 
+input {
+	height: 16px !important;
+	padding: 3px 0 0 4px;
+}
+
+body
+.ie8
+ 
+.dataTable
+ 
+td
+.edit
+ 
+input {
+	height: 14px !important;
+	line-height: 15px;
+	padding: 2px 0 2px 4px;
+}
+
+/* Safari hack */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	.dataTable td.edit input {
+		padding: 2px 0 0 3px;
+	}
+}
+
+/**********************/
+/*  TABLEEDIT SELECT  */
+/**********************/
+.dataTable
+ 
+td
+.edit
+ 
+.wrap
+.isSelect {
+	width: 90%;
+}
+
+.dataTable
+ 
+td
+.edit
+ 
+.isSelect
+ 
+input {
+	width: 90%;
+}
+
+body
+.ie6
+ 
+.dataTable
+ 
+td
+.edit
+ 
+.isSelect
+ 
+.dropList
+.bottom,body
+.ie7
+ 
+.dataTable
+ 
+td
+.edit
+ 
+.isSelect
+ 
+.dropList
+.bottom {
+	margin-top: 0px;
+}
+
+/*******************/
+/*  ERROR MESSAGE  */
+/*******************/
+#content
+ 
+.dataTable
+ 
+td
+ 
+p
+.error {
+	padding-bottom: 0px;
+}
+
+#content
+ 
+.dataTable
+ 
+td
+.error {
+	background-color: #D00000;
+	color: #ffffff;
+}
+
+/******************/
+/*    SUM ROW     */
+/******************/
+.dataTable
+ 
+tr
+.sum {
+	background-color: #d2d2d2 !important;
+}
+
+.dataTable
+ 
+tr
+.sum
+ 
+td {
+	font-weight: bold !important;
+	color: #000000 !important;
+	border-bottom: 1px solid #ffffff !important;
+}
+
+/*********************************/
+/*    DISABLE HEADER & FOOTER    */
+/*********************************/
+.noHeader
+ 
+table
+.dataTable
+ 
+tr
+.head {
+	display: none;
+}
+
+.noFooter
+ 
+table
+.dataFooter
+ 
+tr
+.foot {
+	display: none;
+}
+
+/**********************/
+/*    TABLE PAGING    */
+/**********************/
+select
+.pageCounter {
+	width: 60px !important;
+	margin-right: 5px;
+}
+
+.dataFooter
+ 
+tr
+.foot
+ 
+td
+ 
+div
+.paging {
+	display: inline-block;
+	border: 0px solid #cc0000;
+	color: #000000;
+	white-space: nowrap;
+}
+
+.dataFooter
+ 
+tr
+.foot
+ 
+td
+ 
+div
+.paging
+ 
+span {
+	display: inline-block;
+	cursor: default;
+	line-height: 18px;
+	font-weight: normal;
+	color: #000000;
+}
+
+body
+.ie7
+ 
+.dataFooter
+ 
+tr
+.foot
+ 
+td
+ 
+div
+.paging
+ 
+span {
+	padding: 2px 5px 2px 5px;
+	line-height: 17px;
+}
+
+.dataFooter
+ 
+tr
+.foot
+ 
+td
+ 
+div
+.paging
+ 
+a,.dataFooter
+ 
+tr
+.foot
+ 
+td
+ 
+div
+.paging
+ 
+a
+.previous,.dataFooter
+ 
+tr
+.foot
+ 
+td
+ 
+div
+.paging
+ 
+a
+.next {
+	display: inline-block;
+	padding: 2px 5px 2px 5px;
+	line-height: 18px;
+	font-weight: normal;
+	color: #000066;
+}
+
+.dataFooter
+ 
+tr
+.foot
+ 
+td
+ 
+div
+.paging
+ 
+a
+:hover {
+	background-color: #ffffff;
+	border: 1px solid #7C7C7C;
+	text-decoration: none;
+	padding: 1px 4px 1px 4px;
+	cursor: pointer;
+}
+
+.dataFooter
+ 
+tr
+.foot
+ 
+td
+ 
+div
+.paging
+ 
+a
+:hover
+ 
+span {
+	cursor: pointer;
+}
+
+/* Safari hack */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	.dataFooter tr.foot td div.paging a,.dataFooter tr.foot td div.paging span,.dataFooter tr.foot td div.paging a.previous,.dataFooter tr.foot td div.paging a.next
+		{
+		margin-top: 1px;
+		line-height: 19px;
+	}
+	.dataFooter tr.foot td div.paging a:hover {
+		padding: 1px 4px 0px 4px;
+	}
+}
+
+.dataFooter
+ 
+tr
+.foot
+ 
+td
+ 
+div
+.paging
+ 
+a
+.selected,.dataFooter
+ 
+tr
+.foot
+ 
+td
+ 
+div
+.paging
+ 
+a
+.selected
+ 
+span {
+	cursor: default;
+}
+
+.dataFooter
+ 
+tr
+.foot
+ 
+td
+ 
+div
+.paging
+ 
+a
+.selected
+ 
+span {
+	font-weight: bold;
+	color: #000000;
+}
+
+.dataFooter
+ 
+tr
+.foot
+ 
+td
+ 
+div
+.paging
+ 
+a
+:hover
+.selected {
+	border: 0px;
+	background: none;
+	padding: 1px 5px 1px 5px;
+}
+
+body
+.ie6
+ 
+.dataFooter
+ 
+tr
+.foot
+ 
+td
+ 
+div
+.paging,body
+.ie7
+ 
+.dataFooter
+ 
+tr
+.foot
+ 
+td
+ 
+div
+.paging {
+	margin-top: 1px;
+}
+
+body
+.ie6
+ 
+.dataFooter
+ 
+tr
+.foot
+ 
+td
+ 
+div
+.paging
+ 
+a,body
+.ie6
+ 
+.dataFooter
+ 
+tr
+.foot
+ 
+td
+ 
+div
+.paging
+ 
+span,body
+.ie6
+ 
+.dataFooter
+ 
+tr
+.foot
+ 
+td
+ 
+div
+.paging
+ 
+a
+.previous,body
+.ie6
+ 
+.dataFooter
+ 
+tr
+.foot
+ 
+td
+ 
+div
+.paging
+ 
+a
+.next,body
+.ie7
+ 
+.dataFooter
+ 
+tr
+.foot
+ 
+td
+ 
+div
+.paging
+ 
+a,body
+.ie7
+ 
+.dataFooter
+ 
+tr
+.foot
+ 
+td
+ 
+div
+.paging
+ 
+span,body
+.ie7
+ 
+.dataFooter
+ 
+tr
+.foot
+ 
+td
+ 
+div
+.paging
+ 
+a
+.previous,body
+.ie7
+ 
+.dataFooter
+ 
+tr
+.foot
+ 
+td
+ 
+div
+.paging
+ 
+a
+.next {
+	padding: 2px 5px 2px 5px;
+}
+
+body
+.ie7
+ 
+.dataFooter
+ 
+tr
+.foot
+ 
+td
+ 
+div
+.paging
+ 
+a
+:hover,body
+.ie7
+ 
+.dataFooter
+ 
+tr
+.foot
+ 
+td
+ 
+div
+.paging
+ 
+a
+:hover {
+	margin-top: 0px;
+	padding: 1px 4px 1px 4px;
+}
+
+body
+.ie6
+ 
+.dataFooter
+ 
+tr
+.foot
+ 
+td
+ 
+div
+.paging
+ 
+a
+:hover
+.selected,body
+.ie7
+ 
+.dataFooter
+ 
+tr
+.foot
+ 
+td
+ 
+div
+.paging
+ 
+a
+:hover
+.selected {
+	padding: 1px 5px 2px 5px;
+}
+
+.dataFooter
+ 
+tr
+.foot
+ 
+td
+ 
+div
+.paging
+ 
+a
+ 
+span {
+	padding: 0px 0px 0px 0px !important;
+	display: inline;
+	color: #000066;
+	font-weight: normal;
+	cursor: pointer;
+}
+
+.dataFooter
+ 
+tr
+.foot
+ 
+td
+ 
+div
+.paging
+ 
+a
+.hover
+ 
+span {
+	padding: 0px 0px 0px 0px !important;
+	display: inline;
+	cursor: pointer;
+}
+
+/***************************/
+/*    READONLY DISABLED    */
+/***************************/
+.gridTable
+ 
+input
+.readonly,.gridTable
+ 
+textarea
+.readonly,.gridTable
+ 
+input
+.locked {
+	background-color: #f4f4f4 !important;
+}
+
+.wrap
+.readonly {
+	background-color: #f4f4f4 !important;
+}
+
+.gridTable
+ 
+.isSelect
+.disabled
+ 
+select,.gridTable
+ 
+.isSelect
+.disabled
+ 
+select
+ 
+option {
+	background-color: #f4f4f4 !important;
+}
+
+/***************************/
+/*     TABLE SORT ICON     */
+/***************************/
+.sort,.sort_up,.sort_down {
+	width: 8px;
+	height: 12px;
+	font-size: 1px;
+	line-height: 1px;
+	margin: 2px 0 0px 6px;
+	vertical-align: -2px;
+	display: inline-block;
+	background: url("../images/buttons/sorts/sort.gif") no-repeat;
+	background-position: center left;
+	cursor: pointer;
+}
+
+.sort_up {
+	background-position: top left;
+}
+
+.sort_down {
+	background-position: bottom left;
+}
+
+/*#######################################*/
+/*#       SELECT LISTS COMMON CSS       #*/
+/*#######################################*/
+.selectbox {
+	overflow-x: hidden;
+	overflow-y: auto;
+	background-color: #FEFEFE;
+	border: 1px solid #7C7C7C;
+	position: relative;
+}
+
+body
+.ie6
+ 
+.selectbox {
+	overflow-y: scroll !important;
+}
+
+.selectbox {
+	height: 100px;
+}
+
+.medium
+ 
+.selectbox,.selectbox
+.medium {
+	height: 400px !important;
+}
+
+.large
+ 
+.selectbox,.selectbox
+.large {
+	height: 509px !important;
+}
+
+body
+.ie6
+ 
+.large
+ 
+.selectbox,body
+.ie6
+ 
+.selectbox
+.large,body
+.ie7
+ 
+.large
+ 
+.selectbox,body
+.ie7
+ 
+.selectbox
+.large {
+	height: 510px !important;
+}
+
+body
+.ie8
+ 
+.large
+ 
+.selectbox,body
+.ie8
+ 
+.selectbox
+.large {
+	height: 507px !important;
+}
+
+/* Safari hack */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	.large .selectbox,.selectbox.large {
+		height: 509px !important;
+	}
+}
+
+/************************************/
+/*   ISSWAPSELECT BUTTON POSITION   */
+/************************************/
+.buttonbox {
+	position: relative;
+	margin-top: 45px;
+}
+
+.medium
+ 
+.buttonbox {
+	margin-top: 170px;
+}
+
+.large
+ 
+.buttonbox {
+	margin-top: 210px;
+}
+
+/************************************/
+/*   ISSWAPSELECT BUTTON POSITION   */
+/************************************/
+.isSwapSelect
+.disabled
+ 
+.selectbox,.isCheckSelect
+.disabled,isCheckSelect
+.disabled
+.selectbox,.isCatalog
+.disabled {
+	background-color: #f4f4f4;
+}
+
+/*##########################*/
+/*#       SWAPSELECT       #*/
+/*##########################*/
+
+/* default width - vorerst auskommentiert da verschobene Breiten im modaler Dialog editUser
+.isSwapSelect td.wmod1 .selectbox {
+	width:99.6% !important;
+}
+
+body.ie7 .isSwapSelect td.wmod1 .selectbox, body.ie6 .isSwapSelect td.wmod1 .selectbox  {
+	width:99.6% !important;
+} 
+
+*/
+.center {
+	width: 85px;
+}
+
+.isSwapSelect
+ 
+p
+.error {
+	position: absolute;
+}
+
+.modal
+ 
+p {
+	font-size: 12px;
+}
+
+/* buttonbox width */
+body
+.ie6
+ 
+.isSwapSelect
+ 
+td
+ 
+div
+.buttonbox {
+	width: 90px;
+}
+
+/* default modal width */
+.modal
+ 
+.isSwapSelect
+ 
+td
+.wmod1
+ 
+.selectbox {
+	width: 392px;
+}
+
+body
+.ie6
+ 
+.modal
+ 
+.isSwapSelect
+ 
+td
+.wmod1
+ 
+.selectbox {
+	width: 387px;
+}
+
+body
+.ie7
+ 
+.modal
+ 
+.isSwapSelect
+ 
+td
+.wmod1
+ 
+.selectbox {
+	width: 387px;
+}
+
+body
+.ie8
+ 
+.modal
+ 
+.isSwapSelect
+ 
+td
+.wmod1
+ 
+.selectbox {
+	width: 396px;
+}
+/* buttonbox width */
+body
+.ie6
+ 
+.modal
+ 
+.isSwapSelect
+ 
+td
+ 
+div
+.buttonbox {
+	width: 90px;
+}
+
+.isSwapSelect
+ 
+label {
+	position: absolute;
+}
+
+.isSwapSelect
+ 
+.selectbox {
+	margin-top: 23px;
+}
+
+body
+.ie7
+ 
+.isSwapSelect
+ 
+.selectbox {
+	top: 23px;
+}
+
+.isSwapSelect
+ 
+ul {
+	overflow-y: auto;
+	overflow-x: hidden;
+	list-style-type: none;
+	color: #000000;
+	font-size: 13px;
+	line-height: 16px;
+	position: absolute;
+	width: 100%;
+}
+
+.isSwapSelect
+ 
+ul
+ 
+li {
+	cursor: pointer;
+	background-color: #ffffff;
+	font-size: 12px;
+	-moz-user-select: none;
+	zoom: 1;
+}
+
+.isSwapSelect
+ 
+.selectbox
+.disabled,.isSwapSelect
+ 
+.selectbox
+.disabled
+ 
+ul {
+	background-color: #f4f4f4;
+}
+
+.isSwapSelect
+ 
+.selectbox
+.disabled
+ 
+ul
+ 
+li {
+	cursor: default !important;
+	background-color: #f4f4f4;
+}
+
+.isSwapSelect
+ 
+ul
+ 
+li
+.selected {
+	background-color: #dedede;
+	color: #000000;
+}
+
+.isSwapSelect
+ 
+ul
+ 
+li
+.focused,.isSwapSelect
+ 
+ul
+ 
+li
+.selected
+.focused {
+	background-color: #000066 !important;
+	color: #ffffff !important;
+}
+
+/****************/
+/*   1. LEVEL   */
+/****************/
+.isSwapSelect
+ 
+ul
+ 
+li {
+	padding: 1px 10px 2px 4px;
+}
+
+/****************/
+/*   2. LEVEL   */
+/****************/
+.isSwapSelect
+ 
+ul
+ 
+ul
+ 
+li {
+	padding: 1px 10px 2px 37px;
+}
+
+/****************/
+/*   3. LEVEL   */
+/****************/
+.isSwapSelect
+ 
+ul
+ 
+ul
+ 
+ul
+ 
+li {
+	padding: 1px 10px 2px 57px;
+}
+
+/*#######################*/
+/*#     CHECKSELECT     #*/
+/*#######################*/
+.isCheckSelect {
+	width: 100.6%;
+}
+
+.isCheckSelect
+ 
+ul {
+	overflow: auto;
+	list-style-type: none;
+	color: #000000;
+	font-size: 13px;
+	line-height: 16px;
+	position: relative;
+}
+
+.isCheckSelect
+ 
+ul
+ 
+li {
+	cursor: pointer;
+	background-color: #ffffff;
+	font-size: 12px;
+	-moz-user-select: none;
+	zoom: 1;
+}
+
+.isCheckSelect
+.disabled
+ 
+ul {
+	background-color: #f4f4f4;
+}
+
+.isCheckSelect
+.disabled
+ 
+ul
+ 
+li {
+	cursor: default !important;
+	background-color: #f4f4f4;
+}
+
+.isCheckSelect
+ 
+ul
+ 
+li
+.selected {
+	color: #000000;
+}
+
+.isCheckSelect
+ 
+ul
+ 
+li
+.focused,.isCheckSelect
+ 
+ul
+ 
+li
+.selected
+.focused {
+	background-color: #000066 !important;
+	color: #ffffff !important;
+}
+
+/****************/
+/*   1. LEVEL   */
+/****************/
+.isCheckSelect
+ 
+ul
+ 
+li {
+	padding: 1px 10px 2px 22px;
+	background: none;
+}
+
+.isCheckSelect
+ 
+ul
+ 
+li
+.selected {
+	background: url("../images/select/selected.png") 0px 0px no-repeat;
+}
+
+.isCheckSelect
+ 
+ul
+ 
+li
+.selected
+.focused {
+	background: url("../images/select/selected.png") 0px -32px no-repeat;
+}
+
+/*######################*/
+/*#       CATALOG      #*/
+/*######################*/
+.isCatalog
+ 
+ol {
+	list-style-type: none;
+	color: #000000;
+	font-size: 13px;
+	line-height: 16px;
+	overflow: hidden;
+	position: relative;
+}
+
+.isCatalog
+ 
+ol
+ 
+li {
+	cursor: pointer;
+	background-color: #ffffff;
+	font-size: 12px;
+	-moz-user-select: none;
+	list-style-type: decimal;
+	list-style-position: inside;
+	position: relative;
+}
+
+.isCatalog
+.disabled
+ 
+ol {
+	background-color: #f4f4f4;
+}
+
+.isCatalog
+.disabled
+ 
+ol
+ 
+li {
+	cursor: default !important;
+	background-color: #f4f4f4;
+}
+
+.isCatalog
+ 
+ol
+ 
+li
+.selected {
+	background-color: #dedede;
+	color: #000000;
+}
+
+.isCatalog
+ 
+ol
+ 
+li
+.focused,.isCatalog
+ 
+ol
+ 
+li
+.selected
+.focused {
+	background-color: #000066 !important;
+	color: #ffffff !important;
+}
+
+/* default modal width */
+.modal
+ 
+table
+ 
+td
+.wmod1
+ 
+.selectbox
+.isCatalog {
+	width: 392px;
+}
+
+body
+.ie6
+ 
+.modal
+ 
+table
+ 
+td
+.wmod1
+ 
+.selectbox
+.isCatalog,body
+.ie7
+ 
+.modal
+ 
+table
+ 
+td
+.wmod1
+ 
+.selectbox
+.isCatalog {
+	width: 388px;
+}
+
+body
+.ie8
+ 
+.modal
+ 
+table
+ 
+td
+.wmod1
+ 
+.selectbox
+.isCatalog {
+	width: 396px;
+}
+
+/* buttonbox width */
+body
+.ie6
+ 
+.modal
+ 
+.isCatalog
+ 
+td
+ 
+div
+.buttonbox {
+	width: 80px;
+}
+
+/************************/
+/*    STATUS DISPLAY    */
+/************************/
+.isCatalog
+ 
+ol
+ 
+li
+ 
+span
+.icon,.isCatalog
+ 
+ol
+.withStatus
+ 
+li
+ 
+span
+.icon,.isCatalog
+ 
+ol
+ 
+li
+ 
+span
+.status,.isCatalog
+ 
+ol
+.withStatus
+ 
+li
+ 
+span
+.status {
+	display: block;
+	width: 15px;
+	height: 16px;
+	vertical-align: -2px;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 0px;
+}
+
+.isCatalog
+ 
+ol
+ 
+li
+ 
+span
+.status,.isCatalog
+ 
+ol
+.withStatus
+ 
+li
+ 
+span
+.status {
+	left: 0px;
+	width: 16px;
+	display: block;
+}
+
+body
+.ie6
+ 
+.isCatalog
+ 
+ol
+ 
+li
+ 
+span
+.icon,body
+.ie7
+ 
+.isCatalog
+ 
+ol
+ 
+li
+ 
+span
+.icon,body
+.ie6
+ 
+.isCatalog
+ 
+ol
+ 
+li
+ 
+span
+.status,body
+.ie7
+ 
+.isCatalog
+ 
+ol
+ 
+li
+ 
+span
+.status {
+	top: 1px;
+}
+
+body
+.ie6
+ 
+.isCatalog
+ 
+li
+ 
+span
+.text,body
+.ie7
+ 
+.isCatalog
+ 
+li
+ 
+span
+.text {
+	margin-left: 5px !important;
+}
+
+body
+.ie8
+ 
+.isCatalog
+ 
+li
+ 
+span
+.text {
+	margin-left: -3px !important;
+}
+
+/* IE fix for flickering .focused hover class */
+body
+.ie6
+ 
+.isCatalog
+ 
+ol
+ 
+li
+ 
+span
+.text,body
+.ie6
+ 
+.isCatalog
+ 
+ol
+.withStatus
+ 
+li
+ 
+span
+.text {
+	display: block;
+}
+
+body
+.ie7
+ 
+.isCatalog
+ 
+ol
+ 
+li
+ 
+span
+.text,body
+.ie7
+ 
+.isCatalog
+ 
+ol
+.withStatus
+ 
+li
+ 
+span
+.text,body
+.ie8
+ 
+.isCatalog
+ 
+ol
+ 
+li
+ 
+span
+.text,body
+.ie8
+ 
+.isCatalog
+ 
+ol
+.withStatus
+ 
+li
+ 
+span
+.text {
+	border: 1px solid transparent;
+}
+
+.isCatalog
+ 
+ol
+ 
+li
+.opened
+ 
+span
+.icon {
+	background-image: url("../images/catalog/tree-arrowdown.gif") !important;
+}
+
+.isCatalog
+ 
+ol
+ 
+li
+.list
+ 
+span
+.icon {
+	background-image: url("../images/catalog/tree-arrowright.gif");
+}
+
+.isCatalog
+ 
+ol
+ 
+li
+ 
+span
+.status
+.red_exclamation_mark,.isCatalog
+ 
+ol
+ 
+li
+ 
+span
+.status
+.black_x,.isCatalog
+ 
+ol
+ 
+li
+ 
+span
+.status
+.blue_check,.isCatalog
+ 
+ol
+ 
+li
+ 
+span
+.status
+.yellow_check,.isCatalog
+ 
+ol
+ 
+li
+ 
+span
+.status
+.red_check {
+	background-position: -2px 0px !important;
+	background-repeat: no-repeat;
+}
+
+.isCatalog
+ 
+ol
+ 
+li
+ 
+span
+.status
+.red_exclamation_mark {
+	background-image: url("../images/status/red_exclamation_mark.png");
+}
+
+.isCatalog
+ 
+ol
+ 
+li
+ 
+span
+.status
+.black_x {
+	background-image: url("../images/status/black_x.png");
+}
+
+.isCatalog
+ 
+ol
+ 
+li
+ 
+span
+.status
+.blue_check {
+	background-image: url("../images/status/blue_check.png");
+}
+
+.isCatalog
+ 
+ol
+ 
+li
+ 
+span
+.status
+.yellow_check {
+	background-image: url("../images/status/yellow_check.png");
+}
+
+.isCatalog
+ 
+ol
+ 
+li
+ 
+span
+.status
+.red_check {
+	background-image: url("../images/status/red_check.png");
+}
+
+/* IE6 GIFs */
+body
+.ie6
+ 
+.isCatalog
+ 
+ol
+ 
+li
+ 
+span
+.status
+.red_exclamation_mark {
+	background-image: url("../images/status/red_exclamation_mark.gif");
+}
+
+body
+.ie6
+ 
+.isCatalog
+ 
+ol
+ 
+li
+ 
+span
+.status
+.black_x {
+	background-image: url("../images/status/black_x.gif");
+}
+
+body
+.ie6
+ 
+.isCatalog
+ 
+ol
+ 
+li
+ 
+span
+.status
+.blue_check {
+	background-image: url("../images/status/blue_check.gif");
+}
+
+body
+.ie6
+ 
+.isCatalog
+ 
+ol
+ 
+li
+ 
+span
+.status
+.yellow_check {
+	background-image: url("../images/status/yellow_check.gif");
+}
+
+body
+.ie6
+ 
+.isCatalog
+ 
+ol
+ 
+li
+ 
+span
+.status
+.red_check {
+	background-image: url("../images/status/red_check.gif");
+}
+
+/****************/
+/*   1. LEVEL   */
+/****************/
+.isCatalog
+ 
+ol
+.l0
+ 
+li {
+	font-size: 12px;
+	font-weight: bold;
+	padding: 1px 10px 2px 17px;
+}
+
+.isCatalog
+ 
+ol
+.l0
+ 
+li
+ 
+span
+.icon {
+	left: 0px;
+}
+
+body
+.ie6
+ 
+.isCatalog
+ 
+ol
+.l0
+ 
+li {
+	padding-left: 17px;
+}
+
+/* STATUS */
+.isCatalog
+ 
+ol
+.withStatus
+.l0
+ 
+li {
+	padding-left: 36px;
+}
+
+.isCatalog
+ 
+ol
+.withStatus
+.l0
+ 
+li
+ 
+span
+.icon {
+	left: 19px;
+}
+
+body
+.ie6
+ 
+.isCatalog
+ 
+ol
+.withStatus
+.l0
+ 
+li
+ 
+span
+.icon {
+	left: -32px;
+}
+
+body
+.ie6
+ 
+.isCatalog
+ 
+ol
+.withStatus
+.l0
+ 
+li
+ 
+span
+.status {
+	left: -52px;
+}
+
+/****************/
+/*   2. LEVEL   */
+/****************/
+.isCatalog
+ 
+ol
+ 
+ol
+.l1
+ 
+li {
+	font-weight: bold;
+	padding: 1px 10px 2px 37px;
+}
+
+.isCatalog
+ 
+ol
+ 
+ol
+.l1
+ 
+li
+ 
+span
+.icon {
+	left: 20px;
+}
+
+body
+.ie6
+ 
+.isCatalog
+ 
+ol
+ 
+ol
+.l1
+ 
+li {
+	padding-left: 37px;
+}
+
+/* STATUS */
+.isCatalog
+ 
+ol
+.withStatus
+ 
+ol
+.l1
+ 
+li {
+	padding-left: 55px;
+}
+
+.isCatalog
+ 
+ol
+.withStatus
+ 
+ol
+.l1
+ 
+li
+ 
+span
+.icon {
+	left: 37px;
+}
+
+body
+.ie6
+ 
+.isCatalog
+ 
+ol
+.withStatus
+ 
+ol
+.l1
+ 
+li
+ 
+span
+.icon {
+	left: -32px;
+}
+
+body
+.ie6
+ 
+.isCatalog
+ 
+ol
+.withStatus
+ 
+ol
+.l1
+ 
+li
+ 
+span
+.status {
+	left: -71px;
+}
+
+/****************/
+/*   3. LEVEL   */
+/****************/
+.isCatalog
+ 
+ol
+ 
+ol
+ 
+ol
+.l2
+ 
+li {
+	font-weight: normal;
+	padding: 1px 10px 2px 57px;
+}
+
+.isCatalog
+ 
+ol
+ 
+ol
+ 
+ol
+.l2
+ 
+li
+ 
+span
+.icon {
+	left: 40px;
+}
+
+body
+.ie6
+ 
+.isCatalog
+ 
+ol
+ 
+ol
+ 
+ol
+.l2
+ 
+li {
+	padding-left: 57px;
+}
+
+/* STATUS */
+.isCatalog
+ 
+ol
+.withStatus
+ 
+ol
+ 
+ol
+.l2
+ 
+li {
+	padding-left: 75px;
+}
+
+.isCatalog
+ 
+ol
+.withStatus
+ 
+ol
+ 
+ol
+.l2
+ 
+li
+ 
+span
+.icon {
+	left: 60px;
+}
+
+body
+.ie6
+ 
+.isCatalog
+ 
+ol
+.withStatus
+ 
+ol
+ 
+ol
+.l2
+ 
+li
+ 
+span
+.icon {
+	left: -32px;
+}
+
+body
+.ie6
+ 
+.isCatalog
+ 
+ol
+.withStatus
+ 
+ol
+ 
+ol
+.l2
+ 
+li
+ 
+span
+.status {
+	left: -91px;
+}
+
+/****************/
+/*   4. LEVEL   */
+/****************/
+.isCatalog
+ 
+ol
+ 
+ol
+ 
+ol
+.l3
+ 
+li {
+	font-weight: normal;
+	padding: 1px 10px 2px 77px;
+}
+
+.isCatalog
+ 
+ol
+ 
+ol
+ 
+ol
+.l3
+ 
+li
+ 
+span
+.icon {
+	left: 60px;
+}
+
+body
+.ie6
+ 
+.isCatalog
+ 
+ol
+ 
+ol
+ 
+ol
+.l3
+ 
+li {
+	padding-left: 77px;
+}
+
+/* STATUS */
+.isCatalog
+ 
+ol
+.withStatus
+ 
+ol
+ 
+ol
+.l3
+ 
+li {
+	padding-left: 95px;
+}
+
+.isCatalog
+ 
+ol
+.withStatus
+ 
+ol
+ 
+ol
+.l3
+ 
+li
+ 
+span
+.icon {
+	left: 80px;
+}
+
+body
+.ie6
+ 
+.isCatalog
+ 
+ol
+.withStatus
+ 
+ol
+ 
+ol
+.l3
+ 
+li
+ 
+span
+.icon {
+	left: -12px;
+}
+
+body
+.ie6
+ 
+.isCatalog
+ 
+ol
+.withStatus
+ 
+ol
+ 
+ol
+.l3
+ 
+li
+ 
+span
+.status {
+	left: -71px;
+}
+
+/****************/
+/*   5. LEVEL   */
+/****************/
+.isCatalog
+ 
+ol
+ 
+ol
+ 
+ol
+.l4
+ 
+li {
+	font-weight: normal;
+	padding: 1px 10px 2px 97px;
+}
+
+.isCatalog
+ 
+ol
+ 
+ol
+ 
+ol
+.l4
+ 
+li
+ 
+span
+.icon {
+	left: 80px;
+}
+
+body
+.ie6
+ 
+.isCatalog
+ 
+ol
+ 
+ol
+ 
+ol
+.l4
+ 
+li {
+	padding-left: 97px;
+}
+
+/* STATUS */
+.isCatalog
+ 
+ol
+.withStatus
+ 
+ol
+ 
+ol
+.l4
+ 
+li {
+	padding-left: 115px;
+}
+
+.isCatalog
+ 
+ol
+.withStatus
+ 
+ol
+ 
+ol
+.l4
+ 
+li
+ 
+span
+.icon {
+	left: 100px;
+}
+
+body
+.ie6
+ 
+.isCatalog
+ 
+ol
+.withStatus
+ 
+ol
+ 
+ol
+.l4
+ 
+li
+ 
+span
+.icon {
+	left: 8px;
+}
+
+body
+.ie6
+ 
+.isCatalog
+ 
+ol
+.withStatus
+ 
+ol
+ 
+ol
+.l4
+ 
+li
+ 
+span
+.status {
+	left: -51px;
+}
+
+/*#  PREVIOUS NEXT ICONS  #*/
+.pagePrev,.pageNext {
+	width: 20px;
+	height: 22px;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.pagePrev {
+	margin-right: 10px;
+	background: url("../images/previous.gif") center center no-repeat;
+}
+
+.pageNext {
+	background: url("../images/next.gif") center center no-repeat;
+}
+
+/*######################*/
+/*#      DROP LIST     #*/
+/*#####################*/
+.isSelect {
+	width: auto;
+	padding-right: 25px;
+	border: 1px solid #7C7C7C;
+	background: #ffffff url("../images/select/select.png") right top
+		no-repeat;
+	overflow-x: visible;
+	cursor: pointer;
+	z-index: 0;
+	zoom: 1;
+	height: 20px !important;
+}
+
+body
+.ie7
+ 
+.isSelect {
+	padding-right: 24px;
+}
+
+body
+.ie6
+ 
+.isSelect {
+	background: #ffffff url("../images/select/select.gif") right top
+		no-repeat;
+}
+
+/*****************/
+/*   TABFOOTER   */
+/*****************/
+.tabfooter
+ 
+.isSelect {
+	margin-top: 4px;
+	margin-left: 10px;
+	width: 200px;
+	float: left;
+}
+
+body
+.ie7
+ 
+.tabfooter
+ 
+.isSelect {
+	margin-left: 10px;
+	margin-top: 6px;
+}
+
+body
+.ie7
+ 
+.tabfooter
+ 
+.dynamic
+ 
+.isSelect {
+	margin-top: 4px;
+}
+
+body
+.ie7
+ 
+.tabfooter
+ 
+.isSelect
+ 
+.dropList,body
+.ie7
+ 
+.tabfooter
+ 
+.isSelect
+ 
+input
+.dropBox {
+	margin-left: -10px;
+}
+
+/****************/
+/*   MULTIPLE   */
+/****************/
+.isSelect
+.multiple {
+	background: #ffffff url("../images/select/selectMultiple.png") right top
+		no-repeat;
+}
+
+body
+.ie6
+ 
+.isSelect
+.multiple {
+	background: #ffffff url("../images/select/selectMultiple.gif") right top
+		no-repeat;
+}
+
+/****************/
+/*   EXPANDED   */
+/****************/
+.isSelect
+.expanded {
+	background: #ffffff url("../images/select/select.png") right bottom
+		no-repeat;
+}
+
+.isSelect
+.multiple
+.expanded {
+	background: #ffffff url("../images/select/selectMultiple.png") right
+		bottom no-repeat;
+}
+
+/*************/
+/*   INPUT   */
+/*************/
+.isSelect
+ 
+input
+.dropBox {
+	width: 100%;
+	font-size: 13px;
+	cursor: pointer;
+	float: left;
+	zoom: 1;
+	height: 16px;
+}
+
+body
+.ie9
+ 
+.isSelect
+ 
+input
+.dropBox {
+	padding: 2px 0 1px 3px;
+}
+
+/* Safari hack */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	.isSelect input.dropBox {
+		padding: 1px 0px 3px 3px;
+	}
+}
+
+/*#######################*/
+/*#        IMAGE        #*/
+/*#######################*/
+.isImage {
+	background-color: #ffffff;
+}
+
+/*#####################*/
+/*#      BUTTONS      #*/
+/*#####################*/
+a
+.button,div
+.button {
+	display: inline-block;
+	cursor: pointer;
+	border: none;
+	font-size: 1px;
+	line-height: 1px;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	height: 30px;
+	text-decoration: none;
+	color: #2e523b;
+	font-style: normal;
+	margin: 0px 6px 0px 0px;
+	padding: 0px 10px 0px 0px;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	zoom: 1;
+}
+
+body
+.ie6
+ 
+a
+.button,body
+.ie6
+ 
+div
+.button {
+	width: 10px;
+	overflow-y: hidden;
+}
+
+body
+.ie7
+ 
+a
+.button,body
+.ie7
+ 
+div
+.button {
+	width: auto;
+	padding-right: 5px;
+}
+
+a
+.button,div
+.button,del
+.button,a
+.button
+ 
+span,div
+.button
+ 
+button,div
+.button
+ 
+input {
+	background-image: url(../images/buttons/button.gif);
+}
+
+a
+.button
+ 
+span,div
+.button
+ 
+button,div
+.button
+ 
+input {
+	white-space: nowrap;
+	cursor: pointer;
+	display: inline-block;
+	line-height: 14px;
+	font-size: 12px;
+	font-style: normal;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #000066;
+	background-color: transparent;
+	background-position: 100% 0;
+	background-repeat: no-repeat;
+	height: 30px;
+	padding: 8px 10px 0 5px;
+	margin: 0 -16px 0 5px;
+	border: none;
+	width: auto;
+	text-align: center;
+	zoom: 1;
+}
+
+div
+.button
+ 
+input {
+	padding: 0px 21px 0 20px;
+	margin: 0 -16px 0 1px;
+}
+
+body
+.ie6
+ 
+a
+.button
+ 
+span,body
+.ie6
+ 
+div
+.button
+ 
+button,body
+.ie6
+ 
+div
+.button
+ 
+input { /* 	position: relative; */
+	padding-left: 0px;
+	padding-right: 10px;
+	margin-right: -10px;
+	margin-left: 5px;
+	top: 0;
+	right: -5px;
+}
+
+body
+.ie7
+ 
+a
+.button
+ 
+span,body
+.ie7
+ 
+div
+.button
+ 
+button,body
+.ie7
+ 
+div
+.button
+ 
+input { /* 	position: relative; */
+	padding-left: 0px;
+	padding-right: 10px;
+	margin-right: -15px;
+	margin-left: 10px;
+	top: 0;
+	display: block;
+	right: -5px;
+}
+
+div
+.button
+ 
+button {
+	padding: 0px 15px 0 10px;
+}
+
+body
+.ie6
+ 
+div
+.button
+ 
+button,body
+.ie7
+ 
+div
+.button
+ 
+button {
+	padding: 2px 15px 0 5px;
+}
+
+body
+.ie8
+ 
+div
+.button
+ 
+button {
+	padding: 2px 20px 0 15px;
+}
+
+.dataTable
+ 
+tr
+.foot
+ 
+td
+ 
+a
+.button
+ 
+span {
+	font-weight: normal;
+}
+
+/**********************/
+/*     FIXED WIDTH    */
+/**********************/
+a
+.button
+.w1
+ 
+span,div
+.button
+.w1
+ 
+button,div
+.button
+.w1
+ 
+input {
+	width: 84px !important;
+}
+
+body
+.ie6
+ 
+a
+.button
+.w1
+ 
+span,body
+.ie6
+ 
+div
+.button
+.w1
+ 
+button
+ 
+span,body
+.ie6
+ 
+div
+.button
+.w1
+ 
+input
+ 
+span,body
+.ie7
+ 
+a
+.button
+.w1
+ 
+span,body
+.ie7
+ 
+div
+.button
+.w1
+ 
+button
+ 
+span,body
+.ie7
+ 
+div
+.button
+.w1
+ 
+input
+ 
+span {
+	width: auto !important;
+}
+
+body
+.ie6
+ 
+a
+.button
+.w1,body
+.ie6
+ 
+div
+.button
+.w1
+ 
+button,body
+.ie6
+ 
+div
+.button
+.w1
+ 
+input,body
+.ie7
+ 
+a
+.button
+.w1,body
+.ie7
+ 
+div
+.button
+.w1
+ 
+button,body
+.ie7
+ 
+div
+.button
+.w1
+ 
+input {
+	width: 80px !important;
+	margin-right: 1px;
+}
+
+/****************************/
+/*     FIXED WIDTH MODAL    */
+/****************************/
+.modal
+ 
+a
+.button
+.w1
+ 
+span,.modal
+ 
+div
+.button
+.w1
+ 
+button,.modal
+ 
+div
+.button
+.w1
+ 
+input {
+	width: 60px !important;
+}
+
+body
+.ie6
+ 
+.modal
+ 
+a
+.button
+.w1
+ 
+span,.modal
+ 
+body
+.ie6
+ 
+div
+.button
+.w1
+ 
+button
+ 
+span,body
+.ie6
+ 
+.modal
+ 
+div
+.button
+.w1
+ 
+input
+ 
+span,body
+.ie7
+ 
+.modal
+ 
+a
+.button
+.w1
+ 
+span,body
+.ie7
+ 
+.modal
+ 
+div
+.button
+.w1
+ 
+button
+ 
+span,body
+.ie7
+ 
+.modal
+ 
+div
+.button
+.w1
+ 
+input
+ 
+span {
+	width: auto !important;
+}
+
+body
+.ie6
+ 
+.modal
+ 
+a
+.button
+.w1,body
+.ie6
+ 
+.modal
+ 
+div
+.button
+.w1
+ 
+button,body
+.ie6
+ 
+.modal
+ 
+div
+.button
+.w1
+ 
+input,body
+.ie7
+ 
+.modal
+ 
+a
+.button
+.w1,body
+.ie7
+ 
+.modal
+ 
+div
+.button
+.w1
+ 
+button,body
+.ie7
+ 
+.modal
+ 
+div
+.button
+.w1
+ 
+input {
+	width: 77px !important;
+	margin-right: 1px;
+}
+
+body
+.ie8
+ 
+.modal
+ 
+a
+.button
+.w1,body
+.ie8
+ 
+.modal
+ 
+div
+.button
+.w1
+ 
+button,body
+.ie8
+ 
+.modal
+ 
+div
+.button
+.w1
+ 
+input {
+	width: 60px !important;
+	margin-left: -4px;
+}
+
+/************************************/
+/*     FIXED WIDTH UPLOAD BUTTON    */
+/************************************/
+a
+.button
+.w2
+ 
+span,div
+.button
+.w2
+ 
+button,div
+.button
+.w2
+ 
+input,del
+.button
+.w2
+ 
+span {
+	width: 30px !important;
+}
+
+body
+.ie6
+ 
+a
+.button
+.w2
+ 
+span,body
+.ie6
+ 
+div
+.button
+.w2
+ 
+button
+ 
+span,body
+.ie6
+ 
+div
+.button
+.w2
+ 
+input
+ 
+span,body
+.ie7
+ 
+a
+.button
+.w2
+ 
+span,body
+.ie7
+ 
+div
+.button
+.w2
+ 
+button
+ 
+span,body
+.ie7
+ 
+div
+.button
+.w2
+ 
+input
+ 
+span {
+	width: auto !important;
+}
+
+body
+.ie6
+ 
+a
+.button
+.w2,body
+.ie6
+ 
+div
+.button
+.w2
+ 
+button,body
+.ie6
+ 
+div
+.button
+.w2
+ 
+input,body
+.ie7
+ 
+a
+.button
+.w2,body
+.ie7
+ 
+div
+.button
+.w2
+ 
+button,body
+.ie7
+ 
+div
+.button
+.w2
+ 
+input {
+	width: 48px !important;
+}
+
+/*************************/
+/*    INACTIVE BUTTON    */
+/*************************/
+.button
+.disabled {
+	background-position: 0 -120px;
+	cursor: default;
+}
+
+.button
+.disabled
+ 
+span {
+	cursor: default;
+	color: #aaa !important;
+	background-position: 100% -120px;
+}
+
+.button
+.disabled
+ 
+button,.button
+.disabled
+ 
+input {
+	padding-top: 0px;
+}
+
+body
+.ie6
+ 
+.tabfooter
+ 
+.buttons
+ 
+.disabled {
+	cursor: default;
+	background: url(../images/buttons/button.gif) 0px -120px no-repeat
+		!important;
+}
+
+body
+.ie6
+ 
+.tabfooter
+ 
+.buttons
+ 
+.disabled
+ 
+span {
+	background-position: 100% -120px !important;
+}
+
+/********************************/
+/*    UPLOAD BUTTON DISABLED    */
+/********************************/
+.button
+.uploadDisabled {
+	background-position: 0 -120px;
+	cursor: default;
+}
+
+.button
+.uploadDisabled
+ 
+span {
+	cursor: default;
+	color: #aaa !important;
+	background-position: 100% -120px;
+}
+
+.button
+.uploadDisabled
+ 
+button,.button
+.uploadDisabled
+ 
+input {
+	padding-top: 0px;
+}
+
+body
+.ie6
+ 
+.tabfooter
+ 
+.buttons
+ 
+.uploadDisabled {
+	cursor: default;
+	background: url(../images/buttons/button.gif) 0px -120px no-repeat
+		!important;
+}
+
+body
+.ie6
+ 
+.tabfooter
+ 
+.buttons
+ 
+.uploadDisabled
+ 
+span {
+	background-position: 100% -120px !important;
+}
+
+/*************************/
+/*    SELECTED BUTTON    */
+/*************************/
+.button
+.selected
+ 
+span {
+	font-weight: bold;
+}
+
+.button
+.selected
+ 
+button,.button
+.selected
+ 
+input {
+	padding-top: 0px;
+}
+
+.isCatalog
+ 
+.button
+.selected
+ 
+span,.isSwapSelect
+ 
+.button
+.selected
+ 
+span {
+	font-weight: normal;
+}
+
+/**********************/
+/*    HOVER STATES    */
+/**********************/
+a
+.button
+:hover,div
+.button
+:hover,a
+.button
+:focus {
+	background-position: 0 -60px;
+	color: #aaaa;
+	text-decoration: none;
+}
+
+a
+.button
+:hover
+ 
+span,div
+.button
+:hover
+ 
+input,div
+.button
+:hover
+ 
+button,a
+.button
+:focus
+ 
+span {
+	background-position: 100% -60px;
+}
+
+a
+.button
+:active,a
+.button
+:focus
+ 
+span {
+	color: #aaaa;
+}
+
+a
+.button
+.disabled
+:hover {
+	background-position: 0 -120px;
+}
+
+a
+.button
+.disabled
+:hover
+ 
+span {
+	background-position: 100% -120px;
+}
+
+/***********************************/
+/*    BUTTON TABFOOTER POSITION    */
+/***********************************/
+.tabfooter
+ 
+a
+.button {
+	float: left;
+}
+
+.tabfooter
+ 
+a
+.button,.dataTable
+ 
+tr
+.foot
+ 
+td
+.left
+ 
+a
+.button,.dataTable
+ 
+tr
+.foot
+ 
+td
+ 
+a
+.button {
+	margin-right: 10px !important;
+	margin-left: 5px !important;
+}
+
+.tabfooter
+ 
+a
+.button,.dataTable
+ 
+tr
+.foot
+ 
+td
+.right
+ 
+a
+.button {
+	margin-left: 10px !important;
+	margin-right: 6px !important;
+}
+
+.gridTable
+ 
+td
+.right
+ 
+a
+.button {
+	margin-left: 7px !important;
+	margin-right: 6px !important;
+}
+
+body
+.ie6
+ 
+.gridTable
+ 
+td
+.right
+ 
+a
+.button,body
+.ie7
+ 
+.gridTable
+ 
+td
+.right
+ 
+a
+.button {
+	margin-right: 5px !important;
+}
+/* body.ie8 .gridTable td.right a.button { margin-right: 14px !important; } Auskommentiert wegen Buttons in table */
+.gridTable
+ 
+td
+.left
+ 
+a
+.button {
+	margin-right: 6px !important;
+}
+
+body
+.ie6
+ 
+.gridTable
+ 
+td
+.left
+ 
+a
+.button,body
+.ie7
+ 
+.gridTable
+ 
+td
+.left
+ 
+a
+.button {
+	margin-right: 5px;
+}
+
+.gridTable
+ 
+td
+.left
+ 
+a
+.button
+.floatl {
+	margin-right: 16px !important;
+}
+
+body
+.ie6
+ 
+.gridTable
+ 
+td
+.left
+ 
+a
+.button
+.floatl,body
+.ie7
+ 
+.gridTable
+ 
+td
+.left
+ 
+a
+.button
+.floatl {
+	margin-right: 10px !important;
+}
+
+body
+.ie8
+ 
+.gridTable
+ 
+td
+.left
+ 
+a
+.button
+.floatl {
+	margin-right: 28px !important;
+}
+
+body
+.ie6
+ 
+.gridTable
+ 
+td
+.left
+ 
+a
+.button
+.floatr,body
+.ie7
+ 
+.gridTable
+ 
+td
+.left
+ 
+a
+.button
+.floatr {
+	margin-right: 5px !important;
+}
+
+/**********************/
+/*    BUTTON ICONS    */
+/**********************/
+.dataFooter
+ 
+tr
+.foot
+ 
+td
+ 
+a
+.add
+.button,.dataFooter
+ 
+tr
+.foot
+ 
+td
+ 
+div
+.add
+.button,.dataFooter
+ 
+tr
+.foot
+ 
+td
+ 
+a
+.new
+.button,.dataFooter
+ 
+tr
+.foot
+ 
+td
+ 
+div
+.new
+.button,.dataFooter
+ 
+tr
+.foot
+ 
+td
+ 
+a
+.delete
+.button,.dataFooter
+ 
+tr
+.foot
+ 
+td
+ 
+div
+.delete
+.button {
+	height: 19px;
+	width: 19px;
+	margin: 0px 0px 0px 10px !important;
+	padding: 0px 0px 0px 0px;
+	vertical-align: 1px;
+}
+
+body
+
+
+.ie6
+
+ 
+
+.dataFooter
+
+ 
+
+tr
+
+
+.foot
+
+ 
+
+td
+
+ 
+
+a
+
+
+.add
+
+
+.button
+,
+body
+
+
+.ie6
+
+ 
+
+.dataFooter
+
+ 
+
+tr
+
+
+.foot
+
+ 
+
+td
+
+ 
+
+div
+
+
+.add
+
+
+.button
+,
+body
+
+
+.ie6
+
+ 
+
+.dataFooter
+
+ 
+
+tr
+
+
+.foot
+
+ 
+
+td
+
+ 
+
+a
+
+
+.new
+
+
+.button
+,
+body
+
+
+.ie6
+
+ 
+
+.dataFooter
+
+ 
+
+tr
+
+
+.foot
+
+ 
+
+td
+
+ 
+
+div
+
+
+.new
+
+
+.button
+,
+body
+
+
+.ie6
+
+ 
+
+.dataTable
+
+ 
+
+tr
+
+
+.foot
+
+ 
+
+td
+
+ 
+
+a
+
+
+.delete
+
+
+.button
+,
+body
+
+
+.ie6
+
+ 
+
+.dataFooter
+
+ 
+
+tr
+
+
+.foot
+
+ 
+
+td
+
+ 
+
+div
+
+
+.delete
+
+
+.button
+,
+body
+
+
+.ie7
+
+ 
+
+.dataFooter
+
+ 
+
+tr
+
+
+.foot
+
+ 
+
+td
+
+ 
+
+a
+
+
+.add
+
+
+.button
+,
+body
+
+
+.ie7
+
+ 
+
+.dataFooter
+
+ 
+
+tr
+
+
+.foot
+
+ 
+
+td
+
+ 
+
+div
+
+
+.add
+
+
+.button
+,
+body
+
+
+.ie7
+
+ 
+
+.dataFooter
+
+ 
+
+tr
+
+
+.foot
+
+ 
+
+td
+
+ 
+
+a
+
+
+.new
+
+
+.button
+,
+body
+
+
+.ie7
+
+ 
+
+.dataFooter
+
+ 
+
+tr
+
+
+.foot
+
+ 
+
+td
+
+ 
+
+div
+
+
+.new
+
+
+.button
+,
+body
+
+
+.ie7
+
+ 
+
+.dataFooter
+
+ 
+
+tr
+
+
+.foot
+
+ 
+
+td
+
+ 
+
+a
+
+
+.delete
+
+
+.button
+,
+body
+
+
+.ie7
+
+ 
+
+.dataTable
+
+ 
+
+tr
+
+
+.foot
+
+ 
+
+td
+
+ 
+
+div
+
+
+.delete
+
+
+.button
+,
+body
+
+
+.ie8
+
+ 
+
+.dataFooter
+
+ 
+
+tr
+
+
+.foot
+
+ 
+
+td
+
+ 
+
+a
+
+
+.add
+
+
+.button
+,
+body
+
+
+.ie8
+
+ 
+
+.dataFooter
+
+ 
+
+tr
+
+
+.foot
+
+ 
+
+td
+
+ 
+
+div
+
+
+.add
+
+
+.button
+,
+body
+
+
+.ie8
+
+ 
+
+.dataFooter
+
+ 
+
+tr
+
+
+.foot
+
+ 
+
+td
+
+ 
+
+a
+
+
+.new
+
+
+.button
+,
+body
+
+
+.ie8
+
+ 
+
+.dataFooter
+
+ 
+
+tr
+
+
+.foot
+
+ 
+
+td
+
+ 
+
+div
+
+
+.new
+
+
+.button
+,
+body
+
+
+.ie8
+
+ 
+
+.dataFooter
+
+ 
+
+tr
+
+
+.foot
+
+ 
+
+td
+
+ 
+
+a
+
+
+.delete
+
+
+.button
+,
+body
+
+
+.ie8
+
+ 
+
+.dataFooter
+
+ 
+
+tr
+
+
+.foot
+
+ 
+
+td
+
+ 
+
+div
+
+
+#delete
+
+
+.button
+,
+{
+vertical-align
+
+
+:
+
+ 
+
+0
+px
+
+
+;
+}
+
+/* Safari hack */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	.dataFooter tr.foot td a.add.button,.dataFooter tr.foot td div.add.button,.dataFooter tr.foot td a.new.button,.dataFooter tr.foot td div.new.button,.dataFooter tr.foot td a.delete.button,.dataFooter tr.foot td div.delete.button
+		{
+		vertical-align: 0px;
+	}
+}
+
+body.ie6 #container.res1280columns2 .dialog {
+	float: left;
+	padding-left: 1px !important;
+	padding-right: 10px !important;
+	margin-left: -3px !important;
+}
+
+body.ie7 #container.res1280columns2 .dialog {
+	padding-right: 15px;
+}
+
+body.ie8 #container.res1280columns2 .dialog {
+	padding-right: 22px;
+}
+
+body.ie6 #container.res1280columns2 .dialog {
+	float: left;
+	padding-left: 1px !important;
+	padding-right: 10px !important;
+	margin-left: -3px !important;
+}
+
+body.ie7 #container.res1280columns3 .dialog {
+	padding-right: 22px;
+}
+
+body.ie8 #container.res1280columns3 .dialog {
+	padding-right: 22px;
+}
+
+/*##################*/
+/*#      TABS      #*/
+/*##################*/
+.tabs {
+	width: 100%;
+	display: table;
+}
+
+body.ie6 .tabs,body.ie7 .tabs {
+	width: auto;
+}
+
+body.ie7 .tabs {
+	float: left;
+}
+
+.tabs
+ 
+.tabNav {
+    background-color: #57647D;
+    border-left: 0 solid #9A9A9A;
+    border-right: 0 solid #9A9A9A;
+    list-style: none outside none;
+}
+
+.tabs .tabNav li {
+	display: none;
+	background-color: #5A7899;
+	padding-right: 5px;
+	border-bottom: 1px solid #9A9A9A;
+}
+
+.tabs .tabNav li,.tabs .tabNav li.disabled {
+	position: relative;
+	float: left;
+	border-right: 1px solid #EEEEEE;
+	border-top: 1px solid #EEEEEE;
+	border-bottom: 1px solid #EEEEEE;
+}
+
+.tabs .tabNav li a {
+	float: left;
+	display: block;
+	text-decoration: none;
+	padding: 4px 16px 5px 15px;
+	font-size: 1.2em;
+	color: #FFFFFF;
+}
+
+body.ie9 .tabs .tabNav li a {
+	padding: 5px 16px 4px 15px;
+}
+
+.tabs .tabNav li a:hover {
+	text-decoration: underline;
+}
+
+.tabs .tabNav li.selected {
+	border-bottom: 1px solid #eeeeee;
+	border-left: 1px solid #eeeeee;
+}
+
+.tabs .tabNav li.selected {
+	background-color: #5A7899;
+}
+
+.tabs .tabNav li.disabled {
+	background-color: #ABA8BD;
+}
+
+.tabs .tabNav li.selected a,.tabs .tabNav li.disabled a {
+	cursor: text;
+	position: relative;
+	font-weight: normal;
+	color: #000000;
+}
+
+.tabs .tabNav li.disabled a {
+	background-color: none;
+}
+
+.tabs .tabNav li.disabled a,.tabNav li.disabled a:hover {
+	color: #d2d2d2;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+.tabs .tabNav li a,.tabNav li.selected a {
+	cursor: pointer;
+}
+
+.tabNav li.selected a:hover {
+	text-decoration: none;
+}
+
+/* Tab Loading Icon */
+.tabs .tabNav li.selected.calling a {
+	background: url("../images/ajaxSigns/ajax_lightgray.gif") right center
+		no-repeat;
+}
+
+.tabs .tabNav li.calling a {
+	background: url("../images/ajaxSigns/ajax_gray.gif") right center
+		no-repeat;
+}
+/* Tab Saving Icon */
+.tabs .tabNav li.selected.changed a {
+	background: url("../images/changed_white.gif") right center no-repeat;
+}
+
+.tabs .tabNav li.changed a {
+	background: url("../images/changed_gray.gif") right center no-repeat;
+}
+/* Tab Marked Icon */
+.tabNav li.mark-blue a {
+	background: url("../images/status/mark_blue.png") no-repeat scroll 101%
+		center transparent;
+}
+
+.tabNav li.mark-green a {
+	background: url("../images/status/mark_green.png") no-repeat scroll 101%
+		center transparent;
+}
+
+.tabNav li.mark-orange a {
+	background: url("../images/status/mark_orange.png") no-repeat scroll
+		101% center transparent;
+}
+
+.tabNav li.mark-red a {
+	background: url("../images/status/mark_red.png") no-repeat scroll 101%
+		center transparent;
+}
+
+.tabNav li.mark-white a {
+	background: url("../images/status/mark_white.png") no-repeat scroll 101%
+		center transparent;
+}
+
+.tabNav li.mark-yellow a {
+	background: url("../images/status/mark_yellow.png") no-repeat scroll
+		101% center transparent;
+}
+
+/*************************/
+/*    PANEL CONTAINER    */
+/*************************/
+.tabs .panelContainer {
+	background-color: #eeeeee;
+	border: 0px solid #9A9A9A;
+	padding-top: 1px;
+	margin-top: -1px;
+	display: table;
+	float: left;
+	width: 100%;
+}
+
+body.ie7 .tabs .panelContainer {
+	margin-right: 0px;
+}
+
+/********************/
+/*    TABS BOXES    */
+/********************/
+.tabs .tabPanel {
+	display: none;
+	background-color: #111111;
+	clear: both;
+	width: 100%;
+}
+
+.tabs .tabPanel.selected {
+	display: block;
+}
+
+/*****************/
+/*    RES1024    */
+/*****************/
+#container.res1024columns1 .tabs .tabPanel {
+	width: 1013px;
+} /* ok */
+#container.res1024columns2 .tabs .tabPanel {
+	width: 767px;
+} /* ok */
+body.ie6 #container.res1024columns2 .tabs .tabPanel {
+	width: 771px;
+} /* ok */
+body.ie7 #container.res1024columns2 .tabs .tabPanel {
+	width: 776px;
+} /* ok */
+body.ie8 #container.res1024columns2 .tabs .tabPanel {
+	width: 768px;
+} /* ok */
+
+/*****************/
+/*    RES1280    */
+/*****************/
+#container.res1280columns1 .tabs .tabPanel {
+	width: 1276px;
+} /* ok FF Win */
+#container.res1280columns2 .tabs .tabPanel {
+	width: 1033px;
+} /* ok FF Win */
+body.ie6 #container.res1280columns2 .tabs .tabPanel {
+	width: 1033px;
+} /* ok */
+body.ie7 #container.res1280columns2 .tabs .tabPanel {
+	width: 1032px;
+} /* ok */
+body.ie8 #container.res1280columns2 .tabs .tabPanel {
+	width: 1032px;
+} /* ok */
+
+/***********************/
+/*    FEXIBLE WIDTH    */
+/***********************/
+#container .tabs .tabPanel.flex {
+	width: 100% !important;
+}
+
+body.ie6 #container .tabs .tabPanel.flex,body.ie7 #container .tabs .tabPanel.flex
+	{
+	width: auto !important;
+}
+
+/******************************/
+/*    RIGHT SIDEBAR COLUMN    */
+/******************************/
+#container .contentColRight.side {
+	width: 185px;
+	padding-left: 25px;
+}
+
+body.ie6 #container .contentColRight.side {
+	width: 185px;
+	padding-left: 25px;
+}
+
+body.ie7 #container .contentColRight.side {
+	width: 185px;
+	padding-left: 25px;
+}
+
+body.ie8 #container .contentColRight.side {
+	width: 185px;
+	padding-left: 25px;
+}
+
+/**********************/
+/*    DIALOG SMALL    */
+/**********************/
+#container.res1024columns3 .dialog.main,#container.res1280columns3 .dialog.main
+	{
+	padding-right: 213px;
+} /* ok */
+body.ie6 #container.res1024columns3 .dialog.main,body.ie6 #container.res1280columns3 .dialog.main,body.ie6 #container.res1024columns3 .dialog.main,body.ie6 #container.res1280columns3 .dialog.main
+	{
+	padding-left: 1px !important;
+	padding-right: 0px !important;
+	float: left;
+	margin-left: -3px !important;
+}
+
+body.ie7 #container.res1024columns3 .dialog.main,body.ie7 #container.res1280columns3 .dialog.main,body.ie7 #container.res1024columns3 .dialog.main,body.ie7 #container.res1280columns3  .dialog.main
+	{
+	padding-right: 3px;
+} /* ok */
+body.ie8 #container.res1024columns3 .dialog.main,body.ie8 #container.res1280columns3 .dialog.main,body.ie8 #container.res1024columns3 .dialog.main,body.ie8 #container.res1280columns3 .dialog.main
+	{
+	padding-right: 213px;
+} /* ok */
+
+/* Safari hack */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	#container
+.res1280columns3
+ 
+.dialog
+.main {
+		padding-right: 212px;
+	}
+}
+
+body.ie6 #container .dialog.main .tabs {
+	width: 100%;
+}
+
+/*****************/
+/*    RES1024    */
+/*****************/
+#container.res1024 .dialog.main .tabs .tabPanel {
+	width: 509px;
+	margin-right: 0px;
+} /* ok FF Win */
+body.ie6 #container.res1024 .dialog.main .tabs .tabPanel {
+	width: 513px;
+} /* ok */
+body.ie7 #container.res1024 .dialog.main .tabs .tabPanel {
+	width: 400px;
+} /* ok */
+body.ie8 #container.res1024 .dialog.main .tabs .tabPanel {
+	width: 507px;
+} /* ok */
+
+/***************************/
+/*    RES1024 COLUMNS 3    */
+/***************************/
+#container.res1024columns3 .dialog.main .tabs .tabPanel {
+	width: 777px;
+	margin-right: 0px;
+} /* ok FF Win */
+body.ie6 #container.res1024columns3 .dialog.main .tabs .tabPanel {
+	width: 786px;
+} /* ok */
+body.ie7 #container.res1024columns3 .dialog.main .tabs .tabPanel {
+	width: 786px;
+} /* ok */
+body.ie8 #container.res1024columns3 .dialog.main .tabs .tabPanel {
+	width: 786px;
+} /* ok */
+
+/*****************/
+/*    RES1280    */
+/*****************/
+#container.res1280 .dialog.main .tabs .tabPanel {
+	width: 775px;
+	margin-right: 0px;
+} /* ok FF Win */
+body.ie6 #container.res1280 .dialog.main .tabs .tabPanel {
+	width: 769px;
+} /* ok */
+body.ie7 #container.res1280 .dialog.main .tabs .tabPanel {
+	width: 770px;
+} /* ok */
+body.ie8 #container.res1280 .dialog.main .tabs .tabPanel {
+	width: 771px;
+} /* ok */
+
+/**************************************/
+/*    TAB FOOTER FOR SUBMIT BUTTONS   */
+/**************************************/
+.tabfooter {
+	background-color: #D2D2D2;
+	border-top: 1px solid #9A9A9A;
+	padding: 0px 15px 0px 15px;
+	margin-top: 15px;
+}
+
+body.ie6 .tabfooter,body.ie7 .tabfooter {
+	padding: 0px 14px 0px 15px;
+}
+
+.tabfooter .inner {
+	min-height: 34px !important;
+}
+
+body.ie6 .tabfooter .inner {
+	height: 34px !important;
+}
+
+.tabfooter .buttons {
+	float: right;
+	padding: 2px 0px 2px 20px;
+}
+
+.tabfooter .dynamic {
+	float: left;
+}
+
+/**************************************/
+/*    BUTTONBOX FOR SUBMIT BUTTONS   */
+/**************************************/
+.buttonBox {
+	margin-top: -4px;
+}
+
+/********************/
+/*    SUBDIALOG    */
+/********************/
+.subdialog {
+	display: none;
+	overflow-x: visible;
+}
+
+/*******************/
+/*    GREY LINE    */
+/*******************/
+.hr {
+	padding: 0px 0px 0px 0px;
+	border-top: 1px solid #9a9a9a;
+	font-size: 1px;
+	line-height: 1px;
+	height: 1px;
+	margin-bottom: 5px;
+	margin-top: 15px;
+}
+
+.subcol .hr {
+	width: 100%;
+	margin-bottom: 0px;
+}
+
+/***************/
+/*    LABEL    */
+/***************/
+label {
+	display: block;
+	font-weight: bold;
+	padding: 0px 0 3px 0;
+	font-size: 11px;
+	white-space: nowrap;
+	margin-top: 7px;
+	color: #EEFFDD;
+}
+
+.noLabel label {
+	display: none;
+}
+
+label.tooltipDone {
+	float: left;
+	cursor: pointer;
+}
+
+label span {
+	font-weight: normal;
+	padding-left: 7px;
+}
+
+label.underline {
+	float: none;
+	border-bottom: 1px solid #9A9A9A;
+	margin-right: 15px;
+	padding: 0 0 1px 0px;
+	margin-bottom: 10px;
+}
+
+label.underline.first {
+	margin-top: 0px !important;
+}
+
+label.dist {
+	margin-top: 10px !important;
+}
+
+/* IS RADIO */
+div.isRadio label,div.isCheck label,div.isRadio p,div.isCheck p {
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 21px;
+	padding: 0px 10px 0px 5px;
+	float: left;
+	margin-top: 0px;
+}
+
+body.ie6 div.isRadio label,body.ie7 div.isRadio label,body.ie6 div.isCheck label,body.ie7 div.isCheck label
+	{
+	line-height: 22px;
+}
+
+body.ie8 div.isRadio label,body.ie8 div.isCheck label {
+	line-height: 23px;
+}
+
+.wrap.isRadio,.wrap.isCheck {
+	background-color: transparent;
+}
+
+/* Safari hack */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	div
+.isRadio
+ 
+label,div
+.isCheck
+ 
+label {
+		line-height: 23px;
+	}
+}
+
+div.isRadio label input.radio {
+	float: left;
+	margin-right: 3px !important;
+}
+
+/* MARGIN TOP WITHOUT LABEL*/
+div.pt {
+	margin-top: 24px;
+}
+
+div.isCheck label {
+	padding: 1px 10px 0px 0px;
+	white-space: normal;
+	float: none;
+}
+
+div.isCheck input.check {
+	float: left;
+	margin-right: 5px !important;
+}
+
+div.isCheck.wrap,div.isRadio.wrap {
+	border: 0px;
+	overflow: visible;
+}
+
+/*****************/
+/*    WRAP    */
+/*****************/
+.wrap {
+	padding: 0px 0px 0px 0px;
+	overflow-x: hidden;
+	border: 1px solid #7C7C7C;
+	clear: both;
+	background-color: #ffffff;
+}
+
+.wrap:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+body.ie6 .wrap {
+	border: 1px solid #7C7C7C !important;
+}
+
+body.ie6 .wrap,body.ie7 .wrap {
+	zoom: 1;
+}
+
+body.ie8 .wrap {
+	padding-top: 0 !important;
+}
+
+.wrap.icon {
+	margin: 0px 20px 0px 0px !important;
+	clear: none;
+}
+
+.wrap.icon2 {
+	margin: 0px 40px 0px 0px;
+}
+
+.wrap.btn {
+	padding: 0px 100px 0px 0px;
+}
+
+.wrap p,.wrap label {
+	padding: 2px 5px 0px 5px;
+	vertical-align: 2px;
+	display: inline;
+	font-size: 12px;
+	line-height: 12px;
+}
+
+.wrap.isChart {
+	background: none;
+}
+
+/*############################*/
+/*#       MODAL WINDOW       #*/
+/*############################*/
+.modal {
+	display: block;
+	width: 928px;
+}
+
+.modal p u {
+	text-decoration: none;
+}
+
+.modal pre {
+	width: 900px;
+	overflow: hidden;
+	height: 15px;
+}
+
+.modal .tableWrapper {
+	padding-bottom: 10px;
+}
+
+.modal #servicestatus p.error {
+	font-size: 12px;
+	padding-top: 0px;
+}
+
+/*#############################*/
+/*#       ERROR TEMPLATE      #*/
+/*#############################*/
+.modal .errorContent {
+	padding: 0 15px 0 0;
+}
+
+.modal .errorContent div {
+	-khtml-user-select: text;
+}
+
+.modal .errorContent p {
+	font-size: 12px;
+	padding-bottom: 5px;
+	padding-top: 0px;
+	width: 893px;
+	overflow-x: hidden;
+}
+
+.modal .errorContent label {
+	padding-bottom: 1px;
+}
+
+.modal .errorContent .dump label {
+	padding-bottom: 3px;
+}
+
+.modal .errorContent .dump p,.modal .errorContent .details p {
+	background-color: #ffffff;
+	height: 100px;
+	overflow-y: scroll;
+	border: 1px solid #9A9A9A;
+	margin-bottom: 7px;
+	padding-left: 3px;
+}
+
+.errorContent div.hr {
+	margin-bottom: 13px;
+}
+
+/* DESCRIPTION */
+.modal .errorContent .description {
+	padding: 10px 0px 10px 0px;
+}
+
+/* DETAILS */
+.modal .errorContent .details {
+	clear: both;
+}
+
+.modal .errorContent .details textarea {
+	height: 90px;
+}
+
+/* URL */
+.modal .errorContent .url {
+	display: none;
+}
+
+/* TICKET */
+.modal .errorContent .ticket {
+	width: 450px;
+	float: left;
+	overflow-x: hidden;
+}
+
+.modal .errorContent .ticket p {
+	width: auto;
+}
+
+/* TIME */
+.modal .errorContent .time {
+	width: 300px;
+	float: left;
+}
+
+.modal .errorContent .time p {
+	width: auto;
+}
+
+/* HINT */
+.modal .errorContent .hint {
+	clear: both;
+	padding-top: 5px;
+	/*
+	border-top: 1px solid #9A9A9A;
+	margin-top: 20px;
+	*/
+}
+
+.modal .errorContent .hint textarea {
+	height: 90px;
+}
+
+/* EXCEPTION & CAUSE */
+.modal .errorContent .exception p,.modal .errorContent .cause p {
+	height: 90px;
+	border: 1px solid #7C7C7C;
+	padding: 1px 0 2px 3px;
+}
+
+.modal .errorContent .exception,.modal .errorContent .cause {
+	padding-bottom: 5px;
+}
+
+/*#############################*/
+/*#       MODAL CONFIRM       #*/
+/*#############################*/
+.modal.confirm {
+	display: block;
+	width: 300px;
+}
+
+.modal.confirm table td.col1 p {
+	padding-top: 15px;
+	padding-bottom: 10px;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+/*#############################*/
+/*#       MODAL LOGIN       #*/
+/*#############################*/
+.modal.login {
+	display: block;
+	width: 400px;
+}
+
+.modal.login .wrap input {
+	width: 365px;
+}
+
+/*#############################*/
+/*#       MODAL NARROW       #*/
+/*#############################*/
+.modal.narrow {
+	display: block;
+	width: 450px;
+}
+
+/* Select adjustment for narrow dialogs */
+.modal.narrow td.col1 select {
+	width: 101.3%;
+}
+
+.modal.narrow #servicestatus p.calling {
+	text-indent: -5000px;
+}
+
+/*#############################*/
+/*#       SERVICE STATUS      #*/
+/*#############################*/
+#servicestatus {
+	padding: 8px 0px 0px 0px;
+}
+
+#servicestatus:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+/* IE 6+7 */
+body.ie6 #servicestatus:after {
+	height: 1%;
+}
+
+body.ie7 #servicestatus:after {
+	display: inline-block
+}
+
+#servicestatus p.calling {
+	font-size: 12px;
+	font-weight: normal;
+	text-align: left;
+	padding: 0 0 5px 20px;
+	clear: left;
+	float: left;
+	background: #D2D2D2 url("../images/ajaxSigns/ajax_darkgray.gif") 0px 1px
+		no-repeat;
+}
+
+#servicestatus p.warning,#servicestatus p.error,#servicestatus p.status
+	{
+	font-size: 12px;
+	padding-bottom: 5px;
+	clear: left;
+}
+
+#servicestatus p.warning {
+	color: #FF8F00;
+	font-weight: bold;
+}
+
+#servicestatus p.error {
+	color: #D00000;
+	font-weight: bold;
+}
+
+#servicestatus p.status {
+	
+}
+
+/*####################*/
+/*#      TABLES      #*/
+/*####################*/
+.tableWrapper {
+	padding: 0px 0px 0px 15px;
+}
+
+.dataTable,.gridTable,.gridTable2,.dataFooter {
+	width: 100%;
+	border-collapse: collapse;
+	clear: both;
+	zoom: 1;
+}
+
+.gridTable col,.dataTable col {
+	width: auto;
+}
+
+.dataTable td,.gridTable td,.gridTable2 td,.dataFooter td {
+	font-size: 12px;
+	font-weight: normal;
+	text-align: left;
+	vertical-align: top;
+	border: 0px solid #cc0000;
+	zoom: 1;
+}
+
+.gridTable td {
+	padding: 0px 15px 0px 0px;
+}
+
+.gridTable tr {
+	padding: 5px 0px 0px 0px;
+}
+
+.gridTable td.col1,.gridTable td.col2,.gridTable td.col3,.gridTable td.col4,.gridTable td.col5
+	{
+	padding: 0px 15px 0px 0px;
+}
+
+.gridTable2 td.col1,.gridTable2 td.col2,.gridTable2 td.col3,.gridTable2 td.col4,.gridTable2 td.col5
+	{
+	padding: 0px 0px 0px 0px;
+}
+
+.gridTable td.col1,.gridTable2 td.col1 {
+	width: 100%;
+}
+
+.gridTable td.col2,.gridTable2 td.col2 {
+	width: 50%;
+}
+
+.gridTable td.col3,.gridTable2 td.col3 {
+	width: 33.3%;
+}
+
+.gridTable td.col4,.gridTable2 td.col4 {
+	width: 25%;
+}
+
+.gridTable td.col5,.gridTable2 td.col5 {
+	width: 20%;
+}
+
+.gridTable td.col10,.gridTable2 td.col10 {
+	width: 10%;
+}
+
+.gridTable td.col15,.gridTable2 td.col15 {
+	width: 15%;
+}
+
+.gridTable td.col45,.gridTable2 td.col45 {
+	width: 45%;
+}
+
+.gridTable td.col25,.gridTable2 td.col25,.dataFooter td.col25 {
+	width: 25%;
+}
+
+.gridTable td.col30,.gridTable2 td.col30 {
+	width: 30%;
+}
+
+.gridTable td.col75,.gridTable2 td.col75 {
+	width: 75%;
+}
+
+.gridTable td.col20,.gridTable2 td.col20 {
+	width: 20%;
+}
+
+.gridTable td.col80,.gridTable2 td.col80 {
+	width: 80%;
+}
+
+.gridTable td.col50,.gridTable2 td.col50 {
+	width: 50%;
+}
+
+.gridTable td.col40,.gridTable2 td.col40 {
+	width: 40%;
+}
+
+.gridTable td.col60,.gridTable2 td.col60 {
+	width: 60%;
+}
+
+/*##########################*/
+/*#      DYNAMIC AREA      #*/
+/*##########################*/
+.dynamic.width50 {
+	width: 50%;
+}
+
+.dynamic.width50 .gridTable td {
+	padding-right: 20px;
+}
+
+.dynamic.width50 td select {
+	width: 100.8%;
+}
+
+.dynamic td div.isCheckSelect {
+	width: 100%;
+}
+
+/****************/
+/*    SUBCOL    */
+/****************/
+.gridTable td .subcol,.gridTable2 td .subcol {
+	width: 100%;
+	border: 0px solid #cc0000;
+}
+
+/*******************/
+/*    DATATABLE    */
+/*******************/
+.dataTable {
+	margin-top: 10px;
+}
+
+.dataTable tr.head th {
+	background-color: #D2D2D2;
+	padding: 0px 5px 0px 5px;
+	text-align: left;
+	vertical-align: middle;
+	font-size: 12px;
+	font-weight: bold;
+	height: 29px;
+	white-space: nowrap;
+}
+
+.dataTable tr.head th span.thtext span {
+	font-weight: normal;
+	padding-left: 3px;
+	font-size: 10px;
+}
+
+.dataTable td.check input,.dataTable th.check input {
+	text-align: left;
+	font-size: 1px;
+	line-height: 1px;
+	border: 0px solid #9A9A9A;
+	padding: 0px 0px 0px 0px;
+	width: 14px !important;
+	height: 14px !important;
+}
+
+body.ie7 .dataTable td.check input,body.ie7 .dataTable th.check input {
+	width: 12px !important;
+	height: 12px !important;
+}
+
+.dataTable td {
+	padding: 5px 5px 5px 5px;
+	-khtml-user-select: text;
+}
+
+body.ie6 .dataTable td,body.ie7 .dataTable td {
+	padding: 6px 5px 5px 5px;
+}
+
+.dataTable tr.odd td {
+	background-color: #ffffff;
+}
+
+.dataTable tr.even td {
+	background-color: #eeeeee;
+}
+
+.dataTable tr.focused td,.dataTable tr.selected td {
+	cursor: pointer;
+}
+
+.dataTable tr.focused td {
+	background-color: #000066;
+	color: #ffffff;
+}
+
+.dataTable tr.selected td {
+	background-color: #000066;
+	color: #ffffff;
+}
+
+.dataTable td.check,.dataTable tr.head th.check {
+	width: 18px;
+	vertical-align: top;
+	text-align: center !important;
+	padding: 5px 5px 0px 5px;
+}
+
+.dataTable tr.head th.check {
+	vertical-align: middle;
+	padding: 2px 5px 0px 5px !important;
+}
+
+.dataTable tr.odd a,.dataTable tr.even a {
+	text-decoration: none;
+	font-weight: normal;
+	color: #000066;
+}
+
+.dataTable tr.focused td a,.dataTable tr.selected td a {
+	text-decoration: underline !important;
+	display: inline-block;
+}
+
+.dataTable tr.focused td a {
+	color: #ffffff;
+}
+
+.dataTable tr.selected td a {
+	color: #ffffff;
+}
+
+.dataTable tr.focused td a:hover {
+	color: #abcabc;
+}
+
+.dataTable tr.selected td a:hover {
+	color: #112233;
+}
+
+.dataTable tr.marked td {
+	background-color: #112233 !important;
+}
+
+/**********************/
+/*    TABLE TOOLTIP   */
+/**********************/
+.dataTable tr td span.info {
+	background: url("../images/icons/info.png") no-repeat scroll -5px -2px
+		transparent;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 1px;
+	height: 14px;
+	line-height: 1px;
+	width: 14px;
+	vertical-align: -2px;
+	margin-left: 4px;
+}
+
+/***********************/
+/*    TABLE FOOTER     */
+/***********************/
+.dataFooter tr.foot td,.gridTable tr.foot td {
+	font-weight: normal;
+	background-color: #D2D2D2;
+	padding: 0px 7px 0px 5px;
+	vertical-align: middle !important;
+}
+
+.dataFooter tr.foot td {
+	height: 29px;
+}
+
+.dataFooter tr.foot td.left {
+	white-space: nowrap;
+}
+
+.dataFooter tr.foot td.right .isSelect {
+	width: 200px;
+	float: right;
+}
+
+body.ie7 .dataFooter tr.foot td.right .isSelect,body.ie8 .dataFooter tr.foot td.right .isSelect
+	{
+	margin-top: 1px;
+}
+
+/**************************/
+/*    EDIT INPUT MODE     */
+/*************************/
+.dataTable td.edit .wrap { /* width:100%; */
+	height: 20px;
+	position: relative;
+}
+
+.dataTable td.edit .wrap.textarea {
+	height: 100px;
+}
+
+.dataTable td.edit {
+	padding: 2px 4px 2px 2px;
+}
+
+body.ie6 .dataTable td.edit,body.ie7 .dataTable td.edit {
+	padding: 2px 4px 1px 2px;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	.dataTable
+ 
+td
+.edit {
+		padding: 2px 4px 1px 2px;
+	}
+}
+
+.dataTable td.edit input {
+	line-height: 15px;
+	padding: 1px 0 2px 3px;
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+body.ie6 .dataTable td.edit input,body.ie7 .dataTable td.edit input {
+	height: 16px !important;
+	padding: 3px 0 0 4px;
+}
+
+body.ie8 .dataTable td.edit input {
+	height: 14px !important;
+	line-height: 15px;
+	padding: 2px 0 2px 4px;
+}
+
+/* Safari hack */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	.dataTable
+ 
+td
+.edit
+ 
+input {
+		padding: 2px 0 0 3px;
+	}
+}
+
+/**********************/
+/*  TABLEEDIT SELECT  */
+/**********************/
+.dataTable td.edit .wrap.isSelect {
+	width: 90%;
+}
+
+.dataTable td.edit .isSelect input {
+	width: 90%;
+}
+
+body.ie6 .dataTable td.edit .isSelect .dropList.bottom,body.ie7 .dataTable td.edit .isSelect .dropList.bottom
+	{
+	margin-top: 0px;
+}
+
+/*******************/
+/*  ERROR MESSAGE  */
+/*******************/
+#content .dataTable td p.error {
+	padding-bottom: 0px;
+}
+
+#content .dataTable td.error {
+	background-color: #D00000;
+	color: #ffffff;
+}
+
+/******************/
+/*    SUM ROW     */
+/******************/
+.dataTable tr.sum {
+	background-color: #d2d2d2 !important;
+}
+
+.dataTable tr.sum td {
+	font-weight: bold !important;
+	color: #000000 !important;
+	border-bottom: 1px solid #ffffff !important;
+}
+
+/*********************************/
+/*    DISABLE HEADER & FOOTER    */
+/*********************************/
+.noHeader table.dataTable tr.head {
+	display: none;
+}
+
+.noFooter table.dataFooter tr.foot {
+	display: none;
+}
+
+/**********************/
+/*    TABLE PAGING    */
+/**********************/
+select.pageCounter {
+	width: 60px !important;
+	margin-right: 5px;
+}
+
+.dataFooter tr.foot td div.paging {
+	display: inline-block;
+	border: 0px solid #cc0000;
+	color: #000000;
+	white-space: nowrap;
+}
+
+.dataFooter tr.foot td div.paging span {
+	display: inline-block;
+	cursor: default;
+	line-height: 18px;
+	font-weight: normal;
+	color: #000000;
+}
+
+body.ie7 .dataFooter tr.foot td div.paging span {
+	padding: 2px 5px 2px 5px;
+	line-height: 17px;
+}
+
+.dataFooter tr.foot td div.paging a,.dataFooter tr.foot td div.paging a.previous,.dataFooter tr.foot td div.paging a.next
+	{
+	display: inline-block;
+	padding: 2px 5px 2px 5px;
+	line-height: 18px;
+	font-weight: normal;
+	color: #000066;
+}
+
+.dataFooter tr.foot td div.paging a:hover {
+	background-color: #ffffff;
+	border: 1px solid #7C7C7C;
+	text-decoration: none;
+	padding: 1px 4px 1px 4px;
+	cursor: pointer;
+}
+
+.dataFooter tr.foot td div.paging a:hover span {
+	cursor: pointer;
+}
+
+/* Safari hack */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	.dataFooter
+ 
+tr
+.foot
+ 
+td
+ 
+div
+.paging
+ 
+a,.dataFooter
+ 
+tr
+.foot
+ 
+td
+ 
+div
+.paging
+ 
+span,.dataFooter
+ 
+tr
+.foot
+ 
+td
+ 
+div
+.paging
+ 
+a
+.previous,.dataFooter
+ 
+tr
+.foot
+ 
+td
+ 
+div
+.paging
+ 
+a
+.next {
+		margin-top: 1px;
+		line-height: 19px;
+	}
+	.dataFooter
+ 
+tr
+.foot
+ 
+td
+ 
+div
+.paging
+ 
+a
+:hover {
+		padding: 1px 4px 0px 4px;
+	}
+}
+
+.dataFooter tr.foot td div.paging a.selected,.dataFooter tr.foot td div.paging a.selected span
+	{
+	cursor: default;
+}
+
+.dataFooter tr.foot td div.paging a.selected span {
+	font-weight: bold;
+	color: #000000;
+}
+
+.dataFooter tr.foot td div.paging a:hover.selected {
+	border: 0px;
+	background: none;
+	padding: 1px 5px 1px 5px;
+}
+
+body.ie6 .dataFooter tr.foot td div.paging,body.ie7 .dataFooter tr.foot td div.paging
+	{
+	margin-top: 1px;
+}
+
+body.ie6 .dataFooter tr.foot td div.paging a,body.ie6 .dataFooter tr.foot td div.paging span,body.ie6 .dataFooter tr.foot td div.paging a.previous,body.ie6 .dataFooter tr.foot td div.paging a.next,body.ie7 .dataFooter tr.foot td div.paging a,body.ie7 .dataFooter tr.foot td div.paging span,body.ie7 .dataFooter tr.foot td div.paging a.previous,body.ie7 .dataFooter tr.foot td div.paging a.next
+	{
+	padding: 2px 5px 2px 5px;
+}
+
+body.ie7 .dataFooter tr.foot td div.paging a:hover,body.ie7 .dataFooter tr.foot td div.paging a:hover
+	{
+	margin-top: 0px;
+	padding: 1px 4px 1px 4px;
+}
+
+body.ie6 .dataFooter tr.foot td div.paging a:hover.selected,body.ie7 .dataFooter tr.foot td div.paging a:hover.selected
+	{
+	padding: 1px 5px 2px 5px;
+}
+
+.dataFooter tr.foot td div.paging a span {
+	padding: 0px 0px 0px 0px !important;
+	display: inline;
+	color: #000066;
+	font-weight: normal;
+	cursor: pointer;
+}
+
+.dataFooter tr.foot td div.paging a.hover span {
+	padding: 0px 0px 0px 0px !important;
+	display: inline;
+	cursor: pointer;
+}
+
+/***************************/
+/*    READONLY DISABLED    */
+/***************************/
+.gridTable input.readonly,.gridTable textarea.readonly,.gridTable input.locked
+	{
+	background-color: #f4f4f4 !important;
+}
+
+.wrap.readonly {
+	background-color: #f4f4f4 !important;
+}
+
+.gridTable .isSelect.disabled select,.gridTable .isSelect.disabled select option
+	{
+	background-color: #f4f4f4 !important;
+}
+
+/***************************/
+/*     TABLE SORT ICON     */
+/***************************/
+.sort,.sort_up,.sort_down {
+	width: 8px;
+	height: 12px;
+	font-size: 1px;
+	line-height: 1px;
+	margin: 2px 0 0px 6px;
+	vertical-align: -2px;
+	display: inline-block;
+	background: url("../images/buttons/sorts/sort.gif") no-repeat;
+	background-position: center left;
+	cursor: pointer;
+}
+
+.sort_up {
+	background-position: top left;
+}
+
+.sort_down {
+	background-position: bottom left;
+}
+
+/*#######################################*/
+/*#       SELECT LISTS COMMON CSS       #*/
+/*#######################################*/
+.selectbox {
+	overflow-x: hidden;
+	overflow-y: auto;
+	background-color: #FEFEFE;
+	border: 1px solid #7C7C7C;
+	position: relative;
+}
+
+body.ie6 .selectbox {
+	overflow-y: scroll !important;
+}
+
+.selectbox {
+	height: 100px;
+}
+
+.medium .selectbox,.selectbox.medium {
+	height: 400px !important;
+}
+
+.large .selectbox,.selectbox.large {
+	height: 509px !important;
+}
+
+body.ie6 .large .selectbox,body.ie6 .selectbox.large,body.ie7 .large .selectbox,body.ie7 .selectbox.large
+	{
+	height: 510px !important;
+}
+
+body.ie8 .large .selectbox,body.ie8 .selectbox.large {
+	height: 507px !important;
+}
+
+/* Safari hack */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	.large
+ 
+.selectbox,.selectbox
+.large {
+		height: 509px !important;
+	}
+}
+
+/************************************/
+/*   ISSWAPSELECT BUTTON POSITION   */
+/************************************/
+.buttonbox {
+	position: relative;
+	margin-top: 45px;
+}
+
+.medium .buttonbox {
+	margin-top: 170px;
+}
+
+.large .buttonbox {
+	margin-top: 210px;
+}
+
+/************************************/
+/*   ISSWAPSELECT BUTTON POSITION   */
+/************************************/
+.isSwapSelect.disabled .selectbox,.isCheckSelect.disabled,isCheckSelect.disabled.selectbox,.isCatalog.disabled
+	{
+	background-color: #f4f4f4;
+}
+
+/*##########################*/
+/*#       SWAPSELECT       #*/
+/*##########################*/
+
+/* default width - vorerst auskommentiert da verschobene Breiten im modaler Dialog editUser
+.isSwapSelect td.wmod1 .selectbox {
+	width:99.6% !important;
+}
+
+body.ie7 .isSwapSelect td.wmod1 .selectbox, body.ie6 .isSwapSelect td.wmod1 .selectbox  {
+	width:99.6% !important;
+} 
+
+*/
+.center {
+	width: 85px;
+}
+
+.isSwapSelect p.error {
+	position: absolute;
+}
+
+.modal p {
+	font-size: 12px;
+}
+
+/* buttonbox width */
+body.ie6 .isSwapSelect td div.buttonbox {
+	width: 90px;
+}
+
+/* default modal width */
+.modal .isSwapSelect td.wmod1 .selectbox {
+	width: 392px;
+}
+
+body.ie6 .modal .isSwapSelect td.wmod1 .selectbox {
+	width: 387px;
+}
+
+body.ie7 .modal .isSwapSelect td.wmod1 .selectbox {
+	width: 387px;
+}
+
+body.ie8 .modal .isSwapSelect td.wmod1 .selectbox {
+	width: 396px;
+}
+/* buttonbox width */
+body.ie6 .modal .isSwapSelect td div.buttonbox {
+	width: 90px;
+}
+
+.isSwapSelect label {
+	position: absolute;
+}
+
+.isSwapSelect .selectbox {
+	margin-top: 23px;
+}
+
+body.ie7 .isSwapSelect .selectbox {
+	top: 23px;
+}
+
+.isSwapSelect ul {
+	overflow-y: auto;
+	overflow-x: hidden;
+	list-style-type: none;
+	color: #000000;
+	font-size: 13px;
+	line-height: 16px;
+	position: absolute;
+	width: 100%;
+}
+
+.isSwapSelect ul li {
+	cursor: pointer;
+	background-color: #ffffff;
+	font-size: 12px;
+	-moz-user-select: none;
+	zoom: 1;
+}
+
+.isSwapSelect .selectbox.disabled,.isSwapSelect .selectbox.disabled ul {
+	background-color: #f4f4f4;
+}
+
+.isSwapSelect .selectbox.disabled ul li {
+	cursor: default !important;
+	background-color: #f4f4f4;
+}
+
+.isSwapSelect ul li.selected {
+	background-color: #dedede;
+	color: #000000;
+}
+
+.isSwapSelect ul li.focused,.isSwapSelect ul li.selected.focused {
+	background-color: #000066 !important;
+	color: #ffffff !important;
+}
+
+/****************/
+/*   1. LEVEL   */
+/****************/
+.isSwapSelect ul li {
+	padding: 1px 10px 2px 4px;
+}
+
+/****************/
+/*   2. LEVEL   */
+/****************/
+.isSwapSelect ul ul li {
+	padding: 1px 10px 2px 37px;
+}
+
+/****************/
+/*   3. LEVEL   */
+/****************/
+.isSwapSelect ul ul ul li {
+	padding: 1px 10px 2px 57px;
+}
+
+/*#######################*/
+/*#     CHECKSELECT     #*/
+/*#######################*/
+.isCheckSelect {
+	width: 100.6%;
+}
+
+.isCheckSelect ul {
+	overflow: auto;
+	list-style-type: none;
+	color: #000000;
+	font-size: 13px;
+	line-height: 16px;
+	position: relative;
+}
+
+.isCheckSelect ul li {
+	cursor: pointer;
+	background-color: #ffffff;
+	font-size: 12px;
+	-moz-user-select: none;
+	zoom: 1;
+}
+
+.isCheckSelect.disabled ul {
+	background-color: #f4f4f4;
+}
+
+.isCheckSelect.disabled ul li {
+	cursor: default !important;
+	background-color: #f4f4f4;
+}
+
+.isCheckSelect ul li.selected {
+	color: #000000;
+}
+
+.isCheckSelect ul li.focused,.isCheckSelect ul li.selected.focused {
+	background-color: #000066 !important;
+	color: #ffffff !important;
+}
+
+/****************/
+/*   1. LEVEL   */
+/****************/
+.isCheckSelect ul li {
+	padding: 1px 10px 2px 22px;
+	background: none;
+}
+
+.isCheckSelect ul li.selected {
+	background: url("../images/select/selected.png") 0px 0px no-repeat;
+}
+
+.isCheckSelect ul li.selected.focused {
+	background: url("../images/select/selected.png") 0px -32px no-repeat;
+}
+
+/*######################*/
+/*#       CATALOG      #*/
+/*######################*/
+.isCatalog ol {
+	list-style-type: none;
+	color: #000000;
+	font-size: 13px;
+	line-height: 16px;
+	overflow: hidden;
+	position: relative;
+}
+
+.isCatalog ol li {
+	cursor: pointer;
+	background-color: #ffffff;
+	font-size: 12px;
+	-moz-user-select: none;
+	list-style-type: decimal;
+	list-style-position: inside;
+	position: relative;
+}
+
+.isCatalog.disabled ol {
+	background-color: #f4f4f4;
+}
+
+.isCatalog.disabled ol li {
+	cursor: default !important;
+	background-color: #f4f4f4;
+}
+
+.isCatalog ol li.selected {
+	background-color: #dedede;
+	color: #000000;
+}
+
+.isCatalog ol li.focused,.isCatalog ol li.selected.focused {
+	background-color: #000066 !important;
+	color: #ffffff !important;
+}
+
+/* default modal width */
+.modal table td.wmod1 .selectbox.isCatalog {
+	width: 392px;
+}
+
+body.ie6 .modal table td.wmod1 .selectbox.isCatalog,body.ie7 .modal table td.wmod1 .selectbox.isCatalog
+	{
+	width: 388px;
+}
+
+body.ie8 .modal table td.wmod1 .selectbox.isCatalog {
+	width: 396px;
+}
+
+/* buttonbox width */
+body.ie6 .modal .isCatalog td div.buttonbox {
+	width: 80px;
+}
+
+/************************/
+/*    STATUS DISPLAY    */
+/************************/
+.isCatalog ol li span.icon,.isCatalog ol.withStatus li span.icon,.isCatalog ol li span.status,.isCatalog ol.withStatus li span.status
+	{
+	display: block;
+	width: 15px;
+	height: 16px;
+	vertical-align: -2px;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 0px;
+}
+
+.isCatalog ol li span.status,.isCatalog ol.withStatus li span.status {
+	left: 0px;
+	width: 16px;
+	display: block;
+}
+
+body.ie6 .isCatalog ol li span.icon,body.ie7 .isCatalog ol li span.icon,body.ie6 .isCatalog ol li span.status,body.ie7 .isCatalog ol li span.status
+	{
+	top: 1px;
+}
+
+body.ie6 .isCatalog li span.text,body.ie7 .isCatalog li span.text {
+	margin-left: 5px !important;
+}
+
+body.ie8 .isCatalog li span.text {
+	margin-left: -3px !important;
+}
+
+/* IE fix for flickering .focused hover class */
+body.ie6 .isCatalog ol li span.text,body.ie6 .isCatalog ol.withStatus li span.text
+	{
+	display: block;
+}
+
+body.ie7 .isCatalog ol li span.text,body.ie7 .isCatalog ol.withStatus li span.text,body.ie8 .isCatalog ol li span.text,body.ie8 .isCatalog ol.withStatus li span.text
+	{
+	border: 1px solid transparent;
+}
+
+.isCatalog ol li.opened span.icon {
+	background-image: url("../images/catalog/tree-arrowdown.gif") !important;
+}
+
+.isCatalog ol li.list span.icon {
+	background-image: url("../images/catalog/tree-arrowright.gif");
+}
+
+.isCatalog ol li span.status.red_exclamation_mark,.isCatalog ol li span.status.black_x,.isCatalog ol li span.status.blue_check,.isCatalog ol li span.status.yellow_check,.isCatalog ol li span.status.red_check
+	{
+	background-position: -2px 0px !important;
+	background-repeat: no-repeat;
+}
+
+.isCatalog ol li span.status.red_exclamation_mark {
+	background-image: url("../images/status/red_exclamation_mark.png");
+}
+
+.isCatalog ol li span.status.black_x {
+	background-image: url("../images/status/black_x.png");
+}
+
+.isCatalog ol li span.status.blue_check {
+	background-image: url("../images/status/blue_check.png");
+}
+
+.isCatalog ol li span.status.yellow_check {
+	background-image: url("../images/status/yellow_check.png");
+}
+
+.isCatalog ol li span.status.red_check {
+	background-image: url("../images/status/red_check.png");
+}
+
+/* IE6 GIFs */
+body.ie6 .isCatalog ol li span.status.red_exclamation_mark {
+	background-image: url("../images/status/red_exclamation_mark.gif");
+}
+
+body.ie6 .isCatalog ol li span.status.black_x {
+	background-image: url("../images/status/black_x.gif");
+}
+
+body.ie6 .isCatalog ol li span.status.blue_check {
+	background-image: url("../images/status/blue_check.gif");
+}
+
+body.ie6 .isCatalog ol li span.status.yellow_check {
+	background-image: url("../images/status/yellow_check.gif");
+}
+
+body.ie6 .isCatalog ol li span.status.red_check {
+	background-image: url("../images/status/red_check.gif");
+}
+
+/****************/
+/*   1. LEVEL   */
+/****************/
+.isCatalog ol.l0 li {
+	font-size: 12px;
+	font-weight: bold;
+	padding: 1px 10px 2px 17px;
+}
+
+.isCatalog ol.l0 li span.icon {
+	left: 0px;
+}
+
+body.ie6 .isCatalog ol.l0 li {
+	padding-left: 17px;
+}
+
+/* STATUS */
+.isCatalog ol.withStatus.l0 li {
+	padding-left: 36px;
+}
+
+.isCatalog ol.withStatus.l0 li span.icon {
+	left: 19px;
+}
+
+body.ie6 .isCatalog ol.withStatus.l0 li span.icon {
+	left: -32px;
+}
+
+body.ie6 .isCatalog ol.withStatus.l0 li span.status {
+	left: -52px;
+}
+
+/****************/
+/*   2. LEVEL   */
+/****************/
+.isCatalog ol ol.l1 li {
+	font-weight: bold;
+	padding: 1px 10px 2px 37px;
+}
+
+.isCatalog ol ol.l1 li span.icon {
+	left: 20px;
+}
+
+body.ie6 .isCatalog ol ol.l1 li {
+	padding-left: 37px;
+}
+
+/* STATUS */
+.isCatalog ol.withStatus ol.l1 li {
+	padding-left: 55px;
+}
+
+.isCatalog ol.withStatus ol.l1 li span.icon {
+	left: 37px;
+}
+
+body.ie6 .isCatalog ol.withStatus ol.l1 li span.icon {
+	left: -32px;
+}
+
+body.ie6 .isCatalog ol.withStatus ol.l1 li span.status {
+	left: -71px;
+}
+
+/****************/
+/*   3. LEVEL   */
+/****************/
+.isCatalog ol ol ol.l2 li {
+	font-weight: normal;
+	padding: 1px 10px 2px 57px;
+}
+
+.isCatalog ol ol ol.l2 li span.icon {
+	left: 40px;
+}
+
+body.ie6 .isCatalog ol ol ol.l2 li {
+	padding-left: 57px;
+}
+
+/* STATUS */
+.isCatalog ol.withStatus ol ol.l2 li {
+	padding-left: 75px;
+}
+
+.isCatalog ol.withStatus ol ol.l2 li span.icon {
+	left: 60px;
+}
+
+body.ie6 .isCatalog ol.withStatus ol ol.l2 li span.icon {
+	left: -32px;
+}
+
+body.ie6 .isCatalog ol.withStatus ol ol.l2 li span.status {
+	left: -91px;
+}
+
+/****************/
+/*   4. LEVEL   */
+/****************/
+.isCatalog ol ol ol.l3 li {
+	font-weight: normal;
+	padding: 1px 10px 2px 77px;
+}
+
+.isCatalog ol ol ol.l3 li span.icon {
+	left: 60px;
+}
+
+body.ie6 .isCatalog ol ol ol.l3 li {
+	padding-left: 77px;
+}
+
+/* STATUS */
+.isCatalog ol.withStatus ol ol.l3 li {
+	padding-left: 95px;
+}
+
+.isCatalog ol.withStatus ol ol.l3 li span.icon {
+	left: 80px;
+}
+
+body.ie6 .isCatalog ol.withStatus ol ol.l3 li span.icon {
+	left: -12px;
+}
+
+body.ie6 .isCatalog ol.withStatus ol ol.l3 li span.status {
+	left: -71px;
+}
+
+/****************/
+/*   5. LEVEL   */
+/****************/
+.isCatalog ol ol ol.l4 li {
+	font-weight: normal;
+	padding: 1px 10px 2px 97px;
+}
+
+.isCatalog ol ol ol.l4 li span.icon {
+	left: 80px;
+}
+
+body.ie6 .isCatalog ol ol ol.l4 li {
+	padding-left: 97px;
+}
+
+/* STATUS */
+.isCatalog ol.withStatus ol ol.l4 li {
+	padding-left: 115px;
+}
+
+.isCatalog ol.withStatus ol ol.l4 li span.icon {
+	left: 100px;
+}
+
+body.ie6 .isCatalog ol.withStatus ol ol.l4 li span.icon {
+	left: 8px;
+}
+
+body.ie6 .isCatalog ol.withStatus ol ol.l4 li span.status {
+	left: -51px;
+}
+
+/*#  PREVIOUS NEXT ICONS  #*/
+.pagePrev,.pageNext {
+	width: 20px;
+	height: 22px;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.pagePrev {
+	margin-right: 10px;
+	background: url("../images/previous.gif") center center no-repeat;
+}
+
+.pageNext {
+	background: url("../images/next.gif") center center no-repeat;
+}
+
+/*######################*/
+/*#      DROP LIST     #*/
+/*#####################*/
+.isSelect {
+	width: auto;
+	padding-right: 25px;
+	border: 1px solid #7C7C7C;
+	background: #ffffff url("../images/select/select.png") right top
+		no-repeat;
+	overflow-x: visible;
+	cursor: pointer;
+	z-index: 0;
+	zoom: 1;
+	height: 20px !important;
+}
+
+body.ie7 .isSelect {
+	padding-right: 24px;
+}
+
+body.ie6 .isSelect {
+	background: #ffffff url("../images/select/select.gif") right top
+		no-repeat;
+}
+
+/*****************/
+/*   TABFOOTER   */
+/*****************/
+.tabfooter .isSelect {
+	margin-top: 4px;
+	margin-left: 10px;
+	width: 200px;
+	float: left;
+}
+
+body.ie7 .tabfooter .isSelect {
+	margin-left: 10px;
+	margin-top: 6px;
+}
+
+body.ie7 .tabfooter .dynamic .isSelect {
+	margin-top: 4px;
+}
+
+body.ie7 .tabfooter .isSelect .dropList,body.ie7 .tabfooter .isSelect input.dropBox
+	{
+	margin-left: -10px;
+}
+
+/****************/
+/*   MULTIPLE   */
+/****************/
+.isSelect.multiple {
+	background: #ffffff url("../images/select/selectMultiple.png") right top
+		no-repeat;
+}
+
+body.ie6 .isSelect.multiple {
+	background: #ffffff url("../images/select/selectMultiple.gif") right top
+		no-repeat;
+}
+
+/****************/
+/*   EXPANDED   */
+/****************/
+.isSelect.expanded {
+	background: #ffffff url("../images/select/select.png") right bottom
+		no-repeat;
+}
+
+.isSelect.multiple.expanded {
+	background: #ffffff url("../images/select/selectMultiple.png") right
+		bottom no-repeat;
+}
+
+/*************/
+/*   INPUT   */
+/*************/
+.isSelect input.dropBox {
+	width: 100%;
+	font-size: 13px;
+	cursor: pointer;
+	float: left;
+	zoom: 1;
+	height: 16px;
+}
+
+body.ie9 .isSelect input.dropBox {
+	padding: 2px 0 1px 3px;
+}
+
+/* Safari hack */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	.isSelect
+ 
+input
+.dropBox {
+		padding: 1px 0px 3px 3px;
+	}
+}
+
+/*#######################*/
+/*#        IMAGE        #*/
+/*#######################*/
+.isImage {
+	background-color: #ffffff;
+}
+
+/*#####################*/
+/*#      BUTTONS      #*/
+/*#####################*/
+a.button,div.button {
+	display: inline-block;
+	cursor: pointer;
+	border: none;
+	font-size: 1px;
+	line-height: 1px;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	height: 30px;
+	text-decoration: none;
+	color: #2e523b;
+	font-style: normal;
+	margin: 0px 6px 0px 0px;
+	padding: 0px 10px 0px 0px;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	zoom: 1;
+}
+
+body.ie6 a.button,body.ie6 div.button {
+	width: 10px;
+	overflow-y: hidden;
+}
+
+body.ie7 a.button,body.ie7 div.button {
+	width: auto;
+	padding-right: 5px;
+}
+
+a.button,div.button,del.button,a.button span,div.button button,div.button input
+	{
+	background-image: url(../images/buttons/button2.gif);
+}
+
+a.button span,div.button button,div.button input {
+    background-color: transparent;
+    background-position: 100% 0;
+    background-repeat: no-repeat;
+    border: medium none;
+    color: #FD8B00;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    font-style: oblique;
+    height: 22px;
+    line-height: 14px;
+    margin: 0 -16px 0 5px;
+    padding: 7px 10px 1px 7px;
+    text-align: center;
+    white-space: nowrap;
+    width: auto;
+}
+
+div.button input {
+	padding: 0px 21px 0 20px;
+	margin: 0 -16px 0 1px;
+}
+
+body.ie6 a.button span,body.ie6 div.button button,body.ie6 div.button input
+	{ /* 	position: relative; */
+	padding-left: 0px;
+	padding-right: 10px;
+	margin-right: -10px;
+	margin-left: 5px;
+	top: 0;
+	right: -5px;
+}
+
+body.ie7 a.button span,body.ie7 div.button button,body.ie7 div.button input
+	{ /* 	position: relative; */
+	padding-left: 0px;
+	padding-right: 10px;
+	margin-right: -15px;
+	margin-left: 10px;
+	top: 0;
+	display: block;
+	right: -5px;
+}
+
+div.button button {
+	padding: 0px 15px 0 10px;
+}
+
+body.ie6 div.button button,body.ie7 div.button button {
+	padding: 2px 15px 0 5px;
+}
+
+body.ie8 div.button button {
+	padding: 2px 20px 0 15px;
+}
+
+.dataTable tr.foot td a.button span {
+	font-weight: normal;
+}
+
+/**********************/
+/*     FIXED WIDTH    */
+/**********************/
+a.button.w1 span,div.button.w1 button,div.button.w1 input {
+	width: 84px !important;
+}
+
+body.ie6 a.button.w1 span,body.ie6 div.button.w1 button span,body.ie6 div.button.w1 input span,body.ie7 a.button.w1 span,body.ie7 div.button.w1 button span,body.ie7 div.button.w1 input span
+	{
+	width: auto !important;
+}
+
+body.ie6 a.button.w1,body.ie6 div.button.w1 button,body.ie6 div.button.w1 input,body.ie7 a.button.w1,body.ie7 div.button.w1 button,body.ie7 div.button.w1 input
+	{
+	width: 80px !important;
+	margin-right: 1px;
+}
+
+/****************************/
+/*     FIXED WIDTH MODAL    */
+/****************************/
+.modal a.button.w1 span,.modal div.button.w1 button,.modal div.button.w1 input
+	{
+	width: 60px !important;
+}
+
+body.ie6 .modal a.button.w1 span,.modal body.ie6 div.button.w1 button span,body.ie6 .modal div.button.w1 input span,body.ie7 .modal a.button.w1 span,body.ie7 .modal div.button.w1 button span,body.ie7 .modal div.button.w1 input span
+	{
+	width: auto !important;
+}
+
+body.ie6 .modal a.button.w1,body.ie6 .modal div.button.w1 button,body.ie6 .modal div.button.w1 input,body.ie7 .modal a.button.w1,body.ie7 .modal div.button.w1 button,body.ie7 .modal div.button.w1 input
+	{
+	width: 77px !important;
+	margin-right: 1px;
+}
+
+body.ie8 .modal a.button.w1,body.ie8 .modal div.button.w1 button,body.ie8 .modal div.button.w1 input
+	{
+	width: 60px !important;
+	margin-left: -4px;
+}
+
+/************************************/
+/*     FIXED WIDTH UPLOAD BUTTON    */
+/************************************/
+a.button.w2 span,div.button.w2 button,div.button.w2 input,del.button.w2 span
+	{
+	width: 30px !important;
+}
+
+body.ie6 a.button.w2 span,body.ie6 div.button.w2 button span,body.ie6 div.button.w2 input span,body.ie7 a.button.w2 span,body.ie7 div.button.w2 button span,body.ie7 div.button.w2 input span
+	{
+	width: auto !important;
+}
+
+body.ie6 a.button.w2,body.ie6 div.button.w2 button,body.ie6 div.button.w2 input,body.ie7 a.button.w2,body.ie7 div.button.w2 button,body.ie7 div.button.w2 input
+	{
+	width: 48px !important;
+}
+
+/*************************/
+/*    INACTIVE BUTTON    */
+/*************************/
+.button.disabled {
+	background-position: 0 -120px;
+	cursor: default;
+}
+
+.button.disabled span {
+	cursor: default;
+	color: #aaa !important;
+	background-position: 100% -120px;
+}
+
+.button.disabled button,.button.disabled input {
+	padding-top: 0px;
+}
+
+body.ie6 .tabfooter .buttons .disabled {
+	cursor: default;
+	background: url(../images/buttons/button.gif) 0px -120px no-repeat
+		!important;
+}
+
+body.ie6 .tabfooter .buttons .disabled span {
+	background-position: 100% -120px !important;
+}
+
+/********************************/
+/*    UPLOAD BUTTON DISABLED    */
+/********************************/
+.button.uploadDisabled {
+	background-position: 0 -120px;
+	cursor: default;
+}
+
+.button.uploadDisabled span {
+	cursor: default;
+	color: #aaa !important;
+	background-position: 100% -120px;
+}
+
+.button.uploadDisabled button,.button.uploadDisabled input {
+	padding-top: 0px;
+}
+
+body.ie6 .tabfooter .buttons .uploadDisabled {
+	cursor: default;
+	background: url(../images/buttons/button.gif) 0px -120px no-repeat
+		!important;
+}
+
+body.ie6 .tabfooter .buttons .uploadDisabled span {
+	background-position: 100% -120px !important;
+}
+
+/*************************/
+/*    SELECTED BUTTON    */
+/*************************/
+.button.selected span {
+	font-weight: bold;
+}
+
+.button.selected button,.button.selected input {
+	padding-top: 0px;
+}
+
+.isCatalog .button.selected span,.isSwapSelect .button.selected span {
+	font-weight: normal;
+}
+
+/**********************/
+/*    HOVER STATES    */
+/**********************/
+a.button:hover,div.button:hover,a.button:focus {
+	background-position: 0 -60px;
+	color: #aaaa;
+	text-decoration: none;
+}
+
+a.button:hover span,div.button:hover input,div.button:hover button,a.button:focus span
+	{
+	background-position: 100% -60px;
+}
+
+a.button:active,a.button:focus span {
+	color: #aaaa;
+}
+
+a.button.disabled:hover {
+	background-position: 0 -120px;
+}
+
+a.button.disabled:hover span {
+	background-position: 100% -120px;
+}
+
+/***********************************/
+/*    BUTTON TABFOOTER POSITION    */
+/***********************************/
+.tabfooter a.button {
+	float: left;
+}
+
+.tabfooter a.button,.dataTable tr.foot td.left a.button,.dataTable tr.foot td a.button
+	{
+	margin-right: 10px !important;
+	margin-left: 5px !important;
+}
+
+.tabfooter a.button,.dataTable tr.foot td.right a.button {
+	margin-left: 10px !important;
+	margin-right: 6px !important;
+}
+
+.gridTable td.right a.button {
+	margin-left: 7px !important;
+	margin-right: 6px !important;
+}
+
+body.ie6 .gridTable td.right a.button,body.ie7 .gridTable td.right a.button
+	{
+	margin-right: 5px !important;
+}
+/* body.ie8 .gridTable td.right a.button { margin-right: 14px !important; } Auskommentiert wegen Buttons in table */
+.gridTable td.left a.button {
+	margin-right: 6px !important;
+}
+
+body.ie6 .gridTable td.left a.button,body.ie7 .gridTable td.left a.button
+	{
+	margin-right: 5px;
+}
+
+.gridTable td.left a.button.floatl {
+	margin-right: 16px !important;
+}
+
+body.ie6 .gridTable td.left a.button.floatl,body.ie7 .gridTable td.left a.button.floatl
+	{
+	margin-right: 10px !important;
+}
+
+body.ie8 .gridTable td.left a.button.floatl {
+	margin-right: 28px !important;
+}
+
+body.ie6 .gridTable td.left a.button.floatr,body.ie7 .gridTable td.left a.button.floatr
+	{
+	margin-right: 5px !important;
+}
+
+/**********************/
+/*    BUTTON ICONS    */
+/**********************/
+.dataFooter tr.foot td a.add.button,.dataFooter tr.foot td div.add.button,.dataFooter tr.foot td a.new.button,.dataFooter tr.foot td div.new.button,.dataFooter tr.foot td a.delete.button,.dataFooter tr.foot td div.delete.button
+	{
+	height: 19px;
+	width: 19px;
+	margin: 0px 0px 0px 10px !important;
+	padding: 0px 0px 0px 0px;
+	vertical-align: 1px;
+}
+
+body
+
+
+.ie6
+
+ 
+
+.dataFooter
+
+ 
+
+tr
+
+
+.foot
+
+ 
+
+td
+
+ 
+
+a
+
+
+.add
+
+
+.button
+,
+body
+
+
+.ie6
+
+ 
+
+.dataFooter
+
+ 
+
+tr
+
+
+.foot
+
+ 
+
+td
+
+ 
+
+div
+
+
+.add
+
+
+.button
+,
+body
+
+
+.ie6
+
+ 
+
+.dataFooter
+
+ 
+
+tr
+
+
+.foot
+
+ 
+
+td
+
+ 
+
+a
+
+
+.new
+
+
+.button
+,
+body
+
+
+.ie6
+
+ 
+
+.dataFooter
+
+ 
+
+tr
+
+
+.foot
+
+ 
+
+td
+
+ 
+
+div
+
+
+.new
+
+
+.button
+,
+body
+
+
+.ie6
+
+ 
+
+.dataTable
+
+ 
+
+tr
+
+
+.foot
+
+ 
+
+td
+
+ 
+
+a
+
+
+.delete
+
+
+.button
+,
+body
+
+
+.ie6
+
+ 
+
+.dataFooter
+
+ 
+
+tr
+
+
+.foot
+
+ 
+
+td
+
+ 
+
+div
+
+
+.delete
+
+
+.button
+,
+body
+
+
+.ie7
+
+ 
+
+.dataFooter
+
+ 
+
+tr
+
+
+.foot
+
+ 
+
+td
+
+ 
+
+a
+
+
+.add
+
+
+.button
+,
+body
+
+
+.ie7
+
+ 
+
+.dataFooter
+
+ 
+
+tr
+
+
+.foot
+
+ 
+
+td
+
+ 
+
+div
+
+
+.add
+
+
+.button
+,
+body
+
+
+.ie7
+
+ 
+
+.dataFooter
+
+ 
+
+tr
+
+
+.foot
+
+ 
+
+td
+
+ 
+
+a
+
+
+.new
+
+
+.button
+,
+body
+
+
+.ie7
+
+ 
+
+.dataFooter
+
+ 
+
+tr
+
+
+.foot
+
+ 
+
+td
+
+ 
+
+div
+
+
+.new
+
+
+.button
+,
+body
+
+
+.ie7
+
+ 
+
+.dataFooter
+
+ 
+
+tr
+
+
+.foot
+
+ 
+
+td
+
+ 
+
+a
+
+
+.delete
+
+
+.button
+,
+body
+
+
+.ie7
+
+ 
+
+.dataTable
+
+ 
+
+tr
+
+
+.foot
+
+ 
+
+td
+
+ 
+
+div
+
+
+.delete
+
+
+.button
+,
+body
+
+
+.ie8
+
+ 
+
+.dataFooter
+
+ 
+
+tr
+
+
+.foot
+
+ 
+
+td
+
+ 
+
+a
+
+
+.add
+
+
+.button
+,
+body
+
+
+.ie8
+
+ 
+
+.dataFooter
+
+ 
+
+tr
+
+
+.foot
+
+ 
+
+td
+
+ 
+
+div
+
+
+.add
+
+
+.button
+,
+body
+
+
+.ie8
+
+ 
+
+.dataFooter
+
+ 
+
+tr
+
+
+.foot
+
+ 
+
+td
+
+ 
+
+a
+
+
+.new
+
+
+.button
+,
+body
+
+
+.ie8
+
+ 
+
+.dataFooter
+
+ 
+
+tr
+
+
+.foot
+
+ 
+
+td
+
+ 
+
+div
+
+
+.new
+
+
+.button
+,
+body
+
+
+.ie8
+
+ 
+
+.dataFooter
+
+ 
+
+tr
+
+
+.foot
+
+ 
+
+td
+
+ 
+
+a
+
+
+.delete
+
+
+.button
+,
+body
+
+
+.ie8
+
+ 
+
+.dataFooter
+
+ 
+
+tr
+
+
+.foot
+
+ 
+
+td
+
+ 
+
+div
+
+
+#delete
+
+
+.button
+,
+{
+vertical-align
+
+
+:
+
+ 
+
+0
+px
+
+
+;
+}
+
+/* Safari hack */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	.dataFooter
+ 
+tr
+.foot
+ 
+td
+ 
+a
+.add
+.button,.dataFooter
+ 
+tr
+.foot
+ 
+td
+ 
+div
+.add
+.button,.dataFooter
+ 
+tr
+.foot
+ 
+td
+ 
+a
+.new
+.button,.dataFooter
+ 
+tr
+.foot
+ 
+td
+ 
+div
+.new
+.button,.dataFooter
+ 
+tr
+.foot
+ 
+td
+ 
+a
+.delete
+.button,.dataFooter
+ 
+tr
+.foot
+ 
+td
+ 
+div
+.delete
+.button {
+		vertical-align: 0px;
+	}
+}
+
+.dataFooter tr.foot td a.add.button span,.dataFooter tr.foot td div.add.button span,.dataFooter tr.foot td a.new.button span,.dataFooter tr.foot td div.new.button span,.dataFooter tr.foot td a.delete.button span,.dataFooter tr.foot td div.delete.button span
+	{
+	text-indent: -5000px;
+	margin: 0;
+	padding: 0;
+	background: none;
+}
+
+/* ADD BUTTON */
+.dataFooter tr.foot td a.add.button,.dataFooter tr.foot td div.add.button,.dataFooter tr.foot td a.new.button,.dataFooter tr.foot td div.new.button
+	{
+	background: url("../images/table/plus.gif") 0px -3px no-repeat;
+}
+
+.dataFooter tr.foot td a.add.button:hover,.dataFooter tr.foot td div.add.button:hover,.dataFooter tr.foot td a.new.button:hover,.dataFooter tr.foot td div.new.button:hover
+	{
+	background-position: 0px -63px;
+}
+
+/* DELETE BUTTON */
+.dataFooter tr.foot td a.delete.button,.dataFooter tr.foot td div.delete.button
+	{
+	background: url("../images/table/minus.gif") 0px -3px no-repeat;
+}
+
+.dataFooter tr.foot td a.delete.button:hover,.dataFooter tr.foot td div.delete.button:hover
+	{
+	background-position: 0px -63px;
+}
+
+/*#############################*/
+/*#       MISC ELEMENTS      #*/
+/*#############################*/
+.line {
+	height: 3px;
+	clear: both;
+	font-size: 1px;
+	line-height: 1px;
+}
+
+.tin {
+	background: url(../images/streifen-hintergrund-plus.gif) left top repeat;
+}
+
+/*#  DATE/TIME PICKER ICON  #*/
+.datepicker_icon,.timepicker_icon,.richtext_icon,.plus_icon,.minus_icon
+	{
+	display: block;
+	width: 16px;
+	height: 16px;
+	font-size: 1px;
+	line-height: 1px;
+	cursor: pointer;
+	float: right;
+	margin-top: 3px;
+}
+
+.datepicker_icon {
+	background: url("../images/datepicker/datepicker.gif") left top
+		no-repeat;
+}
+
+.timepicker_icon {
+	background: url("../images/datepicker/timepicker.gif") left top
+		no-repeat;
+}
+
+/*#  RICHTEXT EDITOR ICON  #*/
+.richtext_icon {
+	background: url("../images/richtext.gif") left top no-repeat;
+}
+
+/*#  PLUS MINUS ICONS  #*/
+.plus_icon {
+	right: 11px;
+	top: 3px;
+	background: url("../images/icons/plus.gif") left top no-repeat;
+}
+
+.wrap.icon2 .plus_icon {
+	right: 17px;
+}
+
+body.ie6 .wrap.icon2 .plus_icon {
+	right: 18px;
+}
+
+.minus_icon {
+	right: -1px;
+	top: 3px;
+	background: url("../images/icons/minus.gif") left top no-repeat;
+}
+
+/*#########################*/
+/*#       LOGIN BOX       #*/
+/*#########################*/
+.loginbox {
+	background-color: #eeeeee;
+	padding: 0px 0px 0px 0px;
+	margin: 15px 15px 15px 0px;
+	width: 400px;
+}
+
+.logintitle {
+	font-size: 14px;
+	font-weight: bold;
+	border-bottom: 1px solid #9A9A9A;
+	border-right: 1px solid #9A9A9A;
+	border-top: 1px solid #9A9A9A;
+	padding: 7px 15px 7px 15px;
+}
+
+/*#########################*/
+/*#         TOOLTIP       #*/
+/*#########################*/
+div.tooltip {
+	border: 0px solid #cc0000;
+	display: none;
+	position: absolute;
+	padding: 10px;
+}
+
+div.tooltip .tooltip-content {
+	background-color: #ffffff;
+	padding: 5px;
+}
+
+div.tooltip table {
+	
+}
+
+div.tooltip table td {
+	font-size: 12px;
+	line-height: 14px;
+	text-align: left;
+	vertical-align: top;
+	padding-left: 3px;
+}
+
+div.tooltip table td.tpleft {
+	width: 95px;
+}
+
+/*########################*/
+/*#       NEWS PAGE      #*/
+/*########################*/
+#content .news {
+	padding-right: 210px;
+}
+
+#content .news.done {
+	padding-bottom: 10px;
+}
+
+#content .news p,#content .news p.text,#content .news div,#content .news div.text
+	{
+	padding-right: 0px !important;
+	padding-bottom: 5px;
+	border: 0px solid #cc0000;
+	font-size: 1.2em;
+	line-height: 1.4em;
+	display: block;
+}
+
+#content .news p.text p,#content .news div.text p {
+	font-size: 1.0em;
+	display: block;
+	padding-bottom: 0px;
+}
+
+#content .news p.rubric,#content .news div.rubric {
+	color: #767676;
+	padding-bottom: 0px;
+	position: relative;
+	display: block;
+}
+
+#content .news h3 {
+	padding: 0px 0 0px 0;
+	font-size: 1.2em;
+	display: block;
+}
+
+.news ul {
+	list-style-position: inside;
+}
+
+.news ul li {
+	font-size: 1.2em;
+}
+
+#content .news .date {
+	padding-right: 5px;
+	padding-bottom: 5px;
+	display: block;
+}
+
+/*#########################*/
+/*#       ABOUT PAGE      #*/
+/*#########################*/
+#content .about div.wrap {
+	padding-bottom: 15px;
+	overflow-x: visible;
+	border: 0px solid #7C7C7C;
+}
+
+#content .about h2 {
+	margin: 0 0 10px 0px;
+	font-size: 12px;
+}
+
+#content .about div.wrap p {
+	padding: 0px 0px 2px 0px;
+	position: relative;
+	line-height: 1.4em;
+	clear: both;
+	margin-left: 15px;
+	font-size: 12px;
+	display: block;
+	vertical-align: 0;
+}
+
+#content .about div.wrap p span.label {
+	display: inline-block;
+	font-weight: normal;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+#content .about div.wrap p span.text {
+	margin-left: 100px;
+	display: inline-block;
+	float: left;
+}
+
+#content .about div.wrap p span.nopad {
+	margin-left: 0px !important;
+	overflow-x: visible !important;
+	padding: 0 0 0px !important;
+}
+
+#content .about div.wrap p.first {
+	padding-bottom: 5px !important;
+}
+
+#content .about .gridTable {
+	margin-left: -15px;
+	overflow-x: visible;
+	clear: none;
+}
+
+#content .about .gridTable td {
+	overflow-x: visible;
+}
+
+#content .about #processowner.wrap p span.text,#content .about #infomanagement.wrap p span.text,#content .about #itprovider.wrap p span.text
+	{
+	margin-left: 0px;
+}
+
+/*#############################*/
+/*#      RICHTEXT EDITOR      #*/
+/*#############################*/
+.texteditor {
+	background-color: #eeeeee;
+	border-top: 1px solid #9A9A9A;
+	padding: 0px 0px 0px 0px;
+	margin: 15px 15px 0px 15px;
+}
+
+/***************/
+/*    ICONS    */
+/***************/
+a.plus {
+	height: 20px;
+	width: 20px;
+	background: url("../images/icons/plus.gif") 1px -63px no-repeat;
+	display: block;
+}
+
+a.minus {
+	height: 20px;
+	width: 20px;
+	background: url("../images/icons/minus.gif") 1px -63px no-repeat;
+	display: block;
+}
+
+a.equal {
+	height: 20px;
+	width: 20px;
+	background: url("../images/icons/equal.gif") 1px -63px no-repeat;
+	display: block;
+}
+
+a.greater {
+	height: 20px;
+	width: 20px;
+	background: url("../images/icons/greater.gif") 1px -63px no-repeat;
+	display: block;
+}
+
+/*********************/
+/*    FILE UPLOAD    */
+/*********************/
+.uploadMask {
+	background: url('../images/blank.gif') center center no-repeat;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}

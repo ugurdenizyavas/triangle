@@ -1,0 +1,12 @@
+{
+   "id":"infoboxes",
+   "label":"Infoboxes",
+   "type":"infoboxes",
+   "items":[
+      {
+         "id":"help",
+         "label":"Help",
+         "text":"HELP here"
+      }
+   ]
+}

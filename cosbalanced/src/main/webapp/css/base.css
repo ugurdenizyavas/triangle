@@ -1,0 +1,752 @@
+/*
+	File: base.css
+	Purpose: Reset, Fundamental Styles, Helper classes
+	Dependency: --
+	
+	$Author: udy $
+*/
+
+/*#################################*/
+/*#           BASE CSS            #*/
+/*#################################*/
+* {
+	padding: 0;
+	margin: 0;
+	voice-family: inherit;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	font-family: Trebuchet MS, sans-serif, 'Lucida Console';
+	font-size: 12px;
+	-khtml-user-select: none;
+	position: relative;
+	/* 	overflow-y: scroll; */
+	height: 100%;
+	background-color: #9A9A9A;
+}
+
+body.ie6 {
+	overflow: visible;
+}
+
+body.ie7 {
+	overflow: visible;
+}
+
+img {
+	border: none;
+	width: auto;
+	height: auto;
+	image-rendering: optimizeQuality;
+	/* Firefox 3.6+; default behavior is identical, no need to specify */
+	-ms-interpolation-mode: bicubic;
+	/* Internet Explorer 7.0; default in IE8+ */
+}
+
+/*#################################*/
+/*#        HELPER CLASSES         #*/
+/*#################################*/
+.none {
+	display: none !important;
+}
+
+.hidden {
+	visibility: hidden !important;
+}
+
+.block {
+	display: block !important;
+}
+
+.inline {
+	display: inline !important;
+}
+
+.rel {
+	position: relative !important;
+}
+
+.abs {
+	position: absolute !important;
+}
+
+.floatl {
+	float: left !important;
+}
+
+.floatr {
+	float: right !important;
+}
+
+.floatn {
+	float: none !important;
+}
+
+.clearb {
+	clear: both !important;
+}
+
+.clearl {
+	clear: left !important;
+}
+
+.clearr {
+	clear: right !important;
+}
+
+.top {
+	vertical-align: top !important;
+}
+
+.middle {
+	vertical-align: middle !important;
+}
+
+.bottom {
+	vertical-align: bottom !important;
+}
+
+/*  Adjustment Classes for some finegrained control */
+.nopad {
+	padding: 0px 0px 0px 0px !important;
+	overflow-x: visible !important;
+}
+
+.pad {
+	overflow-x: visible !important;
+	padding: 0 15px 0px 0px !important;
+}
+
+.padr {
+	overflow-x: visible !important;
+	padding: 0 20px 0px 0px !important;
+}
+
+.padt {
+	overflow-x: visible !important;
+	padding: 24px 0px 0px 0px !important;
+}
+
+.nopadr {
+	padding: 0px 0px 0px 0px !important;
+	overflow-x: visible !important;
+}
+
+/*################################*/
+/*#      PADDINGs / MARGINs      #*/
+/*################################*/
+.p0 {
+	padding: 0 !important;
+}
+
+.pt0 {
+	padding-top: 0 !important;
+}
+
+.pr0 {
+	padding-right: 0 !important;
+}
+
+.pb0 {
+	padding-bottom: 0 !important;
+}
+
+.pl0 {
+	padding-left: 0 !important;
+}
+
+.pt5 {
+	padding-top: 5px !important;
+}
+
+.pr5 {
+	padding-right: 5px !important;
+}
+
+.pb5 {
+	padding-bottom: 5px !important;
+}
+
+.pl5 {
+	padding-left: 5px !important;
+}
+
+.pt10 {
+	padding-top: 10px !important;
+}
+
+.pr10 {
+	padding-right: 10px !important;
+}
+
+.pb10 {
+	padding-bottom: 10px !important;
+}
+
+.pl10 {
+	padding-left: 10px !important;
+}
+
+.pt15 {
+	padding-top: 15px !important;
+}
+
+.pr15 {
+	padding-right: 15px !important;
+}
+
+.pb15 {
+	padding-bottom: 15px !important;
+}
+
+.pl15 {
+	padding-left: 15px !important;
+}
+
+.pt20 {
+	padding-top: 20px !important;
+}
+
+.pr20 {
+	padding-right: 20px !important;
+}
+
+.pb20 {
+	padding-bottom: 20px !important;
+}
+
+.pl20 {
+	padding-left: 20px !important;
+}
+
+.pt25 {
+	padding-top: 25px !important;
+}
+
+.pr25 {
+	padding-right: 25px !important;
+}
+
+.pb25 {
+	padding-bottom: 25px !important;
+}
+
+.pl25 {
+	padding-left: 25px !important;
+}
+
+.m0 {
+	margin: 0 !important;
+}
+
+.mt0 {
+	margin-top: 0 !important;
+}
+
+.mr0 {
+	margin-right: 0 !important;
+}
+
+.mb0 {
+	margin-bottom: 0 !important;
+}
+
+.ml0 {
+	margin-left: 0 !important;
+}
+
+.mt5 {
+	margin-top: 5px !important;
+}
+
+.mr5 {
+	margin-right: 5px !important;
+}
+
+.mb5 {
+	margin-bottom: 5px !important;
+}
+
+.ml5 {
+	margin-left: 5px !important;
+}
+
+.mt10 {
+	margin-top: 10px !important;
+}
+
+.mt-10 {
+	margin-top: -10px !important;
+}
+
+.mr10 {
+	margin-right: 10px !important;
+}
+
+.mb10 {
+	margin-bottom: 10px !important;
+}
+
+.ml10 {
+	margin-left: 10px !important;
+}
+
+.mt15 {
+	margin-top: 15px !important;
+}
+
+.mr15 {
+	margin-right: 15px !important;
+}
+
+.mb15 {
+	margin-bottom: 15px !important;
+}
+
+.ml15 {
+	margin-left: 15px !important;
+}
+
+.mt20 {
+	margin-top: 20px !important;
+}
+
+.mr20 {
+	margin-right: 20px !important;
+}
+
+.mb20 {
+	margin-bottom: 20px !important;
+}
+
+.ml20 {
+	margin-left: 20px !important;
+}
+
+.mt25 {
+	margin-top: 25px !important;
+}
+
+.mr25 {
+	margin-right: 25px !important;
+}
+
+.mb25 {
+	margin-bottom: 25px !important;
+}
+
+.ml25 {
+	margin-left: 25px !important;
+}
+
+.min {
+	width: 100% !important;
+}
+
+.wmod1 {
+	
+}
+
+.wmid1 {
+	width: 50px !important;
+}
+
+/* clearfix hack */
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+/* IE 6+7 */
+body.ie6 .clearfix {
+	height: 1%;
+}
+
+body.ie7 .clearfix {
+	display: inline-block
+}
+
+/*#################################*/
+/*#            FONTS              #*/
+/*#################################*/
+.normal {
+	font-style: normal !important;
+}
+
+.bold {
+	font-weight: bold !important;
+}
+
+.italic {
+	font-style: italic !important;
+}
+
+.left {
+	text-align: left !important;
+}
+
+.center {
+	text-align: center !important;
+}
+
+.right {
+	text-align: right !important;
+}
+
+.lower {
+	text-transform: lowercase !important;
+}
+
+.upper {
+	text-transform: uppercase !important;
+}
+
+.nowrap {
+	white-space: nowrap !important;
+	zoom: 1;
+}
+
+/***************/
+/*  TEXT SIZE  */
+/***************/
+p {
+	font-size: 1.2em;
+	line-height: 1.5em;
+	-khtml-user-select: text;
+}
+
+/* UDY unknown */
+#content p.rubric {
+	color: #767676;
+	padding-bottom: 2px;
+}
+
+/* DNZ paragraphlar icin: orn News'taki en alt satir*/
+#content p {
+	color: #AAAAAA;
+	padding-bottom: 10px;
+	padding-right: 20px;
+}
+
+#content .date {
+	margin-right: 6px;
+}
+
+#content .text {
+	
+}
+
+#content .more {
+	margin-left: 6px;
+}
+
+#content p.message,.modal p.message {
+	font-size: 10px !important;
+	line-height: 13px !important;
+	font-weight: bold;
+	padding-bottom: 0px;
+	padding-top: 3px;
+}
+
+.isSwapSelect p.message {
+	position: absolute;
+}
+
+#content p.message.warning,.modal p.message.warning {
+	color: #ff8f00;
+}
+
+#content p.message.error,.modal p.message.error {
+	color: #d00000;
+}
+
+#content p.desc {
+	font-size: 12px;
+}
+
+/****************/
+/*   HEADLINES  */
+/****************/
+h1 {
+	font-size: 1.6em;
+}
+
+h2 {
+	font-size: 1.2em;
+}
+
+h3 {
+	font-size: 1.1em;
+}
+
+h4 {
+	font-size: 1.1em;
+}
+
+h5 {
+	font-size: 1.1em;
+}
+
+/* DNZ Process adinin backgroundu */
+#content h2,#content h2.title {
+	background-color: #9A9A9A;
+	border-left: 10px solid #9A9A9A;
+	margin: 0 0 10px -15px;
+	padding: 2px 0 3px 10px;
+}
+
+content h3 {
+	padding-bottom: 3px;
+}
+
+/***************/
+/*    LINKS    */
+/***************/
+/* DNZ menudeki linklerin rengi */
+a {
+	text-decoration: none;
+	outline: none;
+	cursor: pointer;
+	color: #111111;
+}
+
+a:link,a:visited {
+	text-decoration: none;
+}
+
+a:hover,a:active,a:focus {
+	text-decoration: underline;
+}
+
+/*##################################*/
+/*#     BASIC FORM DEFINITION      #*/
+/*##################################*/
+form {
+	padding: 0;
+	margin: 0;
+}
+
+fieldset {
+	padding: 0;
+	margin: 0;
+}
+
+/*********************/
+/*       INPUT       */
+/********************/
+/* DNZ inputun backgroundu */
+input,textarea,select,option {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background-color: #ffffff;
+	border: 0px solid #7C7C7C;
+	color: #000000;
+	font-size: 13px;
+	height: 17px;
+	line-height: 15px;
+	padding: 1px 0 2px 3px;
+	width: 99.6%;
+	outline: none;
+}
+
+body.ie6 input,body.ie7 input {
+	height: 16px !important;
+	padding: 2px 0 0 3px;
+}
+
+body.ie8 input {
+	padding: 3px 0 0 3px;
+}
+
+body.ie9 input {
+	padding: 2px 0 1px 3px;
+}
+
+/*********************/
+/*      SELECT       */
+/*********************/
+select {
+	height: 22px;
+	width: 100%;
+	padding: 1px 0 0px 0px;
+}
+
+body.ie6 select {
+	line-height: 13px;
+}
+
+body.ie8 select {
+	padding: 0px 0 0px 3px;
+}
+
+td.col1 select {
+	width: 100.5%;
+}
+
+td.col2 select {
+	width: 101.1%;
+}
+
+td.col3 select {
+	width: 101.75%;
+}
+
+body.ie6 td.col3 select {
+	width: 100.88%;
+}
+
+body.ie7 td.col3 select {
+	position: relative;
+	width: 101.7%;
+}
+
+td.col4 select {
+	width: 102.2%;
+}
+
+td.col5 select {
+	width: 102.9%;
+}
+
+select.long {
+	height: 150px;
+	overflow: auto;
+}
+
+select.long {
+	height: 150px;
+	overflow: auto;
+}
+
+option {
+	padding: 3px 3px 0;
+	border: 0;
+	overflow-x: hidden;
+}
+
+/*    SMALLER SELECTS    */
+select.s1 {
+	width: 52px;
+}
+
+select.s2 {
+	width: 250px !important;
+	display: inline-block;
+	vertical-align: -1px;
+}
+
+/* Safari hack */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	select.s2 {
+		vertical-align: 1px;
+	}
+}
+
+body.ie7 select.s2,body.ie6 select.s2 {
+	vertical-align: 5px;
+}
+
+body.ie7 .tabfooter select.s2 {
+	top: 1px;
+}
+
+.tabfooter select.s2 {
+	margin-right: 0px;
+}
+
+/* UDY unknown */
+.tabfooter .dynamic select {
+	float: right;
+	position: relative;
+	margin: 4px 0px 0px 0px;
+	border: 1px solid #7C7C7C;
+}
+
+/*********************/
+/*     TEXTAREA      */
+/*********************/
+textarea {
+	height: 100px;
+	word-wrap: break-word;
+	overflow: auto;
+	min-width: 100%; /* ie8 bug  */
+	max-width: 100%; /* ie8 bug  */
+	padding: 0;
+	-moz-resize: none;
+	resize: none;
+}
+
+body.ie6 textarea {
+	width: 100%;
+}
+
+body.ie7 textarea {
+	width: auto;
+}
+
+body.ie8 textarea {
+	width: 500px;
+} /* ie8 bug  */
+
+/* SHORT  */
+div.wrap.short {
+	height: 85px;
+	overflow-y: hidden;
+}
+
+div.wrap.short textarea {
+	height: 85px;
+	overflow-y: auto;
+}
+/* MEDIUM  */
+div.wrap.medium {
+	height: 190px;
+	overflow-y: hidden;
+}
+
+div.wrap.medium textarea {
+	height: 190px;
+	overflow-y: auto;
+}
+
+body.ie6 div.wrap.medium {
+	height: 195px !important;
+}
+
+body.ie6 div.wrap.medium textarea {
+	height: 195px !important;
+}
+/* LONG  */
+div.wrap.long {
+	height: 400px;
+	overflow-y: hidden;
+}
+
+div.wrap.long textarea {
+	height: 400px;
+	overflow-y: auto;
+}
+
+/************************/
+/*     RADIOBUTTON      */
+/************************/
+
+/* UDY unknown */
+input.radio,input.check {
+	width: 14px;
+	height: 14px;
+	margin: 4px 0px 0px 0px !important;
+	background-color: transparent;
+	border: 0px solid #cccccc;
+	float: left;
+}
+
+body.ie8 input.radio,body.ie8 input.check {
+	margin: 1px 0px 0px 0px !important;
+}

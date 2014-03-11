@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+	<bean id="memberProcessController"
+		class="com.deniz.balanced.services.member.MemberProcessController">
+		<!-- <property name="requestInfoProvider" ref="framework_RequestInfoProvider" 
+			/> -->
+		<property name="methodNameResolver" ref="methodNameResolver" />
+		<property name="processId" value="members" />
+		<property name="taskControllers">
+			<map>
+				<!-- controllerUrl ref to controller spring bean -->
+				<entry key="overview" value-ref="memberOverviewTaskController" />
+				<entry key="details" value-ref="memberDetailsTaskController" />
+				<entry key="info" value-ref="memberInfoTaskController" />
+			</map>
+		</property>
+	</bean>
+
+
+	<bean id="memberOverviewTaskController"
+		class="com.deniz.balanced.services.member.MemberOverviewTaskController">
+		<property name="methodNameResolver" ref="methodNameResolver" />
+		<property name="processId" value="members" />
+		<property name="userBusinessService" ref="userBusinessService" />
+	</bean>
+
+
+	<bean id="memberDetailsTaskController"
+		class="com.deniz.balanced.services.member.MemberDetailsTaskController">
+		<property name="methodNameResolver" ref="methodNameResolver" />
+		<property name="processId" value="members" />
+	</bean>
+
+
+	<bean id="memberInfoTaskController"
+		class="com.deniz.balanced.services.member.MemberInfoTaskController">
+		<property name="methodNameResolver" ref="methodNameResolver" />
+		<property name="processId" value="members" />
+	</bean>
+
+</beans>

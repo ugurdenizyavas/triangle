@@ -1,0 +1,331 @@
+/*
+	File: table.css
+	Purpose: CSS styles for Data Table
+	Dependency: base.css, layout.css, dialog.css
+	$Author: udy $
+*/
+
+/*******************/
+/*    DATATABLE    */
+/*******************/
+
+.dataTable {
+	margin-top: 10px;
+}
+.dataTable tr.head th
+{
+	background-color: #D2D2D2;
+	padding: 0px 6px 0px 5px;
+	text-align: left;
+	vertical-align: middle;
+	font-size: 12px;
+	font-weight: bold;
+	height: 29px;
+	white-space: nowrap;
+}
+
+.dataTable td.check input, .dataTable th.check input
+{
+	text-align: left;
+	font-size: 1px;
+	line-height: 1px;
+	border: 0px solid #9A9A9A;
+	padding: 0px 0px 0px 0px;
+	width: 14px !important;
+	height: 14px !important;
+}
+
+body.ie7 .dataTable td.check input, body.ie7 .dataTable th.check input
+{
+	width: 12px !important;
+	height: 12px !important;
+}
+
+.dataTable td { 
+	padding: 5px 5px 5px 5px; 
+	-khtml-user-select: text; 
+}
+
+body.ie6 .dataTable td, body.ie7 .dataTable td { padding: 6px 5px 5px 5px; }
+
+
+.dataTable tr.odd td { background-color: #ffffff; }
+.dataTable tr.even td { background-color: #eeeeee; }
+
+.dataTable tr.focused td
+{
+	background-color: #000066;
+	color: #ffffff;
+	cursor: pointer;
+}
+
+.dataTable td.check, .dataTable tr.head th.check
+{
+	width: 18px;
+	vertical-align: top;
+	text-align: center !important;
+	padding: 5px 5px 0px 5px;
+}
+
+.dataTable tr.head th.check
+{
+	vertical-align: middle;
+	padding: 2px 5px 0px 5px !important;
+}
+
+.dataTable tr.odd a, .dataTable tr.even a
+{
+	text-decoration: none;
+	font-weight: normal;
+	color: #000066;
+}
+
+.dataTable tr.focused td a
+{
+	text-decoration: underline !important;
+	display: block;
+	color: #ffffff;
+}
+
+.dataTable tr.focused td a:hover { color: #ffffff; }
+
+.dataTable tr.marked td
+{
+	background-color: #ff8f00 !important;
+}
+
+/***********************/
+/*    TABLE FOOTER     */
+/***********************/
+
+.dataFooter tr.foot td, .gridTable tr.foot td
+{
+	font-weight: normal;
+	background-color: #D2D2D2;
+	padding: 0px 7px 0px 5px;
+	vertical-align: middle !important;
+}
+
+.dataFooter tr.foot td { height: 29px; }
+
+.dataFooter tr.foot td.right .isSelect { 
+	width:200px;
+	float: right;
+}
+
+body.ie7 .dataFooter tr.foot td.right .isSelect,
+body.ie8 .dataFooter tr.foot td.right .isSelect {
+	margin-top: 1px;
+} 
+
+
+/**************************/
+/*    EDIT INPUT MODE     */
+/*************************/
+
+.dataTable td.edit .wrap { 
+	width:100%; 
+	height:20px; 
+	position:relative; 
+}
+
+.dataTable td.edit { padding: 2px 4px 2px 2px; }
+body.ie6 .dataTable td.edit, body.ie7 .dataTable td.edit { padding: 2px 4px 1px 2px; }
+body.ie8 .dataTable td.edit { padding: 2px 4px 0px 2px; }
+
+@media screen and (-webkit-min-device-pixel-ratio:0)
+{
+	.dataTable td.edit { padding: 2px 4px 1px 2px; }
+}
+
+
+.dataTable td.edit input { 	
+	line-height: 15px;
+	padding: 1px 0 2px 3px;
+	width: 100%; 
+	position: absolute;
+	top:0px;
+	left:0px;
+}
+
+body.ie6 .dataTable td.edit input, body.ie7 .dataTable td.edit input
+{
+	height: 16px !important;
+	padding: 3px 0 0 4px;
+}
+
+body.ie8 .dataTable td.edit input
+{
+	height: 14px !important;
+	line-height: 15px;
+	padding: 2px 0 2px 4px;
+}
+
+/* Safari hack */
+
+@media screen and (-webkit-min-device-pixel-ratio:0)
+{
+	.dataTable td.edit input { padding: 2px 0 0 3px; }
+}
+
+/**********************/
+/*  TABLEEDIT SELECT  */
+/**********************/
+
+.dataTable td.edit .wrap.isSelect { 	
+	width: 90%; 
+}
+
+.dataTable td.edit .isSelect input { 	
+	width: 90%; 
+	background-color: #ffffff;
+}
+
+body.ie6 .dataTable td.edit .isSelect .dropList.bottom, body.ie7 .dataTable td.edit .isSelect .dropList.bottom {
+	margin-top:0px;
+}
+
+/*******************/
+/*  ERROR MESSAGE  */
+/*******************/
+
+#content .dataTable td p.error
+{
+	padding-bottom: 0px;
+}
+
+#content .dataTable td.error
+{
+	background-color: #D00000;
+	color:#ffffff;
+}
+
+/******************/
+/*    SUM ROW     */
+/******************/
+
+.dataTable tr.sum
+{
+	background-color: #d2d2d2 !important;
+}
+
+.dataTable tr.sum td
+{
+	font-weight: bold !important;
+	color: #000000 !important;
+	border-bottom: 1px solid #ffffff !important;
+}
+
+/*********************************/
+/*    DISABLE HEADER & FOOTER    */
+/*********************************/
+
+.noHeader .dataTable tr.head { display: none; }
+.noFooter table.foot tr.foot { display: none; }
+
+/**********************/
+/*    TABLE PAGING    */
+/**********************/
+select.pageCounter { width: 60px !important; margin-right:5px; }
+
+.dataFooter tr.foot td div.paging
+{
+	display: inline-block;
+	border: 0px solid #cc0000;
+	color: #000000;
+}
+
+.dataFooter tr.foot td div.paging span
+{
+	display: inline-block;
+	cursor: default;
+	line-height: 18px;
+	font-weight: normal;
+	color: #000000;
+}
+
+body.ie7 .dataFooter tr.foot td div.paging span
+{
+	padding: 2px 5px 2px 5px;
+	line-height: 17px;
+}
+
+.dataFooter tr.foot td div.paging a, .dataFooter tr.foot td div.paging a.previous, .dataFooter tr.foot td div.paging a.next
+{
+	display: inline-block;
+	padding: 2px 5px 2px 5px;
+	line-height: 18px;
+	font-weight: normal;
+	color: #000066;
+}
+
+.dataFooter tr.foot td div.paging a:hover
+{
+	background-color: #ffffff;
+	border: 1px solid #7C7C7C;
+	text-decoration: none;
+	padding: 1px 4px 1px 4px;
+	cursor: pointer;
+}
+
+.dataFooter tr.foot td div.paging a:hover span
+{
+	cursor: pointer;
+}
+
+
+/* Safari hack */
+
+@media screen and (-webkit-min-device-pixel-ratio:0)
+{
+	.dataFooter tr.foot td div.paging a, .dataFooter tr.foot td div.paging span, .dataFooter tr.foot td div.paging a.previous, .dataFooter tr.foot td div.paging a.next
+	{
+		margin-top: 1px;
+		line-height: 19px;
+	}
+	
+	.dataFooter tr.foot td div.paging a:hover { padding: 1px 4px 0px 4px; }
+}
+
+.dataFooter tr.foot td div.paging a.selected, .dataFooter tr.foot td div.paging a.selected span { cursor: default; }
+
+.dataFooter tr.foot td div.paging a.selected span
+{
+	font-weight: bold;
+	color: #000000;
+}
+
+.dataFooter tr.foot td div.paging a:hover.selected
+{
+	border: 0px;
+	background: none;
+	padding: 1px 5px 1px 5px;
+}
+
+body.ie6 .dataFooter tr.foot td div.paging, body.ie7 .dataFooter tr.foot td div.paging { margin-top: 1px; }
+body.ie6 .dataFooter tr.foot td div.paging a, body.ie6 .dataFooter tr.foot td div.paging span, body.ie6 .dataFooter tr.foot td div.paging a.previous, body.ie6 .dataFooter tr.foot td div.paging a.next,
+body.ie7 .dataFooter tr.foot td div.paging a, body.ie7 .dataFooter tr.foot td div.paging span, body.ie7 .dataFooter tr.foot td div.paging a.previous, body.ie7 .dataFooter tr.foot td div.paging a.next { padding: 2px 5px 2px 5px; }
+
+body.ie7 .dataFooter tr.foot td div.paging a:hover, body.ie7 .dataFooter tr.foot td div.paging a:hover
+{
+	margin-top: 0px;
+	padding: 1px 4px 1px 4px;
+}
+
+body.ie6 .dataFooter tr.foot td div.paging a:hover.selected, body.ie7 .dataFooter tr.foot td div.paging a:hover.selected { padding: 1px 5px 2px 5px; }
+
+.dataFooter tr.foot td div.paging a span
+{
+	padding: 0px 0px 0px 0px !important;
+	display: inline;
+	color: #000066;
+	font-weight: normal;
+	cursor: pointer;
+}
+
+.dataFooter tr.foot td div.paging a.hover span
+{
+	padding: 0px 0px 0px 0px !important;
+	display: inline;
+	cursor: pointer;
+}

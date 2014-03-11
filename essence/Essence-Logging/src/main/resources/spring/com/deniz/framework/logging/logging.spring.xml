@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- Logging should be initialized first so that all log outputs during 
+		startup go to application logfile; org.springframework.beans.factory.config.MethodInvokingFactoryBean 
+		= This class depends on afterPropertiesSet() being called once all properties 
+		have been set -->
+	<bean id="logging_log4jInitialization"
+		class="org.springframework.beans.factory.config.MethodInvokingFactoryBean">
+		<property name="targetClass" value="org.springframework.util.Log4jConfigurer" />
+		<property name="targetMethod" value="initLogging" />
+		<property name="arguments">
+			<list>
+				<value>classpath:logging/${logging.configfile}</value>
+			</list>
+		</property>
+	</bean>
+
+</beans>

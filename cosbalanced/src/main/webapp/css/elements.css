@@ -1,0 +1,202 @@
+/*
+	File: elements.css
+	Purpose: CSS for layout elements
+	Dependency: base, layout, dialog
+	
+	$Author: udy $
+*/
+
+/*#####################################*/
+/* ###         INDEX BARs         ### */
+/*####################################*/
+
+.kpiOuterBox .kpiBox {
+	height:19px;
+	position:relative;
+	background-color: #ffffff;
+	border: 1px solid #ddd;
+}
+
+.kpiBox .kpiInnerBox,
+.kpiBox .kpiInnerBox0,
+.kpiBox .kpiInnerBox1,
+.kpiBox .kpiInnerBox2,
+.kpiBox .kpiInnerBox3 {
+	height: 19px;
+	float: left;
+	position:relative;
+	background-color: #0073cf;
+	overflow: hidden;
+}
+
+icon.blue,
+.kpiBox .kpiInnerBox.blue,
+.kpiBox .kpiInnerBox0.blue,
+.kpiBox .kpiInnerBox1.blue,
+.kpiBox .kpiInnerBox2.blue,
+.kpiBox .kpiInnerBox3.blue {
+	background-color: #0073cf !important;
+}
+
+icon.red,
+.kpiBox .kpiInnerBox.red,
+.kpiBox .kpiInnerBox0.red,
+.kpiBox .kpiInnerBox1.red,
+.kpiBox .kpiInnerBox2.red,
+.kpiBox .kpiInnerBox3.red {
+	background-color: #cf2215 !important;
+}
+
+.icon.yellow,
+.kpiBox .kpiInnerBox.yellow,
+.kpiBox .kpiInnerBox0.yellow,
+.kpiBox .kpiInnerBox1.yellow,
+.kpiBox .kpiInnerBox2.yellow,
+.kpiBox .kpiInnerBox3.yellow {
+	background-color: #fecb00 !important;
+}
+
+.icon.green,
+.kpiBox .kpiInnerBox.green,
+.kpiBox .kpiInnerBox0.green,
+.kpiBox .kpiInnerBox1.green,
+.kpiBox .kpiInnerBox2.green,
+.kpiBox .kpiInnerBox3.green {
+	background-color: #05ab41 !important;
+}
+
+.icon.white,
+.kpiBox .kpiInnerBox.white,
+.kpiBox .kpiInnerBox0.white,
+.kpiBox .kpiInnerBox1.white,
+.kpiBox .kpiInnerBox2.white,
+.kpiBox .kpiInnerBox3.white {
+	background-color: #ffffff !important;
+    border-right: 1px solid #DDDDDD;
+}
+
+.icon.orange,
+.kpiBox .kpiInnerBox.orange,
+.kpiBox .kpiInnerBox0.orange,
+.kpiBox .kpiInnerBox1.orange,
+.kpiBox .kpiInnerBox2.orange,
+.kpiBox .kpiInnerBox3.orange {
+	background-color: #ef9636 !important;
+}
+
+
+.kpiOuterBox .kpiTarget {
+	height: 35px;
+	width: 1px;
+	top: -8px;
+	left:  -2px;
+	position:absolute;
+	background-color: #6d6d6d;
+}
+
+.kpiOuterBox .kpiTop, .kpiOuterBox .kpiBottom {
+	height:7px;
+	width:9px;
+	margin-left:-4px;
+	position:absolute;
+}
+
+.kpiOuterBox .kpiTop.showTooltip, .kpiOuterBox .kpiBottom.showTooltip {
+	cursor: pointer;
+}
+
+.kpiOuterBox .kpiTop {
+	top: -8px;
+	background: url("../images/kpi/kpiTop.png") center center no-repeat;
+}
+
+body.ie6 .kpiOuterBox .kpiTop { 
+	background: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/kpi/kpiTop.png', sizingMethod='crop');
+}
+
+.kpiOuterBox .kpiBottom {
+	bottom: -8px;
+	background: url("../images/kpi/kpiBottom.png") center center no-repeat;
+}
+
+body.ie6 .kpiOuterBox .kpiBottom { 
+	bottom: -13px; 
+	background: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/kpi/kpiBottom.png', sizingMethod='crop');
+}
+
+.kpiOuterBox .kpiValue1, .kpiOuterBox .kpiValue2  {
+	left:5px;
+	position:absolute;
+	font-size: 10px;
+	line-height: 1.3em;
+	font-weight: bold;
+	color: #ffffff;
+	text-align: right;
+	padding-right: 7px;
+	padding-top: 3px;
+	height: 22px;
+	zoom:1;
+}
+
+body.ie7 .kpiOuterBox .kpiValue1,body.ie7 .kpiOuterBox .kpiValue2,
+body.ie8 .kpiOuterBox .kpiValue1,body.ie8 .kpiOuterBox .kpiValue2 { 
+	font-size: 10px; 
+	line-height: 1.1em; 
+	padding-top:4px;
+}
+
+.kpiOuterBox .kpiValue1  {
+	color: #000000;
+}
+
+.kpiOuterBox .kpiValue2  {
+	color: #ffffff;
+}
+
+.kpiOuterBox .kpiInnerBox.yellow .kpiValue2,
+.kpiOuterBox .kpiInnerBox.white .kpiValue2
+{
+	color: #000000;
+}
+
+/****************************************************************************************************/
+/******************           Indexbars Disabled          *******************************************/
+/****************************************************************************************************/
+
+.kpiOuterBox .kpiBox.disabled {
+	border: 1px dashed #9A9A9A;
+}
+
+.kpiOuterBox .kpiBox.disabled .kpiTarget {
+	background: none repeat scroll 0 0 transparent;
+  	border-left: 1px dashed #6D6D6D;
+  	height: 35px;
+  	left: -2px;
+ 	position: absolute;
+ 	top: -8px;
+ 	width: 1px;
+}
+
+/****************************************************************************************************/
+/******************           Indexbars With Service          ***************************************/
+/****************************************************************************************************/
+
+.isIndex.withService, .isIndex.withService label {
+	cursor: pointer;
+}
+
+/*###############################*/
+/* ###         IMAGE         ### */
+/*###############################*/
+
+div.isImage .wrap {
+	border: 0px;	
+	background-color: transparent;
+}
+
+div.isImage img {
+	width: auto;
+	height: auto;	
+}

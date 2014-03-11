@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+	<!-- default and stage configuration -->
+	<bean id="propertyPlaceholderConfigurerBusinessPersistence"
+		class="com.deniz.framework.configuration.LoggingPropertyPlaceholderConfigurer">
+		<property name="locations">
+			<list>
+				<!-- default configuration -->
+				<value>classpath:configuration/app.properties</value>
+				<!-- stage configuration that can overwrite the default properties -->
+				<value>classpath:configuration/stages/app.${app.configuration.stage}.properties
+				</value>
+			</list>
+		</property>
+	</bean>
+
+	<!-- logs information about the application to the log -->
+	<bean init-method="init" id="configurationLogger"
+		class="com.deniz.framework.configuration.ApplicationConfigurationLogger">
+		<property name="configurerName" value="Layer Business+Persistence" />
+		<property name="loggingPropertyPlaceholderConfigurer"
+			ref="propertyPlaceholderConfigurerBusinessPersistence" />
+	</bean>
+
+</beans>

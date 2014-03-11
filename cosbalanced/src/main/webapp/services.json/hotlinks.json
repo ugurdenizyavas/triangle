@@ -1,0 +1,15 @@
+{
+   "type":"hotlinks",
+   "id":"cos.hotlinks",
+   "label":"Hotlinks",
+   "items":[
+      {
+         "label":"Celebi Holding",
+         "link":"http://www.celebi.com.tr"
+      },
+      {
+         "label":"Celebi Hava Servisi",
+         "link":"http://www.celebihandling.com"
+      }
+   ]
+}
