@@ -4,6 +4,7 @@
     <entry_points version="2.0" />
   </component>
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="google-app-engine" url="file://$PROJECT_DIR$/cosbalanced" />
     <file type="web" url="file://$PROJECT_DIR$/balanced" />
     <file type="web" url="file://$PROJECT_DIR$/cosbalanced" />
   </component>
