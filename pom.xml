@@ -6,9 +6,17 @@
 
     <groupId>com.deniz.balanced</groupId>
     <artifactId>Triangle</artifactId>
-    <version>${triangle.version}</version>
+    <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>Triangle</name>
+
+
+    <scm>
+        <connection>scm:git:https://github.com/ugurdenizyavas/triangle.git</connection>
+        <developerConnection>scm:git:https://github.com/ugurdenizyavas/triangle.git</developerConnection>
+        <url>https://github.com/ugurdenizyavas/triangle</url>
+        <tag>HEAD</tag>
+    </scm>
 
 
     <prerequisites>
@@ -22,18 +30,6 @@
     </modules>
 
     <properties>
-        <triangle.version>1.0-SNAPSHOT</triangle.version>
-        <essence.version>1.0-SNAPSHOT</essence.version>
-        <balanced.version>1.0-SNAPSHOT</balanced.version>
-        <essence.configuration.version>1.0-SNAPSHOT</essence.configuration.version>
-        <essence.persistence.version>1.0-SNAPSHOT</essence.persistence.version>
-        <essence.business.version>1.0-SNAPSHOT</essence.business.version>
-        <essence.security.version>1.0-SNAPSHOT</essence.security.version>
-        <essence.logging.version>1.0-SNAPSHOT</essence.logging.version>
-        <essence.servlet.version>1.0-SNAPSHOT</essence.servlet.version>
-        <essence.setup.version>1.0-SNAPSHOT</essence.setup.version>
-        <essence.dto.version>1.0-SNAPSHOT</essence.dto.version>
-
         <spring.version>3.0.2.RELEASE</spring.version>
         <commons.lang.version>2.3</commons.lang.version>
         <commons.dbcp.version>1.4</commons.dbcp.version>

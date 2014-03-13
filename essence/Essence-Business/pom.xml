@@ -3,12 +3,12 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.deniz.essence</groupId>
     <artifactId>business</artifactId>
-    <version>${essence.business.version}</version>
+    <version>1.0-SNAPSHOT</version>
 
     <parent>
         <groupId>com.deniz.essence</groupId>
         <artifactId>essence</artifactId>
-        <version>${essence.version}</version>
+        <version>1.0-SNAPSHOT</version>
     </parent>
 
     <dependencies>
@@ -22,7 +22,7 @@
         <dependency>
             <groupId>com.deniz.essence</groupId>
             <artifactId>dto</artifactId>
-            <version>${essence.dto.version}</version>
+            <version>1.0-SNAPSHOT</version>
         </dependency>
 
         <dependency>
