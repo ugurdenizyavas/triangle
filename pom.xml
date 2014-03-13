@@ -10,6 +10,18 @@
     <packaging>pom</packaging>
     <name>Triangle</name>
 
+    <distributionManagement>
+        <site>
+            <id>cloudbees-private-snapshot-repository</id>
+            <url>dav:https://repository-ugurdenizyavas.forge.cloudbees.com/snapshot/</url>
+        </site>
+        <repository>
+            <id>cloudbees-private-snapshot-repository</id>
+            <url>
+                https://repository-ugurdenizyavas.forge.cloudbees.com/snapshot
+            </url>
+        </repository>
+    </distributionManagement>
 
     <scm>
         <connection>scm:git:https://github.com/ugurdenizyavas/triangle.git</connection>
@@ -45,6 +57,7 @@
         <javassist.version>3.9.0.GA</javassist.version>
         <junit.version>4.5</junit.version>
         <easymock.version>3.1</easymock.version>
+        <groovy.version>2.2.1</groovy.version>
     </properties>
 
     <repositories>
@@ -86,6 +99,14 @@
     </dependencyManagement>
 
     <build>
+        <extensions>
+            <extension>
+                <groupId>org.apache.maven.wagon</groupId>
+                <artifactId>wagon-webdav-jackrabbit</artifactId>
+                <version>1.0-beta-7</version>
+            </extension>
+        </extensions>
+
         <plugins>
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
