@@ -26,13 +26,25 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-context-support:3.0.2.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-web:3.0.2.RELEASE" />
           <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.2.2" />
-          <element id="library" level="project" name="Maven: com.deniz.essence:business:${essence.business.version}" />
-          <element id="library" level="project" name="Maven: com.deniz.essence:logging:${essence.logging.version}" />
-          <element id="library" level="project" name="Maven: com.deniz.essence:security:${essence.security.version}" />
+          <element id="archive" name="business-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="business" />
+          </element>
+          <element id="archive" name="dto-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="dto" />
+          </element>
+          <element id="library" level="project" name="Maven: commons-lang:commons-lang:2.3" />
+          <element id="library" level="project" name="Maven: commons-beanutils:commons-beanutils:1.0" />
+          <element id="library" level="project" name="Maven: joda-time:joda-time:2.1" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-tx:3.0.2.RELEASE" />
+          <element id="archive" name="logging-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="logging" />
+          </element>
+          <element id="archive" name="security-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="security" />
+          </element>
           <element id="archive" name="balanced-1.0-SNAPSHOT.jar">
             <element id="module-output" name="balanced" />
           </element>
-          <element id="library" level="project" name="Maven: commons-lang:commons-lang:2.3" />
           <element id="library" level="project" name="Maven: javassist:javassist:3.9.0.GA" />
           <element id="library" level="project" name="Maven: org.springframework:spring-test:3.0.2.RELEASE" />
           <element id="library" level="project" name="Maven: junit:junit:4.5" />
@@ -40,7 +52,6 @@
           <element id="library" level="project" name="Maven: org.easymock:easymock:3.1" />
           <element id="library" level="project" name="Maven: cglib:cglib-nodep:2.2.2" />
           <element id="library" level="project" name="Maven: org.objenesis:objenesis:1.2" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-tx:3.0.2.RELEASE" />
           <element id="archive" name="persistence-1.0-SNAPSHOT.jar">
             <element id="module-output" name="persistence" />
           </element>
@@ -72,7 +83,6 @@
           </element>
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-log4j12:1.5.8" />
           <element id="library" level="project" name="Maven: log4j:log4j:1.2.14" />
-          <element id="library" level="project" name="Maven: com.google.appengine:appengine-api-1.0-sdk:1.9.0" />
         </element>
       </element>
     </root>

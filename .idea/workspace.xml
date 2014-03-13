@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="245aa61e-f480-4b4c-9fb1-01ea3fe98967" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/balanced/balanced.iml" afterPath="$PROJECT_DIR$/balanced/balanced.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cosbalanced/cosbalanced.iml" afterPath="$PROJECT_DIR$/cosbalanced/cosbalanced.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/cosbalanced_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/cosbalanced_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cosbalanced/pom.xml" afterPath="$PROJECT_DIR$/cosbalanced/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Triangle.iws" />
@@ -72,16 +72,25 @@
       <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="12" selection-start="894" selection-end="894" vertical-scroll-proportion="-6.105263" vertical-offset="26" max-vertical-offset="3026">
+            <state line="104" column="26" selection-start="3718" selection-end="3718" vertical-scroll-proportion="0.0" vertical-offset="1017" max-vertical-offset="1938">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cosbalanced/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="71" column="10" selection-start="2418" selection-end="2418" vertical-scroll-proportion="0.8045977" vertical-offset="717" max-vertical-offset="1343">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/essence/Essence-Dto/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782">
+            <state line="5" column="45" selection-start="362" selection-end="362" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="782">
               <folding />
             </state>
           </provider>
@@ -116,13 +125,13 @@
         <option value="$PROJECT_DIR$/cosbalanced/src/main/resources/spring_mvc/configuration/stages/app.appengine.properties" />
         <option value="$PROJECT_DIR$/cosbalanced/src/main/resources/spring_mvc/logging/log4j.appengine.xml" />
         <option value="$PROJECT_DIR$/cosbalanced/src/main/resources/configuration/stages/app.cloudbees.properties" />
-        <option value="$PROJECT_DIR$/cosbalanced/pom.xml" />
         <option value="$PROJECT_DIR$/balanced/pom.xml" />
         <option value="$PROJECT_DIR$/essence/Essence-Logging/pom.xml" />
         <option value="$PROJECT_DIR$/essence/Essence-Business/pom.xml" />
         <option value="$PROJECT_DIR$/essence/Essence-Security/pom.xml" />
         <option value="$PROJECT_DIR$/essence/Essence-Servlet/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/cosbalanced/pom.xml" />
       </list>
     </option>
   </component>
@@ -136,8 +145,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="D:\Development\Tools\Maven\apache-maven-3.1.1" />
-        <option name="userSettingsFile" value="D:\Development\Tools\Maven\apache-maven-3.1.1\conf\settings.xml" />
+        <option name="userSettingsFile" value="D:\Development\Tools\Maven\apache-maven-3.0.5\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -146,6 +154,11 @@
         <option name="downloadSourcesAutomatically" value="true" />
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
+    </option>
+    <option name="enabledProfiles">
+      <list>
+        <option value="cloudbees" />
+      </list>
     </option>
   </component>
   <component name="MavenProjectNavigator">
@@ -192,6 +205,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -210,56 +224,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="essence" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="essence" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Essence-Dto" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="balanced" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -313,7 +280,7 @@
       <recent name="D:\WS\Triangle" />
     </key>
   </component>
-  <component name="RunManager" selected="CloudBees Deployment.Unnamed">
+  <component name="RunManager" selected="CloudBees Deployment.CloudBees Deployment">
     <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails" singleton="true">
       <module name="" />
       <setting name="vmparams" value="" />
@@ -441,9 +408,6 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="true" type="cloudbees-deploy" factoryName="CloudBees Deployment">
-      <method />
-    </configuration>
     <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
       <option name="BCName" value="" />
       <option name="IOSSimulatorSdkPath" value="" />
@@ -488,6 +452,9 @@
       <predefined_log_file id="Tomcat Host Manager" enabled="false" />
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
+    <configuration default="true" type="cloudbees-deploy" factoryName="CloudBees Deployment">
       <method />
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
@@ -576,6 +543,20 @@
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
+    </configuration>
+    <configuration default="false" name="CloudBees Deployment" type="cloudbees-deploy" factoryName="CloudBees Deployment" server-name="CloudBees">
+      <deployment type="artifact" name="cosbalanced:war">
+        <settings>
+          <option name="containerType" value="Basic Java Webapp (Tomcat)" />
+        </settings>
+      </deployment>
+      <RunnerSettings RunnerId="DeployToServer" />
+      <ConfigurationWrapper RunnerId="DeployToServer" />
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="cosbalanced:war" />
+        </option>
+      </method>
     </configuration>
     <configuration default="false" name="App Engine Deploy" type="GoogleAppEngineDevServer" factoryName="Local" APPLICATION_SERVER_NAME="AppEngine Dev" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
       <option name="COMMON_VM_ARGUMENTS" value="-Dapp.configuration.stage=appengine" />
@@ -710,21 +691,11 @@
         </option>
       </method>
     </configuration>
-    <configuration default="false" name="Unnamed" type="cloudbees-deploy" factoryName="CloudBees Deployment">
-      <deployment type="artifact" name="balanced:war">
-        <settings />
-      </deployment>
-      <method>
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="balanced:war" />
-        </option>
-      </method>
-    </configuration>
     <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="Google AppEngine Dev Server.App Engine Deploy" />
-      <item index="1" class="java.lang.String" itemvalue="Maven.Unnamed" />
-      <item index="2" class="java.lang.String" itemvalue="Tomcat Server.Balanced" />
-      <item index="3" class="java.lang.String" itemvalue="CloudBees Deployment.Unnamed" />
+      <item index="0" class="java.lang.String" itemvalue="CloudBees Deployment.CloudBees Deployment" />
+      <item index="1" class="java.lang.String" itemvalue="Google AppEngine Dev Server.App Engine Deploy" />
+      <item index="2" class="java.lang.String" itemvalue="Maven.Unnamed" />
+      <item index="3" class="java.lang.String" itemvalue="Tomcat Server.Balanced" />
     </list>
     <configuration default="true" type="CBConfiguration" factoryName="Remote">
       <option name="PORT" value="80" />
@@ -765,7 +736,9 @@
       <created>1394461351385</created>
       <updated>1394461351385</updated>
       <workItem from="1394628334394" duration="7434000" />
-      <workItem from="1394695438516" duration="9528000" />
+      <workItem from="1394695438516" duration="13432000" />
+      <workItem from="1394747319457" duration="493000" />
+      <workItem from="1394748390393" duration="48000" />
     </task>
     <task id="LOCAL-00001" summary="cloudbee properties&#10;">
       <created>1394629139624</created>
@@ -787,10 +760,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16962000" />
+    <option name="totallyTimeSpent" value="21407000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1064" extended-state="7" />
+    <frame x="-9" y="-9" width="1938" height="1064" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -809,13 +782,12 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288889" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23372465" sideWeight="0.5144445" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23333333" sideWeight="0.5144445" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.6711111" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48555556" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -824,6 +796,7 @@
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Heroku" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -852,6 +825,34 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="104" column="26" selection-start="3718" selection-end="3718" vertical-scroll-proportion="0.0" vertical-offset="1017" max-vertical-offset="1938">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/essence/Essence-Dto/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="45" selection-start="362" selection-end="362" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="782">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="104" column="26" selection-start="3718" selection-end="3718" vertical-scroll-proportion="0.0" vertical-offset="1074" max-vertical-offset="1938">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/essence/Essence-Dto/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="45" selection-start="362" selection-end="362" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="782">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cosbalanced/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="83" column="10" selection-start="2659" selection-end="2659" vertical-scroll-proportion="0.0" vertical-offset="1411" max-vertical-offset="1513">
@@ -999,23 +1000,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cosbalanced/pom.xml">
+    <entry file="file://$PROJECT_DIR$/essence/Essence-Dto/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="91" selection-start="455" selection-end="455" vertical-scroll-proportion="0.25123152" vertical-offset="0" max-vertical-offset="1513">
+        <state line="5" column="45" selection-start="362" selection-end="362" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="12" selection-start="894" selection-end="894" vertical-scroll-proportion="-6.105263" vertical-offset="26" max-vertical-offset="3026">
+        <state line="104" column="26" selection-start="3718" selection-end="3718" vertical-scroll-proportion="0.0" vertical-offset="1017" max-vertical-offset="1938">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/essence/Essence-Dto/pom.xml">
+    <entry file="file://$PROJECT_DIR$/cosbalanced/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782">
+        <state line="71" column="10" selection-start="2418" selection-end="2418" vertical-scroll-proportion="0.8045977" vertical-offset="717" max-vertical-offset="1343">
           <folding />
         </state>
       </provider>

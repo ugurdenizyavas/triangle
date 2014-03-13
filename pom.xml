@@ -10,19 +10,6 @@
     <packaging>pom</packaging>
     <name>Triangle</name>
 
-    <distributionManagement>
-        <site>
-            <id>cloudbees-private-snapshot-repository</id>
-            <url>dav:https://repository-ugurdenizyavas.forge.cloudbees.com/snapshot/</url>
-        </site>
-        <repository>
-            <id>cloudbees-private-snapshot-repository</id>
-            <url>
-                https://repository-ugurdenizyavas.forge.cloudbees.com/snapshot
-            </url>
-        </repository>
-    </distributionManagement>
-
     <scm>
         <connection>scm:git:https://github.com/ugurdenizyavas/triangle.git</connection>
         <developerConnection>scm:git:https://github.com/ugurdenizyavas/triangle.git</developerConnection>
@@ -32,7 +19,7 @@
 
 
     <prerequisites>
-        <maven>2.2.1</maven>
+        <maven>3.1.1</maven>
     </prerequisites>
 
     <modules>
@@ -60,53 +47,7 @@
         <groovy.version>2.2.1</groovy.version>
     </properties>
 
-    <repositories>
-        <repository>
-            <id>central</id>
-            <name>Maven Repository Switchboard</name>
-            <layout>default</layout>
-            <url>http://repo1.maven.org/maven2</url>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-        </repository>
-    </repositories>
-
-    <pluginRepositories>
-        <pluginRepository>
-            <id>central</id>
-            <name>Maven Plugin Repository</name>
-            <url>http://repo1.maven.org/maven2</url>
-            <layout>default</layout>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-            <releases>
-                <updatePolicy>never</updatePolicy>
-            </releases>
-        </pluginRepository>
-    </pluginRepositories>
-
-    <dependencyManagement>
-        <dependencies>
-
-            <dependency>
-                <groupId>org.codehaus.groovy</groupId>
-                <artifactId>groovy-all</artifactId>
-                <version>${groovy.version}</version>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
-
     <build>
-        <extensions>
-            <extension>
-                <groupId>org.apache.maven.wagon</groupId>
-                <artifactId>wagon-webdav-jackrabbit</artifactId>
-                <version>1.0-beta-7</version>
-            </extension>
-        </extensions>
-
         <plugins>
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -156,16 +97,11 @@
                 </configuration>
             </plugin>
 
-
             <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-deploy-plugin</artifactId>
-                <version>2.7</version>
-                <configuration>
-                    <uniqueVersion>false</uniqueVersion>
-                </configuration>
+                <groupId>com.cloudbees</groupId>
+                <artifactId>bees-maven-plugin</artifactId>
+                <version>1.3.2</version>
             </plugin>
-
         </plugins>
     </build>
 

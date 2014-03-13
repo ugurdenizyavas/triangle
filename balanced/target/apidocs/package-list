@@ -24,6 +24,7 @@ com.deniz.balanced.mission.persistence.impl
 com.deniz.balanced.user.business
 com.deniz.balanced.user.business.domain
 com.deniz.balanced.user.business.exception
+com.deniz.balanced.user.business.impl
 com.deniz.balanced.user.persistence
 com.deniz.balanced.user.persistence.entity
 com.deniz.balanced.user.persistence.impl
