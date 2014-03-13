@@ -39,10 +39,10 @@
     <orderEntry type="library" name="Maven: javax.servlet:servlet-api:2.5" level="project" />
     <orderEntry type="library" name="Maven: com.google.code.gson:gson:2.2.2" level="project" />
     <orderEntry type="module" module-name="business" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-tx:3.0.2.RELEASE" level="project" />
     <orderEntry type="module" module-name="dto" />
     <orderEntry type="library" name="Maven: commons-beanutils:commons-beanutils:1.0" level="project" />
     <orderEntry type="library" name="Maven: joda-time:joda-time:2.1" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-tx:3.0.2.RELEASE" level="project" />
     <orderEntry type="module" module-name="logging" />
     <orderEntry type="module" module-name="security" />
   </component>
