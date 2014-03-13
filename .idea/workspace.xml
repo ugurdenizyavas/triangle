@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="245aa61e-f480-4b4c-9fb1-01ea3fe98967" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\WS\Triangle\.idea\libraries\Maven__com_deniz_essence_logging_1_0_SNAPSHOT.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/balanced/balanced.iml" afterPath="$PROJECT_DIR$/balanced/balanced.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cosbalanced/cosbalanced.iml" afterPath="$PROJECT_DIR$/cosbalanced/cosbalanced.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/cosbalanced_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/cosbalanced_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/balanced/pom.xml" afterPath="$PROJECT_DIR$/balanced/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cosbalanced/pom.xml" afterPath="$PROJECT_DIR$/cosbalanced/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/pom.xml" afterPath="$PROJECT_DIR$/essence/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Business/pom.xml" afterPath="$PROJECT_DIR$/essence/Essence-Business/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Configuration/pom.xml" afterPath="$PROJECT_DIR$/essence/Essence-Configuration/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Dto/pom.xml" afterPath="$PROJECT_DIR$/essence/Essence-Dto/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Logging/pom.xml" afterPath="$PROJECT_DIR$/essence/Essence-Logging/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Persistence/pom.xml" afterPath="$PROJECT_DIR$/essence/Essence-Persistence/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Security/pom.xml" afterPath="$PROJECT_DIR$/essence/Essence-Security/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Servlet/pom.xml" afterPath="$PROJECT_DIR$/essence/Essence-Servlet/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-SetupData/pom.xml" afterPath="$PROJECT_DIR$/essence/Essence-SetupData/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Servlet/servlet.iml" afterPath="$PROJECT_DIR$/essence/Essence-Servlet/servlet.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Triangle.iws" />
@@ -83,47 +67,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/essence/Essence-Business/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="25" selection-start="357" selection-end="357" vertical-scroll-proportion="-1.4912281" vertical-offset="0" max-vertical-offset="680">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/essence/Essence-Security/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="25" selection-start="357" selection-end="357" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1139">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/essence/Essence-Servlet/pom.xml">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="72" column="33" selection-start="2401" selection-end="2401" vertical-scroll-proportion="0.74876845" vertical-offset="768" max-vertical-offset="1377">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/essence/Essence-Dto/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/essence/Essence-Logging/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="13" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
-              <folding />
+            <state line="75" column="28" selection-start="2620" selection-end="2620" vertical-scroll-proportion="1.3349754" vertical-offset="462" max-vertical-offset="2669">
+              <folding>
+                <marker date="1394703821931" expanded="true" signature="89:4956" placeholder="..." />
+                <marker date="1394703821931" expanded="true" signature="2946:4943" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -159,11 +110,11 @@
         <option value="$PROJECT_DIR$/cosbalanced/src/main/resources/configuration/stages/app.cloudbees.properties" />
         <option value="$PROJECT_DIR$/cosbalanced/pom.xml" />
         <option value="$PROJECT_DIR$/balanced/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/essence/Essence-Logging/pom.xml" />
         <option value="$PROJECT_DIR$/essence/Essence-Business/pom.xml" />
         <option value="$PROJECT_DIR$/essence/Essence-Security/pom.xml" />
         <option value="$PROJECT_DIR$/essence/Essence-Servlet/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -208,7 +159,7 @@
     <OptionsSetting value="true" id="Edit" />
     <OptionsSetting value="true" id="Undo Check Out" />
     <OptionsSetting value="true" id="Get Latest Version" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="1" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -255,61 +206,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="essence" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="essence" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Essence-Logging" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="essence" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Essence-Dto" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="essence" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Essence-Business" />
+              <option name="myItemId" value="balanced" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -822,7 +719,7 @@
       <created>1394461351385</created>
       <updated>1394461351385</updated>
       <workItem from="1394628334394" duration="7434000" />
-      <workItem from="1394695438516" duration="4312000" />
+      <workItem from="1394695438516" duration="6512000" />
     </task>
     <task id="LOCAL-00001" summary="cloudbee properties&#10;">
       <created>1394629139624</created>
@@ -832,15 +729,19 @@
       <created>1394634946484</created>
       <updated>1394634946484</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="cloudbee properties&#10;pom versioning is changed&#10;">
+      <created>1394702240508</created>
+      <updated>1394702240508</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11746000" />
+    <option name="totallyTimeSpent" value="13946000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1064" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -858,6 +759,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288889" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -872,7 +774,6 @@
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Heroku" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288889" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -889,7 +790,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="cloudbee properties&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="cloudbee properties&#10;" />
+    <MESSAGE value="cloudbee properties&#10;pom versioning is changed&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="cloudbee properties&#10;pom versioning is changed&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -909,7 +811,10 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="55" selection-start="871" selection-end="871" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="2414">
-          <folding />
+          <folding>
+            <marker date="1394703821931" expanded="true" signature="89:4956" placeholder="..." />
+            <marker date="1394703821931" expanded="true" signature="2946:4943" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -985,21 +890,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/balanced/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="55" selection-start="2684" selection-end="2684" vertical-scroll-proportion="1.6141216" vertical-offset="377" max-vertical-offset="1649">
+        <state line="80" column="55" selection-start="2684" selection-end="2684" vertical-scroll-proportion="0.0" vertical-offset="377" max-vertical-offset="1649">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/essence/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="16" selection-start="1001" selection-end="1001" vertical-scroll-proportion="-2.048913" vertical-offset="1658" max-vertical-offset="2210">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="609">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cosbalanced/pom.xml">
+    <entry file="file://$PROJECT_DIR$/essence/Essence-SetupData/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="42" selection-start="920" selection-end="920" vertical-scroll-proportion="0.08374384" vertical-offset="357" max-vertical-offset="1513">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/essence/Essence-Servlet/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="110" selection-start="2090" selection-end="2090" vertical-scroll-proportion="1.7586207" vertical-offset="0" max-vertical-offset="1377">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/essence/Essence-Security/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="25" selection-start="357" selection-end="357" vertical-scroll-proportion="0.13957307" vertical-offset="0" max-vertical-offset="1139">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/essence/Essence-Persistence/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1751">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/essence/Essence-Logging/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="13" selection-start="344" selection-end="344" vertical-scroll-proportion="0.13957307" vertical-offset="0" max-vertical-offset="697">
           <folding />
         </state>
       </provider>
@@ -1011,31 +944,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/essence/Essence-Logging/pom.xml">
+    <entry file="file://$PROJECT_DIR$/essence/Essence-Configuration/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/essence/Essence-Business/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="25" selection-start="357" selection-end="357" vertical-scroll-proportion="-1.4912281" vertical-offset="0" max-vertical-offset="680">
+        <state line="5" column="25" selection-start="357" selection-end="357" vertical-scroll-proportion="0.13957307" vertical-offset="0" max-vertical-offset="680">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/essence/Essence-Security/pom.xml">
+    <entry file="file://$PROJECT_DIR$/cosbalanced/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="25" selection-start="357" selection-end="357" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1139">
+        <state line="9" column="91" selection-start="455" selection-end="455" vertical-scroll-proportion="0.25123152" vertical-offset="0" max-vertical-offset="1513">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/essence/Essence-Servlet/pom.xml">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="33" selection-start="2401" selection-end="2401" vertical-scroll-proportion="0.74876845" vertical-offset="768" max-vertical-offset="1377">
-          <folding />
+        <state line="75" column="28" selection-start="2620" selection-end="2620" vertical-scroll-proportion="1.3349754" vertical-offset="462" max-vertical-offset="2669">
+          <folding>
+            <marker date="1394703821931" expanded="true" signature="89:4956" placeholder="..." />
+            <marker date="1394703821931" expanded="true" signature="2946:4943" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
