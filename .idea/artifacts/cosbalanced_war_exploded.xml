@@ -33,7 +33,6 @@
           <element id="archive" name="dto-1.0-SNAPSHOT.jar">
             <element id="module-output" name="dto" />
           </element>
-          <element id="library" level="project" name="Maven: commons-lang:commons-lang:2.3" />
           <element id="library" level="project" name="Maven: commons-beanutils:commons-beanutils:1.0" />
           <element id="library" level="project" name="Maven: joda-time:joda-time:2.1" />
           <element id="archive" name="logging-1.0-SNAPSHOT.jar">
@@ -83,6 +82,7 @@
           </element>
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-log4j12:1.5.8" />
           <element id="library" level="project" name="Maven: log4j:log4j:1.2.14" />
+          <element id="library" level="project" name="Maven: commons-lang:commons-lang:2.3" />
         </element>
       </element>
     </root>
