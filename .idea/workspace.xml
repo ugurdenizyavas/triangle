@@ -2,28 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="245aa61e-f480-4b4c-9fb1-01ea3fe98967" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_3.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Configuration/src/main/java/com/deniz/framework/configuration/LoggingPropertyPlaceholderConfigurer.java" afterPath="$PROJECT_DIR$/essence/Essence-Configuration/src/main/java/com/deniz/framework/configuration/LoggingPropertyPlaceholderConfigurer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Servlet/src/main/java/com/deniz/framework/controller/LoggingTaskControllerTemplate.java" afterPath="$PROJECT_DIR$/essence/Essence-Servlet/src/main/java/com/deniz/framework/controller/LoggingTaskControllerTemplate.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Triangle.iml" afterPath="$PROJECT_DIR$/Triangle.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/balanced/balanced.iml" afterPath="$PROJECT_DIR$/balanced/balanced.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Business/business.iml" afterPath="$PROJECT_DIR$/essence/Essence-Business/business.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Configuration/configuration.iml" afterPath="$PROJECT_DIR$/essence/Essence-Configuration/configuration.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Configuration/src/main/resources/spring/com/deniz/framework/configuration/configuration.spring.xml" afterPath="$PROJECT_DIR$/essence/Essence-Configuration/src/main/resources/spring/com/deniz/framework/configuration/configuration.spring.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cosbalanced/cosbalanced.iml" afterPath="$PROJECT_DIR$/cosbalanced/cosbalanced.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/cosbalanced_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/cosbalanced_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Dto/dto.iml" afterPath="$PROJECT_DIR$/essence/Essence-Dto/dto.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/essence.iml" afterPath="$PROJECT_DIR$/essence/essence.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Logging/logging.iml" afterPath="$PROJECT_DIR$/essence/Essence-Logging/logging.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Persistence/persistence.iml" afterPath="$PROJECT_DIR$/essence/Essence-Persistence/persistence.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/balanced/pom.xml" afterPath="$PROJECT_DIR$/balanced/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Dto/pom.xml" afterPath="$PROJECT_DIR$/essence/Essence-Dto/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Logging/pom.xml" afterPath="$PROJECT_DIR$/essence/Essence-Logging/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Servlet/pom.xml" afterPath="$PROJECT_DIR$/essence/Essence-Servlet/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Security/security.iml" afterPath="$PROJECT_DIR$/essence/Essence-Security/security.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Servlet/servlet.iml" afterPath="$PROJECT_DIR$/essence/Essence-Servlet/servlet.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-SetupData/setup-data.iml" afterPath="$PROJECT_DIR$/essence/Essence-SetupData/setup-data.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/balanced/src/main/resources/configuration/app.properties" afterPath="$PROJECT_DIR$/balanced/src/main/resources/configuration/app.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cosbalanced/src/main/resources/configuration/app.properties" afterPath="$PROJECT_DIR$/cosbalanced/src/main/resources/configuration/app.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Triangle.iws" />
@@ -88,24 +68,56 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="configuration.spring.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/essence/Essence-Configuration/src/main/resources/spring/com/deniz/framework/configuration/configuration.spring.xml">
+      <file leaf-file-name="persistence.spring.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/essence/Essence-Persistence/src/main/resources/spring/com/deniz/framework/persistence/persistence.spring.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="19" selection-start="778" selection-end="778" vertical-scroll-proportion="-8.84" vertical-offset="17" max-vertical-offset="544">
+            <state line="32" column="21" selection-start="1539" selection-end="1573" vertical-scroll-proportion="-11.32" vertical-offset="261" max-vertical-offset="1598">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoggingPropertyPlaceholderConfigurer.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/essence/Essence-Configuration/src/main/java/com/deniz/framework/configuration/LoggingPropertyPlaceholderConfigurer.java">
+      <file leaf-file-name="app.cloudbees.properties" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/resources/configuration/stages/app.cloudbees.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="89" selection-start="2090" selection-end="2090" vertical-scroll-proportion="0.4215501" vertical-offset="678" max-vertical-offset="1326">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2602#2603#0" expanded="true" />
-                <element signature="e#2642#2643#0" expanded="true" />
-              </folding>
+            <state line="13" column="0" selection-start="650" selection-end="650" vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="884">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.cloudbees.properties" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/balanced/src/main/resources/configuration/stages/app.cloudbees.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="0" selection-start="650" selection-end="650" vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="884">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.properties" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/balanced/src/main/resources/configuration/app.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="106" selection-start="557" selection-end="557" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="1173">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.properties" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/resources/configuration/app.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="0" selection-start="558" selection-end="558" vertical-scroll-proportion="0.2670157" vertical-offset="0" max-vertical-offset="1173">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.dev-ci.properties" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/balanced/src/main/resources/configuration/stages/app.dev-ci.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="0" selection-start="617" selection-end="832" vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="884">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -149,6 +161,8 @@
         <option value="$PROJECT_DIR$/essence/Essence-Servlet/src/main/java/com/deniz/framework/controller/LoggingTaskControllerTemplate.java" />
         <option value="$PROJECT_DIR$/essence/Essence-Configuration/src/main/resources/spring/com/deniz/framework/configuration/configuration.spring.xml" />
         <option value="$PROJECT_DIR$/essence/Essence-Configuration/src/main/java/com/deniz/framework/configuration/LoggingPropertyPlaceholderConfigurer.java" />
+        <option value="$PROJECT_DIR$/balanced/src/main/resources/configuration/app.properties" />
+        <option value="$PROJECT_DIR$/cosbalanced/src/main/resources/configuration/app.properties" />
       </list>
     </option>
   </component>
@@ -222,7 +236,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -251,7 +265,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="essence" />
+              <option name="myItemId" value="balanced" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -265,29 +279,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="essence" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Essence-Servlet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="essence" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Essence-Servlet" />
+              <option name="myItemId" value="balanced" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -305,37 +297,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="essence" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Essence-Servlet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="essence" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Essence-Servlet" />
+              <option name="myItemId" value="balanced" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -347,7 +309,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -361,85 +323,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="essence" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Essence-Servlet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="essence" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Essence-Configuration" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="essence" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Essence-Configuration" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="essence" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Essence-Configuration" />
+              <option name="myItemId" value="balanced" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -469,103 +353,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="essence" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Essence-Configuration" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="essence" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Essence-Business" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="essence" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Essence-Business" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="essence" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Essence-Business" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="essence" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Essence-Business" />
+              <option name="myItemId" value="balanced" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -577,7 +365,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="configuration" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stages" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -591,11 +387,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="essence" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Essence-Business" />
+              <option name="myItemId" value="balanced" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -604,20 +396,12 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="business" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -650,18 +434,11 @@
       <recent name="com.deniz.balanced.framework.constants" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WS\Triangle\balanced\src\main\resources\configuration\stages" />
       <recent name="D:\WS\Triangle\cosbalanced\src\main\resources\logging" />
       <recent name="D:\WS\Triangle\cosbalanced\src\main\resources\spring_mvc" />
-      <recent name="D:\WS\Triangle\balanced\src\main\resources\configuration\stages" />
       <recent name="D:\WS\Triangle\balanced\src\main\java\com\deniz\balanced\user\persistence\util" />
       <recent name="D:\WS\Triangle\balanced\src\main\java\com\deniz\balanced\user\persistence\impl" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-      <recent name="com.deniz.balanced.user" />
-      <recent name="com.deniz.balanced" />
-      <recent name="com.deniz.balanced.framework" />
-      <recent name="com.deniz.balanced.framework.services" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\WS\Triangle\cosbalanced\src\main\resources\configuration\stages" />
@@ -669,6 +446,13 @@
       <recent name="D:\WS\Triangle\cosbalanced\src\main\webapp\WEB-INF" />
       <recent name="D:\WS\Triangle\essence" />
       <recent name="D:\WS\Triangle" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="com.deniz.balanced.user" />
+      <recent name="com.deniz.balanced" />
+      <recent name="com.deniz.balanced.framework" />
+      <recent name="com.deniz.balanced.framework.services" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Balanced">
@@ -799,9 +583,6 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="true" type="cloudbees-deploy" factoryName="CloudBees Deployment">
-      <method />
-    </configuration>
     <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
       <option name="BCName" value="" />
       <option name="IOSSimulatorSdkPath" value="" />
@@ -846,6 +627,9 @@
       <predefined_log_file id="Tomcat Host Manager" enabled="false" />
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
+    <configuration default="true" type="cloudbees-deploy" factoryName="CloudBees Deployment">
       <method />
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
@@ -1129,7 +913,9 @@
       <workItem from="1394695438516" duration="13432000" />
       <workItem from="1394747319457" duration="493000" />
       <workItem from="1394748390393" duration="3541000" />
-      <workItem from="1394781076001" duration="8679000" />
+      <workItem from="1394781076001" duration="9750000" />
+      <workItem from="1394806777222" duration="26000" />
+      <workItem from="1394821003367" duration="1173000" />
     </task>
     <task id="LOCAL-00001" summary="cloudbee properties&#10;">
       <created>1394629139624</created>
@@ -1155,41 +941,49 @@
       <created>1394788693708</created>
       <updated>1394788693708</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Configuration&#10;">
+      <created>1394803241942</created>
+      <updated>1394803241942</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Configuration&#10;">
+      <created>1394821306994</created>
+      <updated>1394821306994</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33579000" />
+    <option name="totallyTimeSpent" value="35849000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1064" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32876712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39936775" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39936775" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23333333" sideWeight="0.5144445" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.6711111" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48472077" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39936775" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23333333" sideWeight="0.5144445" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1216,7 +1010,8 @@
     <MESSAGE value="pom changes" />
     <MESSAGE value="cloudbees config &#10;# Please enter the commit message for your changes. Lines starting&#10;# with '#' will be ignored, and an empty message aborts the commit.&#10;# On branch master&#10;# Changes to be committed:&#10;#   (use &quot;git reset HEAD &lt;file&gt;...&quot; to unstage)&#10;#&#10;#&#9;modified:   .idea/artifacts/cosbalanced_war_exploded.xml&#10;#&#9;modified:   .idea/workspace.xml&#10;#&#9;modified:   balanced/target/apidocs/allclasses-frame.html&#10;#&#9;modified:   balanced/target/apidocs/allclasses-noframe.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/AccountingBackendService.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/AccountingBusinessService.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/AuthenticationBusinessService.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/ExperienceBackendService.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/ExperienceBusinessService.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/class-use/AccountingBackendService.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/class-use/AccountingBusinessService.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/class-use/AuthenticationBusinessService.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/class-use/ExperienceBackendService.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/class-use/ExperienceBusinessService.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/conversion/UserConverter.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/conversion/class-use/UserConverter.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/conversion/package-frame.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/conversion/package-summary.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/conversion/package-tree.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/conversion/package-use.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/enums/ExperienceRatioEnum.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/enums/class-use/ExperienceRatioEnum.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/enums/package-frame.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/enums/package-summary.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/enums/package-tree.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/enums/package-use.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/impl/AccountingBackendServiceImpl.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/impl/AccountingBusinessServiceImpl.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/impl/AuthenticationBusinessServiceImpl.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/impl/ExperienceBackendServiceImpl.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/impl/ExperienceBusinessServiceImpl.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/impl/class-use/AccountingBackendServiceImpl.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/impl/class-use/AccountingBusinessServiceImpl.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/impl/class-use/AuthenticationBusinessServiceImpl.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/impl/class-use/ExperienceBackendServiceImpl.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/impl/class-use/ExperienceBusinessServiceImpl.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/impl/package-frame.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/impl/package-summary.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/impl/package-tree.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/impl/package-use.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/package-frame.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/package-summary.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/package-tree.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/package-use.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/validation/ValidationService.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/validation/class-use/ValidationService.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/validation/impl/ValidationServiceImpl.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/validation/impl/class-use/ValidationServiceImpl.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/validation/impl/package-frame.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/validation/impl/package-summary.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/validation/impl/package-tree.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/validation/impl/package-use.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/validation/impl/validator/EmailValidator.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/validation/impl/validator/PasswordValidator.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/validation/impl/validator/class-use/EmailValidator.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/validation/impl/validator/class-use/PasswordValidator.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/validation/impl/validator/package-frame.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/validation/impl/validator/package-summary.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/validation/impl/validator/package-tree.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/validation/impl/validator/package-use.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/validation/package-frame.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/validation/package-summary.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/validation/package-tree.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/validation/package-use.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/business/FrameworkBackendService.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/business/FrameworkBusinessService.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/business/class-use/FrameworkBackendService.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/business/class-use/FrameworkBusinessService.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/business/conversion/AbstractEntityDtoConverter.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/business/conversion/class-use/AbstractEntityDtoConverter.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/business/conversion/package-frame.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/business/conversion/package-summary.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/business/conversion/package-tree.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/business/conversion/package-use.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/business/exception/AbstractApplicationException.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/business/exception/class-use/AbstractApplicationException.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/business/exception/package-frame.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/business/exception/package-summary.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/business/exception/package-tree.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/business/exception/package-use.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/business/impl/AbstractBackendService.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/business/impl/AbstractBusinessService.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/business/impl/class-use/AbstractBackendService.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/business/impl/class-use/AbstractBusinessService.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/business/impl/package-frame.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/business/impl/package-summary.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/business/impl/package-tree.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/business/impl/package-use.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/business/impl/validator/MetaValidator.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/business/impl/validator/class-use/MetaValidator.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/business/impl/validator/package-frame.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/business/impl/validator/package-summary.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/business/impl/validator/package-tree.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/business/impl/validator/package-use.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/business/package-frame.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/business/package-summary.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/business/package-tree.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/business/package-use.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/dao/FrameworkDao.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/dao/class-use/FrameworkDao.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/dao/impl/AbstractFrameworkDao.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/dao/impl/class-use/AbstractFrameworkDao.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/dao/impl/package-frame.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/dao/impl/package-summary.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/dao/impl/package-tree.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/dao/impl/package-use.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/dao/package-frame.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/dao/package-summary.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/dao/package-tree.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/dao/package-use.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/setup/impl/SetupDataServiceImpl.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/setup/impl/class-use/SetupDataServiceImpl.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/setup/impl/package-frame.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/setup/impl/package-summary.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/setup/impl/package-tree.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/setup/impl/package-use.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/business/MissionBackendService.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/business/MissionBusinessService.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/business/class-use/MissionBackendService.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/business/class-use/MissionBusinessService.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/business/conversion/MissionConverter.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/business/conversion/class-use/MissionConverter.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/business/conversion/package-frame.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/business/conversion/package-summary.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/business/conversion/package-tree.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/business/conversion/package-use.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/business/domain/MissionDto.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/business/domain/class-use/MissionDto.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/business/domain/package-frame.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/business/domain/package-summary.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/business/domain/package-tree.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/business/domain/package-use.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/business/impl/MissionBackendServiceImpl.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/business/impl/MissionBusinessServiceImpl.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/business/impl/class-use/MissionBackendServiceImpl.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/business/impl/class-use/MissionBusinessServiceImpl.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/business/impl/package-frame.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/business/impl/package-summary.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/business/impl/package-tree.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/business/impl/package-use.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/business/package-frame.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/business/package-summary.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/business/package-tree.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/business/package-use.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/persistence/MissionDao.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/persistence/UserMissionDao.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/persistence/class-use/MissionDao.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/persistence/class-use/UserMissionDao.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/persistence/entity/MissionEntity.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/persistence/entity/UserMissionEntity.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/persistence/entity/class-use/MissionEntity.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/persistence/entity/class-use/UserMissionEntity.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/persistence/entity/package-frame.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/persistence/entity/package-summary.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/persistence/entity/package-tree.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/persistence/entity/package-use.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/persistence/enums/TaskLevelEnum.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/persistence/enums/class-use/TaskLevelEnum.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/persistence/enums/package-frame.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/persistence/enums/package-summary.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/persistence/enums/package-tree.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/persistence/enums/package-use.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/persistence/impl/MissionDaoImpl.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/persistence/impl/UserMissionDaoImpl.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/persistence/impl/class-use/MissionDaoImpl.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/persistence/impl/class-use/UserMissionDaoImpl.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/persistence/impl/package-frame.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/persistence/impl/package-summary.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/persistence/impl/package-tree.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/persistence/impl/package-use.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/persistence/package-frame.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/persistence/package-summary.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/persistence/package-tree.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/persistence/package-use.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/business/UserBusinessService.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/business/class-use/UserBusinessService.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/business/domain/BabyDto.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/business/domain/UserDto.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/business/domain/class-use/BabyDto.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/business/domain/class-use/UserDto.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/business/domain/package-frame.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/business/domain/package-summary.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/business/domain/package-tree.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/business/domain/package-use.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/business/exception/AncestorInviteLimitReachedException.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/business/exception/AncestorNotExistsException.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/business/exception/DataAlreadyExistException.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/business/exception/EmailNotValidException.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/business/exception/MissionAlreadyCompletedException.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/business/exception/NotValidIdException.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/business/exception/PasswordNotMatchedException.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/business/exception/PasswordNotSecureException.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/business/exception/PasswordWrongException.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/business/exception/class-use/AncestorInviteLimitReachedException.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/business/exception/class-use/AncestorNotExistsException.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/business/exception/class-use/DataAlreadyExistException.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/business/exception/class-use/EmailNotValidException.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/business/exception/class-use/MissionAlreadyCompletedException.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/business/exception/class-use/NotValidIdException.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/business/exception/class-use/PasswordNotMatchedException.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/business/exception/class-use/PasswordNotSecureException.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/business/exception/class-use/PasswordWrongException.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/business/exception/package-frame.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/business/exception/package-summary.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/business/exception/package-tree.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/business/exception/package-use.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/business/package-frame.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/business/package-summary.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/business/package-tree.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/business/package-use.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/persistence/UserDao.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/persistence/class-use/UserDao.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/persistence/entity/UserEntity.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/persistence/entity/class-use/UserEntity.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/persistence/entity/package-frame.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/persistence/entity/package-summary.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/persistence/entity/package-tree.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/persistence/entity/package-use.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/persistence/impl/UserDaoImpl.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/persistence/impl/class-use/UserDaoImpl.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/persistence/impl/package-frame.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/persistence/impl/package-summary.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/persistence/impl/package-tree.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/persistence/impl/package-use.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/persistence/package-frame.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/persistence/package-summary.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/persistence/package-tree.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/persistence/package-use.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/persistence/util/ReferenceCodeUtil.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/persistence/util/class-use/ReferenceCodeUtil.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/persistence/util/package-frame.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/persistence/util/package-summary.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/persistence/util/package-tree.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/persistence/util/package-use.html&#10;#&#9;modified:   balanced/target/apidocs/constant-values.html&#10;#&#9;modified:   balanced/target/apidocs/deprecated-list.html&#10;#&#9;modified:   balanced/target/apidocs/help-doc.html&#10;#&#9;modified:   balanced/target/apidocs/index-all.html&#10;#&#9;modified:   balanced/target/apidocs/index.html&#10;#&#9;modified:   balanced/target/apidocs/overview-frame.html&#10;#&#9;modified:   balanced/target/apidocs/overview-summary.html&#10;#&#9;modified:   balanced/target/apidocs/overview-tree.html&#10;#&#9;modified:   balanced/target/apidocs/package-list&#10;#&#9;modified:   balanced/target/apidocs/serialized-form.html&#10;#&#9;modified:   balanced/target/balanced-1.0-SNAPSHOT-javadoc.jar&#10;#&#9;modified:   balanced/target/balanced-1.0-SNAPSHOT-sources.jar&#10;#&#9;modified:   balanced/target/balanced-1.0-SNAPSHOT.jar&#10;#&#9;modified:   balanced/target/maven-archiver/pom.properties&#10;#&#9;modified:   cosbalanced/cosbalanced.iml&#10;#&#9;modified:   cosbalanced/pom.xml&#10;#&#9;modified:   cosbalanced/target/apidocs/allclasses-frame.html&#10;#&#9;modified:   cosbalanced/target/apidocs/allclasses-noframe.html&#10;#&#9;modified:   cosbalanced/target/apidocs/com/deniz/balanced/framework/constants/FrameworkLocalizerKeys.html&#10;#&#9;modified:   cosbalanced/target/apidocs/com/deniz/balanced/framework/constants/class-use/FrameworkLocalizerKeys.html&#10;#&#9;modified:   cosbalanced/target/apidocs/com/deniz/balanced/framework/constants/package-frame.html&#10;#&#9;modified:   cosbalanced/target/apidocs/com/deniz/balanced/framework/constants/package-summary.html&#10;#&#9;modified:   cosbalanced/target/apidocs/com/deniz/balanced/framework/constants/package-tree.html&#10;#&#9;modified:   cosbalanced/target/apidocs/com/deniz/balanced/framework/constants/package-use.html&#10;#&#9;modified:   cosbalanced/target/apidocs/com/deniz/balanced/services/member/MemberDetailsTaskController.html&#10;#&#9;modified:   cosbalanced/target/apidocs/com/deniz/balanced/services/member/MemberInfoTaskController.html&#10;#&#9;modified:   cosbalanced/target/apidocs/com/deniz/balanced/services/member/MemberOverviewTaskController.html&#10;#&#9;modified:   cosbalanced/target/apidocs/com/deniz/balanced/services/member/MemberProcessController.html&#10;#&#9;modified:   cosbalanced/target/apidocs/com/deniz/balanced/services/member/class-use/MemberDetailsTaskController.html&#10;#&#9;modified:   cosbalanced/target/apidocs/com/deniz/balanced/services/member/class-use/MemberInfoTaskController.html&#10;#&#9;modified:   cosbalanced/target/apidocs/com/deniz/balanced/services/member/class-use/MemberOverviewTaskController.html&#10;#&#9;modified:   cosbalanced/target/apidocs/com/deniz/balanced/services/member/class-use/MemberProcessController.html&#10;#&#9;modified:   cosbalanced/target/apidocs/com/deniz/balanced/services/member/package-frame.html&#10;#&#9;modified:   cosbalanced/target/apidocs/com/deniz/balanced/services/member/package-summary.html&#10;#&#9;modified:   cosbalanced/target/apidocs/com/deniz/balanced/services/member/package-tree.html&#10;#&#9;modified:   cosbalanced/target/apidocs/com/deniz/balanced/services/member/package-use.html&#10;#&#9;modified:   cosbalanced/target/apidocs/constant-values.html&#10;#&#9;modified:   cosbalanced/target/apidocs/deprecated-list.html&#10;#&#9;modified:   cosbalanced/target/apidocs/help-doc.html&#10;#&#9;modified:   cosbalanced/target/apidocs/index-all.html&#10;#&#9;modified:   cosbalanced/target/apidocs/index.html&#10;#&#9;modified:   cosbalanced/target/apidocs/overview-frame.html&#10;#&#9;modified:   cosbalanced/target/apidocs/overview-summary.html&#10;#&#9;modified:   cosbalanced/target/apidocs/overview-tree.html&#10;#&#9;modified:   cosbalanced/target/cosbalanced-1.0-SNAPSHOT-javadoc.jar&#10;#&#9;modified:   cosbalanced/target/cosbalanced-1.0-SNAPSHOT-sources.jar&#10;#&#9;modified:   cosbalanced/target/cosbalanced-1.0-SNAPSHOT.war&#10;#&#9;modified:   cosbalanced/target/cosbalanced-1.0-SNAPSHOT/WEB-INF/lib/balanced-1.0-SNAPSHOT.jar&#10;#&#9;modified:   cosbalanced/target/cosbalanced-1.0-SNAPSHOT/WEB-INF/lib/business-1.0-SNAPSHOT.jar&#10;#&#9;modified:   cosbalanced/target/cosbalanced-1.0-SNAPSHOT/WEB-INF/lib/configuration-1.0-SNAPSHOT.jar&#10;#&#9;modified:   cosbalanced/target/cosbalanced-1.0-SNAPSHOT/WEB-INF/lib/dto-1.0-SNAPSHOT.jar&#10;#&#9;modified:   cosbalanced/target/cosbalanced-1.0-SNAPSHOT/WEB-INF/lib/logging-1.0-SNAPSHOT.jar&#10;#&#9;modified:   cosbalanced/target/cosbalanced-1.0-SNAPSHOT/WEB-INF/lib/persistence-1.0-SNAPSHOT.jar&#10;#&#9;modified:   cosbalanced/target/cosbalanced-1.0-SNAPSHOT/WEB-INF/lib/security-1.0-SNAPSHOT.jar&#10;#&#9;modified:   cosbalanced/target/cosbalanced-1.0-SNAPSHOT/WEB-INF/lib/servlet-1.0-SNAPSHOT.jar&#10;#&#9;modified:   cosbalanced/target/cosbalanced-1.0-SNAPSHOT/WEB-INF/lib/setup-data-1.0-SNAPSHOT.jar&#10;#&#9;modified:   cosbalanced/target/maven-archiver/pom.properties&#10;#&#9;modified:   pom.xml&#10;#&#10;# Changes not staged for commit:&#10;#   (use &quot;git add/rm &lt;file&gt;...&quot; to update what will be committed)&#10;#   (use &quot;git checkout -- &lt;file&gt;...&quot; to discard changes in working directory)&#10;#&#10;#&#9;deleted:    .idea/libraries/Maven__com_google_appengine_appengine_api_1_0_sdk_1_9_0.xml&#10;#&#9;deleted:    balanced/target/apidocs/com/deniz/balanced/business/UserBackendService.html&#10;#&#9;deleted:    balanced/target/apidocs/com/deniz/balanced/business/UserBusinessService.html&#10;#&#9;deleted:    balanced/target/apidocs/com/deniz/balanced/business/class-use/UserBackendService.html&#10;#&#9;deleted:    balanced/target/apidocs/com/deniz/balanced/business/class-use/UserBusinessService.html&#10;#&#9;deleted:    balanced/target/apidocs/com/deniz/balanced/business/impl/UserBackendServiceImpl.html&#10;#&#9;deleted:    balanced/target/apidocs/com/deniz/balanced/business/impl/UserBusinessServiceImpl.html&#10;#&#9;deleted:    balanced/target/apidocs/com/deniz/balanced/business/impl/class-use/UserBackendServiceImpl.html&#10;#&#9;deleted:    balanced/target/apidocs/com/deniz/balanced/business/impl/class-use/UserBusinessServiceImpl.html&#10;#&#10;" />
     <MESSAGE value="Configuration" />
-    <option name="LAST_COMMIT_MESSAGE" value="Configuration" />
+    <MESSAGE value="Configuration&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Configuration&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1226,11 +1021,41 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cosbalanced/pom.xml">
+    <entry file="file://$PROJECT_DIR$/essence/Essence-Configuration/src/main/resources/spring/com/deniz/framework/configuration/configuration.spring.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="140" selection-start="1606" selection-end="1606" vertical-scroll-proportion="0.0" vertical-offset="676" max-vertical-offset="1343">
+        <state line="14" column="19" selection-start="778" selection-end="778" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/essence/Essence-Configuration/src/main/java/com/deniz/framework/configuration/LoggingPropertyPlaceholderConfigurer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="75" selection-start="2432" selection-end="2432" vertical-scroll-proportion="0.0" vertical-offset="1105" max-vertical-offset="1292">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/essence/Essence-Configuration/src/main/resources/spring/com/deniz/framework/configuration/configuration.spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="19" selection-start="778" selection-end="778" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/essence/Essence-Configuration/src/main/java/com/deniz/framework/configuration/LoggingPropertyPlaceholderConfigurer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="75" selection-start="2432" selection-end="2432" vertical-scroll-proportion="0.0" vertical-offset="1105" max-vertical-offset="1326">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosbalanced/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="140" selection-start="1606" selection-end="1606" vertical-scroll-proportion="0.0" vertical-offset="676" max-vertical-offset="1343" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/webapp/WEB-INF/web.xml">
@@ -1242,9 +1067,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/resources/configuration/stages/app.cloudbees.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="71" selection-start="649" selection-end="649" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="884">
-          <folding />
-        </state>
+        <state line="12" column="71" selection-start="649" selection-end="649" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="884" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -1256,9 +1079,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/essence/Essence-Dto/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="45" selection-start="362" selection-end="362" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="782">
-          <folding />
-        </state>
+        <state line="5" column="45" selection-start="362" selection-end="362" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="782" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -1270,16 +1091,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/essence/Essence-Dto/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="45" selection-start="362" selection-end="362" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="782">
-          <folding />
-        </state>
+        <state line="5" column="45" selection-start="362" selection-end="362" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="782" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cosbalanced/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="10" selection-start="2659" selection-end="2659" vertical-scroll-proportion="0.0" vertical-offset="1411" max-vertical-offset="1513">
-          <folding />
-        </state>
+        <state line="83" column="10" selection-start="2659" selection-end="2659" vertical-scroll-proportion="0.0" vertical-offset="1411" max-vertical-offset="1513" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -1351,9 +1168,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/essence/Essence-SetupData/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="59" selection-start="1026" selection-end="1026" vertical-scroll-proportion="0.8095238" vertical-offset="0" max-vertical-offset="609">
-          <folding />
-        </state>
+        <state line="29" column="59" selection-start="1026" selection-end="1026" vertical-scroll-proportion="0.8095238" vertical-offset="0" max-vertical-offset="609" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/essence/Essence-Configuration/pom.xml">
@@ -1372,28 +1187,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/essence/Essence-Persistence/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="28" selection-start="2845" selection-end="2845" vertical-scroll-proportion="0.58128077" vertical-offset="1074" max-vertical-offset="1751">
-          <folding />
-        </state>
+        <state line="84" column="28" selection-start="2845" selection-end="2845" vertical-scroll-proportion="0.58128077" vertical-offset="1074" max-vertical-offset="1751" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/essence/Essence-Security/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="25" selection-start="1967" selection-end="1967" vertical-scroll-proportion="0.9441708" vertical-offset="462" max-vertical-offset="1139">
-          <folding />
-        </state>
+        <state line="61" column="25" selection-start="1967" selection-end="1967" vertical-scroll-proportion="0.9441708" vertical-offset="462" max-vertical-offset="1139" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/essence/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="609">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/resources/configuration/stages/app.cloudbees.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="71" selection-start="649" selection-end="649" vertical-scroll-proportion="0.33188722" vertical-offset="51" max-vertical-offset="884">
           <folding />
         </state>
       </provider>
@@ -1407,9 +1211,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cosbalanced/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="41" selection-start="2215" selection-end="2215" vertical-scroll-proportion="0.0" vertical-offset="938" max-vertical-offset="1819">
-          <folding />
-        </state>
+        <state line="59" column="41" selection-start="2215" selection-end="2215" vertical-scroll-proportion="0.0" vertical-offset="938" max-vertical-offset="1819" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/3.0.2.RELEASE/spring-beans-3.0.2.RELEASE-sources.jar!/org/springframework/beans/factory/config/PropertyPlaceholderConfigurer.java">
@@ -1421,23 +1223,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/balanced/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="21" selection-start="644" selection-end="644" vertical-scroll-proportion="0.0" vertical-offset="103" max-vertical-offset="1547">
-          <folding />
-        </state>
+        <state line="17" column="21" selection-start="644" selection-end="644" vertical-scroll-proportion="0.0" vertical-offset="103" max-vertical-offset="1547" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/essence/Essence-Dto/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="757" selection-end="757" vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="663">
-          <folding />
-        </state>
+        <state line="21" column="0" selection-start="757" selection-end="757" vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="663" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/essence/Essence-Logging/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="761" selection-end="761" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
-          <folding />
-        </state>
+        <state line="21" column="0" selection-start="761" selection-end="761" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -1470,19 +1266,66 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/essence/Essence-Configuration/src/main/resources/spring/com/deniz/framework/configuration/configuration.spring.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="19" selection-start="778" selection-end="778" vertical-scroll-proportion="-8.84" vertical-offset="17" max-vertical-offset="544">
+        <state line="14" column="19" selection-start="778" selection-end="778" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="544">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/essence/Essence-Configuration/src/main/java/com/deniz/framework/configuration/LoggingPropertyPlaceholderConfigurer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="89" selection-start="2090" selection-end="2090" vertical-scroll-proportion="0.4215501" vertical-offset="678" max-vertical-offset="1326">
+        <state line="65" column="75" selection-start="2432" selection-end="2432" vertical-scroll-proportion="0.0" vertical-offset="371" max-vertical-offset="1292">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2602#2603#0" expanded="true" />
-            <element signature="e#2642#2643#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/balanced/src/main/resources/spring/com/deniz/balanced/framework/persistence.spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="529">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/essence/Essence-Persistence/src/main/resources/spring/com/deniz/framework/persistence/persistence.spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="21" selection-start="1539" selection-end="1573" vertical-scroll-proportion="-11.32" vertical-offset="261" max-vertical-offset="1598">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/resources/configuration/stages/app.cloudbees.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="650" selection-end="650" vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="884">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/balanced/src/main/resources/configuration/stages/app.cloudbees.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="650" selection-end="650" vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="884">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/balanced/src/main/resources/configuration/stages/app.dev-ci.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="617" selection-end="832" vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="884">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/balanced/src/main/resources/configuration/app.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="106" selection-start="557" selection-end="557" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="1173">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/resources/configuration/app.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="558" selection-end="558" vertical-scroll-proportion="0.2670157" vertical-offset="0" max-vertical-offset="1173">
+          <folding />
         </state>
       </provider>
     </entry>
