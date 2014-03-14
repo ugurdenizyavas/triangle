@@ -114,4 +114,18 @@
     </build>
 
 
+    <profiles>
+        <profile>
+            <id>local-udy</id>
+            <properties>
+                <app.configuration.stage>local-udy</app.configuration.stage>
+            </properties>
+        </profile>
+        <profile>
+            <id>cloudbees</id>
+            <properties>
+                <app.configuration.stage>cloudbees</app.configuration.stage>
+            </properties>
+        </profile>
+    </profiles>
 </project>

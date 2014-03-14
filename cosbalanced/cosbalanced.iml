@@ -99,6 +99,7 @@
     <orderEntry type="module" module-name="dto" />
     <orderEntry type="library" name="Maven: commons-beanutils:commons-beanutils:1.0" level="project" />
     <orderEntry type="library" name="Maven: joda-time:joda-time:2.1" level="project" />
+    <orderEntry type="library" name="Maven: commons-lang:commons-lang:2.3" level="project" />
     <orderEntry type="module" module-name="logging" />
     <orderEntry type="module" module-name="security" />
     <orderEntry type="module" module-name="balanced" />
@@ -134,7 +135,6 @@
     <orderEntry type="module" module-name="configuration" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.slf4j:slf4j-log4j12:1.5.8" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: log4j:log4j:1.2.14" level="project" />
-    <orderEntry type="library" name="Maven: commons-lang:commons-lang:2.3" level="project" />
   </component>
 </module>
 
