@@ -37,37 +37,65 @@
     </dependencies>
 
     <build>
+        <resources>
+            <!-- copy all resources except property files in /stages -->
+            <resource>
+                <directory>src/main/resources</directory>
+                <excludes>
+                    <exclude>**/stages/*.properties</exclude>
+                </excludes>
+            </resource>
+
+            <!-- copy the configuration file for this stage -->
+            <resource>
+                <directory>src/main/resources</directory>
+                <includes>
+                    <include>configuration/stages/app.${app.configuration.stage}.properties</include>
+                </includes>
+            </resource>
+
+
+            <!-- ###############################################################################
+                Module 'configuration' ############################################################################### -->
+
+            <!-- Replace ${app.configuration.stage} in the file configuration.spring.xml
+                with e.g. test-idg_obelisk -->
+            <resource>
+                <directory>src/main/resources</directory>
+                <filtering>true</filtering>
+                <includes>
+                    <include>**/configuration.spring.xml</include>
+                </includes>
+            </resource>
+        </resources>
         <plugins>
             <plugin>
-                <groupId>com.google.appengine</groupId>
-                <artifactId>appengine-maven-plugin</artifactId>
-                <version>1.9.0</version>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>2.0.2</version>
+                <configuration>
+                    <encoding>cp1252</encoding>
+                    <source>1.6</source>
+                    <target>1.6</target>
+                </configuration>
             </plugin>
+
         </plugins>
 
     </build>
 
     <profiles>
         <profile>
+            <id>local-udy</id>
+            <properties>
+                <app.configuration.stage>local-udy</app.configuration.stage>
+            </properties>
+        </profile>
+        <profile>
             <id>cloudbees</id>
             <properties>
                 <app.configuration.stage>cloudbees</app.configuration.stage>
             </properties>
-            <build>
-                <plugins>
-                    <plugin>
-                        <groupId>org.apache.maven.plugins</groupId>
-                        <artifactId>maven-compiler-plugin</artifactId>
-                        <executions>
-                            <execution>
-                                <goals>
-                                    <goal>testCompile</goal>
-                                </goals>
-                            </execution>
-                        </executions>
-                    </plugin>
-                </plugins>
-            </build>
         </profile>
     </profiles>
 
