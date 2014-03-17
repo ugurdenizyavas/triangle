@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="245aa61e-f480-4b4c-9fb1-01ea3fe98967" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Persistence/src/main/resources/spring/com/deniz/framework/persistence/persistence.spring.xml" afterPath="$PROJECT_DIR$/essence/Essence-Persistence/src/main/resources/spring/com/deniz/framework/persistence/persistence.spring.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/balanced/src/main/resources/configuration/app.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/balanced/src/main/resources/configuration/stages/app.cloudbees.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/balanced/src/main/resources/configuration/stages/app.dev-ci.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/balanced/src/main/resources/configuration/stages/app.dev.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/balanced/src/main/resources/configuration/stages/app.local-udy.properties" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\cosbalanced\src\main\resources\configuration\app.properties" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\cosbalanced\src\main\resources\configuration\stages\app.cloudbees.properties" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\cosbalanced\src\main\resources\configuration\stages\app.dev-ci.properties" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\cosbalanced\src\main\resources\configuration\stages\app.dev.properties" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\cosbalanced\src\main\resources\configuration\stages\app.local-udy.properties" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Configuration/src/main/java/com/deniz/framework/configuration/LoggingPropertyPlaceholderConfigurer.java" afterPath="$PROJECT_DIR$/essence/Essence-Configuration/src/main/java/com/deniz/framework/configuration/LoggingPropertyPlaceholderConfigurer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cosbalanced/src/main/resources/logging/log4j.local-udy.xml" afterPath="$PROJECT_DIR$/cosbalanced/src/main/resources/logging/log4j.local-udy.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Triangle.iws" />
@@ -58,6 +69,7 @@
       </breakpoint>
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -67,19 +79,69 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="persistence.spring.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/essence/Essence-Persistence/src/main/resources/spring/com/deniz/framework/persistence/persistence.spring.xml">
+      <file leaf-file-name="AbstractApplicationContext.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/3.0.2.RELEASE/spring-context-3.0.2.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="56" selection-start="1526" selection-end="1526" vertical-scroll-proportion="0.14886165" vertical-offset="442" max-vertical-offset="1598">
+            <state line="639" column="0" selection-start="25024" selection-end="25024" vertical-scroll-proportion="0.0" vertical-offset="9152" max-vertical-offset="21454">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.cloudbees.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/balanced/src/main/resources/configuration/stages/app.cloudbees.properties">
+      <file leaf-file-name="PropertyResourceConfigurer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/3.0.2.RELEASE/spring-beans-3.0.2.RELEASE-sources.jar!/org/springframework/beans/factory/config/PropertyResourceConfigurer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="80" selection-start="822" selection-end="822" vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="867">
+            <state line="68" column="0" selection-start="2549" selection-end="2549" vertical-scroll-proportion="0.0" vertical-offset="529" max-vertical-offset="1819">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoggingPropertyPlaceholderConfigurer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/essence/Essence-Configuration/src/main/java/com/deniz/framework/configuration/LoggingPropertyPlaceholderConfigurer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="61" column="29" selection-start="2314" selection-end="2314" vertical-scroll-proportion="0.0" vertical-offset="629" max-vertical-offset="1122">
+              <folding>
+                <element signature="e#734#750#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="log4j.local-udy.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/resources/logging/log4j.local-udy.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="52" selection-start="1285" selection-end="1285" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1173">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.local-udy.properties" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/balanced/src/main/resources/configuration/stages/app.local-udy.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="84" selection-start="829" selection-end="829" vertical-scroll-proportion="0.57114625" vertical-offset="0" max-vertical-offset="867">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PropertiesLoaderSupport.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/3.0.2.RELEASE/spring-core-3.0.2.RELEASE-sources.jar!/org/springframework/core/io/support/PropertiesLoaderSupport.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="194" column="0" selection-start="6104" selection-end="6104" vertical-scroll-proportion="0.0" vertical-offset="2573" max-vertical-offset="3162">
+              <folding>
+                <element signature="e#3070#3071#0" expanded="true" />
+                <element signature="e#3103#3104#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.dev.properties" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/balanced/src/main/resources/configuration/stages/app.dev.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="94" selection-start="996" selection-end="996" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="884">
               <folding />
             </state>
           </provider>
@@ -106,7 +168,6 @@
         <option value="$PROJECT_DIR$/cosbalanced/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/essence/Essence-Configuration/src/main/java/com/deniz/framework/configuration/ApplicationConfigurationLogger.java" />
         <option value="$PROJECT_DIR$/essence/Essence-Configuration/pom.xml" />
-        <option value="$PROJECT_DIR$/balanced/src/main/resources/configuration/stages/app.local-udy.properties" />
         <option value="$PROJECT_DIR$/balanced/src/main/resources/spring/com/deniz/balanced/framework/0.spring.xml" />
         <option value="$PROJECT_DIR$/balanced/src/main/java/com/deniz/balanced/user/business/UserBusinessService.java" />
         <option value="$PROJECT_DIR$/cosbalanced/src/main/webapp/appengine-web.xml" />
@@ -121,13 +182,16 @@
         <option value="$PROJECT_DIR$/essence/Essence-Servlet/pom.xml" />
         <option value="$PROJECT_DIR$/essence/Essence-Servlet/src/main/java/com/deniz/framework/controller/LoggingTaskControllerTemplate.java" />
         <option value="$PROJECT_DIR$/essence/Essence-Configuration/src/main/resources/spring/com/deniz/framework/configuration/configuration.spring.xml" />
-        <option value="$PROJECT_DIR$/essence/Essence-Configuration/src/main/java/com/deniz/framework/configuration/LoggingPropertyPlaceholderConfigurer.java" />
         <option value="$PROJECT_DIR$/balanced/src/main/resources/configuration/app.properties" />
         <option value="$PROJECT_DIR$/cosbalanced/src/main/resources/configuration/app.properties" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/cosbalanced/src/main/resources/configuration/stages/app.cloudbees.properties" />
-        <option value="$PROJECT_DIR$/balanced/src/main/resources/configuration/stages/app.cloudbees.properties" />
         <option value="$PROJECT_DIR$/essence/Essence-Persistence/src/main/resources/spring/com/deniz/framework/persistence/persistence.spring.xml" />
+        <option value="$PROJECT_DIR$/balanced/src/main/resources/configuration/stages/app.cloudbees.properties" />
+        <option value="$PROJECT_DIR$/cosbalanced/src/main/resources/configuration/stages/app.local-udy.properties" />
+        <option value="$PROJECT_DIR$/essence/Essence-Configuration/src/main/java/com/deniz/framework/configuration/LoggingPropertyPlaceholderConfigurer.java" />
+        <option value="$PROJECT_DIR$/cosbalanced/src/main/resources/logging/log4j.local-udy.xml" />
+        <option value="$PROJECT_DIR$/balanced/src/main/resources/configuration/stages/app.local-udy.properties" />
       </list>
     </option>
   </component>
@@ -201,7 +265,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -334,8 +397,233 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Triangle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Triangle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cosbalanced" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Triangle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Triangle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cosbalanced" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Triangle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Triangle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cosbalanced" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Triangle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Triangle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cosbalanced" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Triangle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Triangle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="balanced" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Triangle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Triangle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="balanced" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Triangle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Triangle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="balanced" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Triangle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Triangle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="balanced" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="configuration" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Triangle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Triangle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="balanced" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="configuration" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Triangle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Triangle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="balanced" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -369,18 +657,11 @@
       <recent name="com.deniz.balanced.framework.constants" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WS\Triangle\balanced\src\main\resources" />
       <recent name="D:\WS\Triangle\balanced\src\main\resources\configuration\stages" />
       <recent name="D:\WS\Triangle\cosbalanced\src\main\resources\logging" />
       <recent name="D:\WS\Triangle\cosbalanced\src\main\resources\spring_mvc" />
       <recent name="D:\WS\Triangle\balanced\src\main\java\com\deniz\balanced\user\persistence\util" />
-      <recent name="D:\WS\Triangle\balanced\src\main\java\com\deniz\balanced\user\persistence\impl" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\WS\Triangle\cosbalanced\src\main\resources\configuration\stages" />
-      <recent name="D:\WS\Triangle\cosbalanced\src\main\resources\configuration" />
-      <recent name="D:\WS\Triangle\cosbalanced\src\main\webapp\WEB-INF" />
-      <recent name="D:\WS\Triangle\essence" />
-      <recent name="D:\WS\Triangle" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
@@ -388,6 +669,13 @@
       <recent name="com.deniz.balanced" />
       <recent name="com.deniz.balanced.framework" />
       <recent name="com.deniz.balanced.framework.services" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WS\Triangle\cosbalanced\src\main\resources\configuration\stages" />
+      <recent name="D:\WS\Triangle\cosbalanced\src\main\resources\configuration" />
+      <recent name="D:\WS\Triangle\cosbalanced\src\main\webapp\WEB-INF" />
+      <recent name="D:\WS\Triangle\essence" />
+      <recent name="D:\WS\Triangle" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Balanced">
@@ -518,6 +806,17 @@
       <patterns />
       <method />
     </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings />
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
     <configuration default="true" type="cloudbees-deploy" factoryName="CloudBees Deployment">
       <method />
     </configuration>
@@ -554,17 +853,6 @@
       <option name="screenWidth" value="0" />
       <option name="url" value="http://" />
       <option name="usbDebugPort" value="7936" />
-      <method />
-    </configuration>
-    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
-      <deployment />
-      <server-settings />
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method />
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
@@ -724,8 +1012,8 @@
       <method />
     </configuration>
     <configuration default="false" name="Balanced" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 6.0" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080" />
-      <option name="COMMON_VM_ARGUMENTS" value="-Dapp.configuration.stage=cloudbees" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8084" />
+      <option name="COMMON_VM_ARGUMENTS" value="-Dapp.configuration.stage=local-udy" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="cosbalanced:war exploded">
@@ -736,6 +1024,7 @@
       </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="Unnamed_Triangle" />
+        <option name="HTTP_PORT" value="8084" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
@@ -852,7 +1141,11 @@
       <workItem from="1394781076001" duration="9750000" />
       <workItem from="1394806777222" duration="26000" />
       <workItem from="1394821003367" duration="6159000" />
-      <workItem from="1394880057153" duration="2599000" />
+      <workItem from="1394880057153" duration="3224000" />
+      <workItem from="1394926032973" duration="924000" />
+      <workItem from="1394978853146" duration="1182000" />
+      <workItem from="1395042320902" duration="4768000" />
+      <workItem from="1395066113772" duration="1297000" />
     </task>
     <task id="LOCAL-00001" summary="cloudbee properties&#10;">
       <created>1394629139624</created>
@@ -902,30 +1195,33 @@
       <created>1394882043981</created>
       <updated>1394882043981</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Configuration&#10;">
+      <created>1394883654197</created>
+      <updated>1394883654197</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43434000" />
+    <option name="totallyTimeSpent" value="52230000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1064" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32876712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39936775" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39848813" sideWeight="0.71086264" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39848813" sideWeight="0.2891374" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -933,16 +1229,17 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23333333" sideWeight="0.5144445" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23855165" sideWeight="0.5144445" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.6711111" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48472077" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25559106" sideWeight="0.6711111" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48472077" sideWeight="0.659375" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Heroku" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33693305" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -967,67 +1264,17 @@
     <option name="LAST_COMMIT_MESSAGE" value="Configuration&#10;" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="26" selection-start="3718" selection-end="3718" vertical-scroll-proportion="0.0" vertical-offset="1074" max-vertical-offset="1938">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/essence/Essence-Dto/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="45" selection-start="362" selection-end="362" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="782" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cosbalanced/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="10" selection-start="2659" selection-end="2659" vertical-scroll-proportion="0.0" vertical-offset="1411" max-vertical-offset="1513" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="55" selection-start="871" selection-end="871" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="2414">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/essence/Essence-Logging/src/main/resources/spring/com/deniz/framework/logging/0.spring.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="29" selection-start="316" selection-end="323" vertical-scroll-proportion="-3.4" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/3.0.2.RELEASE/spring-beans-3.0.2.RELEASE-sources.jar!/org/springframework/beans/factory/config/MethodInvokingFactoryBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="79" selection-start="4870" selection-end="4870" vertical-scroll-proportion="2.2890484" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/essence/Essence-Logging/src/main/java/com/deniz/framework/logging/LoggingHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="77" selection-start="371" selection-end="371" vertical-scroll-proportion="0.3357271" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/essence/Essence-Logging/src/main/resources/spring/com/deniz/framework/logging/logging.spring.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="78" selection-start="752" selection-end="752" vertical-scroll-proportion="-7.48" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/3.0.2.RELEASE/spring-core-3.0.2.RELEASE-sources.jar!/org/springframework/util/Log4jConfigurer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="114" column="48" selection-start="5118" selection-end="5118" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/balanced/src/main/resources/logging/log4j.console-debug-logger.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/resources/logging/log4j.console-debug-logger.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="67" selection-start="677" selection-end="677" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
@@ -1073,13 +1320,6 @@
         <state line="61" column="25" selection-start="1967" selection-end="1967" vertical-scroll-proportion="0.9441708" vertical-offset="462" max-vertical-offset="1139" />
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/3.0.2.RELEASE/spring-beans-3.0.2.RELEASE-sources.jar!/org/springframework/beans/factory/config/PropertyPlaceholderConfigurer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="13" selection-start="4175" selection-end="4175" vertical-scroll-proportion="0.0" vertical-offset="953" max-vertical-offset="6324">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/balanced/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="21" selection-start="644" selection-end="644" vertical-scroll-proportion="0.0" vertical-offset="103" max-vertical-offset="1547" />
@@ -1110,13 +1350,6 @@
         <state line="90" column="16" selection-start="4683" selection-end="4683" vertical-scroll-proportion="0.7713787" vertical-offset="969" max-vertical-offset="1581" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/balanced/src/main/resources/spring/com/deniz/balanced/framework/persistence.spring.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="529">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/essence/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="609">
@@ -1126,9 +1359,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cosbalanced/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="25" selection-start="3097" selection-end="3521" vertical-scroll-proportion="0.0" vertical-offset="1142" max-vertical-offset="1819">
-          <folding />
-        </state>
+        <state line="84" column="25" selection-start="3097" selection-end="3521" vertical-scroll-proportion="0.0" vertical-offset="1142" max-vertical-offset="1819" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -1140,39 +1371,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/essence/Essence-Configuration/src/main/java/com/deniz/framework/configuration/ApplicationConfigurationLogger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="41" selection-start="2662" selection-end="2662" vertical-scroll-proportion="0.0" vertical-offset="863" max-vertical-offset="2465">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-orm/3.0.2.RELEASE/spring-orm-3.0.2.RELEASE-sources.jar!/org/springframework/orm/hibernate3/annotation/AnnotationSessionFactoryBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="25" selection-start="3052" selection-end="3052" vertical-scroll-proportion="0.0" vertical-offset="1241" max-vertical-offset="4250">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-orm/3.0.2.RELEASE/spring-orm-3.0.2.RELEASE-sources.jar!/org/springframework/orm/hibernate3/LocalSessionFactoryBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="364" column="43" selection-start="14734" selection-end="14734" vertical-scroll-proportion="0.0" vertical-offset="4698" max-vertical-offset="17476">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/essence/Essence-Configuration/src/main/java/com/deniz/framework/configuration/LoggingPropertyPlaceholderConfigurer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="90" selection-start="2287" selection-end="2287" vertical-scroll-proportion="0.0" vertical-offset="371" max-vertical-offset="1292">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/essence/Essence-Configuration/src/main/resources/spring/com/deniz/framework/configuration/configuration.spring.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="4" selection-start="344" selection-end="344" vertical-scroll-proportion="-4.76" vertical-offset="0" max-vertical-offset="544">
-          <folding />
-        </state>
+        <state line="68" column="41" selection-start="2662" selection-end="2662" vertical-scroll-proportion="0.0" vertical-offset="863" max-vertical-offset="2465" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/essence/Essence-Configuration/src/main/resources/spring/com/deniz/framework/configuration/0.spring.xml">
@@ -1203,79 +1402,176 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/resources/configuration/stages/app.cloudbees.properties">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-orm/3.0.2.RELEASE/spring-orm-3.0.2.RELEASE-sources.jar!/org/springframework/orm/hibernate3/annotation/AnnotationSessionFactoryBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="37" selection-start="687" selection-end="687" vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="867">
+        <state line="79" column="77" selection-start="3292" selection-end="3292" vertical-scroll-proportion="-1.1791908" vertical-offset="1343" max-vertical-offset="3502" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/essence/Essence-Persistence/persistence.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1241" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-orm/3.0.2.RELEASE/spring-orm-3.0.2.RELEASE-sources.jar!/org/springframework/orm/hibernate3/LocalSessionFactoryBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="351" column="0" selection-start="14355" selection-end="14355" vertical-scroll-proportion="0.0" vertical-offset="4728" max-vertical-offset="17476">
+          <folding>
+            <element signature="e#14406#14407#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/3.0.2.RELEASE/spring-beans-3.0.2.RELEASE-sources.jar!/org/springframework/beans/factory/config/PropertyPlaceholderConfigurer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="258" column="0" selection-start="10312" selection-end="10312" vertical-scroll-proportion="0.34888437" vertical-offset="3517" max-vertical-offset="6324">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/resources/configuration/app.properties">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.0.2.RELEASE/spring-web-3.0.2.RELEASE-sources.jar!/org/springframework/web/context/ContextLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="451" selection-end="451" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1173">
+        <state line="196" column="0" selection-start="8509" selection-end="8509" vertical-scroll-proportion="0.31758034" vertical-offset="2620" max-vertical-offset="6630">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/resources/configuration/stages/app.dev.properties">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.0.2.RELEASE/spring-web-3.0.2.RELEASE-sources.jar!/org/springframework/web/context/ContextLoaderListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="884">
+        <state line="52" column="95" selection-start="1846" selection-end="1846" vertical-scroll-proportion="0.49716446" vertical-offset="366" max-vertical-offset="1224">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/resources/configuration/stages/app.dev-ci.properties">
+    <entry file="file://$PROJECT_DIR$/essence/Essence-Configuration/src/main/resources/spring/com/deniz/framework/configuration/configuration.spring.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="884">
+        <state line="8" column="73" selection-start="477" selection-end="477" vertical-scroll-proportion="0.27698573" vertical-offset="0" max-vertical-offset="544">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/resources/configuration/stages/app.local-udy.properties">
+    <entry file="jar://D:/Development/SDK/Java/jdk7.21/src.zip!/javax/sql/DataSource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="53" selection-start="499" selection-end="499" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="884">
+        <state line="73" column="17" selection-start="2498" selection-end="2498" vertical-scroll-proportion="-0.024482109" vertical-offset="829" max-vertical-offset="1360">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/balanced/src/main/resources/configuration/stages/app.dev.properties">
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-dbcp/commons-dbcp/1.4/commons-dbcp-1.4-sources.jar!/org/apache/commons/dbcp/BasicDataSource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="884">
+        <state line="52" column="44" selection-start="2093" selection-end="2093" vertical-scroll-proportion="-1.0173745" vertical-offset="884" max-vertical-offset="25585">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/balanced/src/main/resources/configuration/stages/app.dev-ci.properties">
+    <entry file="file://$PROJECT_DIR$/balanced/src/main/resources/spring/com/deniz/balanced/framework/persistence.spring.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="21" selection-start="677" selection-end="677" vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="884">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/balanced/src/main/resources/configuration/stages/app.local-udy.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="884">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/balanced/src/main/resources/configuration/app.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="451" selection-end="485" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1173">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/balanced/src/main/resources/configuration/stages/app.cloudbees.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="80" selection-start="822" selection-end="822" vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="867">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="529">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/essence/Essence-Persistence/src/main/resources/spring/com/deniz/framework/persistence/persistence.spring.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="56" selection-start="1526" selection-end="1526" vertical-scroll-proportion="0.14886165" vertical-offset="442" max-vertical-offset="1598">
+        <state line="47" column="66" selection-start="2014" selection-end="2014" vertical-scroll-proportion="-2.96" vertical-offset="725" max-vertical-offset="1598">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-lang/commons-lang/2.3/commons-lang-2.3-sources.jar!/org/apache/commons/lang/ArrayUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3230" column="27" selection-start="125003" selection-end="125003" vertical-scroll-proportion="0.0" vertical-offset="54360" max-vertical-offset="74817">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/3.0.2.RELEASE/spring-beans-3.0.2.RELEASE-sources.jar!/org/springframework/beans/BeanWrapperImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="871" column="0" selection-start="31291" selection-end="31291" vertical-scroll-proportion="0.0" vertical-offset="13572" max-vertical-offset="19040">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/3.0.2.RELEASE/spring-beans-3.0.2.RELEASE-sources.jar!/org/springframework/beans/AbstractPropertyAccessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="0" selection-start="1849" selection-end="1849" vertical-scroll-proportion="0.0" vertical-offset="465" max-vertical-offset="2108">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/3.0.2.RELEASE/spring-beans-3.0.2.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="459" column="0" selection-start="18769" selection-end="18769" vertical-scroll-proportion="0.0" vertical-offset="6177" max-vertical-offset="25296">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/3.0.2.RELEASE/spring-beans-3.0.2.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="239" column="0" selection-start="10192" selection-end="10192" vertical-scroll-proportion="0.0" vertical-offset="3319" max-vertical-offset="8449">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/3.0.2.RELEASE/spring-beans-3.0.2.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="193" column="0" selection-start="8914" selection-end="8914" vertical-scroll-proportion="0.0" vertical-offset="1942" max-vertical-offset="24225">
+          <folding>
+            <element signature="e#12549#13055#0" expanded="true" />
+            <element signature="e#13048#13049#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/3.0.2.RELEASE/spring-beans-3.0.2.RELEASE-sources.jar!/org/springframework/beans/factory/config/PropertyResourceConfigurer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="0" selection-start="2549" selection-end="2549" vertical-scroll-proportion="0.0" vertical-offset="529" max-vertical-offset="1819">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/3.0.2.RELEASE/spring-core-3.0.2.RELEASE-sources.jar!/org/springframework/core/io/support/PropertiesLoaderSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="194" column="0" selection-start="6104" selection-end="6104" vertical-scroll-proportion="0.0" vertical-offset="2573" max-vertical-offset="3162">
+          <folding>
+            <element signature="e#3070#3071#0" expanded="true" />
+            <element signature="e#3103#3104#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/3.0.2.RELEASE/spring-context-3.0.2.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="639" column="0" selection-start="25024" selection-end="25024" vertical-scroll-proportion="0.0" vertical-offset="9152" max-vertical-offset="21454">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/balanced/src/main/resources/configuration/stages/app.dev.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="94" selection-start="996" selection-end="996" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="884">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/essence/Essence-Configuration/src/main/java/com/deniz/framework/configuration/LoggingPropertyPlaceholderConfigurer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="29" selection-start="2314" selection-end="2314" vertical-scroll-proportion="0.0" vertical-offset="629" max-vertical-offset="1122">
+          <folding>
+            <element signature="e#734#750#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/resources/logging/log4j.local-udy.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="52" selection-start="1285" selection-end="1285" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1173">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/balanced/src/main/resources/configuration/stages/app.local-udy.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="84" selection-start="829" selection-end="829" vertical-scroll-proportion="0.57114625" vertical-offset="0" max-vertical-offset="867">
           <folding />
         </state>
       </provider>
