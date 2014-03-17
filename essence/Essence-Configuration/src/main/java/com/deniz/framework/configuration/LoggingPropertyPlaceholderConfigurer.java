@@ -45,17 +45,22 @@ public class LoggingPropertyPlaceholderConfigurer extends PropertyPlaceholderCon
     public void setLocations(Resource[] locations) {
         String stage = System.getProperty("app.configuration.stage");
         if (StringUtils.isEmpty(stage)) {
+            System.out.println("d" + stage);
             try {
                 Resource resource = new ClassPathResource("configuration/stages/");
                 File file = resource.getFile();
                 File[] listOfFiles = file.listFiles();
                 stage = listOfFiles[0].getName();
+                System.out.println("e" + stage);
+                System.out.println("a");
                 logger.info("app.configuration.stage runtime arguments is null, " +
                         "so app is using " + stage + " for configuration");
             } catch (IOException e) {
                 e.printStackTrace();
             }
         }
+        System.out.println("b");
+        System.out.println("c" + stage);
         Resource stageConfiguration = new ClassPathResource("configuration/stages/" + stage);
         propertyFilenames.add(stageConfiguration.getFilename());
         locations = (Resource[]) ArrayUtils.add(locations, stageConfiguration);
