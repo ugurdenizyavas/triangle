@@ -55,8 +55,10 @@ public class LoggingPropertyPlaceholderConfigurer extends PropertyPlaceholderCon
             } catch (IOException e) {
                 e.printStackTrace();
             }
+        } else {
+            stage = "app." + stage + ".properties";
         }
-        Resource stageConfiguration = new ClassPathResource("configuration/stages/app." + stage + ".properties");
+        Resource stageConfiguration = new ClassPathResource("configuration/stages/" + stage);
         propertyFilenames.add(stageConfiguration.getFilename());
         locations = (Resource[]) ArrayUtils.add(locations, stageConfiguration);
 
