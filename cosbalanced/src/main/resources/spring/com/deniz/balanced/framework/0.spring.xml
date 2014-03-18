@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+	<import resource="classpath:spring/com/deniz/framework/business/0.spring.xml"/>
+	<import resource="classpath:spring/com/deniz/framework/configuration/0.spring.xml"/>
+	<import resource="classpath:spring/com/deniz/framework/dto/0.spring.xml"/>
+	<import resource="classpath:spring/com/deniz/framework/logging/0.spring.xml"/>
+    <import resource="classpath:spring/com/deniz/framework/setup/0.spring.xml" />
+    <import resource="classpath:spring/com/deniz/framework/persistence/0.spring.xml"/>
+
+    <import resource="validation/0.spring.xml"/>
+    <import resource="conversion.spring.xml"/>
+    <import resource="frame.spring.xml"/>
+    <import resource="persistence.spring.xml"/>
+	<import resource="setup.spring.xml"/>
+
+</beans>

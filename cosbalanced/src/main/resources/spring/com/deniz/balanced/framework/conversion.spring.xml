@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="application_ValueConverter"
+		class="com.deniz.framework.dto.converter.business.impl.valueconverter.impl.ValueConverterImpl"
+		parent="framework_AbstractValueConverter">
+		<property name="defaultConverters">
+			<map merge="true">
+				<entry key="com.deniz.balanced.user.persistence.entity.UserEntity"
+					value-ref="userConverter" />
+				<entry key="com.deniz.balanced.mission.persistence.entity.MissionEntity"
+					value-ref="missionConverter" />
+			</map>
+		</property>
+		<property name="specialConverters">
+			<map merge="true">
+				<!-- Add new special Converters here -->
+			</map>
+		</property>
+	</bean>
+
+	<bean id="userConverter"
+		class="com.deniz.balanced.business.conversion.UserConverter"
+		parent="abstractMissionConverter">
+		<property name="backendService" ref="userBackendService" />
+	</bean>
+
+	<bean id="missionConverter"
+		class="com.deniz.balanced.mission.business.conversion.MissionConverter"
+		parent="abstractMissionConverter">
+		<property name="backendService" ref="missionBackendService" />
+	</bean>
+
+	<bean id="abstractMissionConverter" abstract="true"
+		class="com.deniz.balanced.framework.business.conversion.AbstractEntityDtoConverter">
+	</bean>
+</beans>

@@ -1,12 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="245aa61e-f480-4b4c-9fb1-01ea3fe98967" name="Default" comment="Configuration&#10;">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Security/src/main/java/com/deniz/framework/security/authorization/AuthorizationService.java" afterPath="$PROJECT_DIR$/essence/Essence-Security/src/main/java/com/deniz/framework/security/authorization/AuthorizationService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Security/src/main/resources/spring/com/deniz/framework/security/authorization.spring.xml" afterPath="$PROJECT_DIR$/essence/Essence-Security/src/main/resources/spring/com/deniz/framework/security/authorization.spring.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cosbalanced/pom.xml" afterPath="$PROJECT_DIR$/cosbalanced/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cosbalanced/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/cosbalanced/src/main/webapp/WEB-INF/web.xml" />
+    <list default="true" id="245aa61e-f480-4b4c-9fb1-01ea3fe98967" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cosbalanced/src/main/resources/spring/com/deniz/balanced/0.spring.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cosbalanced/src/main/resources/spring/com/deniz/balanced/framework/0.spring.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cosbalanced/src/main/resources/spring/com/deniz/balanced/framework/validation/0.spring.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cosbalanced/src/main/resources/spring/com/deniz/balanced/mission/0.spring.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cosbalanced/src/main/resources/spring/com/deniz/balanced/user/0.spring.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/business/AccountingBackendService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/business/impl/AccountingBackendServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/business/AccountingBusinessService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/business/impl/AccountingBusinessServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/user/business/exception/AncestorInviteLimitReachedException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/user/business/exception/AncestorNotExistsException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/business/AuthenticationBusinessService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/business/impl/AuthenticationBusinessServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/user/business/domain/BabyDto.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/user/business/exception/DataAlreadyExistException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/user/business/exception/EmailNotValidException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/business/validation/impl/validator/EmailValidator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/business/ExperienceBackendService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/business/impl/ExperienceBackendServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/business/ExperienceBusinessService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/business/impl/ExperienceBusinessServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/business/enums/ExperienceRatioEnum.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/user/business/exception/MissionAlreadyCompletedException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/user/business/exception/NotValidIdException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/user/business/exception/PasswordNotMatchedException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/user/business/exception/PasswordNotSecureException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/business/validation/impl/validator/PasswordValidator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/user/business/exception/PasswordWrongException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/user/persistence/util/ReferenceCodeUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/user/business/UserBackendService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/user/business/impl/UserBackendServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/user/business/UserBusinessService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/user/business/impl/UserBusinessServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/business/conversion/UserConverter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/user/persistence/UserDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/user/persistence/impl/UserDaoImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/user/business/domain/UserDto.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/user/persistence/entity/UserEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/business/validation/ValidationService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/business/validation/impl/ValidationServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cosbalanced/src/main/resources/spring/com/deniz/balanced/user/accounting.spring.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cosbalanced/src/main/resources/configuration/app.cloudbees.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cosbalanced/src/main/resources/configuration/app.dev-ci.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cosbalanced/src/main/resources/configuration/app.dev.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cosbalanced/src/main/resources/configuration/app.local-udy.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cosbalanced/src/main/resources/spring/com/deniz/balanced/user/authentication.spring.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cosbalanced/src/main/resources/spring/com/deniz/balanced/framework/conversion.spring.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cosbalanced/src/main/resources/spring/com/deniz/balanced/user/experience.spring.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cosbalanced/src/main/resources/spring/com/deniz/balanced/framework/frame.spring.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cosbalanced/src/main/resources/spring/com/deniz/balanced/mission/mission.spring.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cosbalanced/src/main/resources/spring/com/deniz/balanced/framework/persistence.spring.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cosbalanced/src/main/resources/spring/com/deniz/balanced/framework/setup.spring.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cosbalanced/src/main/resources/spring/com/deniz/balanced/user/user.spring.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cosbalanced/src/main/resources/spring/com/deniz/balanced/framework/validation/validation.spring.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Triangle.iws" />
@@ -133,10 +182,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DispatcherSecurityFilter.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="DispatcherSecurityFilter.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/essence/Essence-Security/src/main/java/com/deniz/framework/security/filter/DispatcherSecurityFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="111" column="78" selection-start="4501" selection-end="4501" vertical-scroll-proportion="0.934236" vertical-offset="962" max-vertical-offset="2788">
+            <state line="111" column="78" selection-start="4501" selection-end="4501" vertical-scroll-proportion="0.0" vertical-offset="962" max-vertical-offset="2788">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MemberOverviewTaskController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/services/member/MemberOverviewTaskController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="17" selection-start="794" selection-end="794" vertical-scroll-proportion="0.0" vertical-offset="2" max-vertical-offset="2431">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserBusinessService.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/user/business/UserBusinessService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="17" selection-start="658" selection-end="658" vertical-scroll-proportion="-0.7641509" vertical-offset="626" max-vertical-offset="1156">
               <folding />
             </state>
           </provider>
@@ -729,6 +798,10 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -752,7 +825,105 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring_mvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Triangle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Triangle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cosbalanced" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring_mvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="member" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Triangle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Triangle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cosbalanced" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring_mvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="front_controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Triangle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Triangle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cosbalanced" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -782,121 +953,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="balanced" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="framework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cosbalanced" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="balanced" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="framework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="business" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cosbalanced" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="balanced" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="framework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="business" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="impl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cosbalanced" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -907,12 +964,64 @@
               <option name="myItemId" value="framework" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="business" />
+              <option name="myItemId" value="Triangle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Triangle" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="exception" />
+              <option name="myItemId" value="cosbalanced" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="logging" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Triangle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Triangle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cosbalanced" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="configuration" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -943,18 +1052,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="balanced" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="framework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="business" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="conversion" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1486,7 +1583,7 @@
       <workItem from="1395066113772" duration="1297000" />
       <workItem from="1395088704177" duration="4338000" />
       <workItem from="1395127267299" duration="14832000" />
-      <workItem from="1395165931621" duration="278000" />
+      <workItem from="1395165931621" duration="844000" />
     </task>
     <task id="LOCAL-00001" summary="cloudbee properties&#10;">
       <created>1394629139624</created>
@@ -1564,11 +1661,15 @@
       <created>1395143624542</created>
       <updated>1395143624542</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Configuration&#10;">
+      <created>1395166223779</created>
+      <updated>1395166223779</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71678000" />
+    <option name="totallyTimeSpent" value="72244000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -1660,13 +1761,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/resources/spring/com/deniz/balanced/framework/setup.spring.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="44" selection-start="397" selection-end="397" vertical-scroll-proportion="0.13446328" vertical-offset="0" max-vertical-offset="885">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/resources/spring/com/deniz/balanced/framework/persistence.spring.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="0" selection-start="295" selection-end="295" vertical-scroll-proportion="0.096045196" vertical-offset="0" max-vertical-offset="885">
@@ -1848,11 +1942,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/services/member/MemberOverviewTaskController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="13" selection-start="714" selection-end="714" vertical-scroll-proportion="0.0" vertical-offset="100" max-vertical-offset="2431" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cosbalanced/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="32" selection-start="981" selection-end="981" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="2652">
@@ -1876,7 +1965,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/user/business/impl/UserBackendServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="93" selection-start="702" selection-end="702" vertical-scroll-proportion="0.0" vertical-offset="1836" max-vertical-offset="2652" />
+        <state line="11" column="93" selection-start="702" selection-end="702" vertical-scroll-proportion="0.0" vertical-offset="1836" max-vertical-offset="2652">
+          <folding>
+            <element signature="e#1249#1250#0" expanded="false" />
+            <element signature="e#1311#1312#0" expanded="false" />
+            <element signature="e#1364#1365#0" expanded="false" />
+            <element signature="e#1394#1395#0" expanded="false" />
+            <element signature="e#1459#1460#0" expanded="false" />
+            <element signature="e#1490#1491#0" expanded="false" />
+            <element signature="e#1681#1693#0" expanded="false" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/essence/Essence-Security/src/main/resources/spring/com/deniz/framework/security/authorization.spring.xml">
@@ -1970,7 +2069,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/essence/Essence-Security/src/main/java/com/deniz/framework/security/filter/DispatcherSecurityFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="111" column="78" selection-start="4501" selection-end="4501" vertical-scroll-proportion="0.934236" vertical-offset="962" max-vertical-offset="2788">
+        <state line="111" column="78" selection-start="4501" selection-end="4501" vertical-scroll-proportion="0.0" vertical-offset="962" max-vertical-offset="2788">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/services/member/MemberOverviewTaskController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="17" selection-start="794" selection-end="794" vertical-scroll-proportion="0.0" vertical-offset="2" max-vertical-offset="2431">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/user/business/UserBusinessService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="17" selection-start="658" selection-end="658" vertical-scroll-proportion="-0.7641509" vertical-offset="626" max-vertical-offset="1156">
           <folding />
         </state>
       </provider>

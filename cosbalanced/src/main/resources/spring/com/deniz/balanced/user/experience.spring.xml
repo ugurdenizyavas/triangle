@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean name="experienceBusinessService"
+		class="com.deniz.balanced.business.impl.ExperienceBusinessServiceImpl">
+		<property name="experienceBackendService" ref="experienceBackendService" />
+		<property name="userBackendService" ref="userBackendService" />
+	</bean>
+
+	<bean name="experienceBackendService"
+		class="com.deniz.balanced.business.impl.ExperienceBackendServiceImpl">
+		<property name="signupExperience" value="${bonus.signup.experience}" />
+		<property name="easyExperience" value="${bonus.easy.experience}" />
+		<property name="mediumExperience" value="${bonus.medium.experience}" />
+		<property name="hardExperience" value="${bonus.hard.experience}" />
+		<property name="userBackendService" ref="userBackendService" />
+	</bean>
+
+</beans>
