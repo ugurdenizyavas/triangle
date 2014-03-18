@@ -65,6 +65,7 @@
           <element id="library" level="project" name="Maven: org.hibernate:hibernate-commons-annotations:3.0.0.ga" />
           <element id="library" level="project" name="Maven: org.hibernate:ejb3-persistence:1.0.1.GA" />
           <element id="library" level="project" name="Maven: com.oracle:ojdbc6:11.2.0" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.6" />
           <element id="library" level="project" name="Maven: commons-dbcp:commons-dbcp:1.4" />
           <element id="library" level="project" name="Maven: commons-pool:commons-pool:1.5.4" />
           <element id="archive" name="setup-data-1.0-SNAPSHOT.jar">
