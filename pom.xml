@@ -25,7 +25,6 @@
     <modules>
         <module>essence</module>
         <module>cosbalanced</module>
-        <module>balanced</module>
     </modules>
 
     <properties>
