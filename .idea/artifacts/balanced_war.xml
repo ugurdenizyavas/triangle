@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="balanced:war">
-    <output-path>$PROJECT_DIR$/balanced/target</output-path>
-    <root id="archive" name="balanced-1.0-SNAPSHOT.war">
-      <element id="artifact" artifact-name="balanced:war exploded" />
-    </root>
-  </artifact>
-</component>

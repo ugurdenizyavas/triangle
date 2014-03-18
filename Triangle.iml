@@ -1,5 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration>
+        <fileset id="fileset" name="Spring Application Context" removed="false">
+          <file>file://$MODULE_DIR$/balanced/src/main/resources/spring/com/deniz/balanced/framework/persistence.spring.xml</file>
+          <file>file://$MODULE_DIR$/balanced/src/main/resources/spring/com/deniz/balanced/mission/0.spring.xml</file>
+          <file>file://$MODULE_DIR$/balanced/src/main/resources/spring/com/deniz/balanced/mission/mission.spring.xml</file>
+          <file>file://$MODULE_DIR$/balanced/src/main/resources/spring/com/deniz/balanced/framework/conversion.spring.xml</file>
+          <file>file://$MODULE_DIR$/balanced/target/classes/spring/com/deniz/balanced/0.spring.xml</file>
+          <file>file://$MODULE_DIR$/balanced/src/main/resources/spring/com/deniz/balanced/framework/frame.spring.xml</file>
+          <file>file://$MODULE_DIR$/balanced/src/main/resources/spring/com/deniz/balanced/framework/setup.spring.xml</file>
+          <file>file://$MODULE_DIR$/balanced/src/main/resources/spring/com/deniz/balanced/framework/0.spring.xml</file>
+          <file>file://$MODULE_DIR$/balanced/target/classes/spring/com/deniz/balanced/framework/frame.spring.xml</file>
+          <file>file://$MODULE_DIR$/balanced/src/main/resources/spring/com/deniz/balanced/user/user.spring.xml</file>
+          <file>file://$MODULE_DIR$/balanced/target/classes/spring/com/deniz/balanced/framework/persistence.spring.xml</file>
+          <file>file://$MODULE_DIR$/balanced/target/classes/spring/com/deniz/balanced/framework/0.spring.xml</file>
+          <file>file://$MODULE_DIR$/balanced/src/main/resources/spring/com/deniz/balanced/0.spring.xml</file>
+          <file>file://$MODULE_DIR$/balanced/target/classes/spring/com/deniz/balanced/framework/conversion.spring.xml</file>
+          <file>file://$MODULE_DIR$/balanced/src/main/resources/spring/com/deniz/balanced/user/accounting.spring.xml</file>
+          <file>file://$MODULE_DIR$/balanced/target/classes/spring/com/deniz/balanced/framework/validation/0.spring.xml</file>
+          <file>file://$MODULE_DIR$/balanced/src/main/resources/spring/com/deniz/balanced/user/0.spring.xml</file>
+          <file>file://$MODULE_DIR$/balanced/target/classes/spring/com/deniz/balanced/framework/validation/validation.spring.xml</file>
+          <file>file://$MODULE_DIR$/balanced/src/main/resources/spring/com/deniz/balanced/user/authentication.spring.xml</file>
+          <file>file://$MODULE_DIR$/balanced/target/classes/spring/com/deniz/balanced/framework/setup.spring.xml</file>
+          <file>file://$MODULE_DIR$/balanced/src/main/resources/spring/com/deniz/balanced/user/experience.spring.xml</file>
+          <file>file://$MODULE_DIR$/balanced/target/classes/spring/com/deniz/balanced/mission/mission.spring.xml</file>
+          <file>file://$MODULE_DIR$/balanced/target/classes/spring/com/deniz/balanced/mission/0.spring.xml</file>
+          <file>file://$MODULE_DIR$/balanced/target/classes/spring/com/deniz/balanced/user/experience.spring.xml</file>
+          <file>file://$MODULE_DIR$/balanced/target/classes/spring/com/deniz/balanced/user/authentication.spring.xml</file>
+          <file>file://$MODULE_DIR$/balanced/target/classes/spring/com/deniz/balanced/user/accounting.spring.xml</file>
+          <file>file://$MODULE_DIR$/balanced/target/classes/spring/com/deniz/balanced/user/0.spring.xml</file>
+          <file>file://$MODULE_DIR$/balanced/src/main/resources/spring/com/deniz/balanced/framework/validation/validation.spring.xml</file>
+          <file>file://$MODULE_DIR$/balanced/src/main/resources/spring/com/deniz/balanced/framework/validation/0.spring.xml</file>
+          <file>file://$MODULE_DIR$/balanced/target/classes/spring/com/deniz/balanced/user/user.spring.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_6" inherit-compiler-output="false">
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />

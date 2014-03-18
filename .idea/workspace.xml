@@ -1,19 +1,465 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="245aa61e-f480-4b4c-9fb1-01ea3fe98967" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/balanced/src/main/resources/configuration/app.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/balanced/src/main/resources/configuration/stages/app.cloudbees.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/balanced/src/main/resources/configuration/stages/app.dev-ci.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/balanced/src/main/resources/configuration/stages/app.dev.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/balanced/src/main/resources/configuration/stages/app.local-udy.properties" afterPath="" />
-      <change type="DELETED" beforePath="D:\WS\Triangle\cosbalanced\src\main\resources\configuration\app.properties" afterPath="" />
+    <list default="true" id="245aa61e-f480-4b4c-9fb1-01ea3fe98967" name="Default" comment="Configuration&#10;">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cosbalanced/src/main/resources/configuration/app.properties" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\.idea\artifacts\balanced_war.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\.idea\artifacts\balanced_war_exploded.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\.idea\libraries\Maven__cglib_cglib_nodep_2_2_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\.idea\libraries\Maven__javassist_javassist_3_9_0_GA.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\.idea\libraries\Maven__org_easymock_easymock_3_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\.idea\libraries\Maven__org_easymock_easymockclassextension_3_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\.idea\libraries\Maven__org_objenesis_objenesis_1_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\balanced.iml" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\main\java\com\deniz\balanced\business\AccountingBackendService.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\main\java\com\deniz\balanced\business\AccountingBusinessService.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\main\java\com\deniz\balanced\business\AuthenticationBusinessService.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\main\java\com\deniz\balanced\business\ExperienceBackendService.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\main\java\com\deniz\balanced\business\ExperienceBusinessService.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\main\java\com\deniz\balanced\business\conversion\UserConverter.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\main\java\com\deniz\balanced\business\enums\ExperienceRatioEnum.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\main\java\com\deniz\balanced\business\impl\AccountingBackendServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\main\java\com\deniz\balanced\business\impl\AccountingBusinessServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\main\java\com\deniz\balanced\business\impl\AuthenticationBusinessServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\main\java\com\deniz\balanced\business\impl\ExperienceBackendServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\main\java\com\deniz\balanced\business\impl\ExperienceBusinessServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\main\java\com\deniz\balanced\business\validation\ValidationService.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\main\java\com\deniz\balanced\business\validation\impl\ValidationServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\main\java\com\deniz\balanced\business\validation\impl\validator\EmailValidator.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\main\java\com\deniz\balanced\business\validation\impl\validator\PasswordValidator.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\main\java\com\deniz\balanced\framework\business\FrameworkBackendService.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\main\java\com\deniz\balanced\framework\business\FrameworkBusinessService.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\main\java\com\deniz\balanced\framework\business\conversion\AbstractEntityDtoConverter.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\main\java\com\deniz\balanced\framework\business\exception\AbstractApplicationException.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\main\java\com\deniz\balanced\framework\business\impl\AbstractBackendService.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\main\java\com\deniz\balanced\framework\business\impl\AbstractBusinessService.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\main\java\com\deniz\balanced\framework\business\impl\validator\MetaValidator.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\main\java\com\deniz\balanced\framework\dao\FrameworkDao.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\main\java\com\deniz\balanced\framework\dao\impl\AbstractFrameworkDao.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\main\java\com\deniz\balanced\framework\setup\impl\SetupDataServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\main\java\com\deniz\balanced\mission\business\MissionBackendService.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\main\java\com\deniz\balanced\mission\business\MissionBusinessService.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\main\java\com\deniz\balanced\mission\business\conversion\MissionConverter.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\main\java\com\deniz\balanced\mission\business\domain\MissionDto.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\main\java\com\deniz\balanced\mission\business\impl\MissionBackendServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\main\java\com\deniz\balanced\mission\business\impl\MissionBusinessServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\main\java\com\deniz\balanced\mission\persistence\MissionDao.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\main\java\com\deniz\balanced\mission\persistence\UserMissionDao.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\main\java\com\deniz\balanced\mission\persistence\entity\MissionEntity.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\main\java\com\deniz\balanced\mission\persistence\entity\UserMissionEntity.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\main\java\com\deniz\balanced\mission\persistence\enums\TaskLevelEnum.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\main\java\com\deniz\balanced\mission\persistence\impl\MissionDaoImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\main\java\com\deniz\balanced\mission\persistence\impl\UserMissionDaoImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\main\java\com\deniz\balanced\user\business\UserBackendService.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\main\java\com\deniz\balanced\user\business\UserBusinessService.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\main\java\com\deniz\balanced\user\business\domain\BabyDto.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\main\java\com\deniz\balanced\user\business\domain\UserDto.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\main\java\com\deniz\balanced\user\business\exception\AncestorInviteLimitReachedException.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\main\java\com\deniz\balanced\user\business\exception\AncestorNotExistsException.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\main\java\com\deniz\balanced\user\business\exception\DataAlreadyExistException.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\main\java\com\deniz\balanced\user\business\exception\EmailNotValidException.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\main\java\com\deniz\balanced\user\business\exception\MissionAlreadyCompletedException.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\main\java\com\deniz\balanced\user\business\exception\NotValidIdException.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\main\java\com\deniz\balanced\user\business\exception\PasswordNotMatchedException.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\main\java\com\deniz\balanced\user\business\exception\PasswordNotSecureException.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\main\java\com\deniz\balanced\user\business\exception\PasswordWrongException.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\main\java\com\deniz\balanced\user\business\impl\UserBackendServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\main\java\com\deniz\balanced\user\business\impl\UserBusinessServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\main\java\com\deniz\balanced\user\persistence\UserDao.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\main\java\com\deniz\balanced\user\persistence\entity\UserEntity.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\main\java\com\deniz\balanced\user\persistence\impl\UserDaoImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\main\java\com\deniz\balanced\user\persistence\util\ReferenceCodeUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\main\resources\configuration\app.properties" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\main\resources\configuration\stages\app.cloudbees.properties" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\main\resources\configuration\stages\app.dev-ci.properties" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\main\resources\configuration\stages\app.dev.properties" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\main\resources\configuration\stages\app.local-udy.properties" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\main\resources\logging\log4j.console-debug-logger.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\main\resources\logging\log4j.local-udy.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\main\resources\spring\com\deniz\balanced\0.spring.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\main\resources\spring\com\deniz\balanced\framework\0.spring.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\main\resources\spring\com\deniz\balanced\framework\conversion.spring.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\main\resources\spring\com\deniz\balanced\framework\frame.spring.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\main\resources\spring\com\deniz\balanced\framework\persistence.spring.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\main\resources\spring\com\deniz\balanced\framework\setup.spring.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\main\resources\spring\com\deniz\balanced\framework\validation\0.spring.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\main\resources\spring\com\deniz\balanced\framework\validation\validation.spring.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\main\resources\spring\com\deniz\balanced\mission\0.spring.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\main\resources\spring\com\deniz\balanced\mission\mission.spring.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\main\resources\spring\com\deniz\balanced\user\0.spring.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\main\resources\spring\com\deniz\balanced\user\accounting.spring.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\main\resources\spring\com\deniz\balanced\user\authentication.spring.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\main\resources\spring\com\deniz\balanced\user\experience.spring.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\main\resources\spring\com\deniz\balanced\user\user.spring.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\test\java\com\deniz\balanced\feasibility\FeasibilityRunner.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\test\java\com\deniz\balanced\feasibility\LevelTests.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\test\java\com\deniz\balanced\framework\test\AbstractTransactionalTest.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\test\java\com\deniz\balanced\framework\test\util\AlterStatementForeignKey.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\test\java\com\deniz\balanced\framework\test\util\DbTableDeletionUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\test\java\com\deniz\balanced\framework\test\util\Table.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\test\java\com\deniz\balanced\mission\MissionTests.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\test\java\com\deniz\balanced\user\AuthenticationTests.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\src\test\java\com\deniz\balanced\user\UserTests.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\allclasses-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\allclasses-noframe.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\business\AccountingBackendService.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\business\AccountingBusinessService.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\business\AuthenticationBusinessService.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\business\ExperienceBackendService.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\business\ExperienceBusinessService.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\business\UserBackendService.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\business\UserBusinessService.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\business\class-use\AccountingBackendService.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\business\class-use\AccountingBusinessService.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\business\class-use\AuthenticationBusinessService.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\business\class-use\ExperienceBackendService.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\business\class-use\ExperienceBusinessService.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\business\class-use\UserBackendService.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\business\class-use\UserBusinessService.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\business\conversion\UserConverter.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\business\conversion\class-use\UserConverter.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\business\conversion\package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\business\conversion\package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\business\conversion\package-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\business\conversion\package-use.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\business\enums\ExperienceRatioEnum.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\business\enums\class-use\ExperienceRatioEnum.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\business\enums\package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\business\enums\package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\business\enums\package-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\business\enums\package-use.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\business\impl\AccountingBackendServiceImpl.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\business\impl\AccountingBusinessServiceImpl.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\business\impl\AuthenticationBusinessServiceImpl.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\business\impl\ExperienceBackendServiceImpl.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\business\impl\ExperienceBusinessServiceImpl.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\business\impl\UserBackendServiceImpl.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\business\impl\UserBusinessServiceImpl.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\business\impl\class-use\AccountingBackendServiceImpl.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\business\impl\class-use\AccountingBusinessServiceImpl.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\business\impl\class-use\AuthenticationBusinessServiceImpl.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\business\impl\class-use\ExperienceBackendServiceImpl.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\business\impl\class-use\ExperienceBusinessServiceImpl.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\business\impl\class-use\UserBackendServiceImpl.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\business\impl\class-use\UserBusinessServiceImpl.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\business\impl\package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\business\impl\package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\business\impl\package-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\business\impl\package-use.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\business\package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\business\package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\business\package-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\business\package-use.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\business\validation\ValidationService.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\business\validation\class-use\ValidationService.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\business\validation\impl\ValidationServiceImpl.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\business\validation\impl\class-use\ValidationServiceImpl.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\business\validation\impl\package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\business\validation\impl\package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\business\validation\impl\package-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\business\validation\impl\package-use.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\business\validation\impl\validator\EmailValidator.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\business\validation\impl\validator\PasswordValidator.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\business\validation\impl\validator\class-use\EmailValidator.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\business\validation\impl\validator\class-use\PasswordValidator.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\business\validation\impl\validator\package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\business\validation\impl\validator\package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\business\validation\impl\validator\package-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\business\validation\impl\validator\package-use.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\business\validation\package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\business\validation\package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\business\validation\package-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\business\validation\package-use.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\framework\business\FrameworkBackendService.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\framework\business\FrameworkBusinessService.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\framework\business\class-use\FrameworkBackendService.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\framework\business\class-use\FrameworkBusinessService.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\framework\business\conversion\AbstractEntityDtoConverter.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\framework\business\conversion\class-use\AbstractEntityDtoConverter.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\framework\business\conversion\package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\framework\business\conversion\package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\framework\business\conversion\package-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\framework\business\conversion\package-use.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\framework\business\exception\AbstractApplicationException.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\framework\business\exception\class-use\AbstractApplicationException.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\framework\business\exception\package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\framework\business\exception\package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\framework\business\exception\package-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\framework\business\exception\package-use.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\framework\business\impl\AbstractBackendService.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\framework\business\impl\AbstractBusinessService.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\framework\business\impl\class-use\AbstractBackendService.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\framework\business\impl\class-use\AbstractBusinessService.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\framework\business\impl\package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\framework\business\impl\package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\framework\business\impl\package-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\framework\business\impl\package-use.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\framework\business\impl\validator\MetaValidator.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\framework\business\impl\validator\class-use\MetaValidator.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\framework\business\impl\validator\package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\framework\business\impl\validator\package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\framework\business\impl\validator\package-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\framework\business\impl\validator\package-use.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\framework\business\package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\framework\business\package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\framework\business\package-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\framework\business\package-use.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\framework\dao\FrameworkDao.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\framework\dao\class-use\FrameworkDao.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\framework\dao\impl\AbstractFrameworkDao.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\framework\dao\impl\class-use\AbstractFrameworkDao.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\framework\dao\impl\package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\framework\dao\impl\package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\framework\dao\impl\package-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\framework\dao\impl\package-use.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\framework\dao\package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\framework\dao\package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\framework\dao\package-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\framework\dao\package-use.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\framework\setup\impl\SetupDataServiceImpl.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\framework\setup\impl\class-use\SetupDataServiceImpl.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\framework\setup\impl\package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\framework\setup\impl\package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\framework\setup\impl\package-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\framework\setup\impl\package-use.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\mission\business\MissionBackendService.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\mission\business\MissionBusinessService.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\mission\business\class-use\MissionBackendService.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\mission\business\class-use\MissionBusinessService.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\mission\business\conversion\MissionConverter.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\mission\business\conversion\class-use\MissionConverter.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\mission\business\conversion\package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\mission\business\conversion\package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\mission\business\conversion\package-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\mission\business\conversion\package-use.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\mission\business\domain\MissionDto.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\mission\business\domain\class-use\MissionDto.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\mission\business\domain\package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\mission\business\domain\package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\mission\business\domain\package-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\mission\business\domain\package-use.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\mission\business\impl\MissionBackendServiceImpl.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\mission\business\impl\MissionBusinessServiceImpl.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\mission\business\impl\class-use\MissionBackendServiceImpl.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\mission\business\impl\class-use\MissionBusinessServiceImpl.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\mission\business\impl\package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\mission\business\impl\package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\mission\business\impl\package-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\mission\business\impl\package-use.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\mission\business\package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\mission\business\package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\mission\business\package-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\mission\business\package-use.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\mission\persistence\MissionDao.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\mission\persistence\UserMissionDao.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\mission\persistence\class-use\MissionDao.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\mission\persistence\class-use\UserMissionDao.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\mission\persistence\entity\MissionEntity.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\mission\persistence\entity\UserMissionEntity.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\mission\persistence\entity\class-use\MissionEntity.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\mission\persistence\entity\class-use\UserMissionEntity.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\mission\persistence\entity\package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\mission\persistence\entity\package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\mission\persistence\entity\package-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\mission\persistence\entity\package-use.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\mission\persistence\enums\TaskLevelEnum.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\mission\persistence\enums\class-use\TaskLevelEnum.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\mission\persistence\enums\package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\mission\persistence\enums\package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\mission\persistence\enums\package-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\mission\persistence\enums\package-use.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\mission\persistence\impl\MissionDaoImpl.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\mission\persistence\impl\UserMissionDaoImpl.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\mission\persistence\impl\class-use\MissionDaoImpl.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\mission\persistence\impl\class-use\UserMissionDaoImpl.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\mission\persistence\impl\package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\mission\persistence\impl\package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\mission\persistence\impl\package-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\mission\persistence\impl\package-use.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\mission\persistence\package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\mission\persistence\package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\mission\persistence\package-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\mission\persistence\package-use.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\user\business\UserBusinessService.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\user\business\class-use\UserBusinessService.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\user\business\domain\BabyDto.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\user\business\domain\UserDto.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\user\business\domain\class-use\BabyDto.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\user\business\domain\class-use\UserDto.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\user\business\domain\package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\user\business\domain\package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\user\business\domain\package-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\user\business\domain\package-use.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\user\business\exception\AncestorInviteLimitReachedException.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\user\business\exception\AncestorNotExistsException.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\user\business\exception\DataAlreadyExistException.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\user\business\exception\EmailNotValidException.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\user\business\exception\MissionAlreadyCompletedException.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\user\business\exception\NotValidIdException.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\user\business\exception\PasswordNotMatchedException.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\user\business\exception\PasswordNotSecureException.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\user\business\exception\PasswordWrongException.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\user\business\exception\class-use\AncestorInviteLimitReachedException.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\user\business\exception\class-use\AncestorNotExistsException.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\user\business\exception\class-use\DataAlreadyExistException.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\user\business\exception\class-use\EmailNotValidException.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\user\business\exception\class-use\MissionAlreadyCompletedException.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\user\business\exception\class-use\NotValidIdException.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\user\business\exception\class-use\PasswordNotMatchedException.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\user\business\exception\class-use\PasswordNotSecureException.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\user\business\exception\class-use\PasswordWrongException.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\user\business\exception\package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\user\business\exception\package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\user\business\exception\package-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\user\business\exception\package-use.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\user\business\package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\user\business\package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\user\business\package-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\user\business\package-use.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\user\persistence\UserDao.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\user\persistence\class-use\UserDao.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\user\persistence\entity\UserEntity.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\user\persistence\entity\class-use\UserEntity.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\user\persistence\entity\package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\user\persistence\entity\package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\user\persistence\entity\package-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\user\persistence\entity\package-use.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\user\persistence\impl\UserDaoImpl.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\user\persistence\impl\class-use\UserDaoImpl.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\user\persistence\impl\package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\user\persistence\impl\package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\user\persistence\impl\package-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\user\persistence\impl\package-use.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\user\persistence\package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\user\persistence\package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\user\persistence\package-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\user\persistence\package-use.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\user\persistence\util\ReferenceCodeUtil.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\user\persistence\util\class-use\ReferenceCodeUtil.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\user\persistence\util\package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\user\persistence\util\package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\user\persistence\util\package-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\com\deniz\balanced\user\persistence\util\package-use.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\constant-values.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\deprecated-list.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\help-doc.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\index-all.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\overview-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\overview-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\overview-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\package-list" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\resources\background.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\resources\tab.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\resources\titlebar.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\resources\titlebar_end.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\serialized-form.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\apidocs\stylesheet.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\balanced-1.0-SNAPSHOT-javadoc.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\balanced-1.0-SNAPSHOT-sources.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\balanced-1.0-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\classes\com\deniz\balanced\business\AccountingBackendService.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\classes\com\deniz\balanced\business\AccountingBusinessService.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\classes\com\deniz\balanced\business\AuthenticationBusinessService.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\classes\com\deniz\balanced\business\ExperienceBackendService.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\classes\com\deniz\balanced\business\ExperienceBusinessService.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\classes\com\deniz\balanced\business\conversion\UserConverter.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\classes\com\deniz\balanced\business\enums\ExperienceRatioEnum.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\classes\com\deniz\balanced\business\impl\AccountingBackendServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\classes\com\deniz\balanced\business\impl\AccountingBusinessServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\classes\com\deniz\balanced\business\impl\AuthenticationBusinessServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\classes\com\deniz\balanced\business\impl\ExperienceBackendServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\classes\com\deniz\balanced\business\impl\ExperienceBusinessServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\classes\com\deniz\balanced\business\validation\ValidationService.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\classes\com\deniz\balanced\business\validation\impl\ValidationServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\classes\com\deniz\balanced\business\validation\impl\validator\EmailValidator.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\classes\com\deniz\balanced\business\validation\impl\validator\PasswordValidator.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\classes\com\deniz\balanced\framework\business\FrameworkBackendService.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\classes\com\deniz\balanced\framework\business\FrameworkBusinessService.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\classes\com\deniz\balanced\framework\business\conversion\AbstractEntityDtoConverter.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\classes\com\deniz\balanced\framework\business\exception\AbstractApplicationException.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\classes\com\deniz\balanced\framework\business\impl\AbstractBackendService.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\classes\com\deniz\balanced\framework\business\impl\AbstractBusinessService.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\classes\com\deniz\balanced\framework\business\impl\validator\MetaValidator.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\classes\com\deniz\balanced\framework\dao\FrameworkDao.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\classes\com\deniz\balanced\framework\dao\impl\AbstractFrameworkDao.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\classes\com\deniz\balanced\framework\setup\impl\SetupDataServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\classes\com\deniz\balanced\mission\business\MissionBackendService.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\classes\com\deniz\balanced\mission\business\MissionBusinessService.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\classes\com\deniz\balanced\mission\business\conversion\MissionConverter.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\classes\com\deniz\balanced\mission\business\domain\MissionDto.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\classes\com\deniz\balanced\mission\business\impl\MissionBackendServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\classes\com\deniz\balanced\mission\business\impl\MissionBusinessServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\classes\com\deniz\balanced\mission\persistence\MissionDao.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\classes\com\deniz\balanced\mission\persistence\UserMissionDao.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\classes\com\deniz\balanced\mission\persistence\entity\MissionEntity.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\classes\com\deniz\balanced\mission\persistence\entity\UserMissionEntity.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\classes\com\deniz\balanced\mission\persistence\enums\TaskLevelEnum.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\classes\com\deniz\balanced\mission\persistence\impl\MissionDaoImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\classes\com\deniz\balanced\mission\persistence\impl\UserMissionDaoImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\classes\com\deniz\balanced\user\business\UserBackendService.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\classes\com\deniz\balanced\user\business\UserBusinessService.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\classes\com\deniz\balanced\user\business\domain\BabyDto.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\classes\com\deniz\balanced\user\business\domain\UserDto.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\classes\com\deniz\balanced\user\business\exception\AncestorInviteLimitReachedException.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\classes\com\deniz\balanced\user\business\exception\AncestorNotExistsException.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\classes\com\deniz\balanced\user\business\exception\DataAlreadyExistException.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\classes\com\deniz\balanced\user\business\exception\EmailNotValidException.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\classes\com\deniz\balanced\user\business\exception\MissionAlreadyCompletedException.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\classes\com\deniz\balanced\user\business\exception\NotValidIdException.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\classes\com\deniz\balanced\user\business\exception\PasswordNotMatchedException.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\classes\com\deniz\balanced\user\business\exception\PasswordNotSecureException.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\classes\com\deniz\balanced\user\business\exception\PasswordWrongException.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\classes\com\deniz\balanced\user\business\impl\UserBackendServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\classes\com\deniz\balanced\user\business\impl\UserBusinessServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\classes\com\deniz\balanced\user\persistence\UserDao.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\classes\com\deniz\balanced\user\persistence\entity\UserEntity.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\classes\com\deniz\balanced\user\persistence\impl\UserDaoImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\classes\com\deniz\balanced\user\persistence\util\ReferenceCodeUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\classes\configuration\app.properties" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\classes\configuration\stages\app.dev-ci.properties" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\classes\configuration\stages\app.dev.properties" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\classes\configuration\stages\app.local-udy.properties" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\classes\logging\log4j.console-debug-logger.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\classes\logging\log4j.local-udy.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\classes\spring\com\deniz\balanced\0.spring.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\classes\spring\com\deniz\balanced\framework\0.spring.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\classes\spring\com\deniz\balanced\framework\conversion.spring.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\classes\spring\com\deniz\balanced\framework\frame.spring.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\classes\spring\com\deniz\balanced\framework\persistence.spring.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\classes\spring\com\deniz\balanced\framework\setup.spring.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\classes\spring\com\deniz\balanced\framework\validation\0.spring.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\classes\spring\com\deniz\balanced\framework\validation\validation.spring.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\classes\spring\com\deniz\balanced\mission\0.spring.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\classes\spring\com\deniz\balanced\mission\mission.spring.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\classes\spring\com\deniz\balanced\user\0.spring.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\classes\spring\com\deniz\balanced\user\accounting.spring.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\classes\spring\com\deniz\balanced\user\authentication.spring.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\classes\spring\com\deniz\balanced\user\experience.spring.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\classes\spring\com\deniz\balanced\user\user.spring.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\maven-archiver\pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\test-classes\com\deniz\balanced\feasibility\FeasibilityRunner.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\test-classes\com\deniz\balanced\feasibility\LevelTests.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\test-classes\com\deniz\balanced\framework\test\AbstractTransactionalTest.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\test-classes\com\deniz\balanced\framework\test\util\AlterStatementForeignKey.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\test-classes\com\deniz\balanced\framework\test\util\DbTableDeletionUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\test-classes\com\deniz\balanced\framework\test\util\Table.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\test-classes\com\deniz\balanced\mission\MissionTests.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\test-classes\com\deniz\balanced\user\AuthenticationTests.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\WS\Triangle\balanced\target\test-classes\com\deniz\balanced\user\UserTests.class" afterPath="" />
       <change type="DELETED" beforePath="D:\WS\Triangle\cosbalanced\src\main\resources\configuration\stages\app.cloudbees.properties" afterPath="" />
       <change type="DELETED" beforePath="D:\WS\Triangle\cosbalanced\src\main\resources\configuration\stages\app.dev-ci.properties" afterPath="" />
       <change type="DELETED" beforePath="D:\WS\Triangle\cosbalanced\src\main\resources\configuration\stages\app.dev.properties" afterPath="" />
       <change type="DELETED" beforePath="D:\WS\Triangle\cosbalanced\src\main\resources\configuration\stages\app.local-udy.properties" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Configuration/src/main/java/com/deniz/framework/configuration/LoggingPropertyPlaceholderConfigurer.java" afterPath="$PROJECT_DIR$/essence/Essence-Configuration/src/main/java/com/deniz/framework/configuration/LoggingPropertyPlaceholderConfigurer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cosbalanced/src/main/resources/logging/log4j.local-udy.xml" afterPath="$PROJECT_DIR$/cosbalanced/src/main/resources/logging/log4j.local-udy.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Triangle.iml" afterPath="$PROJECT_DIR$/Triangle.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cosbalanced/cosbalanced.iml" afterPath="$PROJECT_DIR$/cosbalanced/cosbalanced.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/cosbalanced_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/cosbalanced_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cosbalanced/pom.xml" afterPath="$PROJECT_DIR$/cosbalanced/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Triangle.iws" />
@@ -82,8 +528,43 @@
       <file leaf-file-name="AbstractApplicationContext.java" pinned="false" current="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/3.0.2.RELEASE/spring-context-3.0.2.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="639" column="0" selection-start="25024" selection-end="25024" vertical-scroll-proportion="0.0" vertical-offset="9152" max-vertical-offset="21454">
-              <folding />
+            <state line="639" column="0" selection-start="25024" selection-end="25024" vertical-scroll-proportion="0.0" vertical-offset="9144" max-vertical-offset="21454">
+              <folding>
+                <element signature="e#0#51502#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#8058#8084#0" expanded="false" />
+                <element signature="e#9294#9315#0" expanded="false" />
+                <element signature="e#10195#10196#0" expanded="false" />
+                <element signature="e#10214#10215#0" expanded="false" />
+                <element signature="e#10375#10376#0" expanded="false" />
+                <element signature="e#10396#10397#0" expanded="false" />
+                <element signature="e#10898#10899#0" expanded="false" />
+                <element signature="e#10928#10929#0" expanded="false" />
+                <element signature="e#11120#11121#0" expanded="false" />
+                <element signature="e#11145#11146#0" expanded="false" />
+                <element signature="e#11525#11526#0" expanded="false" />
+                <element signature="e#11555#11556#0" expanded="false" />
+                <element signature="e#14490#14491#0" expanded="false" />
+                <element signature="e#14517#14518#0" expanded="false" />
+                <element signature="e#14866#14867#0" expanded="false" />
+                <element signature="e#14910#14911#0" expanded="false" />
+                <element signature="e#15308#15309#0" expanded="false" />
+                <element signature="e#15347#15348#0" expanded="false" />
+                <element signature="e#23148#23174#0" expanded="false" />
+                <element signature="e#23234#23242#0" expanded="false" />
+                <element signature="e#23305#23313#0" expanded="false" />
+                <element signature="e#24042#24068#0" expanded="false" />
+                <element signature="e#24479#24505#0" expanded="false" />
+                <element signature="e#26070#26089#0" expanded="false" />
+                <element signature="e#26157#26176#0" expanded="false" />
+                <element signature="e#26236#26244#0" expanded="false" />
+                <element signature="e#26307#26315#0" expanded="false" />
+                <element signature="e#27148#27167#0" expanded="false" />
+                <element signature="e#27671#27690#0" expanded="false" />
+                <element signature="e#36135#36214#0" expanded="false" />
+                <element signature="e#36208#36209#0" expanded="false" />
+                <element signature="e#50152#50169#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -91,36 +572,34 @@
       <file leaf-file-name="PropertyResourceConfigurer.java" pinned="false" current="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/3.0.2.RELEASE/spring-beans-3.0.2.RELEASE-sources.jar!/org/springframework/beans/factory/config/PropertyResourceConfigurer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="0" selection-start="2549" selection-end="2549" vertical-scroll-proportion="0.0" vertical-offset="529" max-vertical-offset="1819">
+            <state line="78" column="85" selection-start="2888" selection-end="2888" vertical-scroll-proportion="0.0" vertical-offset="630" max-vertical-offset="1819">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoggingPropertyPlaceholderConfigurer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/essence/Essence-Configuration/src/main/java/com/deniz/framework/configuration/LoggingPropertyPlaceholderConfigurer.java">
+      <file leaf-file-name="app.cloudbees.properties" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/resources/configuration/app.cloudbees.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="29" selection-start="2314" selection-end="2314" vertical-scroll-proportion="0.0" vertical-offset="629" max-vertical-offset="1122">
-              <folding>
-                <element signature="e#734#750#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="log4j.local-udy.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/resources/logging/log4j.local-udy.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="52" selection-start="1285" selection-end="1285" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1173">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="867">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.local-udy.properties" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/balanced/src/main/resources/configuration/stages/app.local-udy.properties">
+      <file leaf-file-name="app.local-udy.properties" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/resources/configuration/app.local-udy.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="84" selection-start="829" selection-end="829" vertical-scroll-proportion="0.57114625" vertical-offset="0" max-vertical-offset="867">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="867">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.properties" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/resources/configuration/app.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1173">
               <folding />
             </state>
           </provider>
@@ -129,20 +608,33 @@
       <file leaf-file-name="PropertiesLoaderSupport.java" pinned="false" current="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/3.0.2.RELEASE/spring-core-3.0.2.RELEASE-sources.jar!/org/springframework/core/io/support/PropertiesLoaderSupport.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="194" column="0" selection-start="6104" selection-end="6104" vertical-scroll-proportion="0.0" vertical-offset="2573" max-vertical-offset="3162">
+            <state line="160" column="0" selection-start="5153" selection-end="5153" vertical-scroll-proportion="0.0" vertical-offset="1961" max-vertical-offset="3128">
               <folding>
-                <element signature="e#3070#3071#0" expanded="true" />
-                <element signature="e#3103#3104#0" expanded="true" />
+                <element signature="e#0#6410#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#2296#2297#0" expanded="false" />
+                <element signature="e#2341#2342#0" expanded="false" />
+                <element signature="e#3070#3071#0" expanded="false" />
+                <element signature="e#3103#3104#0" expanded="false" />
+                <element signature="e#3396#3397#0" expanded="false" />
+                <element signature="e#3437#3438#0" expanded="false" />
+                <element signature="e#3689#3690#0" expanded="false" />
+                <element signature="e#3748#3749#0" expanded="false" />
+                <element signature="e#4081#4082#0" expanded="false" />
+                <element signature="e#4116#4117#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.dev.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/balanced/src/main/resources/configuration/stages/app.dev.properties">
+      <file leaf-file-name="LoggingPropertyPlaceholderConfigurer.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/essence/Essence-Configuration/src/main/java/com/deniz/framework/configuration/LoggingPropertyPlaceholderConfigurer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="94" selection-start="996" selection-end="996" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="884">
-              <folding />
+            <state line="64" column="56" selection-start="2336" selection-end="2336" vertical-scroll-proportion="0.7874494" vertical-offset="495" max-vertical-offset="1309">
+              <folding>
+                <element signature="e#2840#2841#0" expanded="true" />
+                <element signature="e#2880#2881#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -175,7 +667,6 @@
         <option value="$PROJECT_DIR$/cosbalanced/src/main/resources/spring_mvc/logging/log4j.appengine.xml" />
         <option value="$PROJECT_DIR$/essence/Essence-Security/pom.xml" />
         <option value="$PROJECT_DIR$/essence/Essence-Business/pom.xml" />
-        <option value="$PROJECT_DIR$/cosbalanced/pom.xml" />
         <option value="$PROJECT_DIR$/balanced/pom.xml" />
         <option value="$PROJECT_DIR$/essence/Essence-Dto/pom.xml" />
         <option value="$PROJECT_DIR$/essence/Essence-Logging/pom.xml" />
@@ -189,9 +680,23 @@
         <option value="$PROJECT_DIR$/essence/Essence-Persistence/src/main/resources/spring/com/deniz/framework/persistence/persistence.spring.xml" />
         <option value="$PROJECT_DIR$/balanced/src/main/resources/configuration/stages/app.cloudbees.properties" />
         <option value="$PROJECT_DIR$/cosbalanced/src/main/resources/configuration/stages/app.local-udy.properties" />
-        <option value="$PROJECT_DIR$/essence/Essence-Configuration/src/main/java/com/deniz/framework/configuration/LoggingPropertyPlaceholderConfigurer.java" />
         <option value="$PROJECT_DIR$/cosbalanced/src/main/resources/logging/log4j.local-udy.xml" />
         <option value="$PROJECT_DIR$/balanced/src/main/resources/configuration/stages/app.local-udy.properties" />
+        <option value="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/business/validation/impl/ValidationServiceImpl.java" />
+        <option value="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/mission/business/impl/MissionBusinessServiceImpl.java" />
+        <option value="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/framework/business/impl/AbstractBackendService.java" />
+        <option value="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/framework/impl/SetupDataServiceImpl.java" />
+        <option value="$PROJECT_DIR$/cosbalanced/src/test/java/com/deniz/balanced/test/util/DbTableDeletionUtil.java" />
+        <option value="$PROJECT_DIR$/cosbalanced/src/test/java/com/deniz/balanced/framework/test/util/DbTableDeletionUtil.java" />
+        <option value="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/business/AccountingBackendService.java" />
+        <option value="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/business/ExperienceBackendService.java" />
+        <option value="$PROJECT_DIR$/cosbalanced/src/test/java/com/deniz/balanced/framework/test/AbstractTransactionalTest.java" />
+        <option value="$PROJECT_DIR$/cosbalanced/pom.xml" />
+        <option value="$PROJECT_DIR$/cosbalanced/src/main/resources/spring.com.deniz/balanced/framework/persistence.spring.xml" />
+        <option value="$PROJECT_DIR$/cosbalanced/src/main/resources/spring.com.deniz/balanced/framework/0.spring.xml" />
+        <option value="$PROJECT_DIR$/cosbalanced/src/main/resources/spring.com.deniz/balanced/framework/setup.spring.xml" />
+        <option value="$PROJECT_DIR$/cosbalanced/src/main/resources/spring.com.deniz/balanced/framework/frame.spring.xml" />
+        <option value="$PROJECT_DIR$/essence/Essence-Configuration/src/main/java/com/deniz/framework/configuration/LoggingPropertyPlaceholderConfigurer.java" />
       </list>
     </option>
   </component>
@@ -237,6 +742,55 @@
     <option name="width" value="1938" />
     <option name="height" value="1064" />
   </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>AOP</id>
+          </State>
+          <State>
+            <id>Encapsulation issues</id>
+          </State>
+          <State>
+            <id>Spring BatchSpring Model</id>
+          </State>
+          <State>
+            <id>Spring DataSpring Model</id>
+          </State>
+          <State>
+            <id>Spring IntegrationSpring Model</id>
+          </State>
+          <State>
+            <id>Spring MVCSpring Model</id>
+          </State>
+          <State>
+            <id>Spring Model</id>
+          </State>
+          <State>
+            <id>Spring OSGiSpring Model</id>
+          </State>
+          <State>
+            <id>Spring SecuritySpring Model</id>
+          </State>
+          <State>
+            <id>Spring Web FlowSpring Model</id>
+          </State>
+          <State>
+            <id>Spring Web ServicesSpring Model</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>SpringOsgiElementsInconsistencyInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
@@ -252,6 +806,11 @@
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
   </component>
+  <component name="ProjectStructureProblems">
+    <ignored-problems>
+      <problem id="unused-library(library:project:Maven: com.deniz.essence:business:${essence.business.version})" />
+    </ignored-problems>
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
@@ -265,6 +824,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -273,368 +834,18 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="essence" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="essence" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Essence-Persistence" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="essence" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Essence-Persistence" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="essence" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Essence-Persistence" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="persistence" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="essence" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Essence-Persistence" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cosbalanced" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cosbalanced" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cosbalanced" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cosbalanced" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="balanced" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="balanced" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="balanced" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="balanced" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="configuration" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="balanced" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="configuration" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="balanced" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="MavenSettings" />
+    <property name="options.lastSelected" value="preferences.intentionPowerPack" />
     <property name="last_opened_file_path" value="D:/Development/SDK/appengine-java-sdk-1.9.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="GoToClass.includeJavaFiles" value="false" />
@@ -648,6 +859,7 @@
     <property name="dynamic.classpath" value="false" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="SearchEverywhereHistory" value="" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -657,25 +869,25 @@
       <recent name="com.deniz.balanced.framework.constants" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\WS\Triangle\balanced\src\main\resources" />
-      <recent name="D:\WS\Triangle\balanced\src\main\resources\configuration\stages" />
-      <recent name="D:\WS\Triangle\cosbalanced\src\main\resources\logging" />
-      <recent name="D:\WS\Triangle\cosbalanced\src\main\resources\spring_mvc" />
-      <recent name="D:\WS\Triangle\balanced\src\main\java\com\deniz\balanced\user\persistence\util" />
+      <recent name="D:\WS\Triangle\cosbalanced\src\main\resources\configuration" />
+      <recent name="D:\WS\Triangle\cosbalanced\src\main\resources\configuration\stages" />
+      <recent name="D:\WS\Triangle\cosbalanced\src\test\java\com\deniz\balanced\framework\test\util" />
+      <recent name="D:\WS\Triangle\cosbalanced\src\test\java\com\deniz\balanced" />
+      <recent name="D:\WS\Triangle\cosbalanced\src\main\java\com\deniz\balanced\framework" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.deniz.balanced.framework.test" />
+      <recent name="com.deniz.balanced.framework" />
       <recent name="" />
       <recent name="com.deniz.balanced.user" />
       <recent name="com.deniz.balanced" />
-      <recent name="com.deniz.balanced.framework" />
-      <recent name="com.deniz.balanced.framework.services" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WS\Triangle\cosbalanced\src\main\resources" />
+      <recent name="D:\WS\Triangle\cosbalanced\src\main\webapp" />
+      <recent name="D:\WS\Triangle\cosbalanced\src\main\resources\spring\com\deniz\balanced" />
       <recent name="D:\WS\Triangle\cosbalanced\src\main\resources\configuration\stages" />
       <recent name="D:\WS\Triangle\cosbalanced\src\main\resources\configuration" />
-      <recent name="D:\WS\Triangle\cosbalanced\src\main\webapp\WEB-INF" />
-      <recent name="D:\WS\Triangle\essence" />
-      <recent name="D:\WS\Triangle" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Balanced">
@@ -806,17 +1018,6 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
-      <deployment />
-      <server-settings />
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <method />
-    </configuration>
     <configuration default="true" type="cloudbees-deploy" factoryName="CloudBees Deployment">
       <method />
     </configuration>
@@ -853,6 +1054,17 @@
       <option name="screenWidth" value="0" />
       <option name="url" value="http://" />
       <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings />
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method />
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
@@ -1146,6 +1358,8 @@
       <workItem from="1394978853146" duration="1182000" />
       <workItem from="1395042320902" duration="4768000" />
       <workItem from="1395066113772" duration="1297000" />
+      <workItem from="1395088704177" duration="4338000" />
+      <workItem from="1395127267299" duration="7012000" />
     </task>
     <task id="LOCAL-00001" summary="cloudbee properties&#10;">
       <created>1394629139624</created>
@@ -1199,47 +1413,83 @@
       <created>1394883654197</created>
       <updated>1394883654197</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Configuration&#10;">
+      <created>1395089724720</created>
+      <updated>1395089724720</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Configuration&#10;">
+      <created>1395091085370</created>
+      <updated>1395091085370</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Configuration&#10;">
+      <created>1395091497642</created>
+      <updated>1395091497642</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Configuration&#10;">
+      <created>1395091862235</created>
+      <updated>1395091862235</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52230000" />
+    <option name="totallyTimeSpent" value="63580000" />
+  </component>
+  <component name="TodoView" selected-index="4">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1064" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39848813" sideWeight="0.71086264" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39848813" sideWeight="0.2891374" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23855165" sideWeight="0.5144445" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937366" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25559106" sideWeight="0.6711111" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48472077" sideWeight="0.659375" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4838013" sideWeight="0.659375" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33693305" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39740822" sideWeight="0.71086264" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32829374" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23855165" sideWeight="0.5144445" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Heroku" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33693305" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1275,225 +1525,291 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/resources/logging/log4j.console-debug-logger.xml">
+    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/framework/dao/FrameworkDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="67" selection-start="677" selection-end="677" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/essence/Essence-SetupData/src/main/resources/spring/com/deniz/framework/setup/0.spring.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/essence/Essence-SetupData/src/main/resources/spring/com/deniz/framework/setup/jmx.spring.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="79" selection-start="502" selection-end="502" vertical-scroll-proportion="0.4311594" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Triangle.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/essence/Essence-SetupData/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="59" selection-start="1026" selection-end="1026" vertical-scroll-proportion="0.8095238" vertical-offset="0" max-vertical-offset="609" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/essence/Essence-Configuration/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="10" selection-start="1209" selection-end="1209" vertical-scroll-proportion="0.9441708" vertical-offset="37" max-vertical-offset="714" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/essence/Essence-Business/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="8" selection-start="770" selection-end="770" vertical-scroll-proportion="0.5862069" vertical-offset="0" max-vertical-offset="680" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/essence/Essence-Persistence/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="28" selection-start="2845" selection-end="2845" vertical-scroll-proportion="0.58128077" vertical-offset="1074" max-vertical-offset="1751" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/essence/Essence-Security/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="25" selection-start="1967" selection-end="1967" vertical-scroll-proportion="0.9441708" vertical-offset="462" max-vertical-offset="1139" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/balanced/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="21" selection-start="644" selection-end="644" vertical-scroll-proportion="0.0" vertical-offset="103" max-vertical-offset="1547" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/essence/Essence-Dto/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="757" selection-end="757" vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="663" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/essence/Essence-Logging/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="761" selection-end="761" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/essence/Essence-Business/src/main/java/com/deniz/framework/business/BusinessTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="22" selection-start="195" selection-end="195" vertical-scroll-proportion="0.14834206" vertical-offset="0" max-vertical-offset="573" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/essence/Essence-Servlet/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="76" selection-start="1910" selection-end="1910" vertical-scroll-proportion="0.0" vertical-offset="672" max-vertical-offset="1258" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/essence/Essence-Servlet/src/main/java/com/deniz/framework/controller/LoggingTaskControllerTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="16" selection-start="4683" selection-end="4683" vertical-scroll-proportion="0.7713787" vertical-offset="969" max-vertical-offset="1581" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/essence/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="609">
+        <state line="6" column="17" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cosbalanced/pom.xml">
+    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/framework/impl/SetupDataServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="25" selection-start="3097" selection-end="3521" vertical-scroll-proportion="0.0" vertical-offset="1142" max-vertical-offset="1819" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="129" column="15" selection-start="4388" selection-end="4388" vertical-scroll-proportion="0.0" vertical-offset="1618" max-vertical-offset="2312">
+        <state line="8" column="13" selection-start="376" selection-end="376" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/essence/Essence-Configuration/src/main/java/com/deniz/framework/configuration/ApplicationConfigurationLogger.java">
+    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/mission/business/conversion/MissionConverter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="41" selection-start="2662" selection-end="2662" vertical-scroll-proportion="0.0" vertical-offset="863" max-vertical-offset="2465" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/essence/Essence-Configuration/src/main/resources/spring/com/deniz/framework/configuration/0.spring.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="448">
+        <state line="7" column="13" selection-start="388" selection-end="388" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/balanced/src/main/resources/spring/com/deniz/balanced/framework/0.spring.xml">
+    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/mission/business/domain/MissionDto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="59" selection-start="432" selection-end="432" vertical-scroll-proportion="-4.76" vertical-offset="0" max-vertical-offset="391">
+        <state line="5" column="13" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/balanced/src/main/resources/spring/com/deniz/balanced/0.spring.xml">
+    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/mission/business/impl/MissionBackendServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="596">
+        <state line="21" column="13" selection-start="1022" selection-end="1022" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1156">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/webapp/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/mission/business/impl/MissionBusinessServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="77" selection-start="1872" selection-end="1872" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="1547">
+        <state line="22" column="13" selection-start="1159" selection-end="1159" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1037">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-orm/3.0.2.RELEASE/spring-orm-3.0.2.RELEASE-sources.jar!/org/springframework/orm/hibernate3/annotation/AnnotationSessionFactoryBean.java">
+    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/mission/business/MissionBackendService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="77" selection-start="3292" selection-end="3292" vertical-scroll-proportion="-1.1791908" vertical-offset="1343" max-vertical-offset="3502" />
+        <state line="17" column="17" selection-start="579" selection-end="579" vertical-scroll-proportion="0.0" vertical-offset="230" max-vertical-offset="918">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/essence/Essence-Persistence/persistence.iml">
+    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/mission/business/MissionBusinessService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1241" />
+        <state line="14" column="17" selection-start="659" selection-end="659" vertical-scroll-proportion="0.16441005" vertical-offset="0" max-vertical-offset="850">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-orm/3.0.2.RELEASE/spring-orm-3.0.2.RELEASE-sources.jar!/org/springframework/orm/hibernate3/LocalSessionFactoryBean.java">
+    <entry file="file://$PROJECT_DIR$/essence/Essence-Security/src/main/java/com/deniz/role/persistence/impl/AppRoleInteractionsDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="351" column="0" selection-start="14355" selection-end="14355" vertical-scroll-proportion="0.0" vertical-offset="4728" max-vertical-offset="17476">
+        <state line="18" column="13" selection-start="742" selection-end="742" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosbalanced/src/test/java/com/deniz/balanced/framework/test/AbstractTransactionalTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="55" selection-start="476" selection-end="476" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="884">
           <folding>
-            <element signature="e#14406#14407#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/3.0.2.RELEASE/spring-beans-3.0.2.RELEASE-sources.jar!/org/springframework/beans/factory/config/PropertyPlaceholderConfigurer.java">
+    <entry file="file://$PROJECT_DIR$/essence/Essence-Security/src/main/resources/spring/com/deniz/role/role.spring.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="258" column="0" selection-start="10312" selection-end="10312" vertical-scroll-proportion="0.34888437" vertical-offset="3517" max-vertical-offset="6324">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.0.2.RELEASE/spring-web-3.0.2.RELEASE-sources.jar!/org/springframework/web/context/ContextLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="196" column="0" selection-start="8509" selection-end="8509" vertical-scroll-proportion="0.31758034" vertical-offset="2620" max-vertical-offset="6630">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.0.2.RELEASE/spring-web-3.0.2.RELEASE-sources.jar!/org/springframework/web/context/ContextLoaderListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="95" selection-start="1846" selection-end="1846" vertical-scroll-proportion="0.49716446" vertical-offset="366" max-vertical-offset="1224">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/essence/Essence-Configuration/src/main/resources/spring/com/deniz/framework/configuration/configuration.spring.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="73" selection-start="477" selection-end="477" vertical-scroll-proportion="0.27698573" vertical-offset="0" max-vertical-offset="544">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Development/SDK/Java/jdk7.21/src.zip!/javax/sql/DataSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="17" selection-start="2498" selection-end="2498" vertical-scroll-proportion="-0.024482109" vertical-offset="829" max-vertical-offset="1360">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/commons-dbcp/commons-dbcp/1.4/commons-dbcp-1.4-sources.jar!/org/apache/commons/dbcp/BasicDataSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="44" selection-start="2093" selection-end="2093" vertical-scroll-proportion="-1.0173745" vertical-offset="884" max-vertical-offset="25585">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/balanced/src/main/resources/spring/com/deniz/balanced/framework/persistence.spring.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="529">
+        <state line="13" column="37" selection-start="583" selection-end="604" vertical-scroll-proportion="-8.84" vertical-offset="0" max-vertical-offset="374">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/essence/Essence-Persistence/src/main/resources/spring/com/deniz/framework/persistence/persistence.spring.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="66" selection-start="2014" selection-end="2014" vertical-scroll-proportion="-2.96" vertical-offset="725" max-vertical-offset="1598">
+        <state line="12" column="14" selection-start="735" selection-end="735" vertical-scroll-proportion="-7.32" vertical-offset="21" max-vertical-offset="1598">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/commons-lang/commons-lang/2.3/commons-lang-2.3-sources.jar!/org/apache/commons/lang/ArrayUtils.java">
+    <entry file="file://$PROJECT_DIR$/essence/Essence-Persistence/src/main/resources/spring/com/deniz/framework/persistence/0.spring.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3230" column="27" selection-start="125003" selection-end="125003" vertical-scroll-proportion="0.0" vertical-offset="54360" max-vertical-offset="74817">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="221">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/essence/Essence-Configuration/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/essence/Essence-Persistence/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1751">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosbalanced/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="0" selection-start="1891" selection-end="1891" vertical-scroll-proportion="0.0" vertical-offset="952" max-vertical-offset="2584">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/resources/spring/com/deniz/balanced/0.spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="96" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/resources/spring/com/deniz/balanced/user/0.spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="885">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/resources/spring/com/deniz/balanced/user/accounting.spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="885">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/resources/spring/com/deniz/balanced/user/authentication.spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="885">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/resources/spring/com/deniz/balanced/user/experience.spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="862">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/resources/spring/com/deniz/balanced/mission/0.spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="862">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/resources/spring/com/deniz/balanced/framework/validation/0.spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="862">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/resources/spring/com/deniz/balanced/framework/validation/validation.spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="862">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/resources/spring/com/deniz/balanced/framework/conversion.spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="862">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/resources/spring/com/deniz/balanced/framework/0.spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="86" selection-start="786" selection-end="786" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/resources/spring/com/deniz/balanced/framework/setup.spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="44" selection-start="397" selection-end="397" vertical-scroll-proportion="0.13446328" vertical-offset="0" max-vertical-offset="885">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/resources/spring/com/deniz/balanced/framework/persistence.spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="295" selection-end="295" vertical-scroll-proportion="0.096045196" vertical-offset="0" max-vertical-offset="885">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/framework/business/FrameworkBackendService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="17" selection-start="468" selection-end="468" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1037">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/framework/business/impl/AbstractBackendService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="30" selection-start="650" selection-end="650" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/resources/spring/com/deniz/balanced/framework/frame.spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="39" selection-start="451" selection-end="474" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/resources/spring/com/deniz/balanced/mission/mission.spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="16" selection-start="832" selection-end="832" vertical-scroll-proportion="0.0" vertical-offset="106" max-vertical-offset="680">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/resources/spring/com/deniz/balanced/user/user.spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="16" selection-start="296" selection-end="296" vertical-scroll-proportion="0.17801048" vertical-offset="0" max-vertical-offset="573">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/resources/spring_mvc/0.spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="437">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/resources/spring_mvc/member/0.spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="437">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/resources/spring_mvc/front_controller/url-mapping.spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="573">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/resources/spring_mvc/front_controller/0.spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="573">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/resources/spring_mvc/member/member.spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="86" selection-start="930" selection-end="930" vertical-scroll-proportion="0.5253054" vertical-offset="73" max-vertical-offset="850">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="44" selection-start="654" selection-end="654" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="1547">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/3.0.2.RELEASE/spring-beans-3.0.2.RELEASE-sources.jar!/org/springframework/beans/BeanWrapperImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="871" column="0" selection-start="31291" selection-end="31291" vertical-scroll-proportion="0.0" vertical-offset="13572" max-vertical-offset="19040">
+        <state line="871" column="0" selection-start="31291" selection-end="31291" vertical-scroll-proportion="0.0" vertical-offset="13564" max-vertical-offset="19040">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/3.0.2.RELEASE/spring-beans-3.0.2.RELEASE-sources.jar!/org/springframework/beans/AbstractPropertyAccessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="0" selection-start="1849" selection-end="1849" vertical-scroll-proportion="0.0" vertical-offset="465" max-vertical-offset="2108">
+        <state line="58" column="0" selection-start="1849" selection-end="1849" vertical-scroll-proportion="0.0" vertical-offset="457" max-vertical-offset="2108">
           <folding />
         </state>
       </provider>
@@ -1507,72 +1823,118 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/3.0.2.RELEASE/spring-beans-3.0.2.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="239" column="0" selection-start="10192" selection-end="10192" vertical-scroll-proportion="0.0" vertical-offset="3319" max-vertical-offset="8449">
+        <state line="221" column="0" selection-start="9704" selection-end="9704" vertical-scroll-proportion="0.0" vertical-offset="2998" max-vertical-offset="8449">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/3.0.2.RELEASE/spring-beans-3.0.2.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="193" column="0" selection-start="8914" selection-end="8914" vertical-scroll-proportion="0.0" vertical-offset="1942" max-vertical-offset="24225">
+        <state line="193" column="0" selection-start="8914" selection-end="8914" vertical-scroll-proportion="0.0" vertical-offset="1927" max-vertical-offset="24225">
           <folding>
-            <element signature="e#12549#13055#0" expanded="true" />
-            <element signature="e#13048#13049#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/3.0.2.RELEASE/spring-beans-3.0.2.RELEASE-sources.jar!/org/springframework/beans/factory/config/PropertyResourceConfigurer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="0" selection-start="2549" selection-end="2549" vertical-scroll-proportion="0.0" vertical-offset="529" max-vertical-offset="1819">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/3.0.2.RELEASE/spring-core-3.0.2.RELEASE-sources.jar!/org/springframework/core/io/support/PropertiesLoaderSupport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="194" column="0" selection-start="6104" selection-end="6104" vertical-scroll-proportion="0.0" vertical-offset="2573" max-vertical-offset="3162">
-          <folding>
-            <element signature="e#3070#3071#0" expanded="true" />
-            <element signature="e#3103#3104#0" expanded="true" />
+            <element signature="e#12549#13055#0" expanded="false" />
+            <element signature="e#13048#13049#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/3.0.2.RELEASE/spring-context-3.0.2.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="639" column="0" selection-start="25024" selection-end="25024" vertical-scroll-proportion="0.0" vertical-offset="9152" max-vertical-offset="21454">
+        <state line="639" column="0" selection-start="25024" selection-end="25024" vertical-scroll-proportion="0.0" vertical-offset="9144" max-vertical-offset="21454">
+          <folding>
+            <element signature="e#0#51502#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#8058#8084#0" expanded="false" />
+            <element signature="e#9294#9315#0" expanded="false" />
+            <element signature="e#10195#10196#0" expanded="false" />
+            <element signature="e#10214#10215#0" expanded="false" />
+            <element signature="e#10375#10376#0" expanded="false" />
+            <element signature="e#10396#10397#0" expanded="false" />
+            <element signature="e#10898#10899#0" expanded="false" />
+            <element signature="e#10928#10929#0" expanded="false" />
+            <element signature="e#11120#11121#0" expanded="false" />
+            <element signature="e#11145#11146#0" expanded="false" />
+            <element signature="e#11525#11526#0" expanded="false" />
+            <element signature="e#11555#11556#0" expanded="false" />
+            <element signature="e#14490#14491#0" expanded="false" />
+            <element signature="e#14517#14518#0" expanded="false" />
+            <element signature="e#14866#14867#0" expanded="false" />
+            <element signature="e#14910#14911#0" expanded="false" />
+            <element signature="e#15308#15309#0" expanded="false" />
+            <element signature="e#15347#15348#0" expanded="false" />
+            <element signature="e#23148#23174#0" expanded="false" />
+            <element signature="e#23234#23242#0" expanded="false" />
+            <element signature="e#23305#23313#0" expanded="false" />
+            <element signature="e#24042#24068#0" expanded="false" />
+            <element signature="e#24479#24505#0" expanded="false" />
+            <element signature="e#26070#26089#0" expanded="false" />
+            <element signature="e#26157#26176#0" expanded="false" />
+            <element signature="e#26236#26244#0" expanded="false" />
+            <element signature="e#26307#26315#0" expanded="false" />
+            <element signature="e#27148#27167#0" expanded="false" />
+            <element signature="e#27671#27690#0" expanded="false" />
+            <element signature="e#36135#36214#0" expanded="false" />
+            <element signature="e#36208#36209#0" expanded="false" />
+            <element signature="e#50152#50169#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/3.0.2.RELEASE/spring-core-3.0.2.RELEASE-sources.jar!/org/springframework/core/io/support/PropertiesLoaderSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="160" column="0" selection-start="5153" selection-end="5153" vertical-scroll-proportion="0.0" vertical-offset="1961" max-vertical-offset="3128">
+          <folding>
+            <element signature="e#0#6410#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#2296#2297#0" expanded="false" />
+            <element signature="e#2341#2342#0" expanded="false" />
+            <element signature="e#3070#3071#0" expanded="false" />
+            <element signature="e#3103#3104#0" expanded="false" />
+            <element signature="e#3396#3397#0" expanded="false" />
+            <element signature="e#3437#3438#0" expanded="false" />
+            <element signature="e#3689#3690#0" expanded="false" />
+            <element signature="e#3748#3749#0" expanded="false" />
+            <element signature="e#4081#4082#0" expanded="false" />
+            <element signature="e#4116#4117#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/resources/configuration/app.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1173">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/balanced/src/main/resources/configuration/stages/app.dev.properties">
+    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/resources/configuration/app.local-udy.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="94" selection-start="996" selection-end="996" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="884">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="867">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/resources/configuration/app.cloudbees.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="867">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/3.0.2.RELEASE/spring-beans-3.0.2.RELEASE-sources.jar!/org/springframework/beans/factory/config/PropertyResourceConfigurer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="85" selection-start="2888" selection-end="2888" vertical-scroll-proportion="0.0" vertical-offset="630" max-vertical-offset="1819">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/essence/Essence-Configuration/src/main/java/com/deniz/framework/configuration/LoggingPropertyPlaceholderConfigurer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="29" selection-start="2314" selection-end="2314" vertical-scroll-proportion="0.0" vertical-offset="629" max-vertical-offset="1122">
+        <state line="64" column="56" selection-start="2336" selection-end="2336" vertical-scroll-proportion="0.7874494" vertical-offset="495" max-vertical-offset="1309">
           <folding>
-            <element signature="e#734#750#0" expanded="true" />
+            <element signature="e#2840#2841#0" expanded="true" />
+            <element signature="e#2880#2881#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/resources/logging/log4j.local-udy.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="52" selection-start="1285" selection-end="1285" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1173">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/balanced/src/main/resources/configuration/stages/app.local-udy.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="84" selection-start="829" selection-end="829" vertical-scroll-proportion="0.57114625" vertical-offset="0" max-vertical-offset="867">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1595,7 +1957,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring</last-edited>
+          <last-edited>Spring (business)|Spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1631,11 +1993,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Triangle</last-edited>
+          <last-edited>cosbalanced</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -1655,7 +2018,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: antlr:antlr:2.7.6</last-edited>
+          <last-edited>Maven: org.springframework:spring-beans:3.0.2.RELEASE</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
