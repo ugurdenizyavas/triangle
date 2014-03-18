@@ -6,8 +6,8 @@
 
 	<bean name="authorizationService"
 		class="com.deniz.framework.security.authorization.AuthorizationService">
-		<property name="hostbase" value="${authorization.hostbase}" />
-		<property name="hostport" value="${authorization.hostport}" />
+		<property name="hostBase" value="${authorization.hostbase}" />
+		<property name="hostPort" value="${authorization.hostport}" />
 	</bean>
 
 </beans>

@@ -27,8 +27,6 @@
             <version>${javassist.version}</version>
         </dependency>
 
-
-
         <dependency>
             <groupId>org.easymock</groupId>
             <artifactId>easymockclassextension</artifactId>

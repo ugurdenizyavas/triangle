@@ -10,30 +10,30 @@ import com.deniz.framework.security.PojoRequestInfo;
 
 public class AuthorizationService {
 
-	private String hostbase;
-	private String hostport;
+    private String hostBase;
+    private String hostPort;
 
-	public void setHostbase(String hostbase) {
-		this.hostbase = hostbase;
-	}
+    public void setHostBase(String hostBase) {
+        this.hostBase = hostBase;
+    }
 
-	public void setHostport(String hostport) {
-		this.hostport = hostport;
-	}
+    public void setHostPort(String hostPort) {
+        this.hostPort = hostPort;
+    }
 
-	public String authenticate(PojoRequestInfo requestInfo) throws IOException {
-		URL authorizationGateway = new URL("http://" + hostbase + ":" + hostport + "/UserAdministration/services/authorization/init?username="
-				+ requestInfo.getUsername() + "&domain=" + requestInfo.getDomain());
-		URLConnection yc = authorizationGateway.openConnection();
-		BufferedReader in = new BufferedReader(new InputStreamReader(yc.getInputStream()));
+    public String authenticate(PojoRequestInfo requestInfo) throws IOException {
+        URL authorizationGateway = new URL("http://" + hostBase + ":" + hostPort + "/UserAdministration/services/authorization/init?username="
+                + requestInfo.getUsername() + "&domain=" + requestInfo.getDomain());
+        URLConnection yc = authorizationGateway.openConnection();
+        BufferedReader in = new BufferedReader(new InputStreamReader(yc.getInputStream()));
 
-		String responseLine = "";
-		String inputLine;
-		while ((inputLine = in.readLine()) != null) {
-			responseLine += inputLine;
-		}
-		in.close();
-		return responseLine;
-	}
+        String responseLine = "";
+        String inputLine;
+        while ((inputLine = in.readLine()) != null) {
+            responseLine += inputLine;
+        }
+        in.close();
+        return responseLine;
+    }
 
 }
