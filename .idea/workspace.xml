@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="245aa61e-f480-4b4c-9fb1-01ea3fe98967" name="Default" comment="" />
+    <list default="true" id="245aa61e-f480-4b4c-9fb1-01ea3fe98967" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/framework/impl/SetupDataServiceImpl.java" afterPath="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/framework/impl/SetupDataServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/user/persistence/UserDao.java" afterPath="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/user/persistence/UserDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="Triangle.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -126,19 +130,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DispatcherSecurityFilter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/essence/Essence-Security/src/main/java/com/deniz/framework/security/filter/DispatcherSecurityFilter.java">
+      <file leaf-file-name="SetupDataServiceImpl.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/framework/impl/SetupDataServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="111" column="78" selection-start="4501" selection-end="4501" vertical-scroll-proportion="0.0" vertical-offset="962" max-vertical-offset="2788">
+            <state line="30" column="45" selection-start="1204" selection-end="1204" vertical-scroll-proportion="0.791498" vertical-offset="0" max-vertical-offset="510">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MemberOverviewTaskController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/services/member/MemberOverviewTaskController.java">
+      <file leaf-file-name="UserBusinessService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/user/business/UserBusinessService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="17" selection-start="794" selection-end="794" vertical-scroll-proportion="0.0" vertical-offset="2" max-vertical-offset="2431">
+            <state line="18" column="0" selection-start="626" selection-end="640" vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="1156">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserBackendService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/user/business/UserBackendService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="57" column="68" selection-start="1794" selection-end="1794" vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="2210">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserBackendServiceImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/user/business/impl/UserBackendServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="14" selection-start="1156" selection-end="1156" vertical-scroll-proportion="0.0" vertical-offset="122" max-vertical-offset="2550">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -146,19 +168,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserBusinessService.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/user/business/UserBusinessService.java">
+      <file leaf-file-name="UserDao.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/user/persistence/UserDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="17" selection-start="658" selection-end="658" vertical-scroll-proportion="-0.7641509" vertical-offset="626" max-vertical-offset="1156">
+            <state line="36" column="18" selection-start="723" selection-end="723" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1071">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/webapp/WEB-INF/web.xml">
+      <file leaf-file-name="UserDaoImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/user/persistence/impl/UserDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="29" selection-start="2896" selection-end="2896" vertical-scroll-proportion="0.0" vertical-offset="914" max-vertical-offset="1615">
+            <state line="16" column="22" selection-start="574" selection-end="574" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="986">
               <folding />
             </state>
           </provider>
@@ -203,12 +225,10 @@
         <option value="$PROJECT_DIR$/essence/Essence-Persistence/src/main/resources/spring/com/deniz/framework/persistence/persistence.spring.xml" />
         <option value="$PROJECT_DIR$/balanced/src/main/resources/configuration/stages/app.cloudbees.properties" />
         <option value="$PROJECT_DIR$/cosbalanced/src/main/resources/configuration/stages/app.local-udy.properties" />
-        <option value="$PROJECT_DIR$/cosbalanced/src/main/resources/logging/log4j.local-udy.xml" />
         <option value="$PROJECT_DIR$/balanced/src/main/resources/configuration/stages/app.local-udy.properties" />
         <option value="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/business/validation/impl/ValidationServiceImpl.java" />
         <option value="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/mission/business/impl/MissionBusinessServiceImpl.java" />
         <option value="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/framework/business/impl/AbstractBackendService.java" />
-        <option value="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/framework/impl/SetupDataServiceImpl.java" />
         <option value="$PROJECT_DIR$/cosbalanced/src/test/java/com/deniz/balanced/test/util/DbTableDeletionUtil.java" />
         <option value="$PROJECT_DIR$/cosbalanced/src/test/java/com/deniz/balanced/framework/test/util/DbTableDeletionUtil.java" />
         <option value="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/business/AccountingBackendService.java" />
@@ -228,6 +248,11 @@
         <option value="$PROJECT_DIR$/cosbalanced/src/main/resources/configuration/app.local-udy.properties" />
         <option value="$PROJECT_DIR$/essence/Essence-Security/src/main/java/com/deniz/framework/security/filter/DispatcherSecurityFilter.java" />
         <option value="$PROJECT_DIR$/cosbalanced/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/cosbalanced/src/main/resources/logging/log4j.cloudbees.xml" />
+        <option value="$PROJECT_DIR$/cosbalanced/src/main/resources/logging/log4j.local-udy.xml" />
+        <option value="$PROJECT_DIR$/cosbalanced/src/main/resources/configuration/app.cloudbees.properties" />
+        <option value="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/user/persistence/UserDao.java" />
+        <option value="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/framework/impl/SetupDataServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -383,7 +408,247 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="essence" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Triangle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Triangle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="essence" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Essence-Servlet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Triangle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Triangle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="essence" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Essence-Servlet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Triangle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Triangle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="essence" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Essence-Servlet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Triangle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Triangle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="essence" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Essence-Servlet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Triangle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Triangle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="essence" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Essence-Servlet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Triangle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Triangle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="cosbalanced" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Triangle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Triangle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cosbalanced" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Triangle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Triangle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cosbalanced" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Triangle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Triangle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cosbalanced" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Triangle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Triangle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cosbalanced" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="logging" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -915,7 +1180,7 @@
       <workItem from="1395066113772" duration="1297000" />
       <workItem from="1395088704177" duration="4338000" />
       <workItem from="1395127267299" duration="14832000" />
-      <workItem from="1395165931621" duration="941000" />
+      <workItem from="1395165931621" duration="2877000" />
     </task>
     <task id="LOCAL-00001" summary="cloudbee properties&#10;">
       <created>1394629139624</created>
@@ -997,11 +1262,19 @@
       <created>1395166223779</created>
       <updated>1395166223779</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Configuration">
+      <created>1395168864003</created>
+      <updated>1395168864003</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Configuration&#10;">
+      <created>1395169053114</created>
+      <updated>1395169053114</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72341000" />
+    <option name="totallyTimeSpent" value="74277000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -1093,62 +1366,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/resources/spring/com/deniz/balanced/framework/persistence.spring.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="295" selection-end="295" vertical-scroll-proportion="0.096045196" vertical-offset="0" max-vertical-offset="885">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/framework/business/impl/AbstractBackendService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="30" selection-start="650" selection-end="650" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/resources/spring/com/deniz/balanced/framework/frame.spring.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="39" selection-start="451" selection-end="474" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/resources/spring/com/deniz/balanced/mission/mission.spring.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="16" selection-start="832" selection-end="832" vertical-scroll-proportion="0.0" vertical-offset="106" max-vertical-offset="680">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/resources/spring/com/deniz/balanced/user/user.spring.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="16" selection-start="296" selection-end="296" vertical-scroll-proportion="0.17801048" vertical-offset="0" max-vertical-offset="573">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/resources/spring_mvc/0.spring.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="437">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/resources/spring_mvc/member/0.spring.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="437">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/resources/spring_mvc/front_controller/url-mapping.spring.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="573">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/resources/spring_mvc/front_controller/0.spring.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="573">
@@ -1200,12 +1417,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/resources/configuration/app.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1173" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/resources/configuration/app.cloudbees.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="867" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1173">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/3.0.2.RELEASE/spring-beans-3.0.2.RELEASE-sources.jar!/org/springframework/beans/factory/config/PropertyResourceConfigurer.java">
@@ -1215,7 +1429,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/essence/Essence-Configuration/src/main/java/com/deniz/framework/configuration/LoggingPropertyPlaceholderConfigurer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="83" selection-start="2305" selection-end="2305" vertical-scroll-proportion="0.0" vertical-offset="648" max-vertical-offset="1309" />
+        <state line="62" column="83" selection-start="2305" selection-end="2305" vertical-scroll-proportion="0.0" vertical-offset="648" max-vertical-offset="1309">
+          <folding>
+            <element signature="e#2840#2841#0" expanded="true" />
+            <element signature="e#2880#2881#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -1249,7 +1468,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/essence/Essence-Logging/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/essence/Essence-Dto/pom.xml">
@@ -1292,21 +1513,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="17" selection-start="317" selection-end="317" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/user/business/impl/UserBackendServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="93" selection-start="702" selection-end="702" vertical-scroll-proportion="0.0" vertical-offset="1836" max-vertical-offset="2652">
-          <folding>
-            <element signature="e#1249#1250#0" expanded="false" />
-            <element signature="e#1311#1312#0" expanded="false" />
-            <element signature="e#1364#1365#0" expanded="false" />
-            <element signature="e#1394#1395#0" expanded="false" />
-            <element signature="e#1459#1460#0" expanded="false" />
-            <element signature="e#1490#1491#0" expanded="false" />
-            <element signature="e#1681#1693#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1361,7 +1567,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/essence/Essence-Security/src/main/java/com/deniz/role/persistence/entity/AppRoleEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="13" selection-start="690" selection-end="690" vertical-scroll-proportion="0.27175844" vertical-offset="0" max-vertical-offset="884" />
+        <state line="19" column="13" selection-start="690" selection-end="690" vertical-scroll-proportion="0.27175844" vertical-offset="0" max-vertical-offset="884">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/essence/Essence-Security/src/main/java/com/deniz/framework/security/ThreadLocalRequestInfoProvider.java">
@@ -1415,9 +1623,81 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/essence/Essence-Servlet/src/main/java/com/deniz/framework/controller/ResourceDelegatorServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="8" selection-start="8" selection-end="38" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1921">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/essence/Essence-Logging/src/main/java/com/deniz/framework/logging/layout/AnonymizedPatternLayout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="8" selection-start="8" selection-end="42" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/resources/logging/log4j.cloudbees.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="57" selection-start="0" selection-end="2158" vertical-scroll-proportion="-2.0877192" vertical-offset="0" max-vertical-offset="1156">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/resources/logging/log4j.local-udy.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="55" selection-start="1414" selection-end="1414" vertical-scroll-proportion="0.46037737" vertical-offset="283" max-vertical-offset="1156">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/resources/configuration/app.cloudbees.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="47" selection-start="858" selection-end="858" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="867">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/user/persistence/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="18" selection-start="723" selection-end="723" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1071">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/user/business/UserBusinessService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="17" selection-start="658" selection-end="658" vertical-scroll-proportion="-0.7641509" vertical-offset="626" max-vertical-offset="1156">
+        <state line="18" column="0" selection-start="626" selection-end="640" vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="1156">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/user/business/impl/UserBackendServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="14" selection-start="1156" selection-end="1156" vertical-scroll-proportion="0.0" vertical-offset="122" max-vertical-offset="2550">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/user/persistence/impl/UserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="22" selection-start="574" selection-end="574" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="986">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/user/business/UserBackendService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="68" selection-start="1794" selection-end="1794" vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="2210">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/framework/impl/SetupDataServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="45" selection-start="1204" selection-end="1204" vertical-scroll-proportion="0.791498" vertical-offset="0" max-vertical-offset="510">
           <folding />
         </state>
       </provider>

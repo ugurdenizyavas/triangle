@@ -34,7 +34,7 @@ public interface UserDao extends FrameworkDao<UserEntity> {
 	/**
 	 * Get childs of given user
 	 * 
-	 * @param userId
+	 * @param user
 	 *            specified user
 	 * @return list of children
 	 */
