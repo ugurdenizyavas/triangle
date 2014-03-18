@@ -42,12 +42,12 @@
         <level value="INFO"/>
     </category>
 
-    <category name="com.celebi.framework.utils.servlet.ResourceDelegatorServlet">
+    <category name="com.deniz.framework.controller.ResourceDelegatorServlet">
         <level value="ERROR"/>
     </category>
 
-    <category name="com.celebi">
-        <level value="ERROR"/>
+    <category name="com.deniz">
+        <level value="INFO"/>
     </category>
 
     <category name="org.hibernate">
@@ -57,7 +57,6 @@
     <root>
         <priority value="DEBUG"/>
         <appender-ref ref="CONSOLE"/>
-        <appender-ref ref="COMPLETE"/>
     </root>
 
 </log4j:configuration>

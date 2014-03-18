@@ -6,7 +6,7 @@
         <param name="Threshold" value="INFO"/>
 
         <layout class="com.deniz.framework.logging.layout.AnonymizedPatternLayout">
-	        <param name="ConversionPattern"
+            <param name="ConversionPattern"
                    value="%d{yyyy-MM-dd HH:mm:ss.SSS} useradmin %-5p %X{loginname} %X{sessionid} %c %m  %X{duration} %n"/>
         </layout>
     </appender>
@@ -17,22 +17,22 @@
         <param name="Threshold" value="TRACE"/>
         <param name="Encoding" value="ISO-8859-1"/>
         <layout class="com.deniz.framework.logging.layout.AnonymizedPatternLayout">
-	        <param name="ConversionPattern"
+            <param name="ConversionPattern"
                    value="%d{yyyy-MM-dd HH:mm:ss.SSS} useradmin %-5p %X{loginname} %X{sessionid} %c %m  %X{duration} %n"/>
         </layout>
     </appender>
 
-	<!-- Technology Stack -->
-	<category name="org.springframework">
-		<level value="DEBUG" />
-	</category>
+    <!-- Technology Stack -->
+    <category name="org.springframework">
+        <level value="INFO"/>
+    </category>
 
-	<!-- This class logs on info level to see what spring configuration was 
-		loaded -->
-	<category
-		name="org.springframework.beans.factory.xml.XmlBeanDefinitionReader">
-		<priority value="INFO" />
-	</category>
+    <!-- This class logs on info level to see what spring configuration was
+        loaded -->
+    <category
+            name="org.springframework.beans.factory.xml.XmlBeanDefinitionReader">
+        <priority value="INFO"/>
+    </category>
 
     <category name="freemarker.cache">
         <level value="INFO"/>
@@ -41,23 +41,22 @@
     <category name="org.apache.commons.beanutils.ConvertUtils">
         <level value="INFO"/>
     </category>
-    
-    <category name="com.celebi.framework.utils.servlet.ResourceDelegatorServlet">
+
+    <category name="com.deniz.framework.controller.ResourceDelegatorServlet">
         <level value="ERROR"/>
     </category>
-    
-	<category name="com.celebi">
-		<level value="ERROR" />
-	</category>
 
-	<category name="org.hibernate">
-		<level value="ERROR" />
-	</category>
+    <category name="com.deniz">
+        <level value="INFO"/>
+    </category>
+
+    <category name="org.hibernate">
+        <level value="INFO"/>
+    </category>
 
     <root>
         <priority value="DEBUG"/>
         <appender-ref ref="CONSOLE"/>
-        <appender-ref ref="COMPLETE"/>
     </root>
 
 </log4j:configuration>
