@@ -18,20 +18,20 @@ import com.deniz.framework.persistence.entity.AbstractEntity;
 @SequenceGenerator( name = "ONE_SEQUENCE_PER_ENTITY_GENERATOR", sequenceName = "APP_USER_USER_GROUP_SEQ" )
 public class AppUserUserGroupEntity extends AbstractEntity
 {
-	private AppUserEntity user;
+	private AppUserEntity userEntity;
 	private AppUserGroupEntity userGroup;
 
 	@ManyToOne
 	@JoinColumns( { @JoinColumn( name = "USER_ID", referencedColumnName = "id", nullable = false )})
-	public AppUserEntity getUser()
+	public AppUserEntity getUserEntity()
 	{
-		return user;
+		return userEntity;
 	}
 
 
-	public void setUser( AppUserEntity user )
+	public void setUserEntity( AppUserEntity userEntity )
 	{
-		this.user = user;
+		this.userEntity = userEntity;
 	}
 
 
@@ -53,7 +53,7 @@ public class AppUserUserGroupEntity extends AbstractEntity
 	@Override
 	public String getInfo()
 	{
-		return "user " + user + " with group " + userGroup;
+		return "user " + userEntity + " with group " + userGroup;
 	}
 
 

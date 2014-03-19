@@ -21,11 +21,12 @@ public class SetupDataServiceImpl extends AbstractSetupDataServiceImpl {
     @Transactional
     public void insertData() {
         // Hijack first user ancestor issue by adding it from backend
+        /*
         UserEntity firstUser = new UserEntity();
         firstUser.setSimpleName("ozgen");
         firstUser.setPassword("123456");
         firstUser.setEmail("ozgenerdem@hotmail.com");
         firstUser.setReference("AUJ34DEW");
-        this.userBackendService.newUser(firstUser);
+        this.userBackendService.newUser(firstUser);  */
     }
 }

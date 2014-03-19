@@ -47,11 +47,11 @@
     </category>
 
     <category name="com.deniz">
-        <level value="INFO"/>
+        <priority value="INFO"/>
     </category>
 
     <category name="org.hibernate">
-        <level value="ERROR"/>
+        <priority value="INFO"/>
     </category>
 
     <root>

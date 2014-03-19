@@ -106,7 +106,7 @@ public class AppRoleInteractionsServiceImpl implements AppRoleInteractionsServic
 			AppUserGroupEntity appUserGroupEntity = roleInteractionsDao.getUserGroupByUserGroupName(userGroupName);
 			AppUserUserGroupEntity appUserUserGroupEntity = new AppUserUserGroupEntity();
 			appUserUserGroupEntity.setUserGroup(appUserGroupEntity);
-			appUserUserGroupEntity.setUser(appUserEntity);
+			appUserUserGroupEntity.setUserEntity(appUserEntity);
 			roleInteractionsDao.save(appUserUserGroupEntity);
 		}
 	}

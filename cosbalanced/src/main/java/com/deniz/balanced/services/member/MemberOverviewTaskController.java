@@ -1,7 +1,10 @@
 package com.deniz.balanced.services.member;
 
+import com.deniz.balanced.mission.business.MissionBusinessService;
+import com.deniz.balanced.mission.business.domain.MissionDto;
 import com.deniz.balanced.user.business.UserBusinessService;
 import com.deniz.balanced.user.business.domain.UserDto;
+import com.deniz.balanced.user.business.exception.DataAlreadyExistException;
 import com.deniz.balanced.user.business.exception.NotValidIdException;
 import com.deniz.framework.controller.TaskControllerTemplate;
 import com.deniz.framework.controller.enums.CosJsonTriggerEnum;
@@ -17,6 +20,11 @@ import java.util.List;
 public class MemberOverviewTaskController extends TaskControllerTemplate {
 
     private UserBusinessService userBusinessService;
+    private MissionBusinessService missionBusinessService;
+
+    public void setMissionBusinessService(MissionBusinessService missionBusinessService) {
+        this.missionBusinessService = missionBusinessService;
+    }
 
     @Required
     public void setUserBusinessService(UserBusinessService userBusinessService) {
@@ -25,6 +33,19 @@ public class MemberOverviewTaskController extends TaskControllerTemplate {
 
     @Override
     public CosJsonFundamental init(HttpServletRequest request) throws JSONException {
+
+        logger.info("here");
+        MissionDto missionDto = new MissionDto();
+        missionDto.getSimpleNameMeta().setValue("missione");
+        try {
+            logger.info("hereagain");
+            missionBusinessService.addMission(missionDto);
+        } catch (DataAlreadyExistException e) {
+            logger.info("nowhere");
+            logger.info(e.getMessage());
+            e.printStackTrace();
+        }
+        logger.info("nowhereeeee");
         CosJsonArray<CosJsonObject> items = new CosJsonArray<CosJsonObject>();
 
         createFilters(items);

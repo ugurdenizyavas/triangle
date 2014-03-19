@@ -75,7 +75,7 @@ public class MissionBackendServiceImpl extends AbstractBackendService<MissionEnt
 			MissionEntity mission = getById(missionId);
 			UserEntity user = this.userBackendService.getById(userId);
 			userMissionEntity.setMission(mission);
-			userMissionEntity.setUser(user);
+			userMissionEntity.setUserEntity(user);
 			userMissionEntity.setSimpleName(user.getSimpleName() + mission.getSimpleName());
 			this.userMissionDao.save(userMissionEntity);
 			this.logger.debug("User " + user.getInfo() + " has completed mission: " + mission.getInfo());
