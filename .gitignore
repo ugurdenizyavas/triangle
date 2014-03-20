@@ -15,7 +15,6 @@
 *.iml
 *.ipr
 *.iws
-.idea
 target/
 
 # Project generated files
