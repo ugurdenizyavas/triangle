@@ -3,17 +3,17 @@
 
     <appender name="CONSOLE" class="org.apache.log4j.ConsoleAppender">
         <param name="Target" value="System.out"/>
-        <param name="Threshold" value="INFO"/>
+        <param name="Threshold" value="DEBUG"/>
 
         <layout class="com.deniz.framework.logging.layout.AnonymizedPatternLayout">
             <param name="ConversionPattern"
-                   value="%d{yyyy-MM-dd HH:mm:ss.SSS} useradmin %-5p %X{loginname} %X{sessionid} %c %m  %X{duration} %n"/>
+                   value="%d{yyyy-MM-dd HH:mm:ss.SSS} triangle %-5p %X{loginname} %X{sessionid} %c %m  %X{duration} %n"/>
         </layout>
     </appender>
 
     <appender name="COMPLETE" class="org.apache.log4j.DailyRollingFileAppender">
         <param name="File"
-               value="${id.app.root}/useradmin/logs/useradmin-complete.log"/>
+               value="${id.app.root}/triangle/logs/triangle-complete.log"/>
         <param name="Threshold" value="TRACE"/>
         <param name="Encoding" value="ISO-8859-1"/>
         <layout class="com.deniz.framework.logging.layout.AnonymizedPatternLayout">
@@ -24,7 +24,7 @@
 
     <!-- Technology Stack -->
     <category name="org.springframework">
-        <level value="INFO"/>
+        <level value="DEBUG"/>
     </category>
 
     <!-- This class logs on info level to see what spring configuration was
@@ -34,29 +34,26 @@
         <priority value="INFO"/>
     </category>
 
-    <category name="freemarker.cache">
-        <level value="INFO"/>
-    </category>
-
     <category name="org.apache.commons.beanutils.ConvertUtils">
         <level value="INFO"/>
     </category>
 
     <category name="com.deniz.framework.controller.ResourceDelegatorServlet">
-        <level value="ERROR"/>
+        <level value="DEBUG"/>
     </category>
 
     <category name="com.deniz">
-        <level value="INFO"/>
+        <level value="DEBUG"/>
     </category>
 
     <category name="org.hibernate">
-        <level value="INFO"/>
+        <level value="DEBUG"/>
     </category>
 
     <root>
         <priority value="DEBUG"/>
         <appender-ref ref="CONSOLE"/>
+        <appender-ref ref="COMPLETE"/>
     </root>
 
 </log4j:configuration>

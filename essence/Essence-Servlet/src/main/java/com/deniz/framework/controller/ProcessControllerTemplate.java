@@ -197,7 +197,7 @@ public abstract class ProcessControllerTemplate extends MultiActionController
 	/**
 	 * Takes first task if process is initializing; else gets from request
 	 * 
-	 * @param request
+	 * @param pathInfo
 	 * @param isProcessInit
 	 * @return
 	 */

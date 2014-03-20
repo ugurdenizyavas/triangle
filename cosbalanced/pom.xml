@@ -7,6 +7,7 @@
         <groupId>com.deniz.balanced</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
+    <version>1.0-SNAPSHOT</version>
     <modelVersion>4.0.0</modelVersion>
     <packaging>war</packaging>
 
@@ -21,11 +22,6 @@
             <version>${json.version}</version>
         </dependency>
 
-        <dependency>
-            <groupId>javassist</groupId>
-            <artifactId>javassist</artifactId>
-            <version>${javassist.version}</version>
-        </dependency>
 
         <dependency>
             <groupId>org.easymock</groupId>
@@ -40,7 +36,24 @@
         </dependency>
 
 
+        <dependency>
+            <groupId>javassist</groupId>
+            <artifactId>javassist</artifactId>
+            <version>${javassist.version}</version>
+        </dependency>
+
         -->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>servlet-api</artifactId>
+            <version>${servlet.api.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+            <version>${slf4j.version}</version>
+        </dependency>
 
         <dependency>
             <groupId>org.springframework</groupId>
@@ -57,34 +70,33 @@
         <dependency>
             <groupId>com.deniz.essence</groupId>
             <artifactId>servlet</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>${essence.version}</version>
         </dependency>
 
         <dependency>
             <groupId>com.deniz.essence</groupId>
             <artifactId>persistence</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>${essence.version}</version>
         </dependency>
 
         <dependency>
             <groupId>com.deniz.essence</groupId>
             <artifactId>setup-data</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>${essence.version}</version>
         </dependency>
 
         <dependency>
             <groupId>com.deniz.essence</groupId>
             <artifactId>configuration</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>${essence.version}</version>
         </dependency>
 
         <dependency>
             <groupId>com.deniz.essence</groupId>
             <artifactId>business</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>${essence.version}</version>
         </dependency>
     </dependencies>
-
     <build>
         <resources>
             <!-- copy all resources except property files in /stages -->
@@ -108,7 +120,7 @@
                 Module 'configuration' ############################################################################### -->
 
             <!-- Replace ${app.configuration.stage} in the file configuration.spring.xml
-                with e.g. test-idg_obelisk -->
+                with e.g. cloudbees -->
             <resource>
                 <directory>src/main/resources</directory>
                 <filtering>true</filtering>
@@ -117,35 +129,17 @@
                 </includes>
             </resource>
         </resources>
+
         <plugins>
             <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>2.0.2</version>
-                <configuration>
-                    <encoding>cp1252</encoding>
-                    <source>1.6</source>
-                    <target>1.6</target>
-                </configuration>
+                <groupId>com.cloudbees</groupId>
+                <artifactId>bees-maven-plugin</artifactId>
+                <version>1.3.2</version>
             </plugin>
 
         </plugins>
 
-    </build>
 
-    <profiles>
-        <profile>
-            <id>local-udy</id>
-            <properties>
-                <app.configuration.stage>local-udy</app.configuration.stage>
-            </properties>
-        </profile>
-        <profile>
-            <id>cloudbees</id>
-            <properties>
-                <app.configuration.stage>cloudbees</app.configuration.stage>
-            </properties>
-        </profile>
-    </profiles>
+    </build>
 
 </project>

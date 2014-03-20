@@ -20,15 +20,9 @@
         </dependency>
 
         <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-tx</artifactId>
-            <version>${spring.version}</version>
-        </dependency>
-
-        <dependency>
             <groupId>com.deniz.essence</groupId>
             <artifactId>dto</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>${essence.version}</version>
         </dependency>
     </dependencies>
 

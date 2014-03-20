@@ -7,7 +7,7 @@ import org.apache.commons.lang.StringUtils;
 
 /**
  * Utility class that deals with Java Reflection logic that is used in the
- * {@link com.celebi.framework.dto.converter.business.impl.ObjectConverterServiceImpl} or it's subcomponents.
+ * {@link com.deniz.framework.dto.converter.business.impl.ObjectConverterServiceImpl} or it's subcomponents.
  * <p>
  * 
  * @author Deniz Yavas
