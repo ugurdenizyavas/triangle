@@ -2,15 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="245aa61e-f480-4b4c-9fb1-01ea3fe98967" name="Default" comment="Configuration">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Business/.gitignore" afterPath="$PROJECT_DIR$/essence/Essence-Business/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Configuration/.gitignore" afterPath="$PROJECT_DIR$/essence/Essence-Configuration/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Dto/.gitignore" afterPath="$PROJECT_DIR$/essence/Essence-Dto/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Logging/.gitignore" afterPath="$PROJECT_DIR$/essence/Essence-Logging/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Persistence/.gitignore" afterPath="$PROJECT_DIR$/essence/Essence-Persistence/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Security/.gitignore" afterPath="$PROJECT_DIR$/essence/Essence-Security/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Servlet/.gitignore" afterPath="$PROJECT_DIR$/essence/Essence-Servlet/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-SetupData/.gitignore" afterPath="$PROJECT_DIR$/essence/Essence-SetupData/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Triangle.iws" />
@@ -91,17 +82,7 @@
     <favorites_list name="Triangle" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/essence/Essence-SetupData/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="0" selection-start="550" selection-end="550" vertical-scroll-proportion="0.924612" vertical-offset="246" max-vertical-offset="765">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -297,6 +278,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -517,10 +500,22 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Triangle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Triangle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".idea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -719,6 +714,17 @@
       <patterns />
       <method />
     </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings />
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
     <configuration default="true" type="cloudbees-deploy" factoryName="CloudBees Deployment">
       <method />
     </configuration>
@@ -755,17 +761,6 @@
       <option name="screenWidth" value="0" />
       <option name="url" value="http://" />
       <option name="usbDebugPort" value="7936" />
-      <method />
-    </configuration>
-    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
-      <deployment />
-      <server-settings />
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method />
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
@@ -1067,7 +1062,8 @@
       <workItem from="1395301276867" duration="2856000" />
       <workItem from="1395304145871" duration="1845000" />
       <workItem from="1395305998844" duration="8506000" />
-      <workItem from="1395327208385" duration="507000" />
+      <workItem from="1395327208385" duration="788000" />
+      <workItem from="1395328021844" duration="34000" />
     </task>
     <task id="LOCAL-00001" summary="cloudbee properties&#10;">
       <created>1394629139624</created>
@@ -1173,7 +1169,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97679000" />
+    <option name="totallyTimeSpent" value="97994000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -1214,15 +1210,14 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39848813" sideWeight="0.2891374" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937366" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32829374" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937366" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23855165" sideWeight="0.5144445" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275862" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25559106" sideWeight="0.6711111" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4827214" sideWeight="0.659375" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25559106" sideWeight="0.6711111" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4827214" sideWeight="0.659375" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1230,6 +1225,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Heroku" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33693305" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32829374" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1265,13 +1261,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/essence/Essence-Persistence/src/main/resources/spring/com/deniz/framework/persistence/persistence.spring.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="64" selection-start="2012" selection-end="2012" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="1598">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$MAVEN_REPOSITORY$/org/springframework/spring-orm/3.0.2.RELEASE/spring-orm-3.0.2.RELEASE.pom">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-3.5682595" vertical-offset="2091" max-vertical-offset="4131" />
@@ -1279,16 +1268,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/essence/Essence-Persistence/src/main/java/com/deniz/framework/persistence/entity/AbstractEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="9" selection-start="1368" selection-end="1368" vertical-scroll-proportion="0.0" vertical-offset="438" max-vertical-offset="1785">
-          <folding />
-        </state>
+        <state line="45" column="9" selection-start="1368" selection-end="1368" vertical-scroll-proportion="0.0" vertical-offset="438" max-vertical-offset="1785" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/essence/Essence-Persistence/src/main/java/com/deniz/framework/persistence/DaoTemplate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="45" selection-start="1121" selection-end="1121" vertical-scroll-proportion="0.0" vertical-offset="2249" max-vertical-offset="2822">
-          <folding />
-        </state>
+        <state line="48" column="45" selection-start="1121" selection-end="1121" vertical-scroll-proportion="0.0" vertical-offset="2249" max-vertical-offset="2822" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/essence/Essence-Persistence/src/main/java/com/deniz/framework/persistence/PersistenceOperation.java">
@@ -1303,37 +1288,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/essence/Essence-Logging/src/main/java/com/deniz/framework/logging/layout/AnonymizedPatternLayout.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="23" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0" vertical-offset="103" max-vertical-offset="850">
-          <folding />
-        </state>
+        <state line="5" column="23" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0" vertical-offset="103" max-vertical-offset="850" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/essence/Essence-Business/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="945" selection-end="945" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
-          <folding />
-        </state>
+        <state line="26" column="0" selection-start="945" selection-end="945" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/essence/Essence-SetupData/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="18" selection-start="543" selection-end="543" vertical-scroll-proportion="0.3771331" vertical-offset="0" max-vertical-offset="586">
-          <folding />
-        </state>
+        <state line="13" column="18" selection-start="543" selection-end="543" vertical-scroll-proportion="0.3771331" vertical-offset="0" max-vertical-offset="586" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/essence/Essence-Logging/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="18" selection-start="540" selection-end="540" vertical-scroll-proportion="0.3771331" vertical-offset="0" max-vertical-offset="586">
-          <folding />
-        </state>
+        <state line="13" column="18" selection-start="540" selection-end="540" vertical-scroll-proportion="0.3771331" vertical-offset="0" max-vertical-offset="586" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/essence/Essence-Configuration/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="21" selection-start="777" selection-end="777" vertical-scroll-proportion="0.55119455" vertical-offset="0" max-vertical-offset="586">
-          <folding />
-        </state>
+        <state line="19" column="21" selection-start="777" selection-end="777" vertical-scroll-proportion="0.55119455" vertical-offset="0" max-vertical-offset="586" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -1357,9 +1332,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/essence/Essence-Dto/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="71" selection-start="536" selection-end="536" vertical-scroll-proportion="0.0" vertical-offset="9" max-vertical-offset="561">
-          <folding />
-        </state>
+        <state line="13" column="71" selection-start="536" selection-end="536" vertical-scroll-proportion="0.0" vertical-offset="9" max-vertical-offset="561" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/essence/Essence-Persistence/pom.xml">
@@ -1371,23 +1344,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/user/persistence/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="17" selection-start="286" selection-end="286" vertical-scroll-proportion="0.0" vertical-offset="91" max-vertical-offset="1071">
-          <folding />
-        </state>
+        <state line="13" column="17" selection-start="286" selection-end="286" vertical-scroll-proportion="0.0" vertical-offset="91" max-vertical-offset="1071" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/user/persistence/entity/UserEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="530" selection-end="530" vertical-scroll-proportion="0.0" vertical-offset="10" max-vertical-offset="1632">
-          <folding />
-        </state>
+        <state line="11" column="13" selection-start="530" selection-end="530" vertical-scroll-proportion="0.0" vertical-offset="10" max-vertical-offset="1632" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/user/persistence/impl/UserDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="69" selection-start="703" selection-end="703" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="986">
-          <folding />
-        </state>
+        <state line="18" column="69" selection-start="703" selection-end="703" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="986" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/3.0.2.RELEASE/spring-beans-3.0.2.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.java">
@@ -1402,19 +1369,12 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/3.0.2.RELEASE/spring-beans-3.0.2.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="611" column="0" selection-start="23921" selection-end="23921" vertical-scroll-proportion="-1.7368422" vertical-offset="10084" max-vertical-offset="17357">
-          <folding>
-            <element signature="e#0#38956#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="611" column="0" selection-start="23921" selection-end="23921" vertical-scroll-proportion="-1.7368422" vertical-offset="10084" max-vertical-offset="17357" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/3.0.2.RELEASE/spring-beans-3.0.2.RELEASE-sources.jar!/org/springframework/beans/factory/support/BeanDefinitionReaderUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="156" column="0" selection-start="6063" selection-end="6063" vertical-scroll-proportion="0.0" vertical-offset="2189" max-vertical-offset="2771">
-          <folding />
-        </state>
+        <state line="156" column="0" selection-start="6063" selection-end="6063" vertical-scroll-proportion="0.0" vertical-offset="2189" max-vertical-offset="2771" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/resources/spring/com/deniz/balanced/user/user.spring.xml">
@@ -1445,73 +1405,22 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/3.0.2.RELEASE/spring-beans-3.0.2.RELEASE-sources.jar!/org/springframework/beans/factory/xml/XmlBeanDefinitionReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="301" column="0" selection-start="11639" selection-end="11639" vertical-scroll-proportion="0.0" vertical-offset="3988" max-vertical-offset="8058">
-          <folding>
-            <element signature="e#0#20841#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#4909#4931#0" expanded="false" />
-            <element signature="e#6350#6351#0" expanded="false" />
-            <element signature="e#6393#6394#0" expanded="false" />
-            <element signature="e#6477#6478#0" expanded="false" />
-            <element signature="e#6510#6511#0" expanded="false" />
-            <element signature="e#6860#6861#0" expanded="false" />
-            <element signature="e#6903#6904#0" expanded="false" />
-            <element signature="e#7023#7024#0" expanded="false" />
-            <element signature="e#7056#7057#0" expanded="false" />
-            <element signature="e#8847#8848#0" expanded="false" />
-            <element signature="e#8910#8911#0" expanded="false" />
-            <element signature="e#9548#9549#0" expanded="false" />
-            <element signature="e#9591#9592#0" expanded="false" />
-            <element signature="e#10555#10556#0" expanded="false" />
-            <element signature="e#10594#10595#0" expanded="false" />
-            <element signature="e#19820#19850#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="301" column="0" selection-start="11639" selection-end="11639" vertical-scroll-proportion="0.0" vertical-offset="3988" max-vertical-offset="8058" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/3.0.2.RELEASE/spring-beans-3.0.2.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractBeanDefinitionReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="148" column="0" selection-start="5332" selection-end="5332" vertical-scroll-proportion="0.0" vertical-offset="1730" max-vertical-offset="3128">
-          <folding>
-            <element signature="e#0#8057#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#3059#3060#0" expanded="false" />
-            <element signature="e#3086#3087#0" expanded="false" />
-            <element signature="e#3140#3141#0" expanded="false" />
-            <element signature="e#3167#3168#0" expanded="false" />
-            <element signature="e#3877#3878#0" expanded="false" />
-            <element signature="e#3920#3921#0" expanded="false" />
-            <element signature="e#3966#3967#0" expanded="false" />
-            <element signature="e#3999#4000#0" expanded="false" />
-            <element signature="e#4392#4393#0" expanded="false" />
-            <element signature="e#4437#4438#0" expanded="false" />
-            <element signature="e#4481#4482#0" expanded="false" />
-            <element signature="e#4515#4516#0" expanded="false" />
-            <element signature="e#4918#4919#0" expanded="false" />
-            <element signature="e#4954#4955#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="148" column="0" selection-start="5332" selection-end="5332" vertical-scroll-proportion="0.0" vertical-offset="1730" max-vertical-offset="3128" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.0.2.RELEASE/spring-web-3.0.2.RELEASE-sources.jar!/org/springframework/web/context/ContextLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="216" column="0" selection-start="9350" selection-end="9350" vertical-scroll-proportion="0.0" vertical-offset="3013" max-vertical-offset="6630">
-          <folding>
-            <element signature="e#0#17992#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#6646#6682#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="216" column="0" selection-start="9350" selection-end="9350" vertical-scroll-proportion="0.0" vertical-offset="3013" max-vertical-offset="6630" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.0.2.RELEASE/spring-web-3.0.2.RELEASE-sources.jar!/org/springframework/web/context/support/XmlWebApplicationContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="61" selection-start="3040" selection-end="3040" vertical-scroll-proportion="-2.5789473" vertical-offset="567" max-vertical-offset="2227">
-          <folding>
-            <element signature="e#0#6445#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
+        <state line="61" column="61" selection-start="3040" selection-end="3040" vertical-scroll-proportion="-2.5789473" vertical-offset="567" max-vertical-offset="2227" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.0.2.RELEASE/spring-web-3.0.2.RELEASE-sources.jar!/org/springframework/web/context/support/AbstractRefreshableWebApplicationContext.java">
@@ -1538,16 +1447,12 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.0.2.RELEASE/spring-web-3.0.2.RELEASE-sources.jar!/org/springframework/web/context/ContextLoaderListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="82" selection-start="1770" selection-end="1770" vertical-scroll-proportion="0.48979592" vertical-offset="420" max-vertical-offset="1224">
-          <folding />
-        </state>
+        <state line="51" column="82" selection-start="1770" selection-end="1770" vertical-scroll-proportion="0.48979592" vertical-offset="420" max-vertical-offset="1224" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/services/member/MemberInfoTaskController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="25" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
-          <folding />
-        </state>
+        <state line="7" column="25" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/resources/logging/log4j.local-udy.xml">
@@ -1559,16 +1464,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/essence/Essence-Security/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="24" selection-start="634" selection-end="634" vertical-scroll-proportion="0.0" vertical-offset="111" max-vertical-offset="1071">
-          <folding />
-        </state>
+        <state line="18" column="24" selection-start="634" selection-end="634" vertical-scroll-proportion="0.0" vertical-offset="111" max-vertical-offset="1071" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/essence/Essence-Servlet/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="737" selection-end="963" vertical-scroll-proportion="0.0" vertical-offset="196" max-vertical-offset="986">
-          <folding />
-        </state>
+        <state line="21" column="0" selection-start="737" selection-end="963" vertical-scroll-proportion="0.0" vertical-offset="196" max-vertical-offset="986" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/webapp/WEB-INF/web.xml">
@@ -1580,9 +1481,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/essence/Essence-Dto/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="0" selection-start="550" selection-end="550" vertical-scroll-proportion="0.9205608" vertical-offset="269" max-vertical-offset="765">
-          <folding />
-        </state>
+        <state line="39" column="0" selection-start="550" selection-end="550" vertical-scroll-proportion="0.9205608" vertical-offset="269" max-vertical-offset="765" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/essence/Essence-Configuration/.gitignore">
@@ -1601,9 +1500,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="42" selection-start="0" selection-end="550" vertical-scroll-proportion="0.26385808" vertical-offset="204" max-vertical-offset="765">
-          <folding />
-        </state>
+        <state line="19" column="42" selection-start="0" selection-end="550" vertical-scroll-proportion="0.26385808" vertical-offset="204" max-vertical-offset="765" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cosbalanced/pom.xml">
@@ -1615,37 +1512,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/essence/Essence-Logging/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="0" selection-start="550" selection-end="550" vertical-scroll-proportion="0.924612" vertical-offset="246" max-vertical-offset="765">
-          <folding />
-        </state>
+        <state line="39" column="0" selection-start="550" selection-end="550" vertical-scroll-proportion="0.924612" vertical-offset="246" max-vertical-offset="765" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/essence/Essence-Persistence/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="0" selection-start="550" selection-end="550" vertical-scroll-proportion="0.924612" vertical-offset="246" max-vertical-offset="765">
-          <folding />
-        </state>
+        <state line="39" column="0" selection-start="550" selection-end="550" vertical-scroll-proportion="0.924612" vertical-offset="246" max-vertical-offset="765" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/essence/Essence-Security/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="0" selection-start="550" selection-end="550" vertical-scroll-proportion="0.924612" vertical-offset="246" max-vertical-offset="765">
-          <folding />
-        </state>
+        <state line="39" column="0" selection-start="550" selection-end="550" vertical-scroll-proportion="0.924612" vertical-offset="246" max-vertical-offset="765" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/essence/Essence-Servlet/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="0" selection-start="550" selection-end="550" vertical-scroll-proportion="0.924612" vertical-offset="246" max-vertical-offset="765">
-          <folding />
-        </state>
+        <state line="39" column="0" selection-start="550" selection-end="550" vertical-scroll-proportion="0.924612" vertical-offset="246" max-vertical-offset="765" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/essence/Essence-SetupData/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="0" selection-start="550" selection-end="550" vertical-scroll-proportion="0.924612" vertical-offset="246" max-vertical-offset="765">
-          <folding />
-        </state>
+        <state line="39" column="0" selection-start="550" selection-end="550" vertical-scroll-proportion="0.924612" vertical-offset="246" max-vertical-offset="765" />
       </provider>
     </entry>
   </component>
