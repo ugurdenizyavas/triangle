@@ -1,41 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="245aa61e-f480-4b4c-9fb1-01ea3fe98967" name="Default" comment="Configuration&#10;">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_3_0_2_RELEASE.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Configuration/src/main/java/com/deniz/framework/configuration/ApplicationConfigurationLogger.java" afterPath="$PROJECT_DIR$/essence/Essence-Configuration/src/main/java/com/deniz/framework/configuration/ApplicationConfigurationLogger.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Dto/src/main/java/com/deniz/framework/dto/converter/business/impl/Copier.java" afterPath="$PROJECT_DIR$/essence/Essence-Dto/src/main/java/com/deniz/framework/dto/converter/business/impl/Copier.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Servlet/src/main/java/com/deniz/framework/controller/model/CosJsonColumn.java" afterPath="$PROJECT_DIR$/essence/Essence-Servlet/src/main/java/com/deniz/framework/controller/model/CosJsonColumn.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Dto/src/main/java/com/deniz/framework/dto/converter/business/ObjectConverterService.java" afterPath="$PROJECT_DIR$/essence/Essence-Dto/src/main/java/com/deniz/framework/dto/converter/business/ObjectConverterService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Dto/src/main/java/com/deniz/framework/dto/converter/business/impl/ObjectConverterServiceImpl.java" afterPath="$PROJECT_DIR$/essence/Essence-Dto/src/main/java/com/deniz/framework/dto/converter/business/impl/ObjectConverterServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Servlet/src/main/java/com/deniz/framework/controller/ProcessControllerTemplate.java" afterPath="$PROJECT_DIR$/essence/Essence-Servlet/src/main/java/com/deniz/framework/controller/ProcessControllerTemplate.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Dto/src/main/java/com/deniz/framework/dto/converter/business/impl/ReflectionUtil.java" afterPath="$PROJECT_DIR$/essence/Essence-Dto/src/main/java/com/deniz/framework/dto/converter/business/impl/ReflectionUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Dto/src/main/java/com/deniz/framework/dto/converter/business/impl/valueconverter/impl/ValueConverterImpl.java" afterPath="$PROJECT_DIR$/essence/Essence-Dto/src/main/java/com/deniz/framework/dto/converter/business/impl/valueconverter/impl/ValueConverterImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Business/business.iml" afterPath="$PROJECT_DIR$/essence/Essence-Business/business.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Configuration/configuration.iml" afterPath="$PROJECT_DIR$/essence/Essence-Configuration/configuration.iml" />
+    <list default="true" id="245aa61e-f480-4b4c-9fb1-01ea3fe98967" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_dbcp_commons_dbcp_1_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_pool_commons_pool_1_5_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_persistence_api_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_transaction_jta_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_3_3_1_GA.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cosbalanced/cosbalanced.iml" afterPath="$PROJECT_DIR$/cosbalanced/cosbalanced.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/cosbalanced_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/cosbalanced_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Dto/dto.iml" afterPath="$PROJECT_DIR$/essence/Essence-Dto/dto.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/essence.iml" afterPath="$PROJECT_DIR$/essence/essence.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cosbalanced/src/main/resources/logging/log4j.console-debug-logger.xml" afterPath="$PROJECT_DIR$/cosbalanced/src/main/resources/logging/log4j.console-debug-logger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cosbalanced/src/main/resources/logging/log4j.local-udy.xml" afterPath="$PROJECT_DIR$/cosbalanced/src/main/resources/logging/log4j.local-udy.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Logging/logging.iml" afterPath="$PROJECT_DIR$/essence/Essence-Logging/logging.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Persistence/persistence.iml" afterPath="$PROJECT_DIR$/essence/Essence-Persistence/persistence.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cosbalanced/pom.xml" afterPath="$PROJECT_DIR$/cosbalanced/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/pom.xml" afterPath="$PROJECT_DIR$/essence/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Business/pom.xml" afterPath="$PROJECT_DIR$/essence/Essence-Business/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Configuration/pom.xml" afterPath="$PROJECT_DIR$/essence/Essence-Configuration/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Dto/pom.xml" afterPath="$PROJECT_DIR$/essence/Essence-Dto/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Logging/pom.xml" afterPath="$PROJECT_DIR$/essence/Essence-Logging/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Persistence/pom.xml" afterPath="$PROJECT_DIR$/essence/Essence-Persistence/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Security/pom.xml" afterPath="$PROJECT_DIR$/essence/Essence-Security/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Servlet/pom.xml" afterPath="$PROJECT_DIR$/essence/Essence-Servlet/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-SetupData/pom.xml" afterPath="$PROJECT_DIR$/essence/Essence-SetupData/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Security/security.iml" afterPath="$PROJECT_DIR$/essence/Essence-Security/security.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Servlet/servlet.iml" afterPath="$PROJECT_DIR$/essence/Essence-Servlet/servlet.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-SetupData/setup-data.iml" afterPath="$PROJECT_DIR$/essence/Essence-SetupData/setup-data.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Triangle.iws" />
@@ -116,44 +99,7 @@
     <favorites_list name="Triangle" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="log4j.local-udy.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/resources/logging/log4j.local-udy.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="105" selection-start="1656" selection-end="1656" vertical-scroll-proportion="0.25463745" vertical-offset="512" max-vertical-offset="1105">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/essence/Essence-Security/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="24" selection-start="634" selection-end="634" vertical-scroll-proportion="0.0" vertical-offset="111" max-vertical-offset="1071">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/essence/Essence-Servlet/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="737" selection-end="963" vertical-scroll-proportion="0.0" vertical-offset="196" max-vertical-offset="986">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MemberInfoTaskController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/services/member/MemberInfoTaskController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="25" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -220,11 +166,11 @@
         <option value="$PROJECT_DIR$/essence/Essence-Dto/pom.xml" />
         <option value="$PROJECT_DIR$/essence/Essence-Configuration/pom.xml" />
         <option value="$PROJECT_DIR$/essence/Essence-SetupData/pom.xml" />
-        <option value="$PROJECT_DIR$/essence/Essence-Security/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/essence/Essence-Persistence/pom.xml" />
         <option value="$PROJECT_DIR$/cosbalanced/src/main/resources/logging/log4j.console-debug-logger.xml" />
         <option value="$PROJECT_DIR$/cosbalanced/src/main/resources/logging/log4j.local-udy.xml" />
+        <option value="$PROJECT_DIR$/essence/Essence-Security/pom.xml" />
         <option value="$PROJECT_DIR$/essence/Essence-Servlet/pom.xml" />
         <option value="$PROJECT_DIR$/cosbalanced/pom.xml" />
       </list>
@@ -396,24 +342,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="essence" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Essence-Persistence" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="cosbalanced" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -455,6 +383,40 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Triangle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Triangle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cosbalanced" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -533,128 +495,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="balanced" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="user" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="persistence" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cosbalanced" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="balanced" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="user" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="persistence" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="impl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cosbalanced" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="balanced" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="user" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cosbalanced" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="balanced" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1207,7 +1047,7 @@
       <workItem from="1395212610028" duration="2408000" />
       <workItem from="1395301276867" duration="2856000" />
       <workItem from="1395304145871" duration="1845000" />
-      <workItem from="1395305998844" duration="9060000" />
+      <workItem from="1395305998844" duration="14295000" />
     </task>
     <task id="LOCAL-00001" summary="cloudbee properties&#10;">
       <created>1394629139624</created>
@@ -1313,11 +1153,15 @@
       <created>1395318925230</created>
       <updated>1395318925230</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Configuration&#10;">
+      <created>1395319483519</created>
+      <updated>1395319483519</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97726000" />
+    <option name="totallyTimeSpent" value="102961000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -1358,7 +1202,7 @@
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39848813" sideWeight="0.2891374" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32937366" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937366" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32829374" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937366" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1366,8 +1210,8 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23855165" sideWeight="0.5144445" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275862" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25559106" sideWeight="0.6711111" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4838013" sideWeight="0.659375" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25559106" sideWeight="0.6711111" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4838013" sideWeight="0.659375" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1409,23 +1253,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/essence/Essence-Servlet/src/main/java/com/deniz/framework/controller/model/CosJsonObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="377" selection-end="377" vertical-scroll-proportion="0.11604095" vertical-offset="0" max-vertical-offset="1258">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/essence/Essence-Servlet/src/main/java/com/deniz/framework/controller/model/CosJsonListItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="13" selection-start="92" selection-end="92" vertical-scroll-proportion="0.11604095" vertical-offset="0" max-vertical-offset="586" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/essence/Essence-Servlet/src/main/java/com/deniz/framework/controller/model/CosJsonDate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/essence/Essence-Servlet/src/main/java/com/deniz/framework/controller/model/CosJsonFundamental.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="13" selection-start="93" selection-end="93" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
@@ -1435,34 +1262,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/essence/Essence-Servlet/src/main/java/com/deniz/framework/controller/model/CosJsonList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="241" selection-end="241" vertical-scroll-proportion="0.118673645" vertical-offset="0" max-vertical-offset="573" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/essence/Essence-Servlet/src/main/java/com/deniz/framework/controller/LoggingTaskControllerTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="67" selection-start="484" selection-end="484" vertical-scroll-proportion="0.059336822" vertical-offset="153" max-vertical-offset="1581">
+        <state line="9" column="13" selection-start="241" selection-end="241" vertical-scroll-proportion="0.118673645" vertical-offset="0" max-vertical-offset="573">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/essence/Essence-Servlet/src/main/java/com/deniz/framework/controller/SecurityDispatcherServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="339" selection-end="339" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1258" />
+        <state line="10" column="13" selection-start="339" selection-end="339" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1258">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/essence/Essence-Servlet/src/main/java/com/deniz/framework/controller/TaskControllerTemplate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="22" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408" />
+        <state line="10" column="22" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/essence/Essence-Servlet/src/main/java/com/deniz/framework/controller/utils/CosJsonHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="13" selection-start="405" selection-end="405" vertical-scroll-proportion="-0.24744028" vertical-offset="213" max-vertical-offset="799" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/essence/Essence-Servlet/src/main/java/com/deniz/framework/controller/ProcessControllerTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="199" column="22" selection-start="6872" selection-end="6872" vertical-scroll-proportion="0.47469458" vertical-offset="2601" max-vertical-offset="4862">
+        <state line="12" column="13" selection-start="405" selection-end="405" vertical-scroll-proportion="-0.24744028" vertical-offset="213" max-vertical-offset="799">
           <folding />
         </state>
       </provider>
@@ -1544,8 +1365,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="67" column="21" selection-start="2509" selection-end="2509" vertical-scroll-proportion="0.0" vertical-offset="723" max-vertical-offset="2091">
           <folding>
-            <marker date="1395309024315" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1395309024315" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1395320064769" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1395320064769" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -1553,13 +1374,6 @@
     <entry file="file://$PROJECT_DIR$/essence/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="0" selection-start="971" selection-end="1421" vertical-scroll-proportion="0.0" vertical-offset="247" max-vertical-offset="833">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/essence/Essence-Configuration/src/main/java/com/deniz/framework/configuration/ApplicationConfigurationLogger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="34" selection-start="501" selection-end="501" vertical-scroll-proportion="0.10471204" vertical-offset="144" max-vertical-offset="2465">
           <folding />
         </state>
       </provider>
@@ -1764,6 +1578,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/resources/logging/log4j.local-udy.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="99" selection-start="1413" selection-end="1413" vertical-scroll-proportion="0.63555557" vertical-offset="241" max-vertical-offset="1105">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/services/member/MemberInfoTaskController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="25" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
@@ -1771,30 +1592,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/essence/Essence-Security/pom.xml">
+    <entry file="file://$MAVEN_REPOSITORY$/javax/servlet/servlet-api/2.5/servlet-api-2.5.pom">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="24" selection-start="634" selection-end="634" vertical-scroll-proportion="0.0" vertical-offset="111" max-vertical-offset="1071">
+        <state line="0" column="0" selection-start="0" selection-end="10" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/essence/Essence-Servlet/pom.xml">
+    <entry file="file://$PROJECT_DIR$/essence/Essence-Configuration/src/main/java/com/deniz/framework/configuration/ApplicationConfigurationLogger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="737" selection-end="963" vertical-scroll-proportion="0.0" vertical-offset="196" max-vertical-offset="986">
+        <state line="23" column="0" selection-start="578" selection-end="578" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="2465">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/essence/Essence-Security/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="27" selection-start="1289" selection-end="1289" vertical-scroll-proportion="0.0" vertical-offset="383" max-vertical-offset="1020">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cosbalanced/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="23" selection-start="553" selection-end="553" vertical-scroll-proportion="-0.61206895" vertical-offset="576" max-vertical-offset="1819">
+        <state line="101" column="30" selection-start="3230" selection-end="3230" vertical-scroll-proportion="0.0" vertical-offset="1399" max-vertical-offset="2669">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/resources/logging/log4j.local-udy.xml">
+    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="105" selection-start="1656" selection-end="1656" vertical-scroll-proportion="0.25463745" vertical-offset="512" max-vertical-offset="1105">
+        <state line="66" column="22" selection-start="2710" selection-end="2770" vertical-scroll-proportion="0.0" vertical-offset="816" max-vertical-offset="1615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/essence/Essence-Security/src/main/java/com/deniz/framework/security/filter/DispatcherSecurityFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="13" selection-start="1031" selection-end="1031" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2788">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/essence/Essence-Servlet/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="41" selection-start="839" selection-end="839" vertical-scroll-proportion="0.0" vertical-offset="88" max-vertical-offset="986">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/essence/Essence-Servlet/src/main/java/com/deniz/framework/controller/LoggingTaskControllerTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="67" selection-start="484" selection-end="484" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1581">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/essence/Essence-Servlet/src/main/java/com/deniz/framework/controller/ProcessControllerTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="199" column="22" selection-start="6872" selection-end="6872" vertical-scroll-proportion="0.38901603" vertical-offset="2703" max-vertical-offset="4862">
           <folding />
         </state>
       </provider>

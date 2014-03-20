@@ -20,10 +20,15 @@
         </dependency>
 
         <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>${json.version}</version>
+        </dependency>
+
+        <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>servlet-api</artifactId>
             <version>${servlet.api.version}</version>
-            <scope>provided</scope>
         </dependency>
 
         <dependency>
@@ -32,11 +37,6 @@
             <version>${gson.version}</version>
         </dependency>
 
-        <dependency>
-            <groupId>org.json</groupId>
-            <artifactId>json</artifactId>
-            <version>${json.version}</version>
-        </dependency>
         <dependency>
             <groupId>com.deniz.essence</groupId>
             <artifactId>dto</artifactId>

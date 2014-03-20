@@ -22,6 +22,11 @@
             <version>${json.version}</version>
         </dependency>
 
+        <dependency>
+            <groupId>javassist</groupId>
+            <artifactId>javassist</artifactId>
+            <version>${javassist.version}</version>
+        </dependency>
 
         <dependency>
             <groupId>org.easymock</groupId>
@@ -35,19 +40,14 @@
             <version>${spring.version}</version>
         </dependency>
 
-
-        <dependency>
-            <groupId>javassist</groupId>
-            <artifactId>javassist</artifactId>
-            <version>${javassist.version}</version>
-        </dependency>
-
-        -->
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>servlet-api</artifactId>
             <version>${servlet.api.version}</version>
+            <scope>compile</scope>
         </dependency>
+
+        -->
 
         <dependency>
             <groupId>org.slf4j</groupId>
@@ -96,7 +96,14 @@
             <artifactId>business</artifactId>
             <version>${essence.version}</version>
         </dependency>
+
+        <dependency>
+            <groupId>com.deniz.essence</groupId>
+            <artifactId>security</artifactId>
+            <version>${essence.version}</version>
+        </dependency>
     </dependencies>
+
     <build>
         <resources>
             <!-- copy all resources except property files in /stages -->

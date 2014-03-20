@@ -6,7 +6,6 @@ com.deniz.balanced.business.validation
 com.deniz.balanced.business.validation.impl
 com.deniz.balanced.business.validation.impl.validator
 com.deniz.balanced.framework.business
-com.deniz.balanced.framework.business.authentication
 com.deniz.balanced.framework.business.conversion
 com.deniz.balanced.framework.business.exception
 com.deniz.balanced.framework.business.impl
