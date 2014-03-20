@@ -37,6 +37,3 @@ activemq-data/
 *.old
 *~
 *.diff
-
-# User specific files
-local-tr*.properties

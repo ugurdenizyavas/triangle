@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="245aa61e-f480-4b4c-9fb1-01ea3fe98967" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cosbalanced/cosbalanced.iml" afterPath="$PROJECT_DIR$/cosbalanced/cosbalanced.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/cosbalanced_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/cosbalanced_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cosbalanced/pom.xml" afterPath="$PROJECT_DIR$/cosbalanced/pom.xml" />
+    <list default="true" id="245aa61e-f480-4b4c-9fb1-01ea3fe98967" name="Default" comment="Configuration">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Business/.gitignore" afterPath="$PROJECT_DIR$/essence/Essence-Business/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Configuration/.gitignore" afterPath="$PROJECT_DIR$/essence/Essence-Configuration/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Dto/.gitignore" afterPath="$PROJECT_DIR$/essence/Essence-Dto/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Logging/.gitignore" afterPath="$PROJECT_DIR$/essence/Essence-Logging/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Persistence/.gitignore" afterPath="$PROJECT_DIR$/essence/Essence-Persistence/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Security/.gitignore" afterPath="$PROJECT_DIR$/essence/Essence-Security/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Servlet/.gitignore" afterPath="$PROJECT_DIR$/essence/Essence-Servlet/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-SetupData/.gitignore" afterPath="$PROJECT_DIR$/essence/Essence-SetupData/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Triangle.iws" />
@@ -86,55 +92,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="log4j.local-udy.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/resources/logging/log4j.local-udy.xml">
+      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/essence/Essence-SetupData/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="83" selection-start="1495" selection-end="1495" vertical-scroll-proportion="0.0" vertical-offset="247" max-vertical-offset="1105">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cosbalanced/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="101" column="32" selection-start="3198" selection-end="3198" vertical-scroll-proportion="0.70776254" vertical-offset="1407" max-vertical-offset="2652">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/webapp/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="79" selection-start="2767" selection-end="2767" vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="1615">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/essence/Essence-Security/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="24" selection-start="634" selection-end="634" vertical-scroll-proportion="0.0" vertical-offset="111" max-vertical-offset="1071">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/essence/Essence-Servlet/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="737" selection-end="963" vertical-scroll-proportion="0.0" vertical-offset="196" max-vertical-offset="986">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MemberInfoTaskController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/services/member/MemberInfoTaskController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="25" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="646">
+            <state line="39" column="0" selection-start="550" selection-end="550" vertical-scroll-proportion="0.924612" vertical-offset="246" max-vertical-offset="765">
               <folding />
             </state>
           </provider>
@@ -158,15 +119,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/business/validation/impl/ValidationServiceImpl.java" />
-        <option value="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/mission/business/impl/MissionBusinessServiceImpl.java" />
-        <option value="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/framework/business/impl/AbstractBackendService.java" />
-        <option value="$PROJECT_DIR$/cosbalanced/src/test/java/com/deniz/balanced/test/util/DbTableDeletionUtil.java" />
-        <option value="$PROJECT_DIR$/cosbalanced/src/test/java/com/deniz/balanced/framework/test/util/DbTableDeletionUtil.java" />
-        <option value="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/business/AccountingBackendService.java" />
-        <option value="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/business/ExperienceBackendService.java" />
-        <option value="$PROJECT_DIR$/cosbalanced/src/test/java/com/deniz/balanced/framework/test/AbstractTransactionalTest.java" />
-        <option value="$PROJECT_DIR$/cosbalanced/src/main/resources/spring.com.deniz/balanced/framework/persistence.spring.xml" />
         <option value="$PROJECT_DIR$/cosbalanced/src/main/resources/spring.com.deniz/balanced/framework/0.spring.xml" />
         <option value="$PROJECT_DIR$/cosbalanced/src/main/resources/spring.com.deniz/balanced/framework/setup.spring.xml" />
         <option value="$PROJECT_DIR$/cosbalanced/src/main/resources/spring.com.deniz/balanced/framework/frame.spring.xml" />
@@ -209,6 +161,15 @@
         <option value="$PROJECT_DIR$/cosbalanced/src/main/resources/logging/log4j.local-udy.xml" />
         <option value="$PROJECT_DIR$/essence/Essence-Servlet/pom.xml" />
         <option value="$PROJECT_DIR$/cosbalanced/pom.xml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/essence/Essence-Dto/.gitignore" />
+        <option value="$PROJECT_DIR$/essence/Essence-Configuration/.gitignore" />
+        <option value="$PROJECT_DIR$/essence/Essence-Business/.gitignore" />
+        <option value="$PROJECT_DIR$/essence/Essence-Logging/.gitignore" />
+        <option value="$PROJECT_DIR$/essence/Essence-Persistence/.gitignore" />
+        <option value="$PROJECT_DIR$/essence/Essence-Security/.gitignore" />
+        <option value="$PROJECT_DIR$/essence/Essence-Servlet/.gitignore" />
+        <option value="$PROJECT_DIR$/essence/Essence-SetupData/.gitignore" />
       </list>
     </option>
   </component>
@@ -1106,7 +1067,7 @@
       <workItem from="1395301276867" duration="2856000" />
       <workItem from="1395304145871" duration="1845000" />
       <workItem from="1395305998844" duration="8506000" />
-      <workItem from="1395327208385" duration="233000" />
+      <workItem from="1395327208385" duration="507000" />
     </task>
     <task id="LOCAL-00001" summary="cloudbee properties&#10;">
       <created>1394629139624</created>
@@ -1212,7 +1173,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97405000" />
+    <option name="totallyTimeSpent" value="97679000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -1236,7 +1197,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1064" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937366" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1288,9 +1249,9 @@
     <MESSAGE value="cloudbee properties&#10;pom versioning is changed&#10;" />
     <MESSAGE value="pom changes" />
     <MESSAGE value="cloudbees config &#10;# Please enter the commit message for your changes. Lines starting&#10;# with '#' will be ignored, and an empty message aborts the commit.&#10;# On branch master&#10;# Changes to be committed:&#10;#   (use &quot;git reset HEAD &lt;file&gt;...&quot; to unstage)&#10;#&#10;#&#9;modified:   .idea/artifacts/cosbalanced_war_exploded.xml&#10;#&#9;modified:   .idea/workspace.xml&#10;#&#9;modified:   balanced/target/apidocs/allclasses-frame.html&#10;#&#9;modified:   balanced/target/apidocs/allclasses-noframe.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/AccountingBackendService.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/AccountingBusinessService.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/AuthenticationBusinessService.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/ExperienceBackendService.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/ExperienceBusinessService.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/class-use/AccountingBackendService.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/class-use/AccountingBusinessService.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/class-use/AuthenticationBusinessService.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/class-use/ExperienceBackendService.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/class-use/ExperienceBusinessService.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/conversion/UserConverter.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/conversion/class-use/UserConverter.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/conversion/package-frame.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/conversion/package-summary.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/conversion/package-tree.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/conversion/package-use.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/enums/ExperienceRatioEnum.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/enums/class-use/ExperienceRatioEnum.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/enums/package-frame.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/enums/package-summary.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/enums/package-tree.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/enums/package-use.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/impl/AccountingBackendServiceImpl.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/impl/AccountingBusinessServiceImpl.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/impl/AuthenticationBusinessServiceImpl.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/impl/ExperienceBackendServiceImpl.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/impl/ExperienceBusinessServiceImpl.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/impl/class-use/AccountingBackendServiceImpl.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/impl/class-use/AccountingBusinessServiceImpl.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/impl/class-use/AuthenticationBusinessServiceImpl.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/impl/class-use/ExperienceBackendServiceImpl.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/impl/class-use/ExperienceBusinessServiceImpl.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/impl/package-frame.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/impl/package-summary.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/impl/package-tree.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/impl/package-use.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/package-frame.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/package-summary.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/package-tree.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/package-use.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/validation/ValidationService.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/validation/class-use/ValidationService.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/validation/impl/ValidationServiceImpl.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/validation/impl/class-use/ValidationServiceImpl.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/validation/impl/package-frame.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/validation/impl/package-summary.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/validation/impl/package-tree.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/validation/impl/package-use.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/validation/impl/validator/EmailValidator.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/validation/impl/validator/PasswordValidator.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/validation/impl/validator/class-use/EmailValidator.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/validation/impl/validator/class-use/PasswordValidator.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/validation/impl/validator/package-frame.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/validation/impl/validator/package-summary.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/validation/impl/validator/package-tree.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/validation/impl/validator/package-use.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/validation/package-frame.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/validation/package-summary.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/validation/package-tree.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/business/validation/package-use.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/business/FrameworkBackendService.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/business/FrameworkBusinessService.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/business/class-use/FrameworkBackendService.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/business/class-use/FrameworkBusinessService.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/business/conversion/AbstractEntityDtoConverter.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/business/conversion/class-use/AbstractEntityDtoConverter.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/business/conversion/package-frame.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/business/conversion/package-summary.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/business/conversion/package-tree.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/business/conversion/package-use.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/business/exception/AbstractApplicationException.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/business/exception/class-use/AbstractApplicationException.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/business/exception/package-frame.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/business/exception/package-summary.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/business/exception/package-tree.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/business/exception/package-use.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/business/impl/AbstractBackendService.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/business/impl/AbstractBusinessService.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/business/impl/class-use/AbstractBackendService.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/business/impl/class-use/AbstractBusinessService.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/business/impl/package-frame.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/business/impl/package-summary.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/business/impl/package-tree.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/business/impl/package-use.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/business/impl/validator/MetaValidator.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/business/impl/validator/class-use/MetaValidator.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/business/impl/validator/package-frame.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/business/impl/validator/package-summary.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/business/impl/validator/package-tree.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/business/impl/validator/package-use.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/business/package-frame.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/business/package-summary.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/business/package-tree.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/business/package-use.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/dao/FrameworkDao.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/dao/class-use/FrameworkDao.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/dao/impl/AbstractFrameworkDao.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/dao/impl/class-use/AbstractFrameworkDao.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/dao/impl/package-frame.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/dao/impl/package-summary.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/dao/impl/package-tree.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/dao/impl/package-use.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/dao/package-frame.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/dao/package-summary.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/dao/package-tree.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/dao/package-use.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/setup/impl/SetupDataServiceImpl.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/setup/impl/class-use/SetupDataServiceImpl.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/setup/impl/package-frame.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/setup/impl/package-summary.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/setup/impl/package-tree.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/framework/setup/impl/package-use.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/business/MissionBackendService.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/business/MissionBusinessService.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/business/class-use/MissionBackendService.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/business/class-use/MissionBusinessService.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/business/conversion/MissionConverter.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/business/conversion/class-use/MissionConverter.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/business/conversion/package-frame.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/business/conversion/package-summary.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/business/conversion/package-tree.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/business/conversion/package-use.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/business/domain/MissionDto.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/business/domain/class-use/MissionDto.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/business/domain/package-frame.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/business/domain/package-summary.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/business/domain/package-tree.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/business/domain/package-use.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/business/impl/MissionBackendServiceImpl.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/business/impl/MissionBusinessServiceImpl.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/business/impl/class-use/MissionBackendServiceImpl.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/business/impl/class-use/MissionBusinessServiceImpl.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/business/impl/package-frame.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/business/impl/package-summary.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/business/impl/package-tree.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/business/impl/package-use.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/business/package-frame.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/business/package-summary.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/business/package-tree.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/business/package-use.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/persistence/MissionDao.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/persistence/UserMissionDao.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/persistence/class-use/MissionDao.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/persistence/class-use/UserMissionDao.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/persistence/entity/MissionEntity.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/persistence/entity/UserMissionEntity.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/persistence/entity/class-use/MissionEntity.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/persistence/entity/class-use/UserMissionEntity.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/persistence/entity/package-frame.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/persistence/entity/package-summary.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/persistence/entity/package-tree.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/persistence/entity/package-use.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/persistence/enums/TaskLevelEnum.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/persistence/enums/class-use/TaskLevelEnum.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/persistence/enums/package-frame.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/persistence/enums/package-summary.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/persistence/enums/package-tree.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/persistence/enums/package-use.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/persistence/impl/MissionDaoImpl.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/persistence/impl/UserMissionDaoImpl.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/persistence/impl/class-use/MissionDaoImpl.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/persistence/impl/class-use/UserMissionDaoImpl.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/persistence/impl/package-frame.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/persistence/impl/package-summary.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/persistence/impl/package-tree.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/persistence/impl/package-use.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/persistence/package-frame.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/persistence/package-summary.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/persistence/package-tree.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/mission/persistence/package-use.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/business/UserBusinessService.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/business/class-use/UserBusinessService.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/business/domain/BabyDto.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/business/domain/UserDto.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/business/domain/class-use/BabyDto.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/business/domain/class-use/UserDto.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/business/domain/package-frame.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/business/domain/package-summary.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/business/domain/package-tree.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/business/domain/package-use.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/business/exception/AncestorInviteLimitReachedException.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/business/exception/AncestorNotExistsException.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/business/exception/DataAlreadyExistException.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/business/exception/EmailNotValidException.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/business/exception/MissionAlreadyCompletedException.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/business/exception/NotValidIdException.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/business/exception/PasswordNotMatchedException.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/business/exception/PasswordNotSecureException.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/business/exception/PasswordWrongException.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/business/exception/class-use/AncestorInviteLimitReachedException.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/business/exception/class-use/AncestorNotExistsException.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/business/exception/class-use/DataAlreadyExistException.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/business/exception/class-use/EmailNotValidException.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/business/exception/class-use/MissionAlreadyCompletedException.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/business/exception/class-use/NotValidIdException.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/business/exception/class-use/PasswordNotMatchedException.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/business/exception/class-use/PasswordNotSecureException.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/business/exception/class-use/PasswordWrongException.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/business/exception/package-frame.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/business/exception/package-summary.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/business/exception/package-tree.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/business/exception/package-use.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/business/package-frame.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/business/package-summary.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/business/package-tree.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/business/package-use.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/persistence/UserDao.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/persistence/class-use/UserDao.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/persistence/entity/UserEntity.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/persistence/entity/class-use/UserEntity.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/persistence/entity/package-frame.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/persistence/entity/package-summary.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/persistence/entity/package-tree.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/persistence/entity/package-use.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/persistence/impl/UserDaoImpl.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/persistence/impl/class-use/UserDaoImpl.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/persistence/impl/package-frame.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/persistence/impl/package-summary.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/persistence/impl/package-tree.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/persistence/impl/package-use.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/persistence/package-frame.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/persistence/package-summary.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/persistence/package-tree.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/persistence/package-use.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/persistence/util/ReferenceCodeUtil.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/persistence/util/class-use/ReferenceCodeUtil.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/persistence/util/package-frame.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/persistence/util/package-summary.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/persistence/util/package-tree.html&#10;#&#9;modified:   balanced/target/apidocs/com/deniz/balanced/user/persistence/util/package-use.html&#10;#&#9;modified:   balanced/target/apidocs/constant-values.html&#10;#&#9;modified:   balanced/target/apidocs/deprecated-list.html&#10;#&#9;modified:   balanced/target/apidocs/help-doc.html&#10;#&#9;modified:   balanced/target/apidocs/index-all.html&#10;#&#9;modified:   balanced/target/apidocs/index.html&#10;#&#9;modified:   balanced/target/apidocs/overview-frame.html&#10;#&#9;modified:   balanced/target/apidocs/overview-summary.html&#10;#&#9;modified:   balanced/target/apidocs/overview-tree.html&#10;#&#9;modified:   balanced/target/apidocs/package-list&#10;#&#9;modified:   balanced/target/apidocs/serialized-form.html&#10;#&#9;modified:   balanced/target/balanced-1.0-SNAPSHOT-javadoc.jar&#10;#&#9;modified:   balanced/target/balanced-1.0-SNAPSHOT-sources.jar&#10;#&#9;modified:   balanced/target/balanced-1.0-SNAPSHOT.jar&#10;#&#9;modified:   balanced/target/maven-archiver/pom.properties&#10;#&#9;modified:   cosbalanced/cosbalanced.iml&#10;#&#9;modified:   cosbalanced/pom.xml&#10;#&#9;modified:   cosbalanced/target/apidocs/allclasses-frame.html&#10;#&#9;modified:   cosbalanced/target/apidocs/allclasses-noframe.html&#10;#&#9;modified:   cosbalanced/target/apidocs/com/deniz/balanced/framework/constants/FrameworkLocalizerKeys.html&#10;#&#9;modified:   cosbalanced/target/apidocs/com/deniz/balanced/framework/constants/class-use/FrameworkLocalizerKeys.html&#10;#&#9;modified:   cosbalanced/target/apidocs/com/deniz/balanced/framework/constants/package-frame.html&#10;#&#9;modified:   cosbalanced/target/apidocs/com/deniz/balanced/framework/constants/package-summary.html&#10;#&#9;modified:   cosbalanced/target/apidocs/com/deniz/balanced/framework/constants/package-tree.html&#10;#&#9;modified:   cosbalanced/target/apidocs/com/deniz/balanced/framework/constants/package-use.html&#10;#&#9;modified:   cosbalanced/target/apidocs/com/deniz/balanced/services/member/MemberDetailsTaskController.html&#10;#&#9;modified:   cosbalanced/target/apidocs/com/deniz/balanced/services/member/MemberInfoTaskController.html&#10;#&#9;modified:   cosbalanced/target/apidocs/com/deniz/balanced/services/member/MemberOverviewTaskController.html&#10;#&#9;modified:   cosbalanced/target/apidocs/com/deniz/balanced/services/member/MemberProcessController.html&#10;#&#9;modified:   cosbalanced/target/apidocs/com/deniz/balanced/services/member/class-use/MemberDetailsTaskController.html&#10;#&#9;modified:   cosbalanced/target/apidocs/com/deniz/balanced/services/member/class-use/MemberInfoTaskController.html&#10;#&#9;modified:   cosbalanced/target/apidocs/com/deniz/balanced/services/member/class-use/MemberOverviewTaskController.html&#10;#&#9;modified:   cosbalanced/target/apidocs/com/deniz/balanced/services/member/class-use/MemberProcessController.html&#10;#&#9;modified:   cosbalanced/target/apidocs/com/deniz/balanced/services/member/package-frame.html&#10;#&#9;modified:   cosbalanced/target/apidocs/com/deniz/balanced/services/member/package-summary.html&#10;#&#9;modified:   cosbalanced/target/apidocs/com/deniz/balanced/services/member/package-tree.html&#10;#&#9;modified:   cosbalanced/target/apidocs/com/deniz/balanced/services/member/package-use.html&#10;#&#9;modified:   cosbalanced/target/apidocs/constant-values.html&#10;#&#9;modified:   cosbalanced/target/apidocs/deprecated-list.html&#10;#&#9;modified:   cosbalanced/target/apidocs/help-doc.html&#10;#&#9;modified:   cosbalanced/target/apidocs/index-all.html&#10;#&#9;modified:   cosbalanced/target/apidocs/index.html&#10;#&#9;modified:   cosbalanced/target/apidocs/overview-frame.html&#10;#&#9;modified:   cosbalanced/target/apidocs/overview-summary.html&#10;#&#9;modified:   cosbalanced/target/apidocs/overview-tree.html&#10;#&#9;modified:   cosbalanced/target/cosbalanced-1.0-SNAPSHOT-javadoc.jar&#10;#&#9;modified:   cosbalanced/target/cosbalanced-1.0-SNAPSHOT-sources.jar&#10;#&#9;modified:   cosbalanced/target/cosbalanced-1.0-SNAPSHOT.war&#10;#&#9;modified:   cosbalanced/target/cosbalanced-1.0-SNAPSHOT/WEB-INF/lib/balanced-1.0-SNAPSHOT.jar&#10;#&#9;modified:   cosbalanced/target/cosbalanced-1.0-SNAPSHOT/WEB-INF/lib/business-1.0-SNAPSHOT.jar&#10;#&#9;modified:   cosbalanced/target/cosbalanced-1.0-SNAPSHOT/WEB-INF/lib/configuration-1.0-SNAPSHOT.jar&#10;#&#9;modified:   cosbalanced/target/cosbalanced-1.0-SNAPSHOT/WEB-INF/lib/dto-1.0-SNAPSHOT.jar&#10;#&#9;modified:   cosbalanced/target/cosbalanced-1.0-SNAPSHOT/WEB-INF/lib/logging-1.0-SNAPSHOT.jar&#10;#&#9;modified:   cosbalanced/target/cosbalanced-1.0-SNAPSHOT/WEB-INF/lib/persistence-1.0-SNAPSHOT.jar&#10;#&#9;modified:   cosbalanced/target/cosbalanced-1.0-SNAPSHOT/WEB-INF/lib/security-1.0-SNAPSHOT.jar&#10;#&#9;modified:   cosbalanced/target/cosbalanced-1.0-SNAPSHOT/WEB-INF/lib/servlet-1.0-SNAPSHOT.jar&#10;#&#9;modified:   cosbalanced/target/cosbalanced-1.0-SNAPSHOT/WEB-INF/lib/setup-data-1.0-SNAPSHOT.jar&#10;#&#9;modified:   cosbalanced/target/maven-archiver/pom.properties&#10;#&#9;modified:   pom.xml&#10;#&#10;# Changes not staged for commit:&#10;#   (use &quot;git add/rm &lt;file&gt;...&quot; to update what will be committed)&#10;#   (use &quot;git checkout -- &lt;file&gt;...&quot; to discard changes in working directory)&#10;#&#10;#&#9;deleted:    .idea/libraries/Maven__com_google_appengine_appengine_api_1_0_sdk_1_9_0.xml&#10;#&#9;deleted:    balanced/target/apidocs/com/deniz/balanced/business/UserBackendService.html&#10;#&#9;deleted:    balanced/target/apidocs/com/deniz/balanced/business/UserBusinessService.html&#10;#&#9;deleted:    balanced/target/apidocs/com/deniz/balanced/business/class-use/UserBackendService.html&#10;#&#9;deleted:    balanced/target/apidocs/com/deniz/balanced/business/class-use/UserBusinessService.html&#10;#&#9;deleted:    balanced/target/apidocs/com/deniz/balanced/business/impl/UserBackendServiceImpl.html&#10;#&#9;deleted:    balanced/target/apidocs/com/deniz/balanced/business/impl/UserBusinessServiceImpl.html&#10;#&#9;deleted:    balanced/target/apidocs/com/deniz/balanced/business/impl/class-use/UserBackendServiceImpl.html&#10;#&#9;deleted:    balanced/target/apidocs/com/deniz/balanced/business/impl/class-use/UserBusinessServiceImpl.html&#10;#&#10;" />
-    <MESSAGE value="Configuration" />
     <MESSAGE value="Configuration&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Configuration&#10;" />
+    <MESSAGE value="Configuration" />
+    <option name="LAST_COMMIT_MESSAGE" value="Configuration" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1304,51 +1265,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/essence/Essence-Servlet/src/main/java/com/deniz/framework/controller/model/CosJsonListItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="13" selection-start="92" selection-end="92" vertical-scroll-proportion="0.11604095" vertical-offset="0" max-vertical-offset="586" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/essence/Essence-Servlet/src/main/java/com/deniz/framework/controller/model/CosJsonDate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/essence/Essence-Servlet/src/main/java/com/deniz/framework/controller/model/CosJsonFundamental.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="93" selection-end="93" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/essence/Essence-Servlet/src/main/java/com/deniz/framework/controller/model/CosJsonList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="241" selection-end="241" vertical-scroll-proportion="0.118673645" vertical-offset="0" max-vertical-offset="573" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/essence/Essence-Servlet/src/main/java/com/deniz/framework/controller/LoggingTaskControllerTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="67" selection-start="484" selection-end="484" vertical-scroll-proportion="0.059336822" vertical-offset="153" max-vertical-offset="1581" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/essence/Essence-Servlet/src/main/java/com/deniz/framework/controller/SecurityDispatcherServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="339" selection-end="339" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1258" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/essence/Essence-Servlet/src/main/java/com/deniz/framework/controller/TaskControllerTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="22" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/essence/Essence-Servlet/src/main/java/com/deniz/framework/controller/utils/CosJsonHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="13" selection-start="405" selection-end="405" vertical-scroll-proportion="-0.24744028" vertical-offset="213" max-vertical-offset="799" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/essence/Essence-Servlet/src/main/java/com/deniz/framework/controller/ProcessControllerTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="199" column="22" selection-start="6872" selection-end="6872" vertical-scroll-proportion="0.47469458" vertical-offset="2601" max-vertical-offset="4862" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/essence/Essence-Persistence/src/main/resources/spring/com/deniz/framework/persistence/persistence.spring.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="47" column="64" selection-start="2012" selection-end="2012" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="1598">
@@ -1662,9 +1578,72 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/essence/Essence-Dto/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="0" selection-start="550" selection-end="550" vertical-scroll-proportion="0.9205608" vertical-offset="269" max-vertical-offset="765">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/essence/Essence-Configuration/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="0" selection-start="550" selection-end="550" vertical-scroll-proportion="0.9205608" vertical-offset="269" max-vertical-offset="765">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/essence/Essence-Business/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="0" selection-start="550" selection-end="550" vertical-scroll-proportion="0.924612" vertical-offset="246" max-vertical-offset="765">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="42" selection-start="0" selection-end="550" vertical-scroll-proportion="0.26385808" vertical-offset="204" max-vertical-offset="765">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cosbalanced/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="101" column="32" selection-start="3198" selection-end="3198" vertical-scroll-proportion="0.70776254" vertical-offset="1407" max-vertical-offset="2652">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/essence/Essence-Logging/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="0" selection-start="550" selection-end="550" vertical-scroll-proportion="0.924612" vertical-offset="246" max-vertical-offset="765">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/essence/Essence-Persistence/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="0" selection-start="550" selection-end="550" vertical-scroll-proportion="0.924612" vertical-offset="246" max-vertical-offset="765">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/essence/Essence-Security/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="0" selection-start="550" selection-end="550" vertical-scroll-proportion="0.924612" vertical-offset="246" max-vertical-offset="765">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/essence/Essence-Servlet/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="0" selection-start="550" selection-end="550" vertical-scroll-proportion="0.924612" vertical-offset="246" max-vertical-offset="765">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/essence/Essence-SetupData/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="0" selection-start="550" selection-end="550" vertical-scroll-proportion="0.924612" vertical-offset="246" max-vertical-offset="765">
           <folding />
         </state>
       </provider>
