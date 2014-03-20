@@ -19,7 +19,7 @@ public class CosJsonColumn extends CosJsonObject {
 
 	/**
 	 * We have text json column as the primary constructor; since it is the most
-	 * commonly used. If you want to add another type, use {@link aero.deniz.cos.libraries.cos_model2.model.CosJsonColumn#CosJsonColumn(String, CosJsonTypeEnum)}
+	 * commonly used. If you want to add another type, use {@link com.deniz.framework.controller.model.CosJsonColumn#CosJsonColumn(String, CosJsonTypeEnum)}
 	 * 
 	 * @param objectId id for the given object
 	 * @param label

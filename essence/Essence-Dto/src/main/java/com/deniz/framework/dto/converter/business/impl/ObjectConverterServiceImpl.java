@@ -11,7 +11,7 @@ import com.deniz.framework.dto.converter.business.ObjectConverterService;
 
 
 /**
- * The service implementation delegates to {@link com.celebi.framework.dto.converter.business.impl.Copier} instances
+ * The service implementation delegates to {@link com.deniz.framework.dto.converter.business.impl.Copier} instances
  * for the actual conversion.
  * <p/>
  * <p/>

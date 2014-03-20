@@ -2,16 +2,61 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="245aa61e-f480-4b4c-9fb1-01ea3fe98967" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Security/src/main/java/com/deniz/role/business/impl/AppRoleInteractionsServiceImpl.java" afterPath="$PROJECT_DIR$/essence/Essence-Security/src/main/java/com/deniz/role/business/impl/AppRoleInteractionsServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Security/src/main/java/com/deniz/role/persistence/entity/AppUserUserGroupEntity.java" afterPath="$PROJECT_DIR$/essence/Essence-Security/src/main/java/com/deniz/role/persistence/entity/AppUserUserGroupEntity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/services/member/MemberOverviewTaskController.java" afterPath="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/services/member/MemberOverviewTaskController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/mission/business/impl/MissionBackendServiceImpl.java" afterPath="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/mission/business/impl/MissionBackendServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/framework/impl/SetupDataServiceImpl.java" afterPath="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/framework/impl/SetupDataServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/mission/persistence/entity/UserMissionEntity.java" afterPath="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/mission/persistence/entity/UserMissionEntity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cosbalanced/src/main/resources/configuration/app.cloudbees.properties" afterPath="$PROJECT_DIR$/cosbalanced/src/main/resources/configuration/app.cloudbees.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cosbalanced/src/main/resources/configuration/app.local-udy.properties" afterPath="$PROJECT_DIR$/cosbalanced/src/main/resources/configuration/app.local-udy.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cosbalanced/src/main/resources/logging/log4j.cloudbees.xml" afterPath="$PROJECT_DIR$/cosbalanced/src/main/resources/logging/log4j.cloudbees.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cosbalanced/src/main/resources/spring_mvc/member/member.spring.xml" afterPath="$PROJECT_DIR$/cosbalanced/src/main/resources/spring_mvc/member/member.spring.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__asm_asm_1_5_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__asm_asm_attrs_1_5_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_2_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_oracle_ojdbc6_11_2_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_dbcp_commons_dbcp_1_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_0_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_pool_commons_pool_1_5_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_persistence_api_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_transaction_jta_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ehcache_ehcache_1_2_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_ejb3_persistence_1_0_1_GA.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_3_2_6_ga.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_annotations_3_3_1_GA.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_commons_annotations_3_0_0_ga.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_3_3_1_GA.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_3_0_2_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_3_0_2_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_3_0_2_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Configuration/src/main/java/com/deniz/framework/configuration/ApplicationConfigurationLogger.java" afterPath="$PROJECT_DIR$/essence/Essence-Configuration/src/main/java/com/deniz/framework/configuration/ApplicationConfigurationLogger.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Dto/src/main/java/com/deniz/framework/dto/converter/business/impl/Copier.java" afterPath="$PROJECT_DIR$/essence/Essence-Dto/src/main/java/com/deniz/framework/dto/converter/business/impl/Copier.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Servlet/src/main/java/com/deniz/framework/controller/model/CosJsonColumn.java" afterPath="$PROJECT_DIR$/essence/Essence-Servlet/src/main/java/com/deniz/framework/controller/model/CosJsonColumn.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Dto/src/main/java/com/deniz/framework/dto/converter/business/ObjectConverterService.java" afterPath="$PROJECT_DIR$/essence/Essence-Dto/src/main/java/com/deniz/framework/dto/converter/business/ObjectConverterService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Dto/src/main/java/com/deniz/framework/dto/converter/business/impl/ObjectConverterServiceImpl.java" afterPath="$PROJECT_DIR$/essence/Essence-Dto/src/main/java/com/deniz/framework/dto/converter/business/impl/ObjectConverterServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Servlet/src/main/java/com/deniz/framework/controller/ProcessControllerTemplate.java" afterPath="$PROJECT_DIR$/essence/Essence-Servlet/src/main/java/com/deniz/framework/controller/ProcessControllerTemplate.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Dto/src/main/java/com/deniz/framework/dto/converter/business/impl/ReflectionUtil.java" afterPath="$PROJECT_DIR$/essence/Essence-Dto/src/main/java/com/deniz/framework/dto/converter/business/impl/ReflectionUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Dto/src/main/java/com/deniz/framework/dto/converter/business/impl/valueconverter/impl/ValueConverterImpl.java" afterPath="$PROJECT_DIR$/essence/Essence-Dto/src/main/java/com/deniz/framework/dto/converter/business/impl/valueconverter/impl/ValueConverterImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Business/business.iml" afterPath="$PROJECT_DIR$/essence/Essence-Business/business.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Configuration/configuration.iml" afterPath="$PROJECT_DIR$/essence/Essence-Configuration/configuration.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cosbalanced/cosbalanced.iml" afterPath="$PROJECT_DIR$/cosbalanced/cosbalanced.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/cosbalanced_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/cosbalanced_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Dto/dto.iml" afterPath="$PROJECT_DIR$/essence/Essence-Dto/dto.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/essence.iml" afterPath="$PROJECT_DIR$/essence/essence.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cosbalanced/src/main/resources/logging/log4j.console-debug-logger.xml" afterPath="$PROJECT_DIR$/cosbalanced/src/main/resources/logging/log4j.console-debug-logger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cosbalanced/src/main/resources/logging/log4j.local-udy.xml" afterPath="$PROJECT_DIR$/cosbalanced/src/main/resources/logging/log4j.local-udy.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Logging/logging.iml" afterPath="$PROJECT_DIR$/essence/Essence-Logging/logging.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Persistence/persistence.iml" afterPath="$PROJECT_DIR$/essence/Essence-Persistence/persistence.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cosbalanced/pom.xml" afterPath="$PROJECT_DIR$/cosbalanced/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/pom.xml" afterPath="$PROJECT_DIR$/essence/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Business/pom.xml" afterPath="$PROJECT_DIR$/essence/Essence-Business/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Configuration/pom.xml" afterPath="$PROJECT_DIR$/essence/Essence-Configuration/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Dto/pom.xml" afterPath="$PROJECT_DIR$/essence/Essence-Dto/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Logging/pom.xml" afterPath="$PROJECT_DIR$/essence/Essence-Logging/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Persistence/pom.xml" afterPath="$PROJECT_DIR$/essence/Essence-Persistence/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Security/pom.xml" afterPath="$PROJECT_DIR$/essence/Essence-Security/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Servlet/pom.xml" afterPath="$PROJECT_DIR$/essence/Essence-Servlet/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-SetupData/pom.xml" afterPath="$PROJECT_DIR$/essence/Essence-SetupData/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Security/security.iml" afterPath="$PROJECT_DIR$/essence/Essence-Security/security.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Servlet/servlet.iml" afterPath="$PROJECT_DIR$/essence/Essence-Servlet/servlet.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-SetupData/setup-data.iml" afterPath="$PROJECT_DIR$/essence/Essence-SetupData/setup-data.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Triangle.iws" />
@@ -68,7 +113,7 @@
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/essence/Essence-Security/src/main/java/com/deniz/framework/security/authorization/AuthorizationService.java" line="35" class="com.deniz.framework.security.authorization.AuthorizationService" package="com.deniz.framework.security.authorization">
+      <breakpoint url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/3.0.2.RELEASE/spring-context-3.0.2.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java" line="970" class="org.springframework.context.support.AbstractApplicationContext" package="org.springframework.context.support">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -80,53 +125,8 @@
         <option name="CONDITION_ENABLED" value="true" />
         <option name="CLASS_FILTERS_ENABLED" value="false" />
         <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/essence/Essence-Security/src/main/java/com/deniz/framework/security/filter/DispatcherSecurityFilter.java" line="134" class="com.deniz.framework.security.filter.DispatcherSecurityFilter" package="com.deniz.framework.security.filter">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/essence/Essence-Security/src/main/java/com/deniz/framework/security/filter/DispatcherSecurityFilter.java" line="60" class="com.deniz.framework.security.filter.DispatcherSecurityFilter" package="com.deniz.framework.security.filter">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/essence/Essence-Security/src/main/java/com/deniz/framework/security/filter/DispatcherSecurityFilter.java" line="99" class="com.deniz.framework.security.filter.DispatcherSecurityFilter" package="com.deniz.framework.security.filter">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
+        <option name="CONDITION" value="&#13;&#13;JAVA" />
+        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
       </breakpoint>
     </line_breakpoints>
     <breakpoint_rules />
@@ -138,91 +138,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MissionBusinessService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/mission/business/MissionBusinessService.java">
+      <file leaf-file-name="log4j.local-udy.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/resources/logging/log4j.local-udy.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="9" selection-start="2040" selection-end="2040" vertical-scroll-proportion="0.0" vertical-offset="850" max-vertical-offset="1003">
+            <state line="32" column="83" selection-start="1495" selection-end="1495" vertical-scroll-proportion="0.0" vertical-offset="247" max-vertical-offset="1105">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MissionBusinessServiceImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/mission/business/impl/MissionBusinessServiceImpl.java">
+      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cosbalanced/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="75" column="18" selection-start="3134" selection-end="3134" vertical-scroll-proportion="0.0" vertical-offset="1275" max-vertical-offset="1462">
+            <state line="47" column="76" selection-start="1515" selection-end="1515" vertical-scroll-proportion="0.35926774" vertical-offset="642" max-vertical-offset="2550">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MissionEntity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/mission/persistence/entity/MissionEntity.java">
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/essence/Essence-Security/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="46" selection-start="621" selection-end="621" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="1003">
+            <state line="18" column="24" selection-start="634" selection-end="634" vertical-scroll-proportion="0.0" vertical-offset="111" max-vertical-offset="1071">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AbstractEntity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/essence/Essence-Persistence/src/main/java/com/deniz/framework/persistence/entity/AbstractEntity.java">
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/essence/Essence-Servlet/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="22" selection-start="608" selection-end="608" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="2261">
+            <state line="21" column="0" selection-start="737" selection-end="963" vertical-scroll-proportion="0.0" vertical-offset="196" max-vertical-offset="986">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FrameworkBackendService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/framework/business/FrameworkBackendService.java">
+      <file leaf-file-name="MemberInfoTaskController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/services/member/MemberInfoTaskController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="16" selection-start="1154" selection-end="1154" vertical-scroll-proportion="0.0" vertical-offset="646" max-vertical-offset="1139">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mission.spring.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/resources/spring/com/deniz/balanced/mission/mission.spring.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="38" selection-start="296" selection-end="318" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="680">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MemberOverviewTaskController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/services/member/MemberOverviewTaskController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="57" selection-start="1071" selection-end="1093" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="2822">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.cloudbees.properties" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/resources/configuration/app.cloudbees.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="46" selection-start="657" selection-end="657" vertical-scroll-proportion="0.34" vertical-offset="0" max-vertical-offset="867">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="member.spring.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/resources/spring_mvc/member/member.spring.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="75" selection-start="1455" selection-end="1455" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="867">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MissionDto.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/mission/business/domain/MissionDto.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="13" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="595">
+            <state line="7" column="25" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
               <folding />
             </state>
           </provider>
@@ -246,23 +201,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/cosbalanced/src/main/resources/spring_mvc/configuration/stages/app.appengine.properties" />
-        <option value="$PROJECT_DIR$/cosbalanced/src/main/resources/spring_mvc/logging/log4j.appengine.xml" />
-        <option value="$PROJECT_DIR$/essence/Essence-Security/pom.xml" />
-        <option value="$PROJECT_DIR$/essence/Essence-Business/pom.xml" />
-        <option value="$PROJECT_DIR$/balanced/pom.xml" />
-        <option value="$PROJECT_DIR$/essence/Essence-Dto/pom.xml" />
-        <option value="$PROJECT_DIR$/essence/Essence-Logging/pom.xml" />
-        <option value="$PROJECT_DIR$/essence/Essence-Servlet/pom.xml" />
-        <option value="$PROJECT_DIR$/essence/Essence-Servlet/src/main/java/com/deniz/framework/controller/LoggingTaskControllerTemplate.java" />
-        <option value="$PROJECT_DIR$/essence/Essence-Configuration/src/main/resources/spring/com/deniz/framework/configuration/configuration.spring.xml" />
-        <option value="$PROJECT_DIR$/balanced/src/main/resources/configuration/app.properties" />
-        <option value="$PROJECT_DIR$/cosbalanced/src/main/resources/configuration/app.properties" />
-        <option value="$PROJECT_DIR$/cosbalanced/src/main/resources/configuration/stages/app.cloudbees.properties" />
-        <option value="$PROJECT_DIR$/essence/Essence-Persistence/src/main/resources/spring/com/deniz/framework/persistence/persistence.spring.xml" />
-        <option value="$PROJECT_DIR$/balanced/src/main/resources/configuration/stages/app.cloudbees.properties" />
-        <option value="$PROJECT_DIR$/cosbalanced/src/main/resources/configuration/stages/app.local-udy.properties" />
-        <option value="$PROJECT_DIR$/balanced/src/main/resources/configuration/stages/app.local-udy.properties" />
         <option value="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/business/validation/impl/ValidationServiceImpl.java" />
         <option value="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/mission/business/impl/MissionBusinessServiceImpl.java" />
         <option value="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/framework/business/impl/AbstractBackendService.java" />
@@ -281,12 +219,8 @@
         <option value="$PROJECT_DIR$/essence/Essence-Security/src/main/java/com/deniz/framework/security/authorization/AuthorizationService.java" />
         <option value="$PROJECT_DIR$/essence/Essence-Security/src/main/java/com/deniz/framework/security/filter/DispatcherSecurityFilter.java" />
         <option value="$PROJECT_DIR$/cosbalanced/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/cosbalanced/src/main/resources/logging/log4j.local-udy.xml" />
         <option value="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/user/persistence/UserDao.java" />
-        <option value="$PROJECT_DIR$/cosbalanced/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/essence/Essence-Security/src/main/java/com/deniz/role/persistence/impl/AppRoleInteractionsDaoImpl.java" />
-        <option value="$PROJECT_DIR$/essence/Essence-Persistence/pom.xml" />
         <option value="$PROJECT_DIR$/cosbalanced/src/main/resources/configuration/app.local-udy.properties" />
         <option value="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/mission/persistence/entity/UserMissionEntity.java" />
         <option value="$PROJECT_DIR$/essence/Essence-Security/src/main/java/com/deniz/role/persistence/entity/AppUserUserGroupEntity.java" />
@@ -297,6 +231,27 @@
         <option value="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/services/member/MemberOverviewTaskController.java" />
         <option value="$PROJECT_DIR$/cosbalanced/src/main/resources/spring_mvc/member/member.spring.xml" />
         <option value="$PROJECT_DIR$/cosbalanced/src/main/resources/configuration/app.cloudbees.properties" />
+        <option value="$PROJECT_DIR$/essence/Essence-Dto/src/main/java/com/deniz/framework/dto/converter/business/impl/ObjectConverterServiceImpl.java" />
+        <option value="$PROJECT_DIR$/essence/Essence-Dto/src/main/java/com/deniz/framework/dto/converter/business/impl/ReflectionUtil.java" />
+        <option value="$PROJECT_DIR$/essence/Essence-Dto/src/main/java/com/deniz/framework/dto/converter/business/impl/Copier.java" />
+        <option value="$PROJECT_DIR$/essence/Essence-Dto/src/main/java/com/deniz/framework/dto/converter/business/impl/valueconverter/impl/ValueConverterImpl.java" />
+        <option value="$PROJECT_DIR$/essence/Essence-Dto/src/main/java/com/deniz/framework/dto/converter/business/ObjectConverterService.java" />
+        <option value="$PROJECT_DIR$/essence/Essence-Configuration/src/main/java/com/deniz/framework/configuration/ApplicationConfigurationLogger.java" />
+        <option value="$PROJECT_DIR$/essence/Essence-Business/pom.xml" />
+        <option value="$PROJECT_DIR$/essence/Essence-Servlet/src/main/java/com/deniz/framework/controller/model/CosJsonColumn.java" />
+        <option value="$PROJECT_DIR$/essence/Essence-Servlet/src/main/java/com/deniz/framework/controller/ProcessControllerTemplate.java" />
+        <option value="$PROJECT_DIR$/essence/Essence-Logging/pom.xml" />
+        <option value="$PROJECT_DIR$/essence/pom.xml" />
+        <option value="$PROJECT_DIR$/essence/Essence-Dto/pom.xml" />
+        <option value="$PROJECT_DIR$/essence/Essence-Configuration/pom.xml" />
+        <option value="$PROJECT_DIR$/essence/Essence-SetupData/pom.xml" />
+        <option value="$PROJECT_DIR$/essence/Essence-Security/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/essence/Essence-Persistence/pom.xml" />
+        <option value="$PROJECT_DIR$/cosbalanced/src/main/resources/logging/log4j.console-debug-logger.xml" />
+        <option value="$PROJECT_DIR$/cosbalanced/src/main/resources/logging/log4j.local-udy.xml" />
+        <option value="$PROJECT_DIR$/essence/Essence-Servlet/pom.xml" />
+        <option value="$PROJECT_DIR$/cosbalanced/pom.xml" />
       </list>
     </option>
   </component>
@@ -424,58 +379,12 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="Triangle" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Maven: org.hibernate:hibernate-core:3.3.1.GA" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hibernate-core-3.3.1.GA.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hibernate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Maven: org.hibernate:hibernate-core:3.3.1.GA" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hibernate-core-3.3.1.GA.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -512,6 +421,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="essence" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Essence-Persistence" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Triangle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Triangle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="cosbalanced" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -553,6 +480,62 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Triangle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Triangle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cosbalanced" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Triangle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Triangle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cosbalanced" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="logging" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -585,6 +568,14 @@
               <option name="myItemId" value="balanced" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="persistence" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -616,12 +607,86 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="member" />
+              <option name="myItemId" value="user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="persistence" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Triangle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Triangle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cosbalanced" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="balanced" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Triangle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Triangle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cosbalanced" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="balanced" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -646,6 +711,22 @@
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="SearchEverywhereHistory" value="" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="251" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="261" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="265" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1058" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="260" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="262" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="266" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1060" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -676,7 +757,7 @@
       <recent name="D:\WS\Triangle\cosbalanced\src\main\resources\configuration" />
     </key>
   </component>
-  <component name="RunManager" selected="CloudBees Deployment.CloudBees Deployment">
+  <component name="RunManager" selected="Tomcat Server.Balanced">
     <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails" singleton="true">
       <module name="" />
       <setting name="vmparams" value="" />
@@ -1012,7 +1093,7 @@
     </configuration>
     <configuration default="false" name="Balanced" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 6.0" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8084" />
-      <option name="COMMON_VM_ARGUMENTS" value="-Dapp.configuration.stage=cloudbees" />
+      <option name="COMMON_VM_ARGUMENTS" value="-Dapp.configuration.stage=local-udy" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="cosbalanced:war exploded">
@@ -1148,7 +1229,10 @@
       <workItem from="1395088704177" duration="4338000" />
       <workItem from="1395127267299" duration="14832000" />
       <workItem from="1395165931621" duration="10157000" />
-      <workItem from="1395212610028" duration="632000" />
+      <workItem from="1395212610028" duration="2408000" />
+      <workItem from="1395301276867" duration="2856000" />
+      <workItem from="1395304145871" duration="1845000" />
+      <workItem from="1395305998844" duration="8506000" />
     </task>
     <task id="LOCAL-00001" summary="cloudbee properties&#10;">
       <created>1394629139624</created>
@@ -1246,11 +1330,15 @@
       <created>1395172643371</created>
       <updated>1395172643371</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Configuration&#10;">
+      <created>1395213336337</created>
+      <updated>1395213336337</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82189000" />
+    <option name="totallyTimeSpent" value="97172000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -1281,32 +1369,32 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33693305" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39740822" sideWeight="0.71086264" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5464363" sideWeight="0.71086264" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39848813" sideWeight="0.2891374" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937366" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32829374" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937366" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23855165" sideWeight="0.5144445" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3275862" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275862" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25559106" sideWeight="0.6711111" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4838013" sideWeight="0.659375" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4838013" sideWeight="0.659375" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Heroku" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33693305" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32829374" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1342,291 +1430,388 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/essence/Essence-Business/pom.xml">
+    <entry file="file://$PROJECT_DIR$/essence/Essence-Servlet/src/main/java/com/deniz/framework/controller/model/CosJsonObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680" />
+        <state line="11" column="13" selection-start="377" selection-end="377" vertical-scroll-proportion="0.11604095" vertical-offset="0" max-vertical-offset="1258" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/essence/pom.xml">
+    <entry file="file://$PROJECT_DIR$/essence/Essence-Servlet/src/main/java/com/deniz/framework/controller/model/CosJsonListItem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+        <state line="4" column="13" selection-start="92" selection-end="92" vertical-scroll-proportion="0.11604095" vertical-offset="0" max-vertical-offset="586" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/essence/Essence-Servlet/src/main/java/com/deniz/framework/controller/model/CosJsonDate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="13" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/essence/Essence-Servlet/src/main/java/com/deniz/framework/controller/model/CosJsonFundamental.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="13" selection-start="93" selection-end="93" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/framework/business/FrameworkBusinessService.java">
+    <entry file="file://$PROJECT_DIR$/essence/Essence-Servlet/src/main/java/com/deniz/framework/controller/model/CosJsonList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="17" selection-start="317" selection-end="317" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612" />
+        <state line="9" column="13" selection-start="241" selection-end="241" vertical-scroll-proportion="0.118673645" vertical-offset="0" max-vertical-offset="573" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/essence/Essence-Security/src/main/resources/spring/com/deniz/framework/security/authorization.spring.xml">
+    <entry file="file://$PROJECT_DIR$/essence/Essence-Servlet/src/main/java/com/deniz/framework/controller/LoggingTaskControllerTemplate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="86" selection-start="457" selection-end="457" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/essence/Essence-Security/src/main/java/com/deniz/framework/security/RequestInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="17" selection-start="707" selection-end="707" vertical-scroll-proportion="-0.41918296" vertical-offset="593" max-vertical-offset="1785" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/essence/Essence-Security/src/main/java/com/deniz/framework/security/RequestInfoProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="17" selection-start="288" selection-end="288" vertical-scroll-proportion="0.3327645" vertical-offset="26" max-vertical-offset="612" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/essence/Essence-Security/src/main/java/com/deniz/framework/security/TestingRequestInfoProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="51" selection-start="2460" selection-end="2460" vertical-scroll-proportion="0.66040957" vertical-offset="1109" max-vertical-offset="1802" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/essence/Essence-Security/src/main/java/com/deniz/framework/security/StandardRequestInfoProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="56" selection-start="1457" selection-end="1457" vertical-scroll-proportion="0.41979522" vertical-offset="655" max-vertical-offset="1241" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/essence/Essence-Security/src/main/java/com/deniz/framework/security/filter/DispatcherClientConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="17" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0" vertical-offset="242" max-vertical-offset="782" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/servlet-api/2.5/servlet-api-2.5-sources.jar!/javax/servlet/FilterConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="18" selection-start="2135" selection-end="2135" vertical-scroll-proportion="0.3197158" vertical-offset="789" max-vertical-offset="1462" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/essence/Essence-Security/src/main/java/com/deniz/framework/security/ThreadLocalRequestInfoProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="20" selection-start="1472" selection-end="1472" vertical-scroll-proportion="0.0" vertical-offset="808" max-vertical-offset="1547" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/essence/Essence-Security/src/main/java/com/deniz/framework/security/PojoRequestInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="13" selection-start="303" selection-end="303" vertical-scroll-proportion="0.0" vertical-offset="653" max-vertical-offset="2414" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/essence/Essence-Security/src/main/java/com/deniz/framework/security/authorization/AuthorizationService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="24" selection-start="549" selection-end="549" vertical-scroll-proportion="0.3495652" vertical-offset="20" max-vertical-offset="595">
+        <state line="18" column="67" selection-start="484" selection-end="484" vertical-scroll-proportion="0.059336822" vertical-offset="153" max-vertical-offset="1581">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/webapp/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/essence/Essence-Servlet/src/main/java/com/deniz/framework/controller/SecurityDispatcherServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="29" selection-start="2896" selection-end="2896" vertical-scroll-proportion="0.0" vertical-offset="914" max-vertical-offset="1615">
+        <state line="10" column="13" selection-start="339" selection-end="339" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1258" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/essence/Essence-Servlet/src/main/java/com/deniz/framework/controller/TaskControllerTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="22" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/essence/Essence-Servlet/src/main/java/com/deniz/framework/controller/utils/CosJsonHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="13" selection-start="405" selection-end="405" vertical-scroll-proportion="-0.24744028" vertical-offset="213" max-vertical-offset="799" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/essence/Essence-Servlet/src/main/java/com/deniz/framework/controller/ProcessControllerTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="199" column="22" selection-start="6872" selection-end="6872" vertical-scroll-proportion="0.47469458" vertical-offset="2601" max-vertical-offset="4862" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/essence/Essence-Persistence/src/main/resources/spring/com/deniz/framework/persistence/persistence.spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="64" selection-start="2012" selection-end="2012" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="1598">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/essence/Essence-Security/src/main/java/com/deniz/framework/security/filter/DispatcherSecurityFilter.java">
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/spring-orm/3.0.2.RELEASE/spring-orm-3.0.2.RELEASE.pom">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="111" column="78" selection-start="4501" selection-end="4501" vertical-scroll-proportion="0.0" vertical-offset="962" max-vertical-offset="2788">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-3.5682595" vertical-offset="2091" max-vertical-offset="4131" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/essence/Essence-Persistence/src/main/java/com/deniz/framework/persistence/entity/AbstractEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="9" selection-start="1368" selection-end="1368" vertical-scroll-proportion="0.0" vertical-offset="438" max-vertical-offset="1785">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/essence/Essence-Servlet/src/main/java/com/deniz/framework/controller/ResourceDelegatorServlet.java">
+    <entry file="file://$PROJECT_DIR$/essence/Essence-Persistence/src/main/java/com/deniz/framework/persistence/DaoTemplate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="8" selection-start="8" selection-end="38" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1921" />
+        <state line="48" column="45" selection-start="1121" selection-end="1121" vertical-scroll-proportion="0.0" vertical-offset="2249" max-vertical-offset="2822">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/essence/Essence-Persistence/src/main/java/com/deniz/framework/persistence/PersistenceOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="12" selection-start="281" selection-end="281" vertical-scroll-proportion="0.17" vertical-offset="0" max-vertical-offset="900">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/essence/Essence-Dto/src/main/java/com/deniz/framework/dto/converter/business/impl/valueconverter/impl/converter/DateWithTimeCutoffConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="20" selection-start="203" selection-end="203" vertical-scroll-proportion="0.17555939" vertical-offset="0" max-vertical-offset="1071" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/essence/Essence-Logging/src/main/java/com/deniz/framework/logging/layout/AnonymizedPatternLayout.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="8" selection-start="8" selection-end="42" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/resources/logging/log4j.local-udy.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="55" selection-start="1414" selection-end="1414" vertical-scroll-proportion="0.46037737" vertical-offset="283" max-vertical-offset="1156" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/user/persistence/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="18" selection-start="723" selection-end="723" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1071" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/user/business/impl/UserBackendServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="14" selection-start="1156" selection-end="1156" vertical-scroll-proportion="0.0" vertical-offset="122" max-vertical-offset="2550" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/user/persistence/impl/UserDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="22" selection-start="574" selection-end="574" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="986" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/user/business/UserBackendService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="68" selection-start="1794" selection-end="1794" vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="2210" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cosbalanced/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="8" selection-start="2595" selection-end="2595" vertical-scroll-proportion="0.0" vertical-offset="1031" max-vertical-offset="2652">
+        <state line="5" column="23" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0" vertical-offset="103" max-vertical-offset="850">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/essence/Essence-Security/src/main/java/com/deniz/role/persistence/impl/AppRoleInteractionsDaoImpl.java">
+    <entry file="file://$PROJECT_DIR$/essence/Essence-Business/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="36" selection-start="133" selection-end="133" vertical-scroll-proportion="0.14629948" vertical-offset="0" max-vertical-offset="1598" />
+        <state line="26" column="0" selection-start="945" selection-end="945" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/essence/Essence-SetupData/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="18" selection-start="543" selection-end="543" vertical-scroll-proportion="0.3771331" vertical-offset="0" max-vertical-offset="586">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/essence/Essence-Logging/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="18" selection-start="540" selection-end="540" vertical-scroll-proportion="0.3771331" vertical-offset="0" max-vertical-offset="586">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/essence/Essence-Configuration/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="21" selection-start="777" selection-end="777" vertical-scroll-proportion="0.55119455" vertical-offset="0" max-vertical-offset="586">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="60" selection-start="1258" selection-end="1258" vertical-scroll-proportion="0.3148148" vertical-offset="391" max-vertical-offset="2295">
+        <state line="67" column="21" selection-start="2509" selection-end="2509" vertical-scroll-proportion="0.0" vertical-offset="723" max-vertical-offset="2091">
+          <folding>
+            <marker date="1395309024315" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1395309024315" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/essence/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="0" selection-start="971" selection-end="1421" vertical-scroll-proportion="0.0" vertical-offset="247" max-vertical-offset="833">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/essence/Essence-Configuration/src/main/java/com/deniz/framework/configuration/ApplicationConfigurationLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="34" selection-start="501" selection-end="501" vertical-scroll-proportion="0.10471204" vertical-offset="144" max-vertical-offset="2465">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/essence/Essence-Dto/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="71" selection-start="536" selection-end="536" vertical-scroll-proportion="0.0" vertical-offset="9" max-vertical-offset="561">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/essence/Essence-Persistence/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="21" selection-start="2926" selection-end="2926" vertical-scroll-proportion="0.0" vertical-offset="1139" max-vertical-offset="1853" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/resources/configuration/app.local-udy.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="63" selection-start="1021" selection-end="1021" vertical-scroll-proportion="0.6010101" vertical-offset="0" max-vertical-offset="867">
+        <state line="40" column="99" selection-start="1388" selection-end="1388" vertical-scroll-proportion="0.0" vertical-offset="445" max-vertical-offset="1343">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/framework/business/conversion/AbstractEntityDtoConverter.java">
+    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/user/persistence/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="22" selection-start="488" selection-end="488" vertical-scroll-proportion="0.1271028" vertical-offset="0" max-vertical-offset="731" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/mission/persistence/entity/UserMissionEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="29" selection-start="968" selection-end="968" vertical-scroll-proportion="0.60390764" vertical-offset="0" max-vertical-offset="563" />
+        <state line="13" column="17" selection-start="286" selection-end="286" vertical-scroll-proportion="0.0" vertical-offset="91" max-vertical-offset="1071">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/user/persistence/entity/UserEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="530" selection-end="530" vertical-scroll-proportion="0.24727273" vertical-offset="0" max-vertical-offset="1632" />
+        <state line="11" column="13" selection-start="530" selection-end="530" vertical-scroll-proportion="0.0" vertical-offset="10" max-vertical-offset="1632">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/essence/Essence-Security/src/main/java/com/deniz/role/persistence/entity/AppUserUserGroupEntity.java">
+    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/user/persistence/impl/UserDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="35" selection-start="1423" selection-end="1423" vertical-scroll-proportion="0.6678508" vertical-offset="202" max-vertical-offset="765" />
+        <state line="18" column="69" selection-start="703" selection-end="703" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="986">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/essence/Essence-Security/src/main/java/com/deniz/role/persistence/entity/AppUserGroupRoleGroupEntity.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/3.0.2.RELEASE/spring-beans-3.0.2.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="13" selection-start="677" selection-end="677" vertical-scroll-proportion="0.24156305" vertical-offset="0" max-vertical-offset="680" />
+        <state line="1191" column="86" selection-start="46123" selection-end="46123" vertical-scroll-proportion="0.0" vertical-offset="18208" max-vertical-offset="24191">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/essence/Essence-Security/src/main/java/com/deniz/role/persistence/entity/AppUserGroupEntity.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/3.0.2.RELEASE/spring-beans-3.0.2.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="96" selection-start="366" selection-end="366" vertical-scroll-proportion="0.1450512" vertical-offset="0" max-vertical-offset="586" />
+        <state line="462" column="0" selection-start="17842" selection-end="17842" vertical-scroll-proportion="0.0" vertical-offset="7141" max-vertical-offset="8449">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/essence/Essence-Security/src/main/java/com/deniz/role/persistence/entity/AppUserEntity.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/3.0.2.RELEASE/spring-beans-3.0.2.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="13" selection-start="562" selection-end="562" vertical-scroll-proportion="0.26109216" vertical-offset="0" max-vertical-offset="646" />
+        <state line="611" column="0" selection-start="23921" selection-end="23921" vertical-scroll-proportion="-1.7368422" vertical-offset="10084" max-vertical-offset="17357">
+          <folding>
+            <element signature="e#0#38956#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/essence/Essence-Security/src/main/java/com/deniz/role/persistence/entity/AppRoleGroupEntity.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/3.0.2.RELEASE/spring-beans-3.0.2.RELEASE-sources.jar!/org/springframework/beans/factory/support/BeanDefinitionReaderUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="13" selection-start="573" selection-end="573" vertical-scroll-proportion="0.2320819" vertical-offset="0" max-vertical-offset="586" />
+        <state line="156" column="0" selection-start="6063" selection-end="6063" vertical-scroll-proportion="0.0" vertical-offset="2189" max-vertical-offset="2771">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/essence/Essence-Security/src/main/java/com/deniz/role/persistence/entity/AppRoleEntity.java">
+    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/resources/spring/com/deniz/balanced/user/user.spring.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="13" selection-start="690" selection-end="690" vertical-scroll-proportion="0.26109216" vertical-offset="0" max-vertical-offset="884" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="6.12" vertical-offset="153" max-vertical-offset="527">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/essence/Essence-Security/src/main/java/com/deniz/role/business/impl/AppRoleInteractionsServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/resources/logging/log4j.console-debug-logger.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="48" selection-start="4880" selection-end="4880" vertical-scroll-proportion="0.0" vertical-offset="1337" max-vertical-offset="2227" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/framework/impl/SetupDataServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="56" selection-start="626" selection-end="626" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612" />
+        <state line="38" column="41" selection-start="1172" selection-end="1172" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="816">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/resources/logging/log4j.cloudbees.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="17" selection-start="1925" selection-end="1925" vertical-scroll-proportion="0.0" vertical-offset="233" max-vertical-offset="1156" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/mission/business/impl/MissionBackendServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="24" selection-start="2323" selection-end="2323" vertical-scroll-proportion="0.0" vertical-offset="575" max-vertical-offset="1156" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/user/business/UserBusinessService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="626" selection-end="626" vertical-scroll-proportion="0.0" vertical-offset="1" max-vertical-offset="1258" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/resources/spring/com/deniz/balanced/mission/mission.spring.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="38" selection-start="296" selection-end="318" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="680">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1156">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/framework/business/FrameworkBackendService.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/3.0.2.RELEASE/spring-beans-3.0.2.RELEASE-sources.jar!/org/springframework/beans/factory/xml/DefaultBeanDefinitionDocumentReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="16" selection-start="1154" selection-end="1154" vertical-scroll-proportion="0.0" vertical-offset="364" max-vertical-offset="1037">
+        <state line="94" column="0" selection-start="3443" selection-end="3443" vertical-scroll-proportion="0.0" vertical-offset="902" max-vertical-offset="4624">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/essence/Essence-Persistence/src/main/java/com/deniz/framework/persistence/entity/AbstractEntity.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/3.0.2.RELEASE/spring-beans-3.0.2.RELEASE-sources.jar!/org/springframework/beans/factory/xml/XmlBeanDefinitionReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="22" selection-start="608" selection-end="608" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="1785">
+        <state line="301" column="0" selection-start="11639" selection-end="11639" vertical-scroll-proportion="0.0" vertical-offset="3988" max-vertical-offset="8058">
+          <folding>
+            <element signature="e#0#20841#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#4909#4931#0" expanded="false" />
+            <element signature="e#6350#6351#0" expanded="false" />
+            <element signature="e#6393#6394#0" expanded="false" />
+            <element signature="e#6477#6478#0" expanded="false" />
+            <element signature="e#6510#6511#0" expanded="false" />
+            <element signature="e#6860#6861#0" expanded="false" />
+            <element signature="e#6903#6904#0" expanded="false" />
+            <element signature="e#7023#7024#0" expanded="false" />
+            <element signature="e#7056#7057#0" expanded="false" />
+            <element signature="e#8847#8848#0" expanded="false" />
+            <element signature="e#8910#8911#0" expanded="false" />
+            <element signature="e#9548#9549#0" expanded="false" />
+            <element signature="e#9591#9592#0" expanded="false" />
+            <element signature="e#10555#10556#0" expanded="false" />
+            <element signature="e#10594#10595#0" expanded="false" />
+            <element signature="e#19820#19850#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/3.0.2.RELEASE/spring-beans-3.0.2.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractBeanDefinitionReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="148" column="0" selection-start="5332" selection-end="5332" vertical-scroll-proportion="0.0" vertical-offset="1730" max-vertical-offset="3128">
+          <folding>
+            <element signature="e#0#8057#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#3059#3060#0" expanded="false" />
+            <element signature="e#3086#3087#0" expanded="false" />
+            <element signature="e#3140#3141#0" expanded="false" />
+            <element signature="e#3167#3168#0" expanded="false" />
+            <element signature="e#3877#3878#0" expanded="false" />
+            <element signature="e#3920#3921#0" expanded="false" />
+            <element signature="e#3966#3967#0" expanded="false" />
+            <element signature="e#3999#4000#0" expanded="false" />
+            <element signature="e#4392#4393#0" expanded="false" />
+            <element signature="e#4437#4438#0" expanded="false" />
+            <element signature="e#4481#4482#0" expanded="false" />
+            <element signature="e#4515#4516#0" expanded="false" />
+            <element signature="e#4918#4919#0" expanded="false" />
+            <element signature="e#4954#4955#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.0.2.RELEASE/spring-web-3.0.2.RELEASE-sources.jar!/org/springframework/web/context/ContextLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="216" column="0" selection-start="9350" selection-end="9350" vertical-scroll-proportion="0.0" vertical-offset="3013" max-vertical-offset="6630">
+          <folding>
+            <element signature="e#0#17992#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#6646#6682#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.0.2.RELEASE/spring-web-3.0.2.RELEASE-sources.jar!/org/springframework/web/context/support/XmlWebApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="61" selection-start="3040" selection-end="3040" vertical-scroll-proportion="-2.5789473" vertical-offset="567" max-vertical-offset="2227">
+          <folding>
+            <element signature="e#0#6445#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.0.2.RELEASE/spring-web-3.0.2.RELEASE-sources.jar!/org/springframework/web/context/support/AbstractRefreshableWebApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="83" selection-start="3951" selection-end="3951" vertical-scroll-proportion="-3.2807016" vertical-offset="663" max-vertical-offset="2533">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/mission/persistence/entity/MissionEntity.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/3.0.2.RELEASE/spring-context-3.0.2.RELEASE-sources.jar!/org/springframework/context/support/AbstractRefreshableConfigApplicationContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="46" selection-start="621" selection-end="621" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+        <state line="39" column="89" selection-start="1669" selection-end="1669" vertical-scroll-proportion="-2.3859649" vertical-offset="204" max-vertical-offset="2397">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/mission/business/impl/MissionBusinessServiceImpl.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/3.0.2.RELEASE/spring-context-3.0.2.RELEASE-sources.jar!/org/springframework/context/support/AbstractRefreshableApplicationContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="18" selection-start="3134" selection-end="3134" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="1037">
+        <state line="64" column="80" selection-start="3284" selection-end="3284" vertical-scroll-proportion="-3.5789473" vertical-offset="510" max-vertical-offset="3638">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/mission/business/MissionBusinessService.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/3.0.2.RELEASE/spring-context-3.0.2.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="9" selection-start="2040" selection-end="2040" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="850">
+        <state line="969" column="23" selection-start="37861" selection-end="37861" vertical-scroll-proportion="-0.57894737" vertical-offset="14808" max-vertical-offset="21454">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/resources/spring_mvc/member/member.spring.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.0.2.RELEASE/spring-web-3.0.2.RELEASE-sources.jar!/org/springframework/web/context/ContextLoaderListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="75" selection-start="1455" selection-end="1455" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="867">
+        <state line="51" column="82" selection-start="1770" selection-end="1770" vertical-scroll-proportion="0.48979592" vertical-offset="420" max-vertical-offset="1224">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/services/member/MemberOverviewTaskController.java">
+    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/services/member/MemberInfoTaskController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="57" selection-start="1071" selection-end="1093" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2788">
+        <state line="7" column="25" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/mission/business/domain/MissionDto.java">
+    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/resources/logging/log4j.local-udy.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
+        <state line="32" column="83" selection-start="1495" selection-end="1495" vertical-scroll-proportion="0.0" vertical-offset="247" max-vertical-offset="1105">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/resources/configuration/app.cloudbees.properties">
+    <entry file="file://$PROJECT_DIR$/essence/Essence-Security/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="46" selection-start="657" selection-end="657" vertical-scroll-proportion="0.34" vertical-offset="0" max-vertical-offset="867">
+        <state line="18" column="24" selection-start="634" selection-end="634" vertical-scroll-proportion="0.0" vertical-offset="111" max-vertical-offset="1071">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/essence/Essence-Servlet/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="737" selection-end="963" vertical-scroll-proportion="0.0" vertical-offset="196" max-vertical-offset="986">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosbalanced/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="76" selection-start="1515" selection-end="1515" vertical-scroll-proportion="0.35926774" vertical-offset="642" max-vertical-offset="2550">
           <folding />
         </state>
       </provider>

@@ -12,11 +12,6 @@
     </parent>
 
     <dependencies>
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-api</artifactId>
-            <version>${slf4j.version}</version>
-        </dependency>
 
         <dependency>
             <groupId>org.springframework</groupId>
@@ -25,21 +20,10 @@
         </dependency>
 
         <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-web</artifactId>
-            <version>${spring.version}</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.json</groupId>
-            <artifactId>json</artifactId>
-            <version>${json.version}</version>
-        </dependency>
-
-        <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>servlet-api</artifactId>
             <version>${servlet.api.version}</version>
+            <scope>provided</scope>
         </dependency>
 
         <dependency>
@@ -49,21 +33,21 @@
         </dependency>
 
         <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>${json.version}</version>
+        </dependency>
+        <dependency>
             <groupId>com.deniz.essence</groupId>
-            <artifactId>business</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <artifactId>dto</artifactId>
+            <version>${essence.version}</version>
         </dependency>
 
         <dependency>
             <groupId>com.deniz.essence</groupId>
             <artifactId>logging</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>${essence.version}</version>
         </dependency>
 
-        <dependency>
-            <groupId>com.deniz.essence</groupId>
-            <artifactId>security</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
     </dependencies>
 </project>

@@ -21,7 +21,7 @@ import org.slf4j.LoggerFactory;
  * @author Deniz Yavas
  */
 public class ApplicationConfigurationLogger {
-    protected final Logger logger = LoggerFactory.getLogger(getClass());
+    protected final Logger logger = LoggerFactory.getLogger( getClass() );
 
     private static final String HEADLINE_DEFAULT = "##################################### Application Configuration ##################################################################";
     private static final String FOOTER_DEFAULT = "##################################################################################################################################";

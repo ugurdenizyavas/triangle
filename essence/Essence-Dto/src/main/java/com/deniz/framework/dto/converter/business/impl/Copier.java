@@ -19,7 +19,7 @@ import com.deniz.framework.dto.converter.business.impl.valueconverter.ValueConve
  * 
  * <p>
  * A copier is copies properties and Meta objects as specified by the {@link ObjectConverterService} interface. Common
- * functionality like the dependency to a {@link com.celebi.framework.dto.converter.business.impl.valueconverter.ValueConverter}
+ * functionality like the dependency to a {@link com.deniz.framework.dto.converter.business.impl.valueconverter.ValueConverter}
  * or common error handling methods are contained in this base class.
  * <p>
  * 

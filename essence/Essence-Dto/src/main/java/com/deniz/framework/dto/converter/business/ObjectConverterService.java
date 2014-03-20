@@ -13,7 +13,7 @@ import com.deniz.framework.dto.Meta;
  * <p/>
  * <p>
  * The actual value conversion from Meta.value fields to the corresponding property is done using a
- * {@link com.celebi.framework.dto.converter.business.impl.valueconverter.ValueConverter} that has to be injected.
+ * {@link com.deniz.framework.dto.converter.business.impl.valueconverter.ValueConverter} that has to be injected.
  * <p/>
  * <p>
  * Special cases and how they are handled:
