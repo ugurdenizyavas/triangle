@@ -73,6 +73,9 @@
           <element id="archive" name="business-1.0-SNAPSHOT.jar">
             <element id="module-output" name="business" />
           </element>
+          <element id="archive" name="security-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="security" />
+          </element>
         </element>
       </element>
     </root>

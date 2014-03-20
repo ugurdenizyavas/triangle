@@ -85,6 +85,7 @@
     <orderEntry type="module" module-name="setup-data" />
     <orderEntry type="module" module-name="configuration" />
     <orderEntry type="module" module-name="business" />
+    <orderEntry type="module" module-name="security" />
   </component>
 </module>
 

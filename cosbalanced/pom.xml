@@ -96,6 +96,12 @@
             <artifactId>business</artifactId>
             <version>${essence.version}</version>
         </dependency>
+
+        <dependency>
+            <groupId>com.deniz.essence</groupId>
+            <artifactId>security</artifactId>
+            <version>${essence.version}</version>
+        </dependency>
     </dependencies>
     <build>
         <resources>

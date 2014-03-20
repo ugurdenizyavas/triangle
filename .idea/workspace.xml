@@ -2,61 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="245aa61e-f480-4b4c-9fb1-01ea3fe98967" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_6.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__asm_asm_1_5_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__asm_asm_attrs_1_5_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_2_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_oracle_ojdbc6_11_2_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_dbcp_commons_dbcp_1_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_0_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_pool_commons_pool_1_5_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_persistence_api_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_transaction_jta_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ehcache_ehcache_1_2_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_ejb3_persistence_1_0_1_GA.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_3_2_6_ga.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_annotations_3_3_1_GA.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_commons_annotations_3_0_0_ga.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_3_3_1_GA.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_3_0_2_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_3_0_2_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_3_0_2_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Configuration/src/main/java/com/deniz/framework/configuration/ApplicationConfigurationLogger.java" afterPath="$PROJECT_DIR$/essence/Essence-Configuration/src/main/java/com/deniz/framework/configuration/ApplicationConfigurationLogger.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Dto/src/main/java/com/deniz/framework/dto/converter/business/impl/Copier.java" afterPath="$PROJECT_DIR$/essence/Essence-Dto/src/main/java/com/deniz/framework/dto/converter/business/impl/Copier.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Servlet/src/main/java/com/deniz/framework/controller/model/CosJsonColumn.java" afterPath="$PROJECT_DIR$/essence/Essence-Servlet/src/main/java/com/deniz/framework/controller/model/CosJsonColumn.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Dto/src/main/java/com/deniz/framework/dto/converter/business/ObjectConverterService.java" afterPath="$PROJECT_DIR$/essence/Essence-Dto/src/main/java/com/deniz/framework/dto/converter/business/ObjectConverterService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Dto/src/main/java/com/deniz/framework/dto/converter/business/impl/ObjectConverterServiceImpl.java" afterPath="$PROJECT_DIR$/essence/Essence-Dto/src/main/java/com/deniz/framework/dto/converter/business/impl/ObjectConverterServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Servlet/src/main/java/com/deniz/framework/controller/ProcessControllerTemplate.java" afterPath="$PROJECT_DIR$/essence/Essence-Servlet/src/main/java/com/deniz/framework/controller/ProcessControllerTemplate.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Dto/src/main/java/com/deniz/framework/dto/converter/business/impl/ReflectionUtil.java" afterPath="$PROJECT_DIR$/essence/Essence-Dto/src/main/java/com/deniz/framework/dto/converter/business/impl/ReflectionUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Dto/src/main/java/com/deniz/framework/dto/converter/business/impl/valueconverter/impl/ValueConverterImpl.java" afterPath="$PROJECT_DIR$/essence/Essence-Dto/src/main/java/com/deniz/framework/dto/converter/business/impl/valueconverter/impl/ValueConverterImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Business/business.iml" afterPath="$PROJECT_DIR$/essence/Essence-Business/business.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Configuration/configuration.iml" afterPath="$PROJECT_DIR$/essence/Essence-Configuration/configuration.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cosbalanced/cosbalanced.iml" afterPath="$PROJECT_DIR$/cosbalanced/cosbalanced.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/cosbalanced_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/cosbalanced_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Dto/dto.iml" afterPath="$PROJECT_DIR$/essence/Essence-Dto/dto.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/essence.iml" afterPath="$PROJECT_DIR$/essence/essence.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cosbalanced/src/main/resources/logging/log4j.console-debug-logger.xml" afterPath="$PROJECT_DIR$/cosbalanced/src/main/resources/logging/log4j.console-debug-logger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cosbalanced/src/main/resources/logging/log4j.local-udy.xml" afterPath="$PROJECT_DIR$/cosbalanced/src/main/resources/logging/log4j.local-udy.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Logging/logging.iml" afterPath="$PROJECT_DIR$/essence/Essence-Logging/logging.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Persistence/persistence.iml" afterPath="$PROJECT_DIR$/essence/Essence-Persistence/persistence.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cosbalanced/pom.xml" afterPath="$PROJECT_DIR$/cosbalanced/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/pom.xml" afterPath="$PROJECT_DIR$/essence/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Business/pom.xml" afterPath="$PROJECT_DIR$/essence/Essence-Business/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Configuration/pom.xml" afterPath="$PROJECT_DIR$/essence/Essence-Configuration/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Dto/pom.xml" afterPath="$PROJECT_DIR$/essence/Essence-Dto/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Logging/pom.xml" afterPath="$PROJECT_DIR$/essence/Essence-Logging/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Persistence/pom.xml" afterPath="$PROJECT_DIR$/essence/Essence-Persistence/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Security/pom.xml" afterPath="$PROJECT_DIR$/essence/Essence-Security/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Servlet/pom.xml" afterPath="$PROJECT_DIR$/essence/Essence-Servlet/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-SetupData/pom.xml" afterPath="$PROJECT_DIR$/essence/Essence-SetupData/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Security/security.iml" afterPath="$PROJECT_DIR$/essence/Essence-Security/security.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-Servlet/servlet.iml" afterPath="$PROJECT_DIR$/essence/Essence-Servlet/servlet.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/essence/Essence-SetupData/setup-data.iml" afterPath="$PROJECT_DIR$/essence/Essence-SetupData/setup-data.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Triangle.iws" />
@@ -150,7 +98,16 @@
       <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cosbalanced/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="76" selection-start="1515" selection-end="1515" vertical-scroll-proportion="0.35926774" vertical-offset="642" max-vertical-offset="2550">
+            <state line="101" column="32" selection-start="3198" selection-end="3198" vertical-scroll-proportion="0.70776254" vertical-offset="1407" max-vertical-offset="2652">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="66" column="79" selection-start="2767" selection-end="2767" vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="1615">
               <folding />
             </state>
           </provider>
@@ -177,7 +134,7 @@
       <file leaf-file-name="MemberInfoTaskController.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/services/member/MemberInfoTaskController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="25" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
+            <state line="7" column="25" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="646">
               <folding />
             </state>
           </provider>
@@ -482,6 +439,40 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Triangle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Triangle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cosbalanced" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -564,129 +555,11 @@
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="balanced" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="user" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="persistence" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cosbalanced" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="balanced" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="user" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="persistence" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="impl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cosbalanced" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="balanced" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="user" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Triangle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cosbalanced" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="balanced" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -885,6 +758,9 @@
       <patterns />
       <method />
     </configuration>
+    <configuration default="true" type="cloudbees-deploy" factoryName="CloudBees Deployment">
+      <method />
+    </configuration>
     <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
       <option name="BCName" value="" />
       <option name="IOSSimulatorSdkPath" value="" />
@@ -929,9 +805,6 @@
       <predefined_log_file id="Tomcat Host Manager" enabled="false" />
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <method />
-    </configuration>
-    <configuration default="true" type="cloudbees-deploy" factoryName="CloudBees Deployment">
       <method />
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
@@ -1233,6 +1106,7 @@
       <workItem from="1395301276867" duration="2856000" />
       <workItem from="1395304145871" duration="1845000" />
       <workItem from="1395305998844" duration="8506000" />
+      <workItem from="1395327208385" duration="233000" />
     </task>
     <task id="LOCAL-00001" summary="cloudbee properties&#10;">
       <created>1394629139624</created>
@@ -1338,7 +1212,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97172000" />
+    <option name="totallyTimeSpent" value="97405000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -1369,7 +1243,6 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33693305" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1388,13 +1261,14 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23855165" sideWeight="0.5144445" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275862" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25559106" sideWeight="0.6711111" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4838013" sideWeight="0.659375" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4827214" sideWeight="0.659375" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Heroku" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33693305" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1430,11 +1304,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/essence/Essence-Servlet/src/main/java/com/deniz/framework/controller/model/CosJsonObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="377" selection-end="377" vertical-scroll-proportion="0.11604095" vertical-offset="0" max-vertical-offset="1258" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/essence/Essence-Servlet/src/main/java/com/deniz/framework/controller/model/CosJsonListItem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="13" selection-start="92" selection-end="92" vertical-scroll-proportion="0.11604095" vertical-offset="0" max-vertical-offset="586" />
@@ -1447,9 +1316,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/essence/Essence-Servlet/src/main/java/com/deniz/framework/controller/model/CosJsonFundamental.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="93" selection-end="93" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
-          <folding />
-        </state>
+        <state line="5" column="13" selection-start="93" selection-end="93" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/essence/Essence-Servlet/src/main/java/com/deniz/framework/controller/model/CosJsonList.java">
@@ -1459,9 +1326,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/essence/Essence-Servlet/src/main/java/com/deniz/framework/controller/LoggingTaskControllerTemplate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="67" selection-start="484" selection-end="484" vertical-scroll-proportion="0.059336822" vertical-offset="153" max-vertical-offset="1581">
-          <folding />
-        </state>
+        <state line="18" column="67" selection-start="484" selection-end="484" vertical-scroll-proportion="0.059336822" vertical-offset="153" max-vertical-offset="1581" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/essence/Essence-Servlet/src/main/java/com/deniz/framework/controller/SecurityDispatcherServlet.java">
@@ -1512,9 +1377,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/essence/Essence-Persistence/src/main/java/com/deniz/framework/persistence/PersistenceOperation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="12" selection-start="281" selection-end="281" vertical-scroll-proportion="0.17" vertical-offset="0" max-vertical-offset="900">
-          <folding />
-        </state>
+        <state line="9" column="12" selection-start="281" selection-end="281" vertical-scroll-proportion="0.17" vertical-offset="0" max-vertical-offset="900" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/essence/Essence-Dto/src/main/java/com/deniz/framework/dto/converter/business/impl/valueconverter/impl/converter/DateWithTimeCutoffConverter.java">
@@ -1560,10 +1423,7 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="67" column="21" selection-start="2509" selection-end="2509" vertical-scroll-proportion="0.0" vertical-offset="723" max-vertical-offset="2091">
-          <folding>
-            <marker date="1395309024315" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1395309024315" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1576,9 +1436,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/essence/Essence-Configuration/src/main/java/com/deniz/framework/configuration/ApplicationConfigurationLogger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="34" selection-start="501" selection-end="501" vertical-scroll-proportion="0.10471204" vertical-offset="144" max-vertical-offset="2465">
-          <folding />
-        </state>
+        <state line="18" column="34" selection-start="501" selection-end="501" vertical-scroll-proportion="0.10471204" vertical-offset="144" max-vertical-offset="2465" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/essence/Essence-Dto/pom.xml">
@@ -1618,16 +1476,12 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/3.0.2.RELEASE/spring-beans-3.0.2.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1191" column="86" selection-start="46123" selection-end="46123" vertical-scroll-proportion="0.0" vertical-offset="18208" max-vertical-offset="24191">
-          <folding />
-        </state>
+        <state line="1191" column="86" selection-start="46123" selection-end="46123" vertical-scroll-proportion="0.0" vertical-offset="18208" max-vertical-offset="24191" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/3.0.2.RELEASE/spring-beans-3.0.2.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="462" column="0" selection-start="17842" selection-end="17842" vertical-scroll-proportion="0.0" vertical-offset="7141" max-vertical-offset="8449">
-          <folding />
-        </state>
+        <state line="462" column="0" selection-start="17842" selection-end="17842" vertical-scroll-proportion="0.0" vertical-offset="7141" max-vertical-offset="8449" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/3.0.2.RELEASE/spring-beans-3.0.2.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.java">
@@ -1670,9 +1524,7 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/3.0.2.RELEASE/spring-beans-3.0.2.RELEASE-sources.jar!/org/springframework/beans/factory/xml/DefaultBeanDefinitionDocumentReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="0" selection-start="3443" selection-end="3443" vertical-scroll-proportion="0.0" vertical-offset="902" max-vertical-offset="4624">
-          <folding />
-        </state>
+        <state line="94" column="0" selection-start="3443" selection-end="3443" vertical-scroll-proportion="0.0" vertical-offset="902" max-vertical-offset="4624" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/3.0.2.RELEASE/spring-beans-3.0.2.RELEASE-sources.jar!/org/springframework/beans/factory/xml/XmlBeanDefinitionReader.java">
@@ -1748,23 +1600,17 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.0.2.RELEASE/spring-web-3.0.2.RELEASE-sources.jar!/org/springframework/web/context/support/AbstractRefreshableWebApplicationContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="83" selection-start="3951" selection-end="3951" vertical-scroll-proportion="-3.2807016" vertical-offset="663" max-vertical-offset="2533">
-          <folding />
-        </state>
+        <state line="76" column="83" selection-start="3951" selection-end="3951" vertical-scroll-proportion="-3.2807016" vertical-offset="663" max-vertical-offset="2533" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/3.0.2.RELEASE/spring-context-3.0.2.RELEASE-sources.jar!/org/springframework/context/support/AbstractRefreshableConfigApplicationContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="89" selection-start="1669" selection-end="1669" vertical-scroll-proportion="-2.3859649" vertical-offset="204" max-vertical-offset="2397">
-          <folding />
-        </state>
+        <state line="39" column="89" selection-start="1669" selection-end="1669" vertical-scroll-proportion="-2.3859649" vertical-offset="204" max-vertical-offset="2397" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/3.0.2.RELEASE/spring-context-3.0.2.RELEASE-sources.jar!/org/springframework/context/support/AbstractRefreshableApplicationContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="80" selection-start="3284" selection-end="3284" vertical-scroll-proportion="-3.5789473" vertical-offset="510" max-vertical-offset="3638">
-          <folding />
-        </state>
+        <state line="64" column="80" selection-start="3284" selection-end="3284" vertical-scroll-proportion="-3.5789473" vertical-offset="510" max-vertical-offset="3638" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/3.0.2.RELEASE/spring-context-3.0.2.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java">
@@ -1809,9 +1655,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="79" selection-start="2767" selection-end="2767" vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="1615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cosbalanced/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="76" selection-start="1515" selection-end="1515" vertical-scroll-proportion="0.35926774" vertical-offset="642" max-vertical-offset="2550">
+        <state line="101" column="32" selection-start="3198" selection-end="3198" vertical-scroll-proportion="0.70776254" vertical-offset="1407" max-vertical-offset="2652">
           <folding />
         </state>
       </provider>
