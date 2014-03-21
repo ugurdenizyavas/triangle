@@ -145,6 +145,6 @@ public class UserBackendServiceImpl extends AbstractBackendService<UserEntity> i
 
     @Override
     public List<String> getValidReferences() {
-        return this.dao.getAllType("reference");
+        return this.dao.getAllType("referenceString");
     }
 }

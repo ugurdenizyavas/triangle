@@ -25,13 +25,13 @@
 
 	<fo:page-sequence-master master-name="master-sequence">
 		<fo:repeatable-page-master-alternatives>
-			<fo:conditional-page-master-reference master-reference="portrait"/>
+			<fo:conditional-page-master-referenceString master-referenceString="portrait"/>
 		</fo:repeatable-page-master-alternatives>
 	</fo:page-sequence-master>
 
 </fo:layout-master-set>
 
-<fo:page-sequence master-reference="portrait" font-size="4mm">
+<fo:page-sequence master-referenceString="portrait" font-size="4mm">
 
 	<fo:static-content flow-name="pagehead">
 		<#include "header/Header.ftl"/>

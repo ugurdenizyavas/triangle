@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="245aa61e-f480-4b4c-9fb1-01ea3fe98967" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cosbalanced/src/main/webapp/freemarker/AllUndefinedReports.ftl" afterPath="$PROJECT_DIR$/cosbalanced/src/main/webapp/freemarker/AllUndefinedReports.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cosbalanced/src/test/java/com/deniz/balanced/feasibility/FeasibilityRunner.java" afterPath="$PROJECT_DIR$/cosbalanced/src/test/java/com/deniz/balanced/feasibility/FeasibilityRunner.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cosbalanced/src/main/webapp/freemarker/MajorChanges.ftl" afterPath="$PROJECT_DIR$/cosbalanced/src/main/webapp/freemarker/MajorChanges.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cosbalanced/src/test/java/com/deniz/balanced/mission/MissionTests.java" afterPath="$PROJECT_DIR$/cosbalanced/src/test/java/com/deniz/balanced/mission/MissionTests.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cosbalanced/src/main/webapp/freemarker/PDFTemplate.ftl" afterPath="$PROJECT_DIR$/cosbalanced/src/main/webapp/freemarker/PDFTemplate.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/framework/impl/SetupDataServiceImpl.java" afterPath="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/framework/impl/SetupDataServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/user/business/impl/UserBackendServiceImpl.java" afterPath="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/user/business/impl/UserBackendServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/user/persistence/impl/UserDaoImpl.java" afterPath="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/user/persistence/impl/UserDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/user/persistence/entity/UserEntity.java" afterPath="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/user/persistence/entity/UserEntity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cosbalanced/src/main/webapp/templates/html/members.html" afterPath="$PROJECT_DIR$/cosbalanced/src/main/webapp/templates/html/members.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Triangle.iws" />
@@ -88,30 +97,7 @@
     <favorites_list name="Triangle" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="workspace.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="58" selection-start="1948" selection-end="1948" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="28747">
-              <folding>
-                <marker date="1395328258079" expanded="true" signature="153316:153364" placeholder="..." />
-                <marker date="1395328258079" expanded="true" signature="153316:153351" placeholder="..." />
-                <marker date="1395328258079" expanded="true" signature="153316:153333" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="19" selection-start="375" selection-end="375" vertical-scroll-proportion="0.34401348" vertical-offset="102" max-vertical-offset="782">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -133,10 +119,7 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/cosbalanced/src/main/resources/spring.com.deniz/balanced/framework/setup.spring.xml" />
-        <option value="$PROJECT_DIR$/cosbalanced/src/main/resources/spring.com.deniz/balanced/framework/frame.spring.xml" />
         <option value="$PROJECT_DIR$/essence/Essence-Configuration/src/main/java/com/deniz/framework/configuration/LoggingPropertyPlaceholderConfigurer.java" />
-        <option value="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/user/business/impl/UserBackendServiceImpl.java" />
         <option value="$PROJECT_DIR$/essence/Essence-Security/src/main/resources/spring/com/deniz/framework/security/authorization.spring.xml" />
         <option value="$PROJECT_DIR$/essence/Essence-Security/src/main/java/com/deniz/framework/security/authorization/AuthorizationService.java" />
         <option value="$PROJECT_DIR$/essence/Essence-Security/src/main/java/com/deniz/framework/security/filter/DispatcherSecurityFilter.java" />
@@ -184,6 +167,9 @@
         <option value="$PROJECT_DIR$/essence/Essence-SetupData/.gitignore" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/user/persistence/entity/UserEntity.java" />
+        <option value="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/user/business/impl/UserBackendServiceImpl.java" />
+        <option value="$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/user/persistence/impl/UserDaoImpl.java" />
       </list>
     </option>
   </component>
@@ -1096,7 +1082,7 @@
       <workItem from="1395304145871" duration="1845000" />
       <workItem from="1395305998844" duration="8506000" />
       <workItem from="1395327208385" duration="788000" />
-      <workItem from="1395328021844" duration="238000" />
+      <workItem from="1395328021844" duration="3024000" />
     </task>
     <task id="LOCAL-00001" summary="cloudbee properties&#10;">
       <created>1394629139624</created>
@@ -1210,7 +1196,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98198000" />
+    <option name="totallyTimeSpent" value="100984000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -1234,39 +1220,39 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1064" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32937366" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937366" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5464363" sideWeight="0.71086264" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39848813" sideWeight="0.2891374" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937366" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32829374" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937366" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23855165" sideWeight="0.5144445" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275862" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25559106" sideWeight="0.6711111" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4827214" sideWeight="0.659375" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33693305" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5464363" sideWeight="0.71086264" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32829374" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23855165" sideWeight="0.5144445" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Heroku" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33693305" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1302,63 +1288,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/spring-orm/3.0.2.RELEASE/spring-orm-3.0.2.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-3.5682595" vertical-offset="2091" max-vertical-offset="4131" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/essence/Essence-Persistence/src/main/java/com/deniz/framework/persistence/entity/AbstractEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="9" selection-start="1368" selection-end="1368" vertical-scroll-proportion="0.0" vertical-offset="438" max-vertical-offset="1785" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/essence/Essence-Persistence/src/main/java/com/deniz/framework/persistence/DaoTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="45" selection-start="1121" selection-end="1121" vertical-scroll-proportion="0.0" vertical-offset="2249" max-vertical-offset="2822" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/essence/Essence-Persistence/src/main/java/com/deniz/framework/persistence/PersistenceOperation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="12" selection-start="281" selection-end="281" vertical-scroll-proportion="0.17" vertical-offset="0" max-vertical-offset="900" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/essence/Essence-Dto/src/main/java/com/deniz/framework/dto/converter/business/impl/valueconverter/impl/converter/DateWithTimeCutoffConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="20" selection-start="203" selection-end="203" vertical-scroll-proportion="0.17555939" vertical-offset="0" max-vertical-offset="1071" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/essence/Essence-Logging/src/main/java/com/deniz/framework/logging/layout/AnonymizedPatternLayout.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="23" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0" vertical-offset="103" max-vertical-offset="850" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/essence/Essence-Business/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="945" selection-end="945" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/essence/Essence-SetupData/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="18" selection-start="543" selection-end="543" vertical-scroll-proportion="0.3771331" vertical-offset="0" max-vertical-offset="586" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/essence/Essence-Logging/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="18" selection-start="540" selection-end="540" vertical-scroll-proportion="0.3771331" vertical-offset="0" max-vertical-offset="586" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/essence/Essence-Configuration/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="21" selection-start="777" selection-end="777" vertical-scroll-proportion="0.55119455" vertical-offset="0" max-vertical-offset="586" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="21" selection-start="2509" selection-end="2509" vertical-scroll-proportion="0.0" vertical-offset="723" max-vertical-offset="2091">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/essence/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="0" selection-start="971" selection-end="1421" vertical-scroll-proportion="0.0" vertical-offset="247" max-vertical-offset="833">
@@ -1385,17 +1314,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/user/persistence/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="17" selection-start="286" selection-end="286" vertical-scroll-proportion="0.0" vertical-offset="91" max-vertical-offset="1071" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/user/persistence/entity/UserEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="530" selection-end="530" vertical-scroll-proportion="0.0" vertical-offset="10" max-vertical-offset="1632" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/user/persistence/impl/UserDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="69" selection-start="703" selection-end="703" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="986" />
+        <state line="13" column="17" selection-start="286" selection-end="286" vertical-scroll-proportion="0.0" vertical-offset="91" max-vertical-offset="1071">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/3.0.2.RELEASE/spring-beans-3.0.2.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.java">
@@ -1575,9 +1496,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="40" column="58" selection-start="1948" selection-end="1948" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="28747">
           <folding>
-            <marker date="1395328258079" expanded="true" signature="153316:153364" placeholder="..." />
-            <marker date="1395328258079" expanded="true" signature="153316:153351" placeholder="..." />
-            <marker date="1395328258079" expanded="true" signature="153316:153333" placeholder="..." />
+            <marker date="1395390638478" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1395390638478" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1395390638478" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -1585,6 +1506,97 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="19" selection-start="375" selection-end="375" vertical-scroll-proportion="0.34401348" vertical-offset="102" max-vertical-offset="782">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/essence/Essence-Security/src/main/java/com/deniz/role/persistence/entity/AppRoleEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="13" selection-start="690" selection-end="690" vertical-scroll-proportion="0.0" vertical-offset="3" max-vertical-offset="884">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/mission/persistence/entity/UserMissionEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="13" selection-start="442" selection-end="442" vertical-scroll-proportion="0.27803737" vertical-offset="0" max-vertical-offset="527">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/services/member/MemberOverviewTaskController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="122" column="39" selection-start="4825" selection-end="4825" vertical-scroll-proportion="0.0" vertical-offset="1576" max-vertical-offset="2499">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/user/business/impl/UserBackendServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="147" column="51" selection-start="5553" selection-end="5553" vertical-scroll-proportion="0.0" vertical-offset="1751" max-vertical-offset="2278">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/user/persistence/impl/UserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="53" selection-start="763" selection-end="763" vertical-scroll-proportion="0.24444444" vertical-offset="38" max-vertical-offset="986">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/user/persistence/entity/UserEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="43" selection-start="405" selection-end="405" vertical-scroll-proportion="0.19354838" vertical-offset="0" max-vertical-offset="1632">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosbalanced/src/main/java/com/deniz/balanced/mission/persistence/entity/MissionEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="13" selection-start="588" selection-end="588" vertical-scroll-proportion="0.21136767" vertical-offset="0" max-vertical-offset="612">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/essence/Essence-Persistence/src/main/java/com/deniz/framework/persistence/entity/AbstractEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="22" selection-start="608" selection-end="608" vertical-scroll-proportion="-1.8436364" vertical-offset="1235" max-vertical-offset="1785">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/essence/Essence-Security/src/main/java/com/deniz/role/persistence/entity/AppUserUserGroupEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="60" selection-start="787" selection-end="787" vertical-scroll-proportion="0.3428064" vertical-offset="11" max-vertical-offset="765">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/essence/Essence-Security/src/main/java/com/deniz/role/persistence/entity/AppUserGroupRoleGroupEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="13" selection-start="677" selection-end="677" vertical-scroll-proportion="0.2320819" vertical-offset="0" max-vertical-offset="680">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/essence/Essence-Security/src/main/java/com/deniz/role/persistence/entity/AppUserGroupEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="13" selection-start="573" selection-end="573" vertical-scroll-proportion="0.2320819" vertical-offset="0" max-vertical-offset="586">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/essence/Essence-Security/src/main/java/com/deniz/role/persistence/entity/AppUserEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="13" selection-start="562" selection-end="562" vertical-scroll-proportion="0.25597268" vertical-offset="3" max-vertical-offset="646">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/essence/Essence-Security/src/main/java/com/deniz/role/persistence/entity/AppRoleGroupEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="13" selection-start="573" selection-end="573" vertical-scroll-proportion="0.2320819" vertical-offset="0" max-vertical-offset="586">
           <folding />
         </state>
       </provider>

@@ -7,7 +7,7 @@ import javax.persistence.*;
 
 @Entity
 @Table(name = "USER_ENTITY", uniqueConstraints = { @UniqueConstraint(columnNames = { "simpleName" }), @UniqueConstraint(columnNames = { "email" }),
-		@UniqueConstraint(columnNames = { "reference" }) })
+		@UniqueConstraint(columnNames = { "referenceString" }) })
 @SequenceGenerator(name = "ONE_SEQUENCE_PER_ENTITY_GENERATOR", sequenceName = "USER_SEQUENCE")
 public class UserEntity extends AbstractEntity {
 
@@ -17,10 +17,10 @@ public class UserEntity extends AbstractEntity {
 	private UserEntity ancestor;
 	private Integer currentLevel;
 	private Double balance;
-	private String reference;
+	private String referenceString;
 
 	/**
-	 * This will only be used for root user; its reference code will be manually
+	 * This will only be used for root user; its referenceString code will be manually
 	 * set
 	 */
 	public UserEntity() {
@@ -36,7 +36,7 @@ public class UserEntity extends AbstractEntity {
 	}
 
 	public void createNewReference(Integer lengthOfReference) {
-		this.reference = ReferenceCodeUtil.createReferenceCode(lengthOfReference);
+		this.referenceString = ReferenceCodeUtil.createReferenceCode(lengthOfReference);
 	}
 
 	public String getPassword() {
@@ -64,8 +64,8 @@ public class UserEntity extends AbstractEntity {
 		return this.balance;
 	}
 
-	public String getReference() {
-		return this.reference;
+	public String getReferenceString() {
+		return this.referenceString;
 	}
 
 	public void setPassword(String password) {
@@ -94,8 +94,8 @@ public class UserEntity extends AbstractEntity {
 		this.balance = balance;
 	}
 
-	public void setReference(String reference) {
-		this.reference = reference;
+	public void setReferenceString(String referenceString) {
+		this.referenceString = referenceString;
 	}
 
 	/**

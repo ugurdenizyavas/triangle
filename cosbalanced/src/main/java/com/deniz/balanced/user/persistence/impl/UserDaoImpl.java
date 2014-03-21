@@ -17,7 +17,7 @@ public class UserDaoImpl extends AbstractFrameworkDao<UserEntity> implements Use
 	public UserEntity getByReference(String reference) {
 		Validate.notNull(reference);
 		Criteria criteria = getCurrentSession().createCriteria(UserEntity.class);
-		criteria.add(Restrictions.eq("reference", reference));
+		criteria.add(Restrictions.eq("referenceString", reference));
 		return (UserEntity) criteria.uniqueResult();
 	}
 

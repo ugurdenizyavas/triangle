@@ -143,7 +143,7 @@ public class MissionTests extends AbstractTransactionalTest {
 		secondAncestor.setAncestor(this.userBackendService.getByName("ozgen"));
 		secondAncestor.setEmail("second@ancestor.com");
 		secondAncestor.setExperience(60000.0);
-		secondAncestor.setReference("REFERENCE1");
+		secondAncestor.setReferenceString("REFERENCE1");
 		secondAncestor.setSimpleName("SECONDANCESTOR");
 		secondAncestor.setBalance(0.0);
 		secondAncestor.setPassword("123123");
@@ -154,7 +154,7 @@ public class MissionTests extends AbstractTransactionalTest {
 		firstAncestor.setAncestor(this.userBackendService.getByName("SECONDANCESTOR"));
 		firstAncestor.setEmail("first@ancestor.com");
 		firstAncestor.setExperience(8005.0);
-		firstAncestor.setReference("REFERENCE2");
+		firstAncestor.setReferenceString("REFERENCE2");
 		firstAncestor.setSimpleName("FIRSTANCESTOR");
 		firstAncestor.setBalance(0.0);
 		firstAncestor.setPassword("123123");
@@ -165,7 +165,7 @@ public class MissionTests extends AbstractTransactionalTest {
 		missionUser.setAncestor(this.userBackendService.getByName("FIRSTANCESTOR"));
 		missionUser.setEmail("mission@user.com");
 		missionUser.setExperience(10.0);
-		missionUser.setReference("REFERENCE3");
+		missionUser.setReferenceString("REFERENCE3");
 		missionUser.setSimpleName("missionUser");
 		missionUser.setBalance(0.0);
 		missionUser.setPassword("123123");

@@ -54,7 +54,7 @@ public class FeasibilityRunner {
 					firstUser.setSimpleName("ozgen");
 					firstUser.setPassword("123456");
 					firstUser.setEmail("ozgenerdem@hotmail.com");
-					firstUser.setReference("AUJ34DEW");
+					firstUser.setReferenceString("AUJ34DEW");
 					userBackendService.newUser(firstUser);
 
 					List<String> referenceList = userBusinessService.getValidReferences();
